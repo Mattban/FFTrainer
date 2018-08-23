@@ -18437,8 +18437,7 @@ namespace FFTrainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1
-        ///0,&quot;Player&quot;
+        ///   Looks up a localized string similar to 0,&quot;Player&quot;
         ///1,&quot;Chocobo&quot;
         ///2,&quot;Magitek Reaper&quot;
         ///3,&quot;Amalj&apos;aa&quot;
@@ -18471,7 +18470,9 @@ namespace FFTrainer.Properties {
         ///30,&quot;Funguar C (Blue)&quot;
         ///31,&quot;Galago&quot;
         ///32,&quot;Lemur&quot;
-        ///33,&quot;Gala [rest of string was truncated]&quot;;.
+        ///33,&quot;Galago (+ Collar)&quot;
+        ///34,&quot;Ochu&quot;
+        ///35, [rest of string was truncated]&quot;;.
         /// </summary>
         public static string MonsterList {
             get {
