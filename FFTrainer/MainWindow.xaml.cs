@@ -246,6 +246,12 @@ namespace FFTrainer
                 if (CharacterDetails.Jaw.freeze && !CharacterDetails.Jaw.Activated) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Jaw), CharacterDetails.Jaw.GetBytes());
                 if (CharacterDetails.TailorMuscle.freeze && !CharacterDetails.TailorMuscle.Activated) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.TailorMuscle), CharacterDetails.TailorMuscle.GetBytes());
                 if (CharacterDetails.FreezeFacial.Activated) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.EmoteAddress, Settings.Instance.Character.FreezeFacial), "float", "0");
+                if(CharacterDetails.Name.freeze)
+                {
+                    CharacterDetails.Name.value = CharacterDetails.Name.value.Replace("\0", string.Empty);
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Name), "string", CharacterDetails.Name.value + "\0\0\0\0\0\0\0\0\0\0");
+                }
+
                 if (CharacterDetails.EmoteSpeed1.freeze)
                 {
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.EmoteAddress, Settings.Instance.Character.EmoteSpeed1), CharacterDetails.EmoteSpeed1.GetBytes());
