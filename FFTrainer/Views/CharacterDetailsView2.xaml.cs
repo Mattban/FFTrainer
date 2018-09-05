@@ -35,13 +35,6 @@ namespace FFTrainer.Views
             InitializeComponent();
             _exdProvider.DyeList();
             _exdProvider.EmoteList();
-            if (Properties.Settings.Default.UnlockedA == true)
-            {
-                BodyType.IsEnabled = true;
-                BodyType.Visibility = Visibility.Visible;
-                bodycheck.IsEnabled = true;
-                bodycheck.Visibility = Visibility.Visible;
-            }
             DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(90) };
             timer.Tick += delegate
             {
@@ -1736,6 +1729,17 @@ namespace FFTrainer.Views
         private void Filters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void HousingPlace_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
+        }
+
+        private void HousingPlace_Checked(object sender, RoutedEventArgs e)
+        {
+            if (HousingPlace.IsChecked == true)
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "01");
         }
     }
 }

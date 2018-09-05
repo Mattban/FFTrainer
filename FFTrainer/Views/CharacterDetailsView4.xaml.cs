@@ -20,11 +20,6 @@ namespace FFTrainer.Views
             _exdProvider.MakeWeatherList();
             _exdProvider.MakeWeatherRateList();
             _exdProvider.MakeTerritoryTypeList();
-            if (Properties.Settings.Default.UnlockedK == true)
-            {
-                HousingPlace.IsEnabled = true;
-                HousingPlace.Visibility = Visibility.Visible;
-            }
         }
         private void MaxZoomXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
@@ -232,22 +227,11 @@ namespace FFTrainer.Views
             }
         }
 
-        private void HousingPlace_Checked(object sender, RoutedEventArgs e)
-        {
-            if (HousingPlace.IsChecked == true)
-                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "01");
-        }
-
         private void Weather_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (Weather.Value.HasValue)
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.WeatherAddress, Settings.Instance.Character.Weather), "byte", Weather.Value.ToString());
             Weather.ValueChanged -= Weather_ValueChanged;
-        }
-
-        private void HousingPlace_Unchecked(object sender, RoutedEventArgs e)
-        {
-            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
         }
 
         private void Timexd_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)

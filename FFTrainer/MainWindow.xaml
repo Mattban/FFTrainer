@@ -9,7 +9,7 @@
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         GlowBrush="{DynamicResource AccentColorBrush}"
         RenderOptions.ClearTypeHint="Enabled"
-        Title="{DynamicResource Title}" Height="550" Width="1115" Icon="ffxivmeteorlogo.ico" Initialized="Window_Initialized" ResizeMode="CanMinimize" Loaded="MetroWindow_Loaded" SaveWindowPosition="True" WindowStartupLocation="CenterScreen" KeyUp="MetroWindow_KeyUp">
+        Title="{DynamicResource Title}" Height="550" Width="1115" Icon="ffxivmeteorlogo.ico" Initialized="Window_Initialized" ResizeMode="CanMinimize" Loaded="MetroWindow_Loaded" SaveWindowPosition="True" WindowStartupLocation="CenterScreen">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Click="Alwaystop">
