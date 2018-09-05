@@ -1,4 +1,4 @@
-﻿<UserControl
+﻿<UserControl x:Class="FFTrainer.Views.CharacterDetailsView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,8 +7,9 @@
              xmlns:util="clr-namespace:FFTrainer.Util"
              xmlns:Converters="clr-namespace:FFTrainer.Converters"
              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
-             x:Class="FFTrainer.Views.CharacterDetailsView"
-             mc:Ignorable="d" Height="450" Width="1075">
+             xmlns:local="clr-namespace:FFTrainer.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1075">
     <UserControl.Resources>
         <Converters:EnumBooleanConverter x:Key="EnumBooleanConverter" />
     </UserControl.Resources>
@@ -173,5 +174,6 @@
         <Button x:Name="LeftEyeColor" Content="{DynamicResource Search}" HorizontalAlignment="Left" Margin="702,107,0,0" VerticalAlignment="Top" Width="51" Height="25" FontSize="10" Click="LeftEyeColor_Click" IsTabStop="False"/>
         <Button x:Name="RightEyeColor" Content="{DynamicResource Search}" HorizontalAlignment="Left" Margin="702,80,0,0" VerticalAlignment="Top" Width="51" Height="25" FontSize="10" Click="RightEyeColor_Click" IsTabStop="False"/>
         <Button x:Name="RefresHNPC" Content="Refresh (NPC)&#xD;&#xA;Character Data" HorizontalAlignment="Left" Margin="956,380,0,0" VerticalAlignment="Top" Width="92" Height="49" FontSize="11" FontWeight="Bold" BorderThickness="1" Padding="0,5,10,5" Click="RefresHNPC_Click"/>
+
     </Grid>
 </UserControl>

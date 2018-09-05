@@ -1,9 +1,8 @@
-﻿using System;
+﻿using FFTrainer.Models;
+using FFTrainer.Util;
+using FFTrainer.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Threading;
-using FFTrainer.Models;
-using FFTrainer.ViewModels;
 
 namespace FFTrainer.Views
 {
@@ -22,7 +21,7 @@ namespace FFTrainer.Views
         private void RedPxD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (RedP.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinRedPigment), "float", RedP.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinRedPigment), "float", RedP.Value.ToString());
             RedP.ValueChanged -= RedPxD;
         }
 
@@ -38,7 +37,7 @@ namespace FFTrainer.Views
         private void GreenPxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (GreenP.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinGreenPigment), "float", GreenP.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinGreenPigment), "float", GreenP.Value.ToString());
             GreenP.ValueChanged -= GreenPxd;
         }
 
@@ -55,7 +54,7 @@ namespace FFTrainer.Views
         private void BluePxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (BlueP.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinBluePigment), "float", BlueP.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinBluePigment), "float", BlueP.Value.ToString());
             BlueP.ValueChanged -= BluePxd;
         }
 
@@ -119,7 +118,7 @@ namespace FFTrainer.Views
         private void LipsBrightxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (LipsBright.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LipsBrightness), "float", LipsBright.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LipsBrightness), "float", LipsBright.Value.ToString());
             LipsBright.ValueChanged -= LipsBrightxd;
         }
 
@@ -135,7 +134,7 @@ namespace FFTrainer.Views
         private void LipsRedxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (LipsRed.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LipsR), "float", LipsRed.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LipsR), "float", LipsRed.Value.ToString());
             LipsRed.ValueChanged -= LipsRedxd;
         }
 
@@ -183,7 +182,7 @@ namespace FFTrainer.Views
         private void HairRedxD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (HairRed.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairRedPigment), "float", HairRed.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairRedPigment), "float", HairRed.Value.ToString());
             HairRed.ValueChanged -= HairRedxD;
         }
 
@@ -214,7 +213,7 @@ namespace FFTrainer.Views
         private void HairBluexd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (HairBlue.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairBluePigment), "float", HairBlue.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairBluePigment), "float", HairBlue.Value.ToString());
         }
 
         private void HairBlue_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -261,7 +260,7 @@ namespace FFTrainer.Views
         private void HairBlueGxD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (HairBlueGlow.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairGlowBlue), "float", HairBlueGlow.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairGlowBlue), "float", HairBlueGlow.Value.ToString());
         }
 
         private void HairBlueGlow_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -276,7 +275,7 @@ namespace FFTrainer.Views
         private void HRPXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (HRP.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightRedPigment), "float", HRP.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightRedPigment), "float", HRP.Value.ToString());
             HRP.ValueChanged -= HRPXD;
         }
 
@@ -308,7 +307,7 @@ namespace FFTrainer.Views
         private void HBPXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (HBP.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightBluePigment), "float", HBP.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightBluePigment), "float", HBP.Value.ToString());
             HBP.ValueChanged -= HBPXD;
         }
 
@@ -340,7 +339,7 @@ namespace FFTrainer.Views
         private void LEyeGxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (LeyeG.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LeftEyeGreen), "float", LeyeG.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LeftEyeGreen), "float", LeyeG.Value.ToString());
             LeyeG.ValueChanged -= LEyeGxd;
         }
 
@@ -356,7 +355,7 @@ namespace FFTrainer.Views
         private void LeyebXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (LeyeB.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LeftEyeBlue), "float", LeyeB.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LeftEyeBlue), "float", LeyeB.Value.ToString());
             LeyeB.ValueChanged -= LeyebXD;
         }
 
@@ -372,7 +371,7 @@ namespace FFTrainer.Views
         private void ReyeRxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ReyeR.Value.HasValue)
-                  MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeRed), "float", ReyeR.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeRed), "float", ReyeR.Value.ToString());
             ReyeR.ValueChanged -= ReyeRxd;
         }
 
@@ -388,7 +387,7 @@ namespace FFTrainer.Views
         private void ReyeGxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ReyeG.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeGreen), "float", ReyeG.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeGreen), "float", ReyeG.Value.ToString());
             ReyeG.ValueChanged -= ReyeGxd;
         }
 
@@ -404,7 +403,7 @@ namespace FFTrainer.Views
         private void ReyeBxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ReyeB.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeBlue), "float", ReyeB.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RightEyeBlue), "float", ReyeB.Value.ToString());
             ReyeB.ValueChanged -= ReyeBxd;
         }
 
@@ -424,7 +423,7 @@ namespace FFTrainer.Views
         private void LRXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (LR.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalR), "float", LR.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalR), "float", LR.Value.ToString());
             LR.ValueChanged -= LRXD;
         }
 
@@ -471,7 +470,7 @@ namespace FFTrainer.Views
         private void ScaleXxD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ScaleX.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.X), "float", ScaleX.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.X), "float", ScaleX.Value.ToString());
             ScaleX.ValueChanged -= ScaleXxD;
         }
 
@@ -487,7 +486,7 @@ namespace FFTrainer.Views
         private void ScaleYXd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ScaleY.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.Y), "float", ScaleY.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.Y), "float", ScaleY.Value.ToString());
             ScaleY.ValueChanged -= ScaleYXd;
         }
 
@@ -504,7 +503,7 @@ namespace FFTrainer.Views
         private void ScaleZxD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (ScaleZ.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.Z), "float", ScaleZ.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Scale.Z), "float", ScaleZ.Value.ToString());
             ScaleZ.ValueChanged -= ScaleZxD;
         }
 

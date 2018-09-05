@@ -1,10 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using FFTrainer.Converters;
 using System.ComponentModel;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace FFTrainer.Models
 {
@@ -64,15 +61,15 @@ namespace FFTrainer.Models
         public Address<byte> Race { get; set; }
         public Address<byte> Clan { get; set; }
         public Address<Genders> Gender { get; set; }
-        [JsonIgnore]  public Address<float> Wetness { get; set; }
-        [JsonIgnore]  public Address<float> SWetness { get; set; }
+        [JsonIgnore] public Address<float> Wetness { get; set; }
+        [JsonIgnore] public Address<float> SWetness { get; set; }
         public Address<float> Height { get; set; }
         public Address<float> BustX { get; set; }
         public Address<float> BustY { get; set; }
         public Address<float> BustZ { get; set; }
-        [JsonIgnore]  public Address<float> X { get; set; }
-        [JsonIgnore]  public Address<float> Y { get; set; }
-        [JsonIgnore]  public Address<float> Z { get; set; }
+        [JsonIgnore] public Address<float> X { get; set; }
+        [JsonIgnore] public Address<float> Y { get; set; }
+        [JsonIgnore] public Address<float> Z { get; set; }
         [JsonIgnore] public Address<byte> FilterEnable { get; set; }
         [JsonIgnore] public Address<string> FilterAoB { get; set; }
         public Address<byte> Head { get; set; }
@@ -89,9 +86,9 @@ namespace FFTrainer.Models
         public Address<byte> HighlightTone { get; set; }
         public Address<byte> Skintone { get; set; }
         public Address<byte> FacialFeatures { get; set; }
-        [JsonIgnore]  public Address<int> Emote { get; set; }
-        [JsonIgnore]  public Address<float> EmoteSpeed1 { get; set; }
-        [JsonIgnore]  public Address<float> EmoteSpeed2 { get; set; }
+        [JsonIgnore] public Address<int> Emote { get; set; }
+        [JsonIgnore] public Address<float> EmoteSpeed1 { get; set; }
+        [JsonIgnore] public Address<float> EmoteSpeed2 { get; set; }
         public Address<byte> Eye { get; set; }
         public Address<byte> RightEye { get; set; }
         public Address<byte> LeftEye { get; set; }
@@ -196,18 +193,18 @@ namespace FFTrainer.Models
         [JsonIgnore] public Address<float> FOV2 { get; set; }
         [JsonIgnore] public Address<float> CameraYAMax { get; set; }
         [JsonIgnore] public Address<float> CameraUpDown { get; set; }
-        [JsonIgnore] public  Address<string> OffhandSlot { get; set; }
-        [JsonIgnore] public  Address<string> LFingerSlot { get; set; }
-        [JsonIgnore] public  Address<string> RFingerSlot { get; set; }
-        [JsonIgnore] public  Address<string> NeckSlot { get; set; }
-        [JsonIgnore] public  Address<string> WristSlot { get; set; }
-        [JsonIgnore] public  Address<string> EarSlot { get; set; }
-        [JsonIgnore] public  Address<string> WeaponSlot { get; set; }
-        [JsonIgnore] public  Address<string> LegSlot { get; set; }
-        [JsonIgnore] public  Address<string> FeetSlot { get; set; }
-        [JsonIgnore] public  Address<string> HeadSlot { get; set; }
-        [JsonIgnore] public  Address<string> BodySlot { get; set; }
-        [JsonIgnore] public  Address<string> ArmSlot { get; set; }
+        [JsonIgnore] public Address<string> OffhandSlot { get; set; }
+        [JsonIgnore] public Address<string> LFingerSlot { get; set; }
+        [JsonIgnore] public Address<string> RFingerSlot { get; set; }
+        [JsonIgnore] public Address<string> NeckSlot { get; set; }
+        [JsonIgnore] public Address<string> WristSlot { get; set; }
+        [JsonIgnore] public Address<string> EarSlot { get; set; }
+        [JsonIgnore] public Address<string> WeaponSlot { get; set; }
+        [JsonIgnore] public Address<string> LegSlot { get; set; }
+        [JsonIgnore] public Address<string> FeetSlot { get; set; }
+        [JsonIgnore] public Address<string> HeadSlot { get; set; }
+        [JsonIgnore] public Address<string> BodySlot { get; set; }
+        [JsonIgnore] public Address<string> ArmSlot { get; set; }
         [JsonIgnore] public Address<byte> TimeControl { get; set; }
         [JsonIgnore] public Address<byte> Weather { get; set; }
         [JsonIgnore] public Address<byte> EntityType { get; set; }
@@ -383,7 +380,7 @@ namespace FFTrainer.Models
             TailType = new Address<byte>();
             Emote = new Address<int>();
             EmoteSpeed1 = new Address<float>();
-            EmoteSpeed2 = new Address<float>(); 
+            EmoteSpeed2 = new Address<float>();
             Max.Checker = true;
             Min.Checker = true;
             CZoom.Checker = true;

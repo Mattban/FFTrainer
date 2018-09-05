@@ -2,23 +2,21 @@
 using FFTrainer.Models;
 using FFTrainer.Commands;
 using System.ComponentModel;
-using FFTrainer.Views;
-using Newtonsoft.Json;
-using System.Windows;
 using System.Collections.Generic;
 using System.Text;
+using FFTrainer.Util;
 
 namespace FFTrainer.ViewModels
 {
     public class CharacterDetailsViewModel : BaseViewModel
     {
- 
-        public  CharacterDetails CharacterDetails { get => (CharacterDetails)model; set => model = value; }
+
+        public CharacterDetails CharacterDetails { get => (CharacterDetails)model; set => model = value; }
         private RefreshEntitiesCommand refreshEntitiesCommand;
         public static string eOffset = "8";
         public static bool NotAllowed = false;
         public static bool CheckAble = true;
-        HashSet<int> ZoneBlacklist = new HashSet<int> {691, 692, 693, 694, 695, 696, 697, 698, 733, 734, 725, 748, 749, 750, 751, 752, 753, 754, 755, 758, 765, 766, 767, 777, 791 };
+        HashSet<int> ZoneBlacklist = new HashSet<int> { 691, 692, 693, 694, 695, 696, 697, 698, 733, 734, 725, 748, 749, 750, 751, 752, 753, 754, 755, 758, 765, 766, 767, 777, 791 };
         public static string baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, eOffset);
         public RefreshEntitiesCommand RefreshEntitiesCommand
         {

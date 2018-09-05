@@ -22,7 +22,7 @@ namespace FFTrainer.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace FFTrainer.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FFTrainer.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace FFTrainer.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131000_tex {
+        internal static System.Drawing.Bitmap _131000_tex {
             get {
                 object obj = ResourceManager.GetObject("_131000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131001_tex {
+        internal static System.Drawing.Bitmap _131001_tex {
             get {
                 object obj = ResourceManager.GetObject("_131001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131002_tex {
+        internal static System.Drawing.Bitmap _131002_tex {
             get {
                 object obj = ResourceManager.GetObject("_131002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131003_tex {
+        internal static System.Drawing.Bitmap _131003_tex {
             get {
                 object obj = ResourceManager.GetObject("_131003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131004_tex {
+        internal static System.Drawing.Bitmap _131004_tex {
             get {
                 object obj = ResourceManager.GetObject("_131004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131005_tex {
+        internal static System.Drawing.Bitmap _131005_tex {
             get {
                 object obj = ResourceManager.GetObject("_131005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131006_tex {
+        internal static System.Drawing.Bitmap _131006_tex {
             get {
                 object obj = ResourceManager.GetObject("_131006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131007_tex {
+        internal static System.Drawing.Bitmap _131007_tex {
             get {
                 object obj = ResourceManager.GetObject("_131007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131008_tex {
+        internal static System.Drawing.Bitmap _131008_tex {
             get {
                 object obj = ResourceManager.GetObject("_131008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131009_tex {
+        internal static System.Drawing.Bitmap _131009_tex {
             get {
                 object obj = ResourceManager.GetObject("_131009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131010_tex {
+        internal static System.Drawing.Bitmap _131010_tex {
             get {
                 object obj = ResourceManager.GetObject("_131010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131011_tex {
+        internal static System.Drawing.Bitmap _131011_tex {
             get {
                 object obj = ResourceManager.GetObject("_131011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131012_tex {
+        internal static System.Drawing.Bitmap _131012_tex {
             get {
                 object obj = ResourceManager.GetObject("_131012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131013_tex {
+        internal static System.Drawing.Bitmap _131013_tex {
             get {
                 object obj = ResourceManager.GetObject("_131013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131014_tex {
+        internal static System.Drawing.Bitmap _131014_tex {
             get {
                 object obj = ResourceManager.GetObject("_131014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131015_tex {
+        internal static System.Drawing.Bitmap _131015_tex {
             get {
                 object obj = ResourceManager.GetObject("_131015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131016_tex {
+        internal static System.Drawing.Bitmap _131016_tex {
             get {
                 object obj = ResourceManager.GetObject("_131016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131017_tex {
+        internal static System.Drawing.Bitmap _131017_tex {
             get {
                 object obj = ResourceManager.GetObject("_131017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131018_tex {
+        internal static System.Drawing.Bitmap _131018_tex {
             get {
                 object obj = ResourceManager.GetObject("_131018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131019_tex {
+        internal static System.Drawing.Bitmap _131019_tex {
             get {
                 object obj = ResourceManager.GetObject("_131019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131020_tex {
+        internal static System.Drawing.Bitmap _131020_tex {
             get {
                 object obj = ResourceManager.GetObject("_131020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131021_tex {
+        internal static System.Drawing.Bitmap _131021_tex {
             get {
                 object obj = ResourceManager.GetObject("_131021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131022_tex {
+        internal static System.Drawing.Bitmap _131022_tex {
             get {
                 object obj = ResourceManager.GetObject("_131022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131023_tex {
+        internal static System.Drawing.Bitmap _131023_tex {
             get {
                 object obj = ResourceManager.GetObject("_131023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131024_tex {
+        internal static System.Drawing.Bitmap _131024_tex {
             get {
                 object obj = ResourceManager.GetObject("_131024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131025_tex {
+        internal static System.Drawing.Bitmap _131025_tex {
             get {
                 object obj = ResourceManager.GetObject("_131025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131026_tex {
+        internal static System.Drawing.Bitmap _131026_tex {
             get {
                 object obj = ResourceManager.GetObject("_131026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131027_tex {
+        internal static System.Drawing.Bitmap _131027_tex {
             get {
                 object obj = ResourceManager.GetObject("_131027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131028_tex {
+        internal static System.Drawing.Bitmap _131028_tex {
             get {
                 object obj = ResourceManager.GetObject("_131028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131029_tex {
+        internal static System.Drawing.Bitmap _131029_tex {
             get {
                 object obj = ResourceManager.GetObject("_131029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131030_tex {
+        internal static System.Drawing.Bitmap _131030_tex {
             get {
                 object obj = ResourceManager.GetObject("_131030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131031_tex {
+        internal static System.Drawing.Bitmap _131031_tex {
             get {
                 object obj = ResourceManager.GetObject("_131031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131032_tex {
+        internal static System.Drawing.Bitmap _131032_tex {
             get {
                 object obj = ResourceManager.GetObject("_131032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131033_tex {
+        internal static System.Drawing.Bitmap _131033_tex {
             get {
                 object obj = ResourceManager.GetObject("_131033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131034_tex {
+        internal static System.Drawing.Bitmap _131034_tex {
             get {
                 object obj = ResourceManager.GetObject("_131034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -413,7 +413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131035_tex {
+        internal static System.Drawing.Bitmap _131035_tex {
             get {
                 object obj = ResourceManager.GetObject("_131035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -423,7 +423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131036_tex {
+        internal static System.Drawing.Bitmap _131036_tex {
             get {
                 object obj = ResourceManager.GetObject("_131036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -433,7 +433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131037_tex {
+        internal static System.Drawing.Bitmap _131037_tex {
             get {
                 object obj = ResourceManager.GetObject("_131037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -443,7 +443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131038_tex {
+        internal static System.Drawing.Bitmap _131038_tex {
             get {
                 object obj = ResourceManager.GetObject("_131038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -453,7 +453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131039_tex {
+        internal static System.Drawing.Bitmap _131039_tex {
             get {
                 object obj = ResourceManager.GetObject("_131039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -463,7 +463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131040_tex {
+        internal static System.Drawing.Bitmap _131040_tex {
             get {
                 object obj = ResourceManager.GetObject("_131040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -473,7 +473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131041_tex {
+        internal static System.Drawing.Bitmap _131041_tex {
             get {
                 object obj = ResourceManager.GetObject("_131041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -483,7 +483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131042_tex {
+        internal static System.Drawing.Bitmap _131042_tex {
             get {
                 object obj = ResourceManager.GetObject("_131042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -493,7 +493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131043_tex {
+        internal static System.Drawing.Bitmap _131043_tex {
             get {
                 object obj = ResourceManager.GetObject("_131043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -503,7 +503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131044_tex {
+        internal static System.Drawing.Bitmap _131044_tex {
             get {
                 object obj = ResourceManager.GetObject("_131044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -513,7 +513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131045_tex {
+        internal static System.Drawing.Bitmap _131045_tex {
             get {
                 object obj = ResourceManager.GetObject("_131045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -523,7 +523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131046_tex {
+        internal static System.Drawing.Bitmap _131046_tex {
             get {
                 object obj = ResourceManager.GetObject("_131046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -533,7 +533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131047_tex {
+        internal static System.Drawing.Bitmap _131047_tex {
             get {
                 object obj = ResourceManager.GetObject("_131047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -543,7 +543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131048_tex {
+        internal static System.Drawing.Bitmap _131048_tex {
             get {
                 object obj = ResourceManager.GetObject("_131048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -553,7 +553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131049_tex {
+        internal static System.Drawing.Bitmap _131049_tex {
             get {
                 object obj = ResourceManager.GetObject("_131049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -563,7 +563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131050_tex {
+        internal static System.Drawing.Bitmap _131050_tex {
             get {
                 object obj = ResourceManager.GetObject("_131050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -573,7 +573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131051_tex {
+        internal static System.Drawing.Bitmap _131051_tex {
             get {
                 object obj = ResourceManager.GetObject("_131051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -583,7 +583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131052_tex {
+        internal static System.Drawing.Bitmap _131052_tex {
             get {
                 object obj = ResourceManager.GetObject("_131052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -593,7 +593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131053_tex {
+        internal static System.Drawing.Bitmap _131053_tex {
             get {
                 object obj = ResourceManager.GetObject("_131053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -603,7 +603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131054_tex {
+        internal static System.Drawing.Bitmap _131054_tex {
             get {
                 object obj = ResourceManager.GetObject("_131054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -613,7 +613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131055_tex {
+        internal static System.Drawing.Bitmap _131055_tex {
             get {
                 object obj = ResourceManager.GetObject("_131055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -623,7 +623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131056_tex {
+        internal static System.Drawing.Bitmap _131056_tex {
             get {
                 object obj = ResourceManager.GetObject("_131056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -633,7 +633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131057_tex {
+        internal static System.Drawing.Bitmap _131057_tex {
             get {
                 object obj = ResourceManager.GetObject("_131057_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -643,7 +643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131058_tex {
+        internal static System.Drawing.Bitmap _131058_tex {
             get {
                 object obj = ResourceManager.GetObject("_131058_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -653,7 +653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131059_tex {
+        internal static System.Drawing.Bitmap _131059_tex {
             get {
                 object obj = ResourceManager.GetObject("_131059_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -663,7 +663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131060_tex {
+        internal static System.Drawing.Bitmap _131060_tex {
             get {
                 object obj = ResourceManager.GetObject("_131060_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -673,7 +673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131061_tex {
+        internal static System.Drawing.Bitmap _131061_tex {
             get {
                 object obj = ResourceManager.GetObject("_131061_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -683,7 +683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131062_tex {
+        internal static System.Drawing.Bitmap _131062_tex {
             get {
                 object obj = ResourceManager.GetObject("_131062_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -693,7 +693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131100_tex {
+        internal static System.Drawing.Bitmap _131100_tex {
             get {
                 object obj = ResourceManager.GetObject("_131100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -703,7 +703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131101_tex {
+        internal static System.Drawing.Bitmap _131101_tex {
             get {
                 object obj = ResourceManager.GetObject("_131101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -713,7 +713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131102_tex {
+        internal static System.Drawing.Bitmap _131102_tex {
             get {
                 object obj = ResourceManager.GetObject("_131102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -723,7 +723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131103_tex {
+        internal static System.Drawing.Bitmap _131103_tex {
             get {
                 object obj = ResourceManager.GetObject("_131103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -733,7 +733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131104_tex {
+        internal static System.Drawing.Bitmap _131104_tex {
             get {
                 object obj = ResourceManager.GetObject("_131104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -743,7 +743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131105_tex {
+        internal static System.Drawing.Bitmap _131105_tex {
             get {
                 object obj = ResourceManager.GetObject("_131105_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -753,7 +753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131106_tex {
+        internal static System.Drawing.Bitmap _131106_tex {
             get {
                 object obj = ResourceManager.GetObject("_131106_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -763,7 +763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131110_tex {
+        internal static System.Drawing.Bitmap _131110_tex {
             get {
                 object obj = ResourceManager.GetObject("_131110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -773,7 +773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131111_tex {
+        internal static System.Drawing.Bitmap _131111_tex {
             get {
                 object obj = ResourceManager.GetObject("_131111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -783,7 +783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131112_tex {
+        internal static System.Drawing.Bitmap _131112_tex {
             get {
                 object obj = ResourceManager.GetObject("_131112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -793,7 +793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131113_tex {
+        internal static System.Drawing.Bitmap _131113_tex {
             get {
                 object obj = ResourceManager.GetObject("_131113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -803,7 +803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131114_tex {
+        internal static System.Drawing.Bitmap _131114_tex {
             get {
                 object obj = ResourceManager.GetObject("_131114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -813,7 +813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131115_tex {
+        internal static System.Drawing.Bitmap _131115_tex {
             get {
                 object obj = ResourceManager.GetObject("_131115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -823,7 +823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131116_tex {
+        internal static System.Drawing.Bitmap _131116_tex {
             get {
                 object obj = ResourceManager.GetObject("_131116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -833,7 +833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131117_tex {
+        internal static System.Drawing.Bitmap _131117_tex {
             get {
                 object obj = ResourceManager.GetObject("_131117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -843,7 +843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131120_tex {
+        internal static System.Drawing.Bitmap _131120_tex {
             get {
                 object obj = ResourceManager.GetObject("_131120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -853,7 +853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131121_tex {
+        internal static System.Drawing.Bitmap _131121_tex {
             get {
                 object obj = ResourceManager.GetObject("_131121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -863,7 +863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131122_tex {
+        internal static System.Drawing.Bitmap _131122_tex {
             get {
                 object obj = ResourceManager.GetObject("_131122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -873,7 +873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131123_tex {
+        internal static System.Drawing.Bitmap _131123_tex {
             get {
                 object obj = ResourceManager.GetObject("_131123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -883,7 +883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131124_tex {
+        internal static System.Drawing.Bitmap _131124_tex {
             get {
                 object obj = ResourceManager.GetObject("_131124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -893,7 +893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131125_tex {
+        internal static System.Drawing.Bitmap _131125_tex {
             get {
                 object obj = ResourceManager.GetObject("_131125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -903,7 +903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131126_tex {
+        internal static System.Drawing.Bitmap _131126_tex {
             get {
                 object obj = ResourceManager.GetObject("_131126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -913,7 +913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131127_tex {
+        internal static System.Drawing.Bitmap _131127_tex {
             get {
                 object obj = ResourceManager.GetObject("_131127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -923,7 +923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131130_tex {
+        internal static System.Drawing.Bitmap _131130_tex {
             get {
                 object obj = ResourceManager.GetObject("_131130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -933,7 +933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131131_tex {
+        internal static System.Drawing.Bitmap _131131_tex {
             get {
                 object obj = ResourceManager.GetObject("_131131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -943,7 +943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131132_tex {
+        internal static System.Drawing.Bitmap _131132_tex {
             get {
                 object obj = ResourceManager.GetObject("_131132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -953,7 +953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131133_tex {
+        internal static System.Drawing.Bitmap _131133_tex {
             get {
                 object obj = ResourceManager.GetObject("_131133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -963,7 +963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131134_tex {
+        internal static System.Drawing.Bitmap _131134_tex {
             get {
                 object obj = ResourceManager.GetObject("_131134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -973,7 +973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131135_tex {
+        internal static System.Drawing.Bitmap _131135_tex {
             get {
                 object obj = ResourceManager.GetObject("_131135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -983,7 +983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131136_tex {
+        internal static System.Drawing.Bitmap _131136_tex {
             get {
                 object obj = ResourceManager.GetObject("_131136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -993,7 +993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131137_tex {
+        internal static System.Drawing.Bitmap _131137_tex {
             get {
                 object obj = ResourceManager.GetObject("_131137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1003,7 +1003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131140_tex {
+        internal static System.Drawing.Bitmap _131140_tex {
             get {
                 object obj = ResourceManager.GetObject("_131140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1013,7 +1013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131141_tex {
+        internal static System.Drawing.Bitmap _131141_tex {
             get {
                 object obj = ResourceManager.GetObject("_131141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1023,7 +1023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131142_tex {
+        internal static System.Drawing.Bitmap _131142_tex {
             get {
                 object obj = ResourceManager.GetObject("_131142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1033,7 +1033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131143_tex {
+        internal static System.Drawing.Bitmap _131143_tex {
             get {
                 object obj = ResourceManager.GetObject("_131143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1043,7 +1043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131144_tex {
+        internal static System.Drawing.Bitmap _131144_tex {
             get {
                 object obj = ResourceManager.GetObject("_131144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1053,7 +1053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131145_tex {
+        internal static System.Drawing.Bitmap _131145_tex {
             get {
                 object obj = ResourceManager.GetObject("_131145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1063,7 +1063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131146_tex {
+        internal static System.Drawing.Bitmap _131146_tex {
             get {
                 object obj = ResourceManager.GetObject("_131146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1073,7 +1073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131147_tex {
+        internal static System.Drawing.Bitmap _131147_tex {
             get {
                 object obj = ResourceManager.GetObject("_131147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1083,7 +1083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131150_tex {
+        internal static System.Drawing.Bitmap _131150_tex {
             get {
                 object obj = ResourceManager.GetObject("_131150_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1093,7 +1093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131151_tex {
+        internal static System.Drawing.Bitmap _131151_tex {
             get {
                 object obj = ResourceManager.GetObject("_131151_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1103,7 +1103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131152_tex {
+        internal static System.Drawing.Bitmap _131152_tex {
             get {
                 object obj = ResourceManager.GetObject("_131152_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1113,7 +1113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131153_tex {
+        internal static System.Drawing.Bitmap _131153_tex {
             get {
                 object obj = ResourceManager.GetObject("_131153_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1123,7 +1123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131154_tex {
+        internal static System.Drawing.Bitmap _131154_tex {
             get {
                 object obj = ResourceManager.GetObject("_131154_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1133,7 +1133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131155_tex {
+        internal static System.Drawing.Bitmap _131155_tex {
             get {
                 object obj = ResourceManager.GetObject("_131155_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1143,7 +1143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131156_tex {
+        internal static System.Drawing.Bitmap _131156_tex {
             get {
                 object obj = ResourceManager.GetObject("_131156_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1153,7 +1153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131157_tex {
+        internal static System.Drawing.Bitmap _131157_tex {
             get {
                 object obj = ResourceManager.GetObject("_131157_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1163,7 +1163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131160_tex {
+        internal static System.Drawing.Bitmap _131160_tex {
             get {
                 object obj = ResourceManager.GetObject("_131160_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1173,7 +1173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131161_tex {
+        internal static System.Drawing.Bitmap _131161_tex {
             get {
                 object obj = ResourceManager.GetObject("_131161_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1183,7 +1183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131162_tex {
+        internal static System.Drawing.Bitmap _131162_tex {
             get {
                 object obj = ResourceManager.GetObject("_131162_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1193,7 +1193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131163_tex {
+        internal static System.Drawing.Bitmap _131163_tex {
             get {
                 object obj = ResourceManager.GetObject("_131163_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1203,7 +1203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131164_tex {
+        internal static System.Drawing.Bitmap _131164_tex {
             get {
                 object obj = ResourceManager.GetObject("_131164_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1213,7 +1213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131165_tex {
+        internal static System.Drawing.Bitmap _131165_tex {
             get {
                 object obj = ResourceManager.GetObject("_131165_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1223,7 +1223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131166_tex {
+        internal static System.Drawing.Bitmap _131166_tex {
             get {
                 object obj = ResourceManager.GetObject("_131166_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1233,7 +1233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131167_tex {
+        internal static System.Drawing.Bitmap _131167_tex {
             get {
                 object obj = ResourceManager.GetObject("_131167_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1243,7 +1243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131200_tex {
+        internal static System.Drawing.Bitmap _131200_tex {
             get {
                 object obj = ResourceManager.GetObject("_131200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1253,7 +1253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131201_tex {
+        internal static System.Drawing.Bitmap _131201_tex {
             get {
                 object obj = ResourceManager.GetObject("_131201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1263,7 +1263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131202_tex {
+        internal static System.Drawing.Bitmap _131202_tex {
             get {
                 object obj = ResourceManager.GetObject("_131202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1273,7 +1273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131203_tex {
+        internal static System.Drawing.Bitmap _131203_tex {
             get {
                 object obj = ResourceManager.GetObject("_131203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1283,7 +1283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131204_tex {
+        internal static System.Drawing.Bitmap _131204_tex {
             get {
                 object obj = ResourceManager.GetObject("_131204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1293,7 +1293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131205_tex {
+        internal static System.Drawing.Bitmap _131205_tex {
             get {
                 object obj = ResourceManager.GetObject("_131205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1303,7 +1303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131206_tex {
+        internal static System.Drawing.Bitmap _131206_tex {
             get {
                 object obj = ResourceManager.GetObject("_131206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1313,7 +1313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131207_tex {
+        internal static System.Drawing.Bitmap _131207_tex {
             get {
                 object obj = ResourceManager.GetObject("_131207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1323,7 +1323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131208_tex {
+        internal static System.Drawing.Bitmap _131208_tex {
             get {
                 object obj = ResourceManager.GetObject("_131208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1333,7 +1333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131209_tex {
+        internal static System.Drawing.Bitmap _131209_tex {
             get {
                 object obj = ResourceManager.GetObject("_131209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1343,7 +1343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131210_tex {
+        internal static System.Drawing.Bitmap _131210_tex {
             get {
                 object obj = ResourceManager.GetObject("_131210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1353,7 +1353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131211_tex {
+        internal static System.Drawing.Bitmap _131211_tex {
             get {
                 object obj = ResourceManager.GetObject("_131211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1363,7 +1363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131212_tex {
+        internal static System.Drawing.Bitmap _131212_tex {
             get {
                 object obj = ResourceManager.GetObject("_131212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1373,7 +1373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131213_tex {
+        internal static System.Drawing.Bitmap _131213_tex {
             get {
                 object obj = ResourceManager.GetObject("_131213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1383,7 +1383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131214_tex {
+        internal static System.Drawing.Bitmap _131214_tex {
             get {
                 object obj = ResourceManager.GetObject("_131214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1393,7 +1393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131215_tex {
+        internal static System.Drawing.Bitmap _131215_tex {
             get {
                 object obj = ResourceManager.GetObject("_131215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1403,7 +1403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131216_tex {
+        internal static System.Drawing.Bitmap _131216_tex {
             get {
                 object obj = ResourceManager.GetObject("_131216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1413,7 +1413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131217_tex {
+        internal static System.Drawing.Bitmap _131217_tex {
             get {
                 object obj = ResourceManager.GetObject("_131217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1423,7 +1423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131218_tex {
+        internal static System.Drawing.Bitmap _131218_tex {
             get {
                 object obj = ResourceManager.GetObject("_131218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1433,7 +1433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131219_tex {
+        internal static System.Drawing.Bitmap _131219_tex {
             get {
                 object obj = ResourceManager.GetObject("_131219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1443,7 +1443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131220_tex {
+        internal static System.Drawing.Bitmap _131220_tex {
             get {
                 object obj = ResourceManager.GetObject("_131220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1453,7 +1453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131221_tex {
+        internal static System.Drawing.Bitmap _131221_tex {
             get {
                 object obj = ResourceManager.GetObject("_131221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1463,7 +1463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131222_tex {
+        internal static System.Drawing.Bitmap _131222_tex {
             get {
                 object obj = ResourceManager.GetObject("_131222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1473,7 +1473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131223_tex {
+        internal static System.Drawing.Bitmap _131223_tex {
             get {
                 object obj = ResourceManager.GetObject("_131223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1483,7 +1483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131224_tex {
+        internal static System.Drawing.Bitmap _131224_tex {
             get {
                 object obj = ResourceManager.GetObject("_131224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1493,7 +1493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131225_tex {
+        internal static System.Drawing.Bitmap _131225_tex {
             get {
                 object obj = ResourceManager.GetObject("_131225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1503,7 +1503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131226_tex {
+        internal static System.Drawing.Bitmap _131226_tex {
             get {
                 object obj = ResourceManager.GetObject("_131226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1513,7 +1513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131227_tex {
+        internal static System.Drawing.Bitmap _131227_tex {
             get {
                 object obj = ResourceManager.GetObject("_131227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1523,7 +1523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131228_tex {
+        internal static System.Drawing.Bitmap _131228_tex {
             get {
                 object obj = ResourceManager.GetObject("_131228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1533,7 +1533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131229_tex {
+        internal static System.Drawing.Bitmap _131229_tex {
             get {
                 object obj = ResourceManager.GetObject("_131229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1543,7 +1543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131230_tex {
+        internal static System.Drawing.Bitmap _131230_tex {
             get {
                 object obj = ResourceManager.GetObject("_131230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1553,7 +1553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131231_tex {
+        internal static System.Drawing.Bitmap _131231_tex {
             get {
                 object obj = ResourceManager.GetObject("_131231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1563,7 +1563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131232_tex {
+        internal static System.Drawing.Bitmap _131232_tex {
             get {
                 object obj = ResourceManager.GetObject("_131232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1573,7 +1573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131233_tex {
+        internal static System.Drawing.Bitmap _131233_tex {
             get {
                 object obj = ResourceManager.GetObject("_131233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1583,7 +1583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131234_tex {
+        internal static System.Drawing.Bitmap _131234_tex {
             get {
                 object obj = ResourceManager.GetObject("_131234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1593,7 +1593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131235_tex {
+        internal static System.Drawing.Bitmap _131235_tex {
             get {
                 object obj = ResourceManager.GetObject("_131235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1603,7 +1603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131236_tex {
+        internal static System.Drawing.Bitmap _131236_tex {
             get {
                 object obj = ResourceManager.GetObject("_131236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1613,7 +1613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131237_tex {
+        internal static System.Drawing.Bitmap _131237_tex {
             get {
                 object obj = ResourceManager.GetObject("_131237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1623,7 +1623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131238_tex {
+        internal static System.Drawing.Bitmap _131238_tex {
             get {
                 object obj = ResourceManager.GetObject("_131238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1633,7 +1633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131239_tex {
+        internal static System.Drawing.Bitmap _131239_tex {
             get {
                 object obj = ResourceManager.GetObject("_131239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1643,7 +1643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131240_tex {
+        internal static System.Drawing.Bitmap _131240_tex {
             get {
                 object obj = ResourceManager.GetObject("_131240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1653,7 +1653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131241_tex {
+        internal static System.Drawing.Bitmap _131241_tex {
             get {
                 object obj = ResourceManager.GetObject("_131241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1663,7 +1663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131242_tex {
+        internal static System.Drawing.Bitmap _131242_tex {
             get {
                 object obj = ResourceManager.GetObject("_131242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1673,7 +1673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131243_tex {
+        internal static System.Drawing.Bitmap _131243_tex {
             get {
                 object obj = ResourceManager.GetObject("_131243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1683,7 +1683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131244_tex {
+        internal static System.Drawing.Bitmap _131244_tex {
             get {
                 object obj = ResourceManager.GetObject("_131244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1693,7 +1693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131245_tex {
+        internal static System.Drawing.Bitmap _131245_tex {
             get {
                 object obj = ResourceManager.GetObject("_131245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1703,7 +1703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131246_tex {
+        internal static System.Drawing.Bitmap _131246_tex {
             get {
                 object obj = ResourceManager.GetObject("_131246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1713,7 +1713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131247_tex {
+        internal static System.Drawing.Bitmap _131247_tex {
             get {
                 object obj = ResourceManager.GetObject("_131247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1723,7 +1723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131248_tex {
+        internal static System.Drawing.Bitmap _131248_tex {
             get {
                 object obj = ResourceManager.GetObject("_131248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1733,7 +1733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131249_tex {
+        internal static System.Drawing.Bitmap _131249_tex {
             get {
                 object obj = ResourceManager.GetObject("_131249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1743,7 +1743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131250_tex {
+        internal static System.Drawing.Bitmap _131250_tex {
             get {
                 object obj = ResourceManager.GetObject("_131250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1753,7 +1753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131251_tex {
+        internal static System.Drawing.Bitmap _131251_tex {
             get {
                 object obj = ResourceManager.GetObject("_131251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1763,7 +1763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131252_tex {
+        internal static System.Drawing.Bitmap _131252_tex {
             get {
                 object obj = ResourceManager.GetObject("_131252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1773,7 +1773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131253_tex {
+        internal static System.Drawing.Bitmap _131253_tex {
             get {
                 object obj = ResourceManager.GetObject("_131253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1783,7 +1783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131254_tex {
+        internal static System.Drawing.Bitmap _131254_tex {
             get {
                 object obj = ResourceManager.GetObject("_131254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1793,7 +1793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131255_tex {
+        internal static System.Drawing.Bitmap _131255_tex {
             get {
                 object obj = ResourceManager.GetObject("_131255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1803,7 +1803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131256_tex {
+        internal static System.Drawing.Bitmap _131256_tex {
             get {
                 object obj = ResourceManager.GetObject("_131256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1813,7 +1813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131257_tex {
+        internal static System.Drawing.Bitmap _131257_tex {
             get {
                 object obj = ResourceManager.GetObject("_131257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1823,7 +1823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131258_tex {
+        internal static System.Drawing.Bitmap _131258_tex {
             get {
                 object obj = ResourceManager.GetObject("_131258_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1833,7 +1833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131259_tex {
+        internal static System.Drawing.Bitmap _131259_tex {
             get {
                 object obj = ResourceManager.GetObject("_131259_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1843,7 +1843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131260_tex {
+        internal static System.Drawing.Bitmap _131260_tex {
             get {
                 object obj = ResourceManager.GetObject("_131260_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1853,7 +1853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131261_tex {
+        internal static System.Drawing.Bitmap _131261_tex {
             get {
                 object obj = ResourceManager.GetObject("_131261_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1863,7 +1863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131262_tex {
+        internal static System.Drawing.Bitmap _131262_tex {
             get {
                 object obj = ResourceManager.GetObject("_131262_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1873,7 +1873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131263_tex {
+        internal static System.Drawing.Bitmap _131263_tex {
             get {
                 object obj = ResourceManager.GetObject("_131263_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1883,7 +1883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131264_tex {
+        internal static System.Drawing.Bitmap _131264_tex {
             get {
                 object obj = ResourceManager.GetObject("_131264_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1893,7 +1893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131300_tex {
+        internal static System.Drawing.Bitmap _131300_tex {
             get {
                 object obj = ResourceManager.GetObject("_131300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1903,7 +1903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131301_tex {
+        internal static System.Drawing.Bitmap _131301_tex {
             get {
                 object obj = ResourceManager.GetObject("_131301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1913,7 +1913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131302_tex {
+        internal static System.Drawing.Bitmap _131302_tex {
             get {
                 object obj = ResourceManager.GetObject("_131302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1923,7 +1923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131303_tex {
+        internal static System.Drawing.Bitmap _131303_tex {
             get {
                 object obj = ResourceManager.GetObject("_131303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1933,7 +1933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131304_tex {
+        internal static System.Drawing.Bitmap _131304_tex {
             get {
                 object obj = ResourceManager.GetObject("_131304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1943,7 +1943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131305_tex {
+        internal static System.Drawing.Bitmap _131305_tex {
             get {
                 object obj = ResourceManager.GetObject("_131305_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1953,7 +1953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131310_tex {
+        internal static System.Drawing.Bitmap _131310_tex {
             get {
                 object obj = ResourceManager.GetObject("_131310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1963,7 +1963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131311_tex {
+        internal static System.Drawing.Bitmap _131311_tex {
             get {
                 object obj = ResourceManager.GetObject("_131311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1973,7 +1973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131312_tex {
+        internal static System.Drawing.Bitmap _131312_tex {
             get {
                 object obj = ResourceManager.GetObject("_131312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1983,7 +1983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131313_tex {
+        internal static System.Drawing.Bitmap _131313_tex {
             get {
                 object obj = ResourceManager.GetObject("_131313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1993,7 +1993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131314_tex {
+        internal static System.Drawing.Bitmap _131314_tex {
             get {
                 object obj = ResourceManager.GetObject("_131314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2003,7 +2003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131315_tex {
+        internal static System.Drawing.Bitmap _131315_tex {
             get {
                 object obj = ResourceManager.GetObject("_131315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2013,7 +2013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131316_tex {
+        internal static System.Drawing.Bitmap _131316_tex {
             get {
                 object obj = ResourceManager.GetObject("_131316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2023,7 +2023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131317_tex {
+        internal static System.Drawing.Bitmap _131317_tex {
             get {
                 object obj = ResourceManager.GetObject("_131317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2033,7 +2033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131320_tex {
+        internal static System.Drawing.Bitmap _131320_tex {
             get {
                 object obj = ResourceManager.GetObject("_131320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2043,7 +2043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131321_tex {
+        internal static System.Drawing.Bitmap _131321_tex {
             get {
                 object obj = ResourceManager.GetObject("_131321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2053,7 +2053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131322_tex {
+        internal static System.Drawing.Bitmap _131322_tex {
             get {
                 object obj = ResourceManager.GetObject("_131322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2063,7 +2063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131323_tex {
+        internal static System.Drawing.Bitmap _131323_tex {
             get {
                 object obj = ResourceManager.GetObject("_131323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2073,7 +2073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131324_tex {
+        internal static System.Drawing.Bitmap _131324_tex {
             get {
                 object obj = ResourceManager.GetObject("_131324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2083,7 +2083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131325_tex {
+        internal static System.Drawing.Bitmap _131325_tex {
             get {
                 object obj = ResourceManager.GetObject("_131325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2093,7 +2093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131326_tex {
+        internal static System.Drawing.Bitmap _131326_tex {
             get {
                 object obj = ResourceManager.GetObject("_131326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2103,7 +2103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131327_tex {
+        internal static System.Drawing.Bitmap _131327_tex {
             get {
                 object obj = ResourceManager.GetObject("_131327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2113,7 +2113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131330_tex {
+        internal static System.Drawing.Bitmap _131330_tex {
             get {
                 object obj = ResourceManager.GetObject("_131330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2123,7 +2123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131331_tex {
+        internal static System.Drawing.Bitmap _131331_tex {
             get {
                 object obj = ResourceManager.GetObject("_131331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2133,7 +2133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131332_tex {
+        internal static System.Drawing.Bitmap _131332_tex {
             get {
                 object obj = ResourceManager.GetObject("_131332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2143,7 +2143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131333_tex {
+        internal static System.Drawing.Bitmap _131333_tex {
             get {
                 object obj = ResourceManager.GetObject("_131333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2153,7 +2153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131334_tex {
+        internal static System.Drawing.Bitmap _131334_tex {
             get {
                 object obj = ResourceManager.GetObject("_131334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2163,7 +2163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131335_tex {
+        internal static System.Drawing.Bitmap _131335_tex {
             get {
                 object obj = ResourceManager.GetObject("_131335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2173,7 +2173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131336_tex {
+        internal static System.Drawing.Bitmap _131336_tex {
             get {
                 object obj = ResourceManager.GetObject("_131336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2183,7 +2183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131337_tex {
+        internal static System.Drawing.Bitmap _131337_tex {
             get {
                 object obj = ResourceManager.GetObject("_131337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2193,7 +2193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131340_tex {
+        internal static System.Drawing.Bitmap _131340_tex {
             get {
                 object obj = ResourceManager.GetObject("_131340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2203,7 +2203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131341_tex {
+        internal static System.Drawing.Bitmap _131341_tex {
             get {
                 object obj = ResourceManager.GetObject("_131341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2213,7 +2213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131342_tex {
+        internal static System.Drawing.Bitmap _131342_tex {
             get {
                 object obj = ResourceManager.GetObject("_131342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2223,7 +2223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131343_tex {
+        internal static System.Drawing.Bitmap _131343_tex {
             get {
                 object obj = ResourceManager.GetObject("_131343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2233,7 +2233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131344_tex {
+        internal static System.Drawing.Bitmap _131344_tex {
             get {
                 object obj = ResourceManager.GetObject("_131344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2243,7 +2243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131345_tex {
+        internal static System.Drawing.Bitmap _131345_tex {
             get {
                 object obj = ResourceManager.GetObject("_131345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2253,7 +2253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131346_tex {
+        internal static System.Drawing.Bitmap _131346_tex {
             get {
                 object obj = ResourceManager.GetObject("_131346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2263,7 +2263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131347_tex {
+        internal static System.Drawing.Bitmap _131347_tex {
             get {
                 object obj = ResourceManager.GetObject("_131347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2273,7 +2273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131350_tex {
+        internal static System.Drawing.Bitmap _131350_tex {
             get {
                 object obj = ResourceManager.GetObject("_131350_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2283,7 +2283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131351_tex {
+        internal static System.Drawing.Bitmap _131351_tex {
             get {
                 object obj = ResourceManager.GetObject("_131351_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2293,7 +2293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131352_tex {
+        internal static System.Drawing.Bitmap _131352_tex {
             get {
                 object obj = ResourceManager.GetObject("_131352_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2303,7 +2303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131353_tex {
+        internal static System.Drawing.Bitmap _131353_tex {
             get {
                 object obj = ResourceManager.GetObject("_131353_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2313,7 +2313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131354_tex {
+        internal static System.Drawing.Bitmap _131354_tex {
             get {
                 object obj = ResourceManager.GetObject("_131354_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2323,7 +2323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131355_tex {
+        internal static System.Drawing.Bitmap _131355_tex {
             get {
                 object obj = ResourceManager.GetObject("_131355_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2333,7 +2333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131356_tex {
+        internal static System.Drawing.Bitmap _131356_tex {
             get {
                 object obj = ResourceManager.GetObject("_131356_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2343,7 +2343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131357_tex {
+        internal static System.Drawing.Bitmap _131357_tex {
             get {
                 object obj = ResourceManager.GetObject("_131357_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2353,7 +2353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131500_tex {
+        internal static System.Drawing.Bitmap _131500_tex {
             get {
                 object obj = ResourceManager.GetObject("_131500_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2363,7 +2363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131501_tex {
+        internal static System.Drawing.Bitmap _131501_tex {
             get {
                 object obj = ResourceManager.GetObject("_131501_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2373,7 +2373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131502_tex {
+        internal static System.Drawing.Bitmap _131502_tex {
             get {
                 object obj = ResourceManager.GetObject("_131502_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2383,7 +2383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131503_tex {
+        internal static System.Drawing.Bitmap _131503_tex {
             get {
                 object obj = ResourceManager.GetObject("_131503_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2393,7 +2393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131504_tex {
+        internal static System.Drawing.Bitmap _131504_tex {
             get {
                 object obj = ResourceManager.GetObject("_131504_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2403,7 +2403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131505_tex {
+        internal static System.Drawing.Bitmap _131505_tex {
             get {
                 object obj = ResourceManager.GetObject("_131505_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2413,7 +2413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131506_tex {
+        internal static System.Drawing.Bitmap _131506_tex {
             get {
                 object obj = ResourceManager.GetObject("_131506_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2423,7 +2423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131507_tex {
+        internal static System.Drawing.Bitmap _131507_tex {
             get {
                 object obj = ResourceManager.GetObject("_131507_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2433,7 +2433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131508_tex {
+        internal static System.Drawing.Bitmap _131508_tex {
             get {
                 object obj = ResourceManager.GetObject("_131508_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2443,7 +2443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131509_tex {
+        internal static System.Drawing.Bitmap _131509_tex {
             get {
                 object obj = ResourceManager.GetObject("_131509_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2453,7 +2453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131510_tex {
+        internal static System.Drawing.Bitmap _131510_tex {
             get {
                 object obj = ResourceManager.GetObject("_131510_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2463,7 +2463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131511_tex {
+        internal static System.Drawing.Bitmap _131511_tex {
             get {
                 object obj = ResourceManager.GetObject("_131511_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2473,7 +2473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131512_tex {
+        internal static System.Drawing.Bitmap _131512_tex {
             get {
                 object obj = ResourceManager.GetObject("_131512_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2483,7 +2483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131513_tex {
+        internal static System.Drawing.Bitmap _131513_tex {
             get {
                 object obj = ResourceManager.GetObject("_131513_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2493,7 +2493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131514_tex {
+        internal static System.Drawing.Bitmap _131514_tex {
             get {
                 object obj = ResourceManager.GetObject("_131514_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2503,7 +2503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131515_tex {
+        internal static System.Drawing.Bitmap _131515_tex {
             get {
                 object obj = ResourceManager.GetObject("_131515_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2513,7 +2513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131516_tex {
+        internal static System.Drawing.Bitmap _131516_tex {
             get {
                 object obj = ResourceManager.GetObject("_131516_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2523,7 +2523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131517_tex {
+        internal static System.Drawing.Bitmap _131517_tex {
             get {
                 object obj = ResourceManager.GetObject("_131517_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2533,7 +2533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131518_tex {
+        internal static System.Drawing.Bitmap _131518_tex {
             get {
                 object obj = ResourceManager.GetObject("_131518_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2543,7 +2543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131519_tex {
+        internal static System.Drawing.Bitmap _131519_tex {
             get {
                 object obj = ResourceManager.GetObject("_131519_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2553,7 +2553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131520_tex {
+        internal static System.Drawing.Bitmap _131520_tex {
             get {
                 object obj = ResourceManager.GetObject("_131520_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2563,7 +2563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131521_tex {
+        internal static System.Drawing.Bitmap _131521_tex {
             get {
                 object obj = ResourceManager.GetObject("_131521_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2573,7 +2573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131522_tex {
+        internal static System.Drawing.Bitmap _131522_tex {
             get {
                 object obj = ResourceManager.GetObject("_131522_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2583,7 +2583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131523_tex {
+        internal static System.Drawing.Bitmap _131523_tex {
             get {
                 object obj = ResourceManager.GetObject("_131523_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2593,7 +2593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131524_tex {
+        internal static System.Drawing.Bitmap _131524_tex {
             get {
                 object obj = ResourceManager.GetObject("_131524_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2603,7 +2603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131525_tex {
+        internal static System.Drawing.Bitmap _131525_tex {
             get {
                 object obj = ResourceManager.GetObject("_131525_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2613,7 +2613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131526_tex {
+        internal static System.Drawing.Bitmap _131526_tex {
             get {
                 object obj = ResourceManager.GetObject("_131526_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2623,7 +2623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131527_tex {
+        internal static System.Drawing.Bitmap _131527_tex {
             get {
                 object obj = ResourceManager.GetObject("_131527_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2633,7 +2633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131528_tex {
+        internal static System.Drawing.Bitmap _131528_tex {
             get {
                 object obj = ResourceManager.GetObject("_131528_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2643,7 +2643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131529_tex {
+        internal static System.Drawing.Bitmap _131529_tex {
             get {
                 object obj = ResourceManager.GetObject("_131529_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2653,7 +2653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131530_tex {
+        internal static System.Drawing.Bitmap _131530_tex {
             get {
                 object obj = ResourceManager.GetObject("_131530_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2663,7 +2663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131531_tex {
+        internal static System.Drawing.Bitmap _131531_tex {
             get {
                 object obj = ResourceManager.GetObject("_131531_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2673,7 +2673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131532_tex {
+        internal static System.Drawing.Bitmap _131532_tex {
             get {
                 object obj = ResourceManager.GetObject("_131532_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2683,7 +2683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131533_tex {
+        internal static System.Drawing.Bitmap _131533_tex {
             get {
                 object obj = ResourceManager.GetObject("_131533_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2693,7 +2693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131534_tex {
+        internal static System.Drawing.Bitmap _131534_tex {
             get {
                 object obj = ResourceManager.GetObject("_131534_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2703,7 +2703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131535_tex {
+        internal static System.Drawing.Bitmap _131535_tex {
             get {
                 object obj = ResourceManager.GetObject("_131535_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2713,7 +2713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131536_tex {
+        internal static System.Drawing.Bitmap _131536_tex {
             get {
                 object obj = ResourceManager.GetObject("_131536_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2723,7 +2723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131537_tex {
+        internal static System.Drawing.Bitmap _131537_tex {
             get {
                 object obj = ResourceManager.GetObject("_131537_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2733,7 +2733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131538_tex {
+        internal static System.Drawing.Bitmap _131538_tex {
             get {
                 object obj = ResourceManager.GetObject("_131538_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2743,7 +2743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131539_tex {
+        internal static System.Drawing.Bitmap _131539_tex {
             get {
                 object obj = ResourceManager.GetObject("_131539_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2753,7 +2753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131540_tex {
+        internal static System.Drawing.Bitmap _131540_tex {
             get {
                 object obj = ResourceManager.GetObject("_131540_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2763,7 +2763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131541_tex {
+        internal static System.Drawing.Bitmap _131541_tex {
             get {
                 object obj = ResourceManager.GetObject("_131541_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2773,7 +2773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131542_tex {
+        internal static System.Drawing.Bitmap _131542_tex {
             get {
                 object obj = ResourceManager.GetObject("_131542_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2783,7 +2783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131543_tex {
+        internal static System.Drawing.Bitmap _131543_tex {
             get {
                 object obj = ResourceManager.GetObject("_131543_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2793,7 +2793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131544_tex {
+        internal static System.Drawing.Bitmap _131544_tex {
             get {
                 object obj = ResourceManager.GetObject("_131544_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2803,7 +2803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131545_tex {
+        internal static System.Drawing.Bitmap _131545_tex {
             get {
                 object obj = ResourceManager.GetObject("_131545_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2813,7 +2813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131546_tex {
+        internal static System.Drawing.Bitmap _131546_tex {
             get {
                 object obj = ResourceManager.GetObject("_131546_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2823,7 +2823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131547_tex {
+        internal static System.Drawing.Bitmap _131547_tex {
             get {
                 object obj = ResourceManager.GetObject("_131547_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2833,7 +2833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131548_tex {
+        internal static System.Drawing.Bitmap _131548_tex {
             get {
                 object obj = ResourceManager.GetObject("_131548_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2843,7 +2843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131549_tex {
+        internal static System.Drawing.Bitmap _131549_tex {
             get {
                 object obj = ResourceManager.GetObject("_131549_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2853,7 +2853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131550_tex {
+        internal static System.Drawing.Bitmap _131550_tex {
             get {
                 object obj = ResourceManager.GetObject("_131550_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2863,7 +2863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131551_tex {
+        internal static System.Drawing.Bitmap _131551_tex {
             get {
                 object obj = ResourceManager.GetObject("_131551_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2873,7 +2873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131552_tex {
+        internal static System.Drawing.Bitmap _131552_tex {
             get {
                 object obj = ResourceManager.GetObject("_131552_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2883,7 +2883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131553_tex {
+        internal static System.Drawing.Bitmap _131553_tex {
             get {
                 object obj = ResourceManager.GetObject("_131553_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2893,7 +2893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131554_tex {
+        internal static System.Drawing.Bitmap _131554_tex {
             get {
                 object obj = ResourceManager.GetObject("_131554_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2903,7 +2903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131555_tex {
+        internal static System.Drawing.Bitmap _131555_tex {
             get {
                 object obj = ResourceManager.GetObject("_131555_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2913,7 +2913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131556_tex {
+        internal static System.Drawing.Bitmap _131556_tex {
             get {
                 object obj = ResourceManager.GetObject("_131556_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2923,7 +2923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131557_tex {
+        internal static System.Drawing.Bitmap _131557_tex {
             get {
                 object obj = ResourceManager.GetObject("_131557_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2933,7 +2933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131558_tex {
+        internal static System.Drawing.Bitmap _131558_tex {
             get {
                 object obj = ResourceManager.GetObject("_131558_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2943,7 +2943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131559_tex {
+        internal static System.Drawing.Bitmap _131559_tex {
             get {
                 object obj = ResourceManager.GetObject("_131559_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2953,7 +2953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131560_tex {
+        internal static System.Drawing.Bitmap _131560_tex {
             get {
                 object obj = ResourceManager.GetObject("_131560_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2963,7 +2963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131561_tex {
+        internal static System.Drawing.Bitmap _131561_tex {
             get {
                 object obj = ResourceManager.GetObject("_131561_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2973,7 +2973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131600_tex {
+        internal static System.Drawing.Bitmap _131600_tex {
             get {
                 object obj = ResourceManager.GetObject("_131600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2983,7 +2983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131601_tex {
+        internal static System.Drawing.Bitmap _131601_tex {
             get {
                 object obj = ResourceManager.GetObject("_131601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2993,7 +2993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131602_tex {
+        internal static System.Drawing.Bitmap _131602_tex {
             get {
                 object obj = ResourceManager.GetObject("_131602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3003,7 +3003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131603_tex {
+        internal static System.Drawing.Bitmap _131603_tex {
             get {
                 object obj = ResourceManager.GetObject("_131603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3013,7 +3013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131604_tex {
+        internal static System.Drawing.Bitmap _131604_tex {
             get {
                 object obj = ResourceManager.GetObject("_131604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3023,7 +3023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131610_tex {
+        internal static System.Drawing.Bitmap _131610_tex {
             get {
                 object obj = ResourceManager.GetObject("_131610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3033,7 +3033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131611_tex {
+        internal static System.Drawing.Bitmap _131611_tex {
             get {
                 object obj = ResourceManager.GetObject("_131611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3043,7 +3043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131612_tex {
+        internal static System.Drawing.Bitmap _131612_tex {
             get {
                 object obj = ResourceManager.GetObject("_131612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3053,7 +3053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131613_tex {
+        internal static System.Drawing.Bitmap _131613_tex {
             get {
                 object obj = ResourceManager.GetObject("_131613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3063,7 +3063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131614_tex {
+        internal static System.Drawing.Bitmap _131614_tex {
             get {
                 object obj = ResourceManager.GetObject("_131614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3073,7 +3073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131615_tex {
+        internal static System.Drawing.Bitmap _131615_tex {
             get {
                 object obj = ResourceManager.GetObject("_131615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3083,7 +3083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131616_tex {
+        internal static System.Drawing.Bitmap _131616_tex {
             get {
                 object obj = ResourceManager.GetObject("_131616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3093,7 +3093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131617_tex {
+        internal static System.Drawing.Bitmap _131617_tex {
             get {
                 object obj = ResourceManager.GetObject("_131617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3103,7 +3103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131620_tex {
+        internal static System.Drawing.Bitmap _131620_tex {
             get {
                 object obj = ResourceManager.GetObject("_131620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3113,7 +3113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131621_tex {
+        internal static System.Drawing.Bitmap _131621_tex {
             get {
                 object obj = ResourceManager.GetObject("_131621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3123,7 +3123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131622_tex {
+        internal static System.Drawing.Bitmap _131622_tex {
             get {
                 object obj = ResourceManager.GetObject("_131622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3133,7 +3133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131623_tex {
+        internal static System.Drawing.Bitmap _131623_tex {
             get {
                 object obj = ResourceManager.GetObject("_131623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3143,7 +3143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131624_tex {
+        internal static System.Drawing.Bitmap _131624_tex {
             get {
                 object obj = ResourceManager.GetObject("_131624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3153,7 +3153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131625_tex {
+        internal static System.Drawing.Bitmap _131625_tex {
             get {
                 object obj = ResourceManager.GetObject("_131625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3163,7 +3163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131626_tex {
+        internal static System.Drawing.Bitmap _131626_tex {
             get {
                 object obj = ResourceManager.GetObject("_131626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3173,7 +3173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131627_tex {
+        internal static System.Drawing.Bitmap _131627_tex {
             get {
                 object obj = ResourceManager.GetObject("_131627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3183,7 +3183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131630_tex {
+        internal static System.Drawing.Bitmap _131630_tex {
             get {
                 object obj = ResourceManager.GetObject("_131630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3193,7 +3193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131631_tex {
+        internal static System.Drawing.Bitmap _131631_tex {
             get {
                 object obj = ResourceManager.GetObject("_131631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3203,7 +3203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131632_tex {
+        internal static System.Drawing.Bitmap _131632_tex {
             get {
                 object obj = ResourceManager.GetObject("_131632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3213,7 +3213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131633_tex {
+        internal static System.Drawing.Bitmap _131633_tex {
             get {
                 object obj = ResourceManager.GetObject("_131633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3223,7 +3223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131634_tex {
+        internal static System.Drawing.Bitmap _131634_tex {
             get {
                 object obj = ResourceManager.GetObject("_131634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3233,7 +3233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131635_tex {
+        internal static System.Drawing.Bitmap _131635_tex {
             get {
                 object obj = ResourceManager.GetObject("_131635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3243,7 +3243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131636_tex {
+        internal static System.Drawing.Bitmap _131636_tex {
             get {
                 object obj = ResourceManager.GetObject("_131636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3253,7 +3253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131637_tex {
+        internal static System.Drawing.Bitmap _131637_tex {
             get {
                 object obj = ResourceManager.GetObject("_131637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3263,7 +3263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131640_tex {
+        internal static System.Drawing.Bitmap _131640_tex {
             get {
                 object obj = ResourceManager.GetObject("_131640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3273,7 +3273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131641_tex {
+        internal static System.Drawing.Bitmap _131641_tex {
             get {
                 object obj = ResourceManager.GetObject("_131641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3283,7 +3283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131642_tex {
+        internal static System.Drawing.Bitmap _131642_tex {
             get {
                 object obj = ResourceManager.GetObject("_131642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3293,7 +3293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131643_tex {
+        internal static System.Drawing.Bitmap _131643_tex {
             get {
                 object obj = ResourceManager.GetObject("_131643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3303,7 +3303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131644_tex {
+        internal static System.Drawing.Bitmap _131644_tex {
             get {
                 object obj = ResourceManager.GetObject("_131644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3313,7 +3313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131645_tex {
+        internal static System.Drawing.Bitmap _131645_tex {
             get {
                 object obj = ResourceManager.GetObject("_131645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3323,7 +3323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131646_tex {
+        internal static System.Drawing.Bitmap _131646_tex {
             get {
                 object obj = ResourceManager.GetObject("_131646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3333,7 +3333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131647_tex {
+        internal static System.Drawing.Bitmap _131647_tex {
             get {
                 object obj = ResourceManager.GetObject("_131647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3343,7 +3343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131700_tex {
+        internal static System.Drawing.Bitmap _131700_tex {
             get {
                 object obj = ResourceManager.GetObject("_131700_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3353,7 +3353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131701_tex {
+        internal static System.Drawing.Bitmap _131701_tex {
             get {
                 object obj = ResourceManager.GetObject("_131701_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3363,7 +3363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131702_tex {
+        internal static System.Drawing.Bitmap _131702_tex {
             get {
                 object obj = ResourceManager.GetObject("_131702_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3373,7 +3373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131703_tex {
+        internal static System.Drawing.Bitmap _131703_tex {
             get {
                 object obj = ResourceManager.GetObject("_131703_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3383,7 +3383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131704_tex {
+        internal static System.Drawing.Bitmap _131704_tex {
             get {
                 object obj = ResourceManager.GetObject("_131704_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3393,7 +3393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131705_tex {
+        internal static System.Drawing.Bitmap _131705_tex {
             get {
                 object obj = ResourceManager.GetObject("_131705_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3403,7 +3403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131706_tex {
+        internal static System.Drawing.Bitmap _131706_tex {
             get {
                 object obj = ResourceManager.GetObject("_131706_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3413,7 +3413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131707_tex {
+        internal static System.Drawing.Bitmap _131707_tex {
             get {
                 object obj = ResourceManager.GetObject("_131707_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3423,7 +3423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131708_tex {
+        internal static System.Drawing.Bitmap _131708_tex {
             get {
                 object obj = ResourceManager.GetObject("_131708_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3433,7 +3433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131709_tex {
+        internal static System.Drawing.Bitmap _131709_tex {
             get {
                 object obj = ResourceManager.GetObject("_131709_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3443,7 +3443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131710_tex {
+        internal static System.Drawing.Bitmap _131710_tex {
             get {
                 object obj = ResourceManager.GetObject("_131710_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3453,7 +3453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131711_tex {
+        internal static System.Drawing.Bitmap _131711_tex {
             get {
                 object obj = ResourceManager.GetObject("_131711_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3463,7 +3463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131712_tex {
+        internal static System.Drawing.Bitmap _131712_tex {
             get {
                 object obj = ResourceManager.GetObject("_131712_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3473,7 +3473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131713_tex {
+        internal static System.Drawing.Bitmap _131713_tex {
             get {
                 object obj = ResourceManager.GetObject("_131713_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3483,7 +3483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131714_tex {
+        internal static System.Drawing.Bitmap _131714_tex {
             get {
                 object obj = ResourceManager.GetObject("_131714_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3493,7 +3493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131715_tex {
+        internal static System.Drawing.Bitmap _131715_tex {
             get {
                 object obj = ResourceManager.GetObject("_131715_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3503,7 +3503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131716_tex {
+        internal static System.Drawing.Bitmap _131716_tex {
             get {
                 object obj = ResourceManager.GetObject("_131716_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3513,7 +3513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131717_tex {
+        internal static System.Drawing.Bitmap _131717_tex {
             get {
                 object obj = ResourceManager.GetObject("_131717_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3523,7 +3523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131718_tex {
+        internal static System.Drawing.Bitmap _131718_tex {
             get {
                 object obj = ResourceManager.GetObject("_131718_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3533,7 +3533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131719_tex {
+        internal static System.Drawing.Bitmap _131719_tex {
             get {
                 object obj = ResourceManager.GetObject("_131719_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3543,7 +3543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131720_tex {
+        internal static System.Drawing.Bitmap _131720_tex {
             get {
                 object obj = ResourceManager.GetObject("_131720_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3553,7 +3553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131721_tex {
+        internal static System.Drawing.Bitmap _131721_tex {
             get {
                 object obj = ResourceManager.GetObject("_131721_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3563,7 +3563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131722_tex {
+        internal static System.Drawing.Bitmap _131722_tex {
             get {
                 object obj = ResourceManager.GetObject("_131722_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3573,7 +3573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131723_tex {
+        internal static System.Drawing.Bitmap _131723_tex {
             get {
                 object obj = ResourceManager.GetObject("_131723_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3583,7 +3583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131724_tex {
+        internal static System.Drawing.Bitmap _131724_tex {
             get {
                 object obj = ResourceManager.GetObject("_131724_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3593,7 +3593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131725_tex {
+        internal static System.Drawing.Bitmap _131725_tex {
             get {
                 object obj = ResourceManager.GetObject("_131725_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3603,7 +3603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131726_tex {
+        internal static System.Drawing.Bitmap _131726_tex {
             get {
                 object obj = ResourceManager.GetObject("_131726_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3613,7 +3613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131727_tex {
+        internal static System.Drawing.Bitmap _131727_tex {
             get {
                 object obj = ResourceManager.GetObject("_131727_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3623,7 +3623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131728_tex {
+        internal static System.Drawing.Bitmap _131728_tex {
             get {
                 object obj = ResourceManager.GetObject("_131728_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3633,7 +3633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131729_tex {
+        internal static System.Drawing.Bitmap _131729_tex {
             get {
                 object obj = ResourceManager.GetObject("_131729_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3643,7 +3643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131730_tex {
+        internal static System.Drawing.Bitmap _131730_tex {
             get {
                 object obj = ResourceManager.GetObject("_131730_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3653,7 +3653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131731_tex {
+        internal static System.Drawing.Bitmap _131731_tex {
             get {
                 object obj = ResourceManager.GetObject("_131731_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3663,7 +3663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131732_tex {
+        internal static System.Drawing.Bitmap _131732_tex {
             get {
                 object obj = ResourceManager.GetObject("_131732_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3673,7 +3673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131733_tex {
+        internal static System.Drawing.Bitmap _131733_tex {
             get {
                 object obj = ResourceManager.GetObject("_131733_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3683,7 +3683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131734_tex {
+        internal static System.Drawing.Bitmap _131734_tex {
             get {
                 object obj = ResourceManager.GetObject("_131734_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3693,7 +3693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131735_tex {
+        internal static System.Drawing.Bitmap _131735_tex {
             get {
                 object obj = ResourceManager.GetObject("_131735_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3703,7 +3703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131736_tex {
+        internal static System.Drawing.Bitmap _131736_tex {
             get {
                 object obj = ResourceManager.GetObject("_131736_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3713,7 +3713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131737_tex {
+        internal static System.Drawing.Bitmap _131737_tex {
             get {
                 object obj = ResourceManager.GetObject("_131737_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3723,7 +3723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131738_tex {
+        internal static System.Drawing.Bitmap _131738_tex {
             get {
                 object obj = ResourceManager.GetObject("_131738_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3733,7 +3733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131739_tex {
+        internal static System.Drawing.Bitmap _131739_tex {
             get {
                 object obj = ResourceManager.GetObject("_131739_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3743,7 +3743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131740_tex {
+        internal static System.Drawing.Bitmap _131740_tex {
             get {
                 object obj = ResourceManager.GetObject("_131740_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3753,7 +3753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131741_tex {
+        internal static System.Drawing.Bitmap _131741_tex {
             get {
                 object obj = ResourceManager.GetObject("_131741_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3763,7 +3763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131742_tex {
+        internal static System.Drawing.Bitmap _131742_tex {
             get {
                 object obj = ResourceManager.GetObject("_131742_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3773,7 +3773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131743_tex {
+        internal static System.Drawing.Bitmap _131743_tex {
             get {
                 object obj = ResourceManager.GetObject("_131743_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3783,7 +3783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131744_tex {
+        internal static System.Drawing.Bitmap _131744_tex {
             get {
                 object obj = ResourceManager.GetObject("_131744_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3793,7 +3793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131745_tex {
+        internal static System.Drawing.Bitmap _131745_tex {
             get {
                 object obj = ResourceManager.GetObject("_131745_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3803,7 +3803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131746_tex {
+        internal static System.Drawing.Bitmap _131746_tex {
             get {
                 object obj = ResourceManager.GetObject("_131746_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3813,7 +3813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131747_tex {
+        internal static System.Drawing.Bitmap _131747_tex {
             get {
                 object obj = ResourceManager.GetObject("_131747_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3823,7 +3823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131748_tex {
+        internal static System.Drawing.Bitmap _131748_tex {
             get {
                 object obj = ResourceManager.GetObject("_131748_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3833,7 +3833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131749_tex {
+        internal static System.Drawing.Bitmap _131749_tex {
             get {
                 object obj = ResourceManager.GetObject("_131749_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3843,7 +3843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131750_tex {
+        internal static System.Drawing.Bitmap _131750_tex {
             get {
                 object obj = ResourceManager.GetObject("_131750_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3853,7 +3853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131751_tex {
+        internal static System.Drawing.Bitmap _131751_tex {
             get {
                 object obj = ResourceManager.GetObject("_131751_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3863,7 +3863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131752_tex {
+        internal static System.Drawing.Bitmap _131752_tex {
             get {
                 object obj = ResourceManager.GetObject("_131752_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3873,7 +3873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131753_tex {
+        internal static System.Drawing.Bitmap _131753_tex {
             get {
                 object obj = ResourceManager.GetObject("_131753_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3883,7 +3883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131754_tex {
+        internal static System.Drawing.Bitmap _131754_tex {
             get {
                 object obj = ResourceManager.GetObject("_131754_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3893,7 +3893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131755_tex {
+        internal static System.Drawing.Bitmap _131755_tex {
             get {
                 object obj = ResourceManager.GetObject("_131755_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3903,7 +3903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131756_tex {
+        internal static System.Drawing.Bitmap _131756_tex {
             get {
                 object obj = ResourceManager.GetObject("_131756_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3913,7 +3913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131757_tex {
+        internal static System.Drawing.Bitmap _131757_tex {
             get {
                 object obj = ResourceManager.GetObject("_131757_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3923,7 +3923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131758_tex {
+        internal static System.Drawing.Bitmap _131758_tex {
             get {
                 object obj = ResourceManager.GetObject("_131758_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3933,7 +3933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131800_tex {
+        internal static System.Drawing.Bitmap _131800_tex {
             get {
                 object obj = ResourceManager.GetObject("_131800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3943,7 +3943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131801_tex {
+        internal static System.Drawing.Bitmap _131801_tex {
             get {
                 object obj = ResourceManager.GetObject("_131801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3953,7 +3953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131802_tex {
+        internal static System.Drawing.Bitmap _131802_tex {
             get {
                 object obj = ResourceManager.GetObject("_131802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3963,7 +3963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131803_tex {
+        internal static System.Drawing.Bitmap _131803_tex {
             get {
                 object obj = ResourceManager.GetObject("_131803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3973,7 +3973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131804_tex {
+        internal static System.Drawing.Bitmap _131804_tex {
             get {
                 object obj = ResourceManager.GetObject("_131804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3983,7 +3983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131810_tex {
+        internal static System.Drawing.Bitmap _131810_tex {
             get {
                 object obj = ResourceManager.GetObject("_131810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3993,7 +3993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131811_tex {
+        internal static System.Drawing.Bitmap _131811_tex {
             get {
                 object obj = ResourceManager.GetObject("_131811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4003,7 +4003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131812_tex {
+        internal static System.Drawing.Bitmap _131812_tex {
             get {
                 object obj = ResourceManager.GetObject("_131812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4013,7 +4013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131813_tex {
+        internal static System.Drawing.Bitmap _131813_tex {
             get {
                 object obj = ResourceManager.GetObject("_131813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4023,7 +4023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131814_tex {
+        internal static System.Drawing.Bitmap _131814_tex {
             get {
                 object obj = ResourceManager.GetObject("_131814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4033,7 +4033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131815_tex {
+        internal static System.Drawing.Bitmap _131815_tex {
             get {
                 object obj = ResourceManager.GetObject("_131815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4043,7 +4043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131816_tex {
+        internal static System.Drawing.Bitmap _131816_tex {
             get {
                 object obj = ResourceManager.GetObject("_131816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4053,7 +4053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131817_tex {
+        internal static System.Drawing.Bitmap _131817_tex {
             get {
                 object obj = ResourceManager.GetObject("_131817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4063,7 +4063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131820_tex {
+        internal static System.Drawing.Bitmap _131820_tex {
             get {
                 object obj = ResourceManager.GetObject("_131820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4073,7 +4073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131821_tex {
+        internal static System.Drawing.Bitmap _131821_tex {
             get {
                 object obj = ResourceManager.GetObject("_131821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4083,7 +4083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131822_tex {
+        internal static System.Drawing.Bitmap _131822_tex {
             get {
                 object obj = ResourceManager.GetObject("_131822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4093,7 +4093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131823_tex {
+        internal static System.Drawing.Bitmap _131823_tex {
             get {
                 object obj = ResourceManager.GetObject("_131823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4103,7 +4103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131824_tex {
+        internal static System.Drawing.Bitmap _131824_tex {
             get {
                 object obj = ResourceManager.GetObject("_131824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4113,7 +4113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131825_tex {
+        internal static System.Drawing.Bitmap _131825_tex {
             get {
                 object obj = ResourceManager.GetObject("_131825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4123,7 +4123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131826_tex {
+        internal static System.Drawing.Bitmap _131826_tex {
             get {
                 object obj = ResourceManager.GetObject("_131826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4133,7 +4133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131827_tex {
+        internal static System.Drawing.Bitmap _131827_tex {
             get {
                 object obj = ResourceManager.GetObject("_131827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4143,7 +4143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131830_tex {
+        internal static System.Drawing.Bitmap _131830_tex {
             get {
                 object obj = ResourceManager.GetObject("_131830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4153,7 +4153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131831_tex {
+        internal static System.Drawing.Bitmap _131831_tex {
             get {
                 object obj = ResourceManager.GetObject("_131831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4163,7 +4163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131832_tex {
+        internal static System.Drawing.Bitmap _131832_tex {
             get {
                 object obj = ResourceManager.GetObject("_131832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4173,7 +4173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131833_tex {
+        internal static System.Drawing.Bitmap _131833_tex {
             get {
                 object obj = ResourceManager.GetObject("_131833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4183,7 +4183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131834_tex {
+        internal static System.Drawing.Bitmap _131834_tex {
             get {
                 object obj = ResourceManager.GetObject("_131834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4193,7 +4193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131835_tex {
+        internal static System.Drawing.Bitmap _131835_tex {
             get {
                 object obj = ResourceManager.GetObject("_131835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4203,7 +4203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131836_tex {
+        internal static System.Drawing.Bitmap _131836_tex {
             get {
                 object obj = ResourceManager.GetObject("_131836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4213,7 +4213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131837_tex {
+        internal static System.Drawing.Bitmap _131837_tex {
             get {
                 object obj = ResourceManager.GetObject("_131837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4223,7 +4223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131840_tex {
+        internal static System.Drawing.Bitmap _131840_tex {
             get {
                 object obj = ResourceManager.GetObject("_131840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4233,7 +4233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131841_tex {
+        internal static System.Drawing.Bitmap _131841_tex {
             get {
                 object obj = ResourceManager.GetObject("_131841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4243,7 +4243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131842_tex {
+        internal static System.Drawing.Bitmap _131842_tex {
             get {
                 object obj = ResourceManager.GetObject("_131842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4253,7 +4253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131843_tex {
+        internal static System.Drawing.Bitmap _131843_tex {
             get {
                 object obj = ResourceManager.GetObject("_131843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4263,7 +4263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131844_tex {
+        internal static System.Drawing.Bitmap _131844_tex {
             get {
                 object obj = ResourceManager.GetObject("_131844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4273,7 +4273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131845_tex {
+        internal static System.Drawing.Bitmap _131845_tex {
             get {
                 object obj = ResourceManager.GetObject("_131845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4283,7 +4283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131846_tex {
+        internal static System.Drawing.Bitmap _131846_tex {
             get {
                 object obj = ResourceManager.GetObject("_131846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4293,7 +4293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _131847_tex {
+        internal static System.Drawing.Bitmap _131847_tex {
             get {
                 object obj = ResourceManager.GetObject("_131847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4303,7 +4303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132000_tex {
+        internal static System.Drawing.Bitmap _132000_tex {
             get {
                 object obj = ResourceManager.GetObject("_132000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4313,7 +4313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132001_tex {
+        internal static System.Drawing.Bitmap _132001_tex {
             get {
                 object obj = ResourceManager.GetObject("_132001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4323,7 +4323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132002_tex {
+        internal static System.Drawing.Bitmap _132002_tex {
             get {
                 object obj = ResourceManager.GetObject("_132002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4333,7 +4333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132003_tex {
+        internal static System.Drawing.Bitmap _132003_tex {
             get {
                 object obj = ResourceManager.GetObject("_132003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4343,7 +4343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132004_tex {
+        internal static System.Drawing.Bitmap _132004_tex {
             get {
                 object obj = ResourceManager.GetObject("_132004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4353,7 +4353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132005_tex {
+        internal static System.Drawing.Bitmap _132005_tex {
             get {
                 object obj = ResourceManager.GetObject("_132005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4363,7 +4363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132006_tex {
+        internal static System.Drawing.Bitmap _132006_tex {
             get {
                 object obj = ResourceManager.GetObject("_132006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4373,7 +4373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132007_tex {
+        internal static System.Drawing.Bitmap _132007_tex {
             get {
                 object obj = ResourceManager.GetObject("_132007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4383,7 +4383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132008_tex {
+        internal static System.Drawing.Bitmap _132008_tex {
             get {
                 object obj = ResourceManager.GetObject("_132008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4393,7 +4393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132009_tex {
+        internal static System.Drawing.Bitmap _132009_tex {
             get {
                 object obj = ResourceManager.GetObject("_132009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4403,7 +4403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132010_tex {
+        internal static System.Drawing.Bitmap _132010_tex {
             get {
                 object obj = ResourceManager.GetObject("_132010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4413,7 +4413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132011_tex {
+        internal static System.Drawing.Bitmap _132011_tex {
             get {
                 object obj = ResourceManager.GetObject("_132011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4423,7 +4423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132012_tex {
+        internal static System.Drawing.Bitmap _132012_tex {
             get {
                 object obj = ResourceManager.GetObject("_132012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4433,7 +4433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132013_tex {
+        internal static System.Drawing.Bitmap _132013_tex {
             get {
                 object obj = ResourceManager.GetObject("_132013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4443,7 +4443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132014_tex {
+        internal static System.Drawing.Bitmap _132014_tex {
             get {
                 object obj = ResourceManager.GetObject("_132014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4453,7 +4453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132015_tex {
+        internal static System.Drawing.Bitmap _132015_tex {
             get {
                 object obj = ResourceManager.GetObject("_132015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4463,7 +4463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132016_tex {
+        internal static System.Drawing.Bitmap _132016_tex {
             get {
                 object obj = ResourceManager.GetObject("_132016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4473,7 +4473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132017_tex {
+        internal static System.Drawing.Bitmap _132017_tex {
             get {
                 object obj = ResourceManager.GetObject("_132017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4483,7 +4483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132018_tex {
+        internal static System.Drawing.Bitmap _132018_tex {
             get {
                 object obj = ResourceManager.GetObject("_132018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4493,7 +4493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132019_tex {
+        internal static System.Drawing.Bitmap _132019_tex {
             get {
                 object obj = ResourceManager.GetObject("_132019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4503,7 +4503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132020_tex {
+        internal static System.Drawing.Bitmap _132020_tex {
             get {
                 object obj = ResourceManager.GetObject("_132020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4513,7 +4513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132021_tex {
+        internal static System.Drawing.Bitmap _132021_tex {
             get {
                 object obj = ResourceManager.GetObject("_132021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4523,7 +4523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132022_tex {
+        internal static System.Drawing.Bitmap _132022_tex {
             get {
                 object obj = ResourceManager.GetObject("_132022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4533,7 +4533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132023_tex {
+        internal static System.Drawing.Bitmap _132023_tex {
             get {
                 object obj = ResourceManager.GetObject("_132023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4543,7 +4543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132024_tex {
+        internal static System.Drawing.Bitmap _132024_tex {
             get {
                 object obj = ResourceManager.GetObject("_132024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4553,7 +4553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132025_tex {
+        internal static System.Drawing.Bitmap _132025_tex {
             get {
                 object obj = ResourceManager.GetObject("_132025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4563,7 +4563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132026_tex {
+        internal static System.Drawing.Bitmap _132026_tex {
             get {
                 object obj = ResourceManager.GetObject("_132026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4573,7 +4573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132027_tex {
+        internal static System.Drawing.Bitmap _132027_tex {
             get {
                 object obj = ResourceManager.GetObject("_132027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4583,7 +4583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132028_tex {
+        internal static System.Drawing.Bitmap _132028_tex {
             get {
                 object obj = ResourceManager.GetObject("_132028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4593,7 +4593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132029_tex {
+        internal static System.Drawing.Bitmap _132029_tex {
             get {
                 object obj = ResourceManager.GetObject("_132029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4603,7 +4603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132030_tex {
+        internal static System.Drawing.Bitmap _132030_tex {
             get {
                 object obj = ResourceManager.GetObject("_132030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4613,7 +4613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132031_tex {
+        internal static System.Drawing.Bitmap _132031_tex {
             get {
                 object obj = ResourceManager.GetObject("_132031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4623,7 +4623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132032_tex {
+        internal static System.Drawing.Bitmap _132032_tex {
             get {
                 object obj = ResourceManager.GetObject("_132032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4633,7 +4633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132033_tex {
+        internal static System.Drawing.Bitmap _132033_tex {
             get {
                 object obj = ResourceManager.GetObject("_132033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4643,7 +4643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132034_tex {
+        internal static System.Drawing.Bitmap _132034_tex {
             get {
                 object obj = ResourceManager.GetObject("_132034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4653,7 +4653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132035_tex {
+        internal static System.Drawing.Bitmap _132035_tex {
             get {
                 object obj = ResourceManager.GetObject("_132035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4663,7 +4663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132036_tex {
+        internal static System.Drawing.Bitmap _132036_tex {
             get {
                 object obj = ResourceManager.GetObject("_132036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4673,7 +4673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132037_tex {
+        internal static System.Drawing.Bitmap _132037_tex {
             get {
                 object obj = ResourceManager.GetObject("_132037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4683,7 +4683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132038_tex {
+        internal static System.Drawing.Bitmap _132038_tex {
             get {
                 object obj = ResourceManager.GetObject("_132038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4693,7 +4693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132039_tex {
+        internal static System.Drawing.Bitmap _132039_tex {
             get {
                 object obj = ResourceManager.GetObject("_132039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4703,7 +4703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132040_tex {
+        internal static System.Drawing.Bitmap _132040_tex {
             get {
                 object obj = ResourceManager.GetObject("_132040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4713,7 +4713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132041_tex {
+        internal static System.Drawing.Bitmap _132041_tex {
             get {
                 object obj = ResourceManager.GetObject("_132041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4723,7 +4723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132042_tex {
+        internal static System.Drawing.Bitmap _132042_tex {
             get {
                 object obj = ResourceManager.GetObject("_132042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4733,7 +4733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132043_tex {
+        internal static System.Drawing.Bitmap _132043_tex {
             get {
                 object obj = ResourceManager.GetObject("_132043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4743,7 +4743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132044_tex {
+        internal static System.Drawing.Bitmap _132044_tex {
             get {
                 object obj = ResourceManager.GetObject("_132044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4753,7 +4753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132045_tex {
+        internal static System.Drawing.Bitmap _132045_tex {
             get {
                 object obj = ResourceManager.GetObject("_132045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4763,7 +4763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132046_tex {
+        internal static System.Drawing.Bitmap _132046_tex {
             get {
                 object obj = ResourceManager.GetObject("_132046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4773,7 +4773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132047_tex {
+        internal static System.Drawing.Bitmap _132047_tex {
             get {
                 object obj = ResourceManager.GetObject("_132047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4783,7 +4783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132048_tex {
+        internal static System.Drawing.Bitmap _132048_tex {
             get {
                 object obj = ResourceManager.GetObject("_132048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4793,7 +4793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132049_tex {
+        internal static System.Drawing.Bitmap _132049_tex {
             get {
                 object obj = ResourceManager.GetObject("_132049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4803,7 +4803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132050_tex {
+        internal static System.Drawing.Bitmap _132050_tex {
             get {
                 object obj = ResourceManager.GetObject("_132050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4813,7 +4813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132051_tex {
+        internal static System.Drawing.Bitmap _132051_tex {
             get {
                 object obj = ResourceManager.GetObject("_132051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4823,7 +4823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132052_tex {
+        internal static System.Drawing.Bitmap _132052_tex {
             get {
                 object obj = ResourceManager.GetObject("_132052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4833,7 +4833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132053_tex {
+        internal static System.Drawing.Bitmap _132053_tex {
             get {
                 object obj = ResourceManager.GetObject("_132053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4843,7 +4843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132054_tex {
+        internal static System.Drawing.Bitmap _132054_tex {
             get {
                 object obj = ResourceManager.GetObject("_132054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4853,7 +4853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132055_tex {
+        internal static System.Drawing.Bitmap _132055_tex {
             get {
                 object obj = ResourceManager.GetObject("_132055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4863,7 +4863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132056_tex {
+        internal static System.Drawing.Bitmap _132056_tex {
             get {
                 object obj = ResourceManager.GetObject("_132056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4873,7 +4873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132057_tex {
+        internal static System.Drawing.Bitmap _132057_tex {
             get {
                 object obj = ResourceManager.GetObject("_132057_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4883,7 +4883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132100_tex {
+        internal static System.Drawing.Bitmap _132100_tex {
             get {
                 object obj = ResourceManager.GetObject("_132100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4893,7 +4893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132101_tex {
+        internal static System.Drawing.Bitmap _132101_tex {
             get {
                 object obj = ResourceManager.GetObject("_132101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4903,7 +4903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132102_tex {
+        internal static System.Drawing.Bitmap _132102_tex {
             get {
                 object obj = ResourceManager.GetObject("_132102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4913,7 +4913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132103_tex {
+        internal static System.Drawing.Bitmap _132103_tex {
             get {
                 object obj = ResourceManager.GetObject("_132103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4923,7 +4923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132104_tex {
+        internal static System.Drawing.Bitmap _132104_tex {
             get {
                 object obj = ResourceManager.GetObject("_132104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4933,7 +4933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132110_tex {
+        internal static System.Drawing.Bitmap _132110_tex {
             get {
                 object obj = ResourceManager.GetObject("_132110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4943,7 +4943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132111_tex {
+        internal static System.Drawing.Bitmap _132111_tex {
             get {
                 object obj = ResourceManager.GetObject("_132111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4953,7 +4953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132112_tex {
+        internal static System.Drawing.Bitmap _132112_tex {
             get {
                 object obj = ResourceManager.GetObject("_132112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4963,7 +4963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132113_tex {
+        internal static System.Drawing.Bitmap _132113_tex {
             get {
                 object obj = ResourceManager.GetObject("_132113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4973,7 +4973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132114_tex {
+        internal static System.Drawing.Bitmap _132114_tex {
             get {
                 object obj = ResourceManager.GetObject("_132114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4983,7 +4983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132115_tex {
+        internal static System.Drawing.Bitmap _132115_tex {
             get {
                 object obj = ResourceManager.GetObject("_132115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4993,7 +4993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132116_tex {
+        internal static System.Drawing.Bitmap _132116_tex {
             get {
                 object obj = ResourceManager.GetObject("_132116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5003,7 +5003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132117_tex {
+        internal static System.Drawing.Bitmap _132117_tex {
             get {
                 object obj = ResourceManager.GetObject("_132117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5013,7 +5013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132120_tex {
+        internal static System.Drawing.Bitmap _132120_tex {
             get {
                 object obj = ResourceManager.GetObject("_132120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5023,7 +5023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132121_tex {
+        internal static System.Drawing.Bitmap _132121_tex {
             get {
                 object obj = ResourceManager.GetObject("_132121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5033,7 +5033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132122_tex {
+        internal static System.Drawing.Bitmap _132122_tex {
             get {
                 object obj = ResourceManager.GetObject("_132122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5043,7 +5043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132123_tex {
+        internal static System.Drawing.Bitmap _132123_tex {
             get {
                 object obj = ResourceManager.GetObject("_132123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5053,7 +5053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132124_tex {
+        internal static System.Drawing.Bitmap _132124_tex {
             get {
                 object obj = ResourceManager.GetObject("_132124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5063,7 +5063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132125_tex {
+        internal static System.Drawing.Bitmap _132125_tex {
             get {
                 object obj = ResourceManager.GetObject("_132125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5073,7 +5073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132126_tex {
+        internal static System.Drawing.Bitmap _132126_tex {
             get {
                 object obj = ResourceManager.GetObject("_132126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5083,7 +5083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132127_tex {
+        internal static System.Drawing.Bitmap _132127_tex {
             get {
                 object obj = ResourceManager.GetObject("_132127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5093,7 +5093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132130_tex {
+        internal static System.Drawing.Bitmap _132130_tex {
             get {
                 object obj = ResourceManager.GetObject("_132130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5103,7 +5103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132131_tex {
+        internal static System.Drawing.Bitmap _132131_tex {
             get {
                 object obj = ResourceManager.GetObject("_132131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5113,7 +5113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132132_tex {
+        internal static System.Drawing.Bitmap _132132_tex {
             get {
                 object obj = ResourceManager.GetObject("_132132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5123,7 +5123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132133_tex {
+        internal static System.Drawing.Bitmap _132133_tex {
             get {
                 object obj = ResourceManager.GetObject("_132133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5133,7 +5133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132134_tex {
+        internal static System.Drawing.Bitmap _132134_tex {
             get {
                 object obj = ResourceManager.GetObject("_132134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5143,7 +5143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132135_tex {
+        internal static System.Drawing.Bitmap _132135_tex {
             get {
                 object obj = ResourceManager.GetObject("_132135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5153,7 +5153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132136_tex {
+        internal static System.Drawing.Bitmap _132136_tex {
             get {
                 object obj = ResourceManager.GetObject("_132136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5163,7 +5163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132137_tex {
+        internal static System.Drawing.Bitmap _132137_tex {
             get {
                 object obj = ResourceManager.GetObject("_132137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5173,7 +5173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132140_tex {
+        internal static System.Drawing.Bitmap _132140_tex {
             get {
                 object obj = ResourceManager.GetObject("_132140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5183,7 +5183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132141_tex {
+        internal static System.Drawing.Bitmap _132141_tex {
             get {
                 object obj = ResourceManager.GetObject("_132141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5193,7 +5193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132142_tex {
+        internal static System.Drawing.Bitmap _132142_tex {
             get {
                 object obj = ResourceManager.GetObject("_132142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5203,7 +5203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132143_tex {
+        internal static System.Drawing.Bitmap _132143_tex {
             get {
                 object obj = ResourceManager.GetObject("_132143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5213,7 +5213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132144_tex {
+        internal static System.Drawing.Bitmap _132144_tex {
             get {
                 object obj = ResourceManager.GetObject("_132144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5223,7 +5223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132145_tex {
+        internal static System.Drawing.Bitmap _132145_tex {
             get {
                 object obj = ResourceManager.GetObject("_132145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5233,7 +5233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132146_tex {
+        internal static System.Drawing.Bitmap _132146_tex {
             get {
                 object obj = ResourceManager.GetObject("_132146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5243,7 +5243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132147_tex {
+        internal static System.Drawing.Bitmap _132147_tex {
             get {
                 object obj = ResourceManager.GetObject("_132147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5253,7 +5253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132200_tex {
+        internal static System.Drawing.Bitmap _132200_tex {
             get {
                 object obj = ResourceManager.GetObject("_132200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5263,7 +5263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132201_tex {
+        internal static System.Drawing.Bitmap _132201_tex {
             get {
                 object obj = ResourceManager.GetObject("_132201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5273,7 +5273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132202_tex {
+        internal static System.Drawing.Bitmap _132202_tex {
             get {
                 object obj = ResourceManager.GetObject("_132202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5283,7 +5283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132203_tex {
+        internal static System.Drawing.Bitmap _132203_tex {
             get {
                 object obj = ResourceManager.GetObject("_132203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5293,7 +5293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132204_tex {
+        internal static System.Drawing.Bitmap _132204_tex {
             get {
                 object obj = ResourceManager.GetObject("_132204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5303,7 +5303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132205_tex {
+        internal static System.Drawing.Bitmap _132205_tex {
             get {
                 object obj = ResourceManager.GetObject("_132205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5313,7 +5313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132206_tex {
+        internal static System.Drawing.Bitmap _132206_tex {
             get {
                 object obj = ResourceManager.GetObject("_132206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5323,7 +5323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132207_tex {
+        internal static System.Drawing.Bitmap _132207_tex {
             get {
                 object obj = ResourceManager.GetObject("_132207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5333,7 +5333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132208_tex {
+        internal static System.Drawing.Bitmap _132208_tex {
             get {
                 object obj = ResourceManager.GetObject("_132208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5343,7 +5343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132209_tex {
+        internal static System.Drawing.Bitmap _132209_tex {
             get {
                 object obj = ResourceManager.GetObject("_132209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5353,7 +5353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132210_tex {
+        internal static System.Drawing.Bitmap _132210_tex {
             get {
                 object obj = ResourceManager.GetObject("_132210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5363,7 +5363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132211_tex {
+        internal static System.Drawing.Bitmap _132211_tex {
             get {
                 object obj = ResourceManager.GetObject("_132211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5373,7 +5373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132212_tex {
+        internal static System.Drawing.Bitmap _132212_tex {
             get {
                 object obj = ResourceManager.GetObject("_132212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5383,7 +5383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132213_tex {
+        internal static System.Drawing.Bitmap _132213_tex {
             get {
                 object obj = ResourceManager.GetObject("_132213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5393,7 +5393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132214_tex {
+        internal static System.Drawing.Bitmap _132214_tex {
             get {
                 object obj = ResourceManager.GetObject("_132214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5403,7 +5403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132215_tex {
+        internal static System.Drawing.Bitmap _132215_tex {
             get {
                 object obj = ResourceManager.GetObject("_132215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5413,7 +5413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132216_tex {
+        internal static System.Drawing.Bitmap _132216_tex {
             get {
                 object obj = ResourceManager.GetObject("_132216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5423,7 +5423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132217_tex {
+        internal static System.Drawing.Bitmap _132217_tex {
             get {
                 object obj = ResourceManager.GetObject("_132217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5433,7 +5433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132218_tex {
+        internal static System.Drawing.Bitmap _132218_tex {
             get {
                 object obj = ResourceManager.GetObject("_132218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5443,7 +5443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132219_tex {
+        internal static System.Drawing.Bitmap _132219_tex {
             get {
                 object obj = ResourceManager.GetObject("_132219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5453,7 +5453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132220_tex {
+        internal static System.Drawing.Bitmap _132220_tex {
             get {
                 object obj = ResourceManager.GetObject("_132220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5463,7 +5463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132221_tex {
+        internal static System.Drawing.Bitmap _132221_tex {
             get {
                 object obj = ResourceManager.GetObject("_132221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5473,7 +5473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132222_tex {
+        internal static System.Drawing.Bitmap _132222_tex {
             get {
                 object obj = ResourceManager.GetObject("_132222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5483,7 +5483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132223_tex {
+        internal static System.Drawing.Bitmap _132223_tex {
             get {
                 object obj = ResourceManager.GetObject("_132223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5493,7 +5493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132224_tex {
+        internal static System.Drawing.Bitmap _132224_tex {
             get {
                 object obj = ResourceManager.GetObject("_132224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5503,7 +5503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132225_tex {
+        internal static System.Drawing.Bitmap _132225_tex {
             get {
                 object obj = ResourceManager.GetObject("_132225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5513,7 +5513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132226_tex {
+        internal static System.Drawing.Bitmap _132226_tex {
             get {
                 object obj = ResourceManager.GetObject("_132226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5523,7 +5523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132227_tex {
+        internal static System.Drawing.Bitmap _132227_tex {
             get {
                 object obj = ResourceManager.GetObject("_132227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5533,7 +5533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132228_tex {
+        internal static System.Drawing.Bitmap _132228_tex {
             get {
                 object obj = ResourceManager.GetObject("_132228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5543,7 +5543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132229_tex {
+        internal static System.Drawing.Bitmap _132229_tex {
             get {
                 object obj = ResourceManager.GetObject("_132229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5553,7 +5553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132230_tex {
+        internal static System.Drawing.Bitmap _132230_tex {
             get {
                 object obj = ResourceManager.GetObject("_132230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5563,7 +5563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132231_tex {
+        internal static System.Drawing.Bitmap _132231_tex {
             get {
                 object obj = ResourceManager.GetObject("_132231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5573,7 +5573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132232_tex {
+        internal static System.Drawing.Bitmap _132232_tex {
             get {
                 object obj = ResourceManager.GetObject("_132232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5583,7 +5583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132233_tex {
+        internal static System.Drawing.Bitmap _132233_tex {
             get {
                 object obj = ResourceManager.GetObject("_132233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5593,7 +5593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132234_tex {
+        internal static System.Drawing.Bitmap _132234_tex {
             get {
                 object obj = ResourceManager.GetObject("_132234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5603,7 +5603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132235_tex {
+        internal static System.Drawing.Bitmap _132235_tex {
             get {
                 object obj = ResourceManager.GetObject("_132235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5613,7 +5613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132236_tex {
+        internal static System.Drawing.Bitmap _132236_tex {
             get {
                 object obj = ResourceManager.GetObject("_132236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5623,7 +5623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132237_tex {
+        internal static System.Drawing.Bitmap _132237_tex {
             get {
                 object obj = ResourceManager.GetObject("_132237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5633,7 +5633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132238_tex {
+        internal static System.Drawing.Bitmap _132238_tex {
             get {
                 object obj = ResourceManager.GetObject("_132238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5643,7 +5643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132239_tex {
+        internal static System.Drawing.Bitmap _132239_tex {
             get {
                 object obj = ResourceManager.GetObject("_132239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5653,7 +5653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132240_tex {
+        internal static System.Drawing.Bitmap _132240_tex {
             get {
                 object obj = ResourceManager.GetObject("_132240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5663,7 +5663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132241_tex {
+        internal static System.Drawing.Bitmap _132241_tex {
             get {
                 object obj = ResourceManager.GetObject("_132241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5673,7 +5673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132242_tex {
+        internal static System.Drawing.Bitmap _132242_tex {
             get {
                 object obj = ResourceManager.GetObject("_132242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5683,7 +5683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132243_tex {
+        internal static System.Drawing.Bitmap _132243_tex {
             get {
                 object obj = ResourceManager.GetObject("_132243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5693,7 +5693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132244_tex {
+        internal static System.Drawing.Bitmap _132244_tex {
             get {
                 object obj = ResourceManager.GetObject("_132244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5703,7 +5703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132245_tex {
+        internal static System.Drawing.Bitmap _132245_tex {
             get {
                 object obj = ResourceManager.GetObject("_132245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5713,7 +5713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132246_tex {
+        internal static System.Drawing.Bitmap _132246_tex {
             get {
                 object obj = ResourceManager.GetObject("_132246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5723,7 +5723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132247_tex {
+        internal static System.Drawing.Bitmap _132247_tex {
             get {
                 object obj = ResourceManager.GetObject("_132247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5733,7 +5733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132248_tex {
+        internal static System.Drawing.Bitmap _132248_tex {
             get {
                 object obj = ResourceManager.GetObject("_132248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5743,7 +5743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132249_tex {
+        internal static System.Drawing.Bitmap _132249_tex {
             get {
                 object obj = ResourceManager.GetObject("_132249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5753,7 +5753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132250_tex {
+        internal static System.Drawing.Bitmap _132250_tex {
             get {
                 object obj = ResourceManager.GetObject("_132250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5763,7 +5763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132251_tex {
+        internal static System.Drawing.Bitmap _132251_tex {
             get {
                 object obj = ResourceManager.GetObject("_132251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5773,7 +5773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132252_tex {
+        internal static System.Drawing.Bitmap _132252_tex {
             get {
                 object obj = ResourceManager.GetObject("_132252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5783,7 +5783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132253_tex {
+        internal static System.Drawing.Bitmap _132253_tex {
             get {
                 object obj = ResourceManager.GetObject("_132253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5793,7 +5793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132254_tex {
+        internal static System.Drawing.Bitmap _132254_tex {
             get {
                 object obj = ResourceManager.GetObject("_132254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5803,7 +5803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132255_tex {
+        internal static System.Drawing.Bitmap _132255_tex {
             get {
                 object obj = ResourceManager.GetObject("_132255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5813,7 +5813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132256_tex {
+        internal static System.Drawing.Bitmap _132256_tex {
             get {
                 object obj = ResourceManager.GetObject("_132256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5823,7 +5823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132257_tex {
+        internal static System.Drawing.Bitmap _132257_tex {
             get {
                 object obj = ResourceManager.GetObject("_132257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5833,7 +5833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132258_tex {
+        internal static System.Drawing.Bitmap _132258_tex {
             get {
                 object obj = ResourceManager.GetObject("_132258_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5843,7 +5843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132259_tex {
+        internal static System.Drawing.Bitmap _132259_tex {
             get {
                 object obj = ResourceManager.GetObject("_132259_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5853,7 +5853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132260_tex {
+        internal static System.Drawing.Bitmap _132260_tex {
             get {
                 object obj = ResourceManager.GetObject("_132260_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5863,7 +5863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132261_tex {
+        internal static System.Drawing.Bitmap _132261_tex {
             get {
                 object obj = ResourceManager.GetObject("_132261_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5873,7 +5873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132262_tex {
+        internal static System.Drawing.Bitmap _132262_tex {
             get {
                 object obj = ResourceManager.GetObject("_132262_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5883,7 +5883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132300_tex {
+        internal static System.Drawing.Bitmap _132300_tex {
             get {
                 object obj = ResourceManager.GetObject("_132300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5893,7 +5893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132301_tex {
+        internal static System.Drawing.Bitmap _132301_tex {
             get {
                 object obj = ResourceManager.GetObject("_132301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5903,7 +5903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132302_tex {
+        internal static System.Drawing.Bitmap _132302_tex {
             get {
                 object obj = ResourceManager.GetObject("_132302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5913,7 +5913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132303_tex {
+        internal static System.Drawing.Bitmap _132303_tex {
             get {
                 object obj = ResourceManager.GetObject("_132303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5923,7 +5923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132304_tex {
+        internal static System.Drawing.Bitmap _132304_tex {
             get {
                 object obj = ResourceManager.GetObject("_132304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5933,7 +5933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132310_tex {
+        internal static System.Drawing.Bitmap _132310_tex {
             get {
                 object obj = ResourceManager.GetObject("_132310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5943,7 +5943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132311_tex {
+        internal static System.Drawing.Bitmap _132311_tex {
             get {
                 object obj = ResourceManager.GetObject("_132311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5953,7 +5953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132312_tex {
+        internal static System.Drawing.Bitmap _132312_tex {
             get {
                 object obj = ResourceManager.GetObject("_132312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5963,7 +5963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132313_tex {
+        internal static System.Drawing.Bitmap _132313_tex {
             get {
                 object obj = ResourceManager.GetObject("_132313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5973,7 +5973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132314_tex {
+        internal static System.Drawing.Bitmap _132314_tex {
             get {
                 object obj = ResourceManager.GetObject("_132314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5983,7 +5983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132315_tex {
+        internal static System.Drawing.Bitmap _132315_tex {
             get {
                 object obj = ResourceManager.GetObject("_132315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5993,7 +5993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132316_tex {
+        internal static System.Drawing.Bitmap _132316_tex {
             get {
                 object obj = ResourceManager.GetObject("_132316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6003,7 +6003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132317_tex {
+        internal static System.Drawing.Bitmap _132317_tex {
             get {
                 object obj = ResourceManager.GetObject("_132317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6013,7 +6013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132320_tex {
+        internal static System.Drawing.Bitmap _132320_tex {
             get {
                 object obj = ResourceManager.GetObject("_132320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6023,7 +6023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132321_tex {
+        internal static System.Drawing.Bitmap _132321_tex {
             get {
                 object obj = ResourceManager.GetObject("_132321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6033,7 +6033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132322_tex {
+        internal static System.Drawing.Bitmap _132322_tex {
             get {
                 object obj = ResourceManager.GetObject("_132322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6043,7 +6043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132323_tex {
+        internal static System.Drawing.Bitmap _132323_tex {
             get {
                 object obj = ResourceManager.GetObject("_132323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6053,7 +6053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132324_tex {
+        internal static System.Drawing.Bitmap _132324_tex {
             get {
                 object obj = ResourceManager.GetObject("_132324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6063,7 +6063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132325_tex {
+        internal static System.Drawing.Bitmap _132325_tex {
             get {
                 object obj = ResourceManager.GetObject("_132325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6073,7 +6073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132326_tex {
+        internal static System.Drawing.Bitmap _132326_tex {
             get {
                 object obj = ResourceManager.GetObject("_132326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6083,7 +6083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132327_tex {
+        internal static System.Drawing.Bitmap _132327_tex {
             get {
                 object obj = ResourceManager.GetObject("_132327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6093,7 +6093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132330_tex {
+        internal static System.Drawing.Bitmap _132330_tex {
             get {
                 object obj = ResourceManager.GetObject("_132330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6103,7 +6103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132331_tex {
+        internal static System.Drawing.Bitmap _132331_tex {
             get {
                 object obj = ResourceManager.GetObject("_132331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6113,7 +6113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132332_tex {
+        internal static System.Drawing.Bitmap _132332_tex {
             get {
                 object obj = ResourceManager.GetObject("_132332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6123,7 +6123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132333_tex {
+        internal static System.Drawing.Bitmap _132333_tex {
             get {
                 object obj = ResourceManager.GetObject("_132333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6133,7 +6133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132334_tex {
+        internal static System.Drawing.Bitmap _132334_tex {
             get {
                 object obj = ResourceManager.GetObject("_132334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6143,7 +6143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132335_tex {
+        internal static System.Drawing.Bitmap _132335_tex {
             get {
                 object obj = ResourceManager.GetObject("_132335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6153,7 +6153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132336_tex {
+        internal static System.Drawing.Bitmap _132336_tex {
             get {
                 object obj = ResourceManager.GetObject("_132336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6163,7 +6163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132337_tex {
+        internal static System.Drawing.Bitmap _132337_tex {
             get {
                 object obj = ResourceManager.GetObject("_132337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6173,7 +6173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132340_tex {
+        internal static System.Drawing.Bitmap _132340_tex {
             get {
                 object obj = ResourceManager.GetObject("_132340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6183,7 +6183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132341_tex {
+        internal static System.Drawing.Bitmap _132341_tex {
             get {
                 object obj = ResourceManager.GetObject("_132341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6193,7 +6193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132342_tex {
+        internal static System.Drawing.Bitmap _132342_tex {
             get {
                 object obj = ResourceManager.GetObject("_132342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6203,7 +6203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132343_tex {
+        internal static System.Drawing.Bitmap _132343_tex {
             get {
                 object obj = ResourceManager.GetObject("_132343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6213,7 +6213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132344_tex {
+        internal static System.Drawing.Bitmap _132344_tex {
             get {
                 object obj = ResourceManager.GetObject("_132344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6223,7 +6223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132345_tex {
+        internal static System.Drawing.Bitmap _132345_tex {
             get {
                 object obj = ResourceManager.GetObject("_132345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6233,7 +6233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132346_tex {
+        internal static System.Drawing.Bitmap _132346_tex {
             get {
                 object obj = ResourceManager.GetObject("_132346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6243,7 +6243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132347_tex {
+        internal static System.Drawing.Bitmap _132347_tex {
             get {
                 object obj = ResourceManager.GetObject("_132347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6253,7 +6253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132600_tex {
+        internal static System.Drawing.Bitmap _132600_tex {
             get {
                 object obj = ResourceManager.GetObject("_132600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6263,7 +6263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132601_tex {
+        internal static System.Drawing.Bitmap _132601_tex {
             get {
                 object obj = ResourceManager.GetObject("_132601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6273,7 +6273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132602_tex {
+        internal static System.Drawing.Bitmap _132602_tex {
             get {
                 object obj = ResourceManager.GetObject("_132602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6283,7 +6283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132603_tex {
+        internal static System.Drawing.Bitmap _132603_tex {
             get {
                 object obj = ResourceManager.GetObject("_132603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6293,7 +6293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132604_tex {
+        internal static System.Drawing.Bitmap _132604_tex {
             get {
                 object obj = ResourceManager.GetObject("_132604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6303,7 +6303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132610_tex {
+        internal static System.Drawing.Bitmap _132610_tex {
             get {
                 object obj = ResourceManager.GetObject("_132610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6313,7 +6313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132611_tex {
+        internal static System.Drawing.Bitmap _132611_tex {
             get {
                 object obj = ResourceManager.GetObject("_132611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6323,7 +6323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132612_tex {
+        internal static System.Drawing.Bitmap _132612_tex {
             get {
                 object obj = ResourceManager.GetObject("_132612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6333,7 +6333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132613_tex {
+        internal static System.Drawing.Bitmap _132613_tex {
             get {
                 object obj = ResourceManager.GetObject("_132613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6343,7 +6343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132614_tex {
+        internal static System.Drawing.Bitmap _132614_tex {
             get {
                 object obj = ResourceManager.GetObject("_132614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6353,7 +6353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132615_tex {
+        internal static System.Drawing.Bitmap _132615_tex {
             get {
                 object obj = ResourceManager.GetObject("_132615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6363,7 +6363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132616_tex {
+        internal static System.Drawing.Bitmap _132616_tex {
             get {
                 object obj = ResourceManager.GetObject("_132616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6373,7 +6373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132617_tex {
+        internal static System.Drawing.Bitmap _132617_tex {
             get {
                 object obj = ResourceManager.GetObject("_132617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6383,7 +6383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132620_tex {
+        internal static System.Drawing.Bitmap _132620_tex {
             get {
                 object obj = ResourceManager.GetObject("_132620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6393,7 +6393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132621_tex {
+        internal static System.Drawing.Bitmap _132621_tex {
             get {
                 object obj = ResourceManager.GetObject("_132621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6403,7 +6403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132622_tex {
+        internal static System.Drawing.Bitmap _132622_tex {
             get {
                 object obj = ResourceManager.GetObject("_132622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6413,7 +6413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132623_tex {
+        internal static System.Drawing.Bitmap _132623_tex {
             get {
                 object obj = ResourceManager.GetObject("_132623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6423,7 +6423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132624_tex {
+        internal static System.Drawing.Bitmap _132624_tex {
             get {
                 object obj = ResourceManager.GetObject("_132624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6433,7 +6433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132625_tex {
+        internal static System.Drawing.Bitmap _132625_tex {
             get {
                 object obj = ResourceManager.GetObject("_132625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6443,7 +6443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132626_tex {
+        internal static System.Drawing.Bitmap _132626_tex {
             get {
                 object obj = ResourceManager.GetObject("_132626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6453,7 +6453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132627_tex {
+        internal static System.Drawing.Bitmap _132627_tex {
             get {
                 object obj = ResourceManager.GetObject("_132627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6463,7 +6463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132630_tex {
+        internal static System.Drawing.Bitmap _132630_tex {
             get {
                 object obj = ResourceManager.GetObject("_132630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6473,7 +6473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132631_tex {
+        internal static System.Drawing.Bitmap _132631_tex {
             get {
                 object obj = ResourceManager.GetObject("_132631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6483,7 +6483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132632_tex {
+        internal static System.Drawing.Bitmap _132632_tex {
             get {
                 object obj = ResourceManager.GetObject("_132632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6493,7 +6493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132633_tex {
+        internal static System.Drawing.Bitmap _132633_tex {
             get {
                 object obj = ResourceManager.GetObject("_132633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6503,7 +6503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132634_tex {
+        internal static System.Drawing.Bitmap _132634_tex {
             get {
                 object obj = ResourceManager.GetObject("_132634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6513,7 +6513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132635_tex {
+        internal static System.Drawing.Bitmap _132635_tex {
             get {
                 object obj = ResourceManager.GetObject("_132635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6523,7 +6523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132636_tex {
+        internal static System.Drawing.Bitmap _132636_tex {
             get {
                 object obj = ResourceManager.GetObject("_132636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6533,7 +6533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132637_tex {
+        internal static System.Drawing.Bitmap _132637_tex {
             get {
                 object obj = ResourceManager.GetObject("_132637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6543,7 +6543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132640_tex {
+        internal static System.Drawing.Bitmap _132640_tex {
             get {
                 object obj = ResourceManager.GetObject("_132640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6553,7 +6553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132641_tex {
+        internal static System.Drawing.Bitmap _132641_tex {
             get {
                 object obj = ResourceManager.GetObject("_132641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6563,7 +6563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132642_tex {
+        internal static System.Drawing.Bitmap _132642_tex {
             get {
                 object obj = ResourceManager.GetObject("_132642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6573,7 +6573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132643_tex {
+        internal static System.Drawing.Bitmap _132643_tex {
             get {
                 object obj = ResourceManager.GetObject("_132643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6583,7 +6583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132644_tex {
+        internal static System.Drawing.Bitmap _132644_tex {
             get {
                 object obj = ResourceManager.GetObject("_132644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6593,7 +6593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132645_tex {
+        internal static System.Drawing.Bitmap _132645_tex {
             get {
                 object obj = ResourceManager.GetObject("_132645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6603,7 +6603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132646_tex {
+        internal static System.Drawing.Bitmap _132646_tex {
             get {
                 object obj = ResourceManager.GetObject("_132646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6613,7 +6613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132647_tex {
+        internal static System.Drawing.Bitmap _132647_tex {
             get {
                 object obj = ResourceManager.GetObject("_132647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6623,7 +6623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132800_tex {
+        internal static System.Drawing.Bitmap _132800_tex {
             get {
                 object obj = ResourceManager.GetObject("_132800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6633,7 +6633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132801_tex {
+        internal static System.Drawing.Bitmap _132801_tex {
             get {
                 object obj = ResourceManager.GetObject("_132801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6643,7 +6643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132802_tex {
+        internal static System.Drawing.Bitmap _132802_tex {
             get {
                 object obj = ResourceManager.GetObject("_132802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6653,7 +6653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132803_tex {
+        internal static System.Drawing.Bitmap _132803_tex {
             get {
                 object obj = ResourceManager.GetObject("_132803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6663,7 +6663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132804_tex {
+        internal static System.Drawing.Bitmap _132804_tex {
             get {
                 object obj = ResourceManager.GetObject("_132804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6673,7 +6673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132810_tex {
+        internal static System.Drawing.Bitmap _132810_tex {
             get {
                 object obj = ResourceManager.GetObject("_132810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6683,7 +6683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132811_tex {
+        internal static System.Drawing.Bitmap _132811_tex {
             get {
                 object obj = ResourceManager.GetObject("_132811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6693,7 +6693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132812_tex {
+        internal static System.Drawing.Bitmap _132812_tex {
             get {
                 object obj = ResourceManager.GetObject("_132812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6703,7 +6703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132813_tex {
+        internal static System.Drawing.Bitmap _132813_tex {
             get {
                 object obj = ResourceManager.GetObject("_132813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6713,7 +6713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132814_tex {
+        internal static System.Drawing.Bitmap _132814_tex {
             get {
                 object obj = ResourceManager.GetObject("_132814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6723,7 +6723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132815_tex {
+        internal static System.Drawing.Bitmap _132815_tex {
             get {
                 object obj = ResourceManager.GetObject("_132815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6733,7 +6733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132816_tex {
+        internal static System.Drawing.Bitmap _132816_tex {
             get {
                 object obj = ResourceManager.GetObject("_132816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6743,7 +6743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132817_tex {
+        internal static System.Drawing.Bitmap _132817_tex {
             get {
                 object obj = ResourceManager.GetObject("_132817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6753,7 +6753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132820_tex {
+        internal static System.Drawing.Bitmap _132820_tex {
             get {
                 object obj = ResourceManager.GetObject("_132820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6763,7 +6763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132821_tex {
+        internal static System.Drawing.Bitmap _132821_tex {
             get {
                 object obj = ResourceManager.GetObject("_132821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6773,7 +6773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132822_tex {
+        internal static System.Drawing.Bitmap _132822_tex {
             get {
                 object obj = ResourceManager.GetObject("_132822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6783,7 +6783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132823_tex {
+        internal static System.Drawing.Bitmap _132823_tex {
             get {
                 object obj = ResourceManager.GetObject("_132823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6793,7 +6793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132824_tex {
+        internal static System.Drawing.Bitmap _132824_tex {
             get {
                 object obj = ResourceManager.GetObject("_132824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6803,7 +6803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132825_tex {
+        internal static System.Drawing.Bitmap _132825_tex {
             get {
                 object obj = ResourceManager.GetObject("_132825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6813,7 +6813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132826_tex {
+        internal static System.Drawing.Bitmap _132826_tex {
             get {
                 object obj = ResourceManager.GetObject("_132826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6823,7 +6823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132827_tex {
+        internal static System.Drawing.Bitmap _132827_tex {
             get {
                 object obj = ResourceManager.GetObject("_132827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6833,7 +6833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132830_tex {
+        internal static System.Drawing.Bitmap _132830_tex {
             get {
                 object obj = ResourceManager.GetObject("_132830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6843,7 +6843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132831_tex {
+        internal static System.Drawing.Bitmap _132831_tex {
             get {
                 object obj = ResourceManager.GetObject("_132831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6853,7 +6853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132832_tex {
+        internal static System.Drawing.Bitmap _132832_tex {
             get {
                 object obj = ResourceManager.GetObject("_132832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6863,7 +6863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132833_tex {
+        internal static System.Drawing.Bitmap _132833_tex {
             get {
                 object obj = ResourceManager.GetObject("_132833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6873,7 +6873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132834_tex {
+        internal static System.Drawing.Bitmap _132834_tex {
             get {
                 object obj = ResourceManager.GetObject("_132834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6883,7 +6883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132835_tex {
+        internal static System.Drawing.Bitmap _132835_tex {
             get {
                 object obj = ResourceManager.GetObject("_132835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6893,7 +6893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132836_tex {
+        internal static System.Drawing.Bitmap _132836_tex {
             get {
                 object obj = ResourceManager.GetObject("_132836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6903,7 +6903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132837_tex {
+        internal static System.Drawing.Bitmap _132837_tex {
             get {
                 object obj = ResourceManager.GetObject("_132837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6913,7 +6913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132840_tex {
+        internal static System.Drawing.Bitmap _132840_tex {
             get {
                 object obj = ResourceManager.GetObject("_132840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6923,7 +6923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132841_tex {
+        internal static System.Drawing.Bitmap _132841_tex {
             get {
                 object obj = ResourceManager.GetObject("_132841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6933,7 +6933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132842_tex {
+        internal static System.Drawing.Bitmap _132842_tex {
             get {
                 object obj = ResourceManager.GetObject("_132842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6943,7 +6943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132843_tex {
+        internal static System.Drawing.Bitmap _132843_tex {
             get {
                 object obj = ResourceManager.GetObject("_132843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6953,7 +6953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132844_tex {
+        internal static System.Drawing.Bitmap _132844_tex {
             get {
                 object obj = ResourceManager.GetObject("_132844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6963,7 +6963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132845_tex {
+        internal static System.Drawing.Bitmap _132845_tex {
             get {
                 object obj = ResourceManager.GetObject("_132845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6973,7 +6973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132846_tex {
+        internal static System.Drawing.Bitmap _132846_tex {
             get {
                 object obj = ResourceManager.GetObject("_132846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6983,7 +6983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _132847_tex {
+        internal static System.Drawing.Bitmap _132847_tex {
             get {
                 object obj = ResourceManager.GetObject("_132847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6993,7 +6993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133000_tex {
+        internal static System.Drawing.Bitmap _133000_tex {
             get {
                 object obj = ResourceManager.GetObject("_133000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7003,7 +7003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133001_tex {
+        internal static System.Drawing.Bitmap _133001_tex {
             get {
                 object obj = ResourceManager.GetObject("_133001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7013,7 +7013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133002_tex {
+        internal static System.Drawing.Bitmap _133002_tex {
             get {
                 object obj = ResourceManager.GetObject("_133002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7023,7 +7023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133003_tex {
+        internal static System.Drawing.Bitmap _133003_tex {
             get {
                 object obj = ResourceManager.GetObject("_133003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7033,7 +7033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133004_tex {
+        internal static System.Drawing.Bitmap _133004_tex {
             get {
                 object obj = ResourceManager.GetObject("_133004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7043,7 +7043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133005_tex {
+        internal static System.Drawing.Bitmap _133005_tex {
             get {
                 object obj = ResourceManager.GetObject("_133005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7053,7 +7053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133006_tex {
+        internal static System.Drawing.Bitmap _133006_tex {
             get {
                 object obj = ResourceManager.GetObject("_133006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7063,7 +7063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133007_tex {
+        internal static System.Drawing.Bitmap _133007_tex {
             get {
                 object obj = ResourceManager.GetObject("_133007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7073,7 +7073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133008_tex {
+        internal static System.Drawing.Bitmap _133008_tex {
             get {
                 object obj = ResourceManager.GetObject("_133008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7083,7 +7083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133009_tex {
+        internal static System.Drawing.Bitmap _133009_tex {
             get {
                 object obj = ResourceManager.GetObject("_133009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7093,7 +7093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133010_tex {
+        internal static System.Drawing.Bitmap _133010_tex {
             get {
                 object obj = ResourceManager.GetObject("_133010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7103,7 +7103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133011_tex {
+        internal static System.Drawing.Bitmap _133011_tex {
             get {
                 object obj = ResourceManager.GetObject("_133011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7113,7 +7113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133012_tex {
+        internal static System.Drawing.Bitmap _133012_tex {
             get {
                 object obj = ResourceManager.GetObject("_133012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7123,7 +7123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133013_tex {
+        internal static System.Drawing.Bitmap _133013_tex {
             get {
                 object obj = ResourceManager.GetObject("_133013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7133,7 +7133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133014_tex {
+        internal static System.Drawing.Bitmap _133014_tex {
             get {
                 object obj = ResourceManager.GetObject("_133014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7143,7 +7143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133015_tex {
+        internal static System.Drawing.Bitmap _133015_tex {
             get {
                 object obj = ResourceManager.GetObject("_133015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7153,7 +7153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133016_tex {
+        internal static System.Drawing.Bitmap _133016_tex {
             get {
                 object obj = ResourceManager.GetObject("_133016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7163,7 +7163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133017_tex {
+        internal static System.Drawing.Bitmap _133017_tex {
             get {
                 object obj = ResourceManager.GetObject("_133017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7173,7 +7173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133018_tex {
+        internal static System.Drawing.Bitmap _133018_tex {
             get {
                 object obj = ResourceManager.GetObject("_133018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7183,7 +7183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133019_tex {
+        internal static System.Drawing.Bitmap _133019_tex {
             get {
                 object obj = ResourceManager.GetObject("_133019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7193,7 +7193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133020_tex {
+        internal static System.Drawing.Bitmap _133020_tex {
             get {
                 object obj = ResourceManager.GetObject("_133020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7203,7 +7203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133021_tex {
+        internal static System.Drawing.Bitmap _133021_tex {
             get {
                 object obj = ResourceManager.GetObject("_133021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7213,7 +7213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133022_tex {
+        internal static System.Drawing.Bitmap _133022_tex {
             get {
                 object obj = ResourceManager.GetObject("_133022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7223,7 +7223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133023_tex {
+        internal static System.Drawing.Bitmap _133023_tex {
             get {
                 object obj = ResourceManager.GetObject("_133023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7233,7 +7233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133024_tex {
+        internal static System.Drawing.Bitmap _133024_tex {
             get {
                 object obj = ResourceManager.GetObject("_133024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7243,7 +7243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133025_tex {
+        internal static System.Drawing.Bitmap _133025_tex {
             get {
                 object obj = ResourceManager.GetObject("_133025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7253,7 +7253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133026_tex {
+        internal static System.Drawing.Bitmap _133026_tex {
             get {
                 object obj = ResourceManager.GetObject("_133026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7263,7 +7263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133027_tex {
+        internal static System.Drawing.Bitmap _133027_tex {
             get {
                 object obj = ResourceManager.GetObject("_133027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7273,7 +7273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133028_tex {
+        internal static System.Drawing.Bitmap _133028_tex {
             get {
                 object obj = ResourceManager.GetObject("_133028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7283,7 +7283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133029_tex {
+        internal static System.Drawing.Bitmap _133029_tex {
             get {
                 object obj = ResourceManager.GetObject("_133029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7293,7 +7293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133030_tex {
+        internal static System.Drawing.Bitmap _133030_tex {
             get {
                 object obj = ResourceManager.GetObject("_133030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7303,7 +7303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133031_tex {
+        internal static System.Drawing.Bitmap _133031_tex {
             get {
                 object obj = ResourceManager.GetObject("_133031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7313,7 +7313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133032_tex {
+        internal static System.Drawing.Bitmap _133032_tex {
             get {
                 object obj = ResourceManager.GetObject("_133032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7323,7 +7323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133033_tex {
+        internal static System.Drawing.Bitmap _133033_tex {
             get {
                 object obj = ResourceManager.GetObject("_133033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7333,7 +7333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133034_tex {
+        internal static System.Drawing.Bitmap _133034_tex {
             get {
                 object obj = ResourceManager.GetObject("_133034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7343,7 +7343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133035_tex {
+        internal static System.Drawing.Bitmap _133035_tex {
             get {
                 object obj = ResourceManager.GetObject("_133035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7353,7 +7353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133036_tex {
+        internal static System.Drawing.Bitmap _133036_tex {
             get {
                 object obj = ResourceManager.GetObject("_133036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7363,7 +7363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133037_tex {
+        internal static System.Drawing.Bitmap _133037_tex {
             get {
                 object obj = ResourceManager.GetObject("_133037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7373,7 +7373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133038_tex {
+        internal static System.Drawing.Bitmap _133038_tex {
             get {
                 object obj = ResourceManager.GetObject("_133038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7383,7 +7383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133039_tex {
+        internal static System.Drawing.Bitmap _133039_tex {
             get {
                 object obj = ResourceManager.GetObject("_133039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7393,7 +7393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133040_tex {
+        internal static System.Drawing.Bitmap _133040_tex {
             get {
                 object obj = ResourceManager.GetObject("_133040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7403,7 +7403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133041_tex {
+        internal static System.Drawing.Bitmap _133041_tex {
             get {
                 object obj = ResourceManager.GetObject("_133041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7413,7 +7413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133042_tex {
+        internal static System.Drawing.Bitmap _133042_tex {
             get {
                 object obj = ResourceManager.GetObject("_133042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7423,7 +7423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133043_tex {
+        internal static System.Drawing.Bitmap _133043_tex {
             get {
                 object obj = ResourceManager.GetObject("_133043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7433,7 +7433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133044_tex {
+        internal static System.Drawing.Bitmap _133044_tex {
             get {
                 object obj = ResourceManager.GetObject("_133044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7443,7 +7443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133045_tex {
+        internal static System.Drawing.Bitmap _133045_tex {
             get {
                 object obj = ResourceManager.GetObject("_133045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7453,7 +7453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133046_tex {
+        internal static System.Drawing.Bitmap _133046_tex {
             get {
                 object obj = ResourceManager.GetObject("_133046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7463,7 +7463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133047_tex {
+        internal static System.Drawing.Bitmap _133047_tex {
             get {
                 object obj = ResourceManager.GetObject("_133047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7473,7 +7473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133048_tex {
+        internal static System.Drawing.Bitmap _133048_tex {
             get {
                 object obj = ResourceManager.GetObject("_133048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7483,7 +7483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133049_tex {
+        internal static System.Drawing.Bitmap _133049_tex {
             get {
                 object obj = ResourceManager.GetObject("_133049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7493,7 +7493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133050_tex {
+        internal static System.Drawing.Bitmap _133050_tex {
             get {
                 object obj = ResourceManager.GetObject("_133050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7503,7 +7503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133051_tex {
+        internal static System.Drawing.Bitmap _133051_tex {
             get {
                 object obj = ResourceManager.GetObject("_133051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7513,7 +7513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133052_tex {
+        internal static System.Drawing.Bitmap _133052_tex {
             get {
                 object obj = ResourceManager.GetObject("_133052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7523,7 +7523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133053_tex {
+        internal static System.Drawing.Bitmap _133053_tex {
             get {
                 object obj = ResourceManager.GetObject("_133053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7533,7 +7533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133054_tex {
+        internal static System.Drawing.Bitmap _133054_tex {
             get {
                 object obj = ResourceManager.GetObject("_133054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7543,7 +7543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133055_tex {
+        internal static System.Drawing.Bitmap _133055_tex {
             get {
                 object obj = ResourceManager.GetObject("_133055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7553,7 +7553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133056_tex {
+        internal static System.Drawing.Bitmap _133056_tex {
             get {
                 object obj = ResourceManager.GetObject("_133056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7563,7 +7563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133057_tex {
+        internal static System.Drawing.Bitmap _133057_tex {
             get {
                 object obj = ResourceManager.GetObject("_133057_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7573,7 +7573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133058_tex {
+        internal static System.Drawing.Bitmap _133058_tex {
             get {
                 object obj = ResourceManager.GetObject("_133058_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7583,7 +7583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133100_tex {
+        internal static System.Drawing.Bitmap _133100_tex {
             get {
                 object obj = ResourceManager.GetObject("_133100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7593,7 +7593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133101_tex {
+        internal static System.Drawing.Bitmap _133101_tex {
             get {
                 object obj = ResourceManager.GetObject("_133101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7603,7 +7603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133102_tex {
+        internal static System.Drawing.Bitmap _133102_tex {
             get {
                 object obj = ResourceManager.GetObject("_133102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7613,7 +7613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133103_tex {
+        internal static System.Drawing.Bitmap _133103_tex {
             get {
                 object obj = ResourceManager.GetObject("_133103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7623,7 +7623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133104_tex {
+        internal static System.Drawing.Bitmap _133104_tex {
             get {
                 object obj = ResourceManager.GetObject("_133104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7633,7 +7633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133110_tex {
+        internal static System.Drawing.Bitmap _133110_tex {
             get {
                 object obj = ResourceManager.GetObject("_133110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7643,7 +7643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133111_tex {
+        internal static System.Drawing.Bitmap _133111_tex {
             get {
                 object obj = ResourceManager.GetObject("_133111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7653,7 +7653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133112_tex {
+        internal static System.Drawing.Bitmap _133112_tex {
             get {
                 object obj = ResourceManager.GetObject("_133112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7663,7 +7663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133113_tex {
+        internal static System.Drawing.Bitmap _133113_tex {
             get {
                 object obj = ResourceManager.GetObject("_133113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7673,7 +7673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133114_tex {
+        internal static System.Drawing.Bitmap _133114_tex {
             get {
                 object obj = ResourceManager.GetObject("_133114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7683,7 +7683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133115_tex {
+        internal static System.Drawing.Bitmap _133115_tex {
             get {
                 object obj = ResourceManager.GetObject("_133115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7693,7 +7693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133116_tex {
+        internal static System.Drawing.Bitmap _133116_tex {
             get {
                 object obj = ResourceManager.GetObject("_133116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7703,7 +7703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133117_tex {
+        internal static System.Drawing.Bitmap _133117_tex {
             get {
                 object obj = ResourceManager.GetObject("_133117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7713,7 +7713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133120_tex {
+        internal static System.Drawing.Bitmap _133120_tex {
             get {
                 object obj = ResourceManager.GetObject("_133120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7723,7 +7723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133121_tex {
+        internal static System.Drawing.Bitmap _133121_tex {
             get {
                 object obj = ResourceManager.GetObject("_133121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7733,7 +7733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133122_tex {
+        internal static System.Drawing.Bitmap _133122_tex {
             get {
                 object obj = ResourceManager.GetObject("_133122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7743,7 +7743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133123_tex {
+        internal static System.Drawing.Bitmap _133123_tex {
             get {
                 object obj = ResourceManager.GetObject("_133123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7753,7 +7753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133124_tex {
+        internal static System.Drawing.Bitmap _133124_tex {
             get {
                 object obj = ResourceManager.GetObject("_133124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7763,7 +7763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133125_tex {
+        internal static System.Drawing.Bitmap _133125_tex {
             get {
                 object obj = ResourceManager.GetObject("_133125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7773,7 +7773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133126_tex {
+        internal static System.Drawing.Bitmap _133126_tex {
             get {
                 object obj = ResourceManager.GetObject("_133126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7783,7 +7783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133127_tex {
+        internal static System.Drawing.Bitmap _133127_tex {
             get {
                 object obj = ResourceManager.GetObject("_133127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7793,7 +7793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133130_tex {
+        internal static System.Drawing.Bitmap _133130_tex {
             get {
                 object obj = ResourceManager.GetObject("_133130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7803,7 +7803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133131_tex {
+        internal static System.Drawing.Bitmap _133131_tex {
             get {
                 object obj = ResourceManager.GetObject("_133131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7813,7 +7813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133132_tex {
+        internal static System.Drawing.Bitmap _133132_tex {
             get {
                 object obj = ResourceManager.GetObject("_133132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7823,7 +7823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133133_tex {
+        internal static System.Drawing.Bitmap _133133_tex {
             get {
                 object obj = ResourceManager.GetObject("_133133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7833,7 +7833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133134_tex {
+        internal static System.Drawing.Bitmap _133134_tex {
             get {
                 object obj = ResourceManager.GetObject("_133134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7843,7 +7843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133135_tex {
+        internal static System.Drawing.Bitmap _133135_tex {
             get {
                 object obj = ResourceManager.GetObject("_133135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7853,7 +7853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133136_tex {
+        internal static System.Drawing.Bitmap _133136_tex {
             get {
                 object obj = ResourceManager.GetObject("_133136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7863,7 +7863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133137_tex {
+        internal static System.Drawing.Bitmap _133137_tex {
             get {
                 object obj = ResourceManager.GetObject("_133137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7873,7 +7873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133140_tex {
+        internal static System.Drawing.Bitmap _133140_tex {
             get {
                 object obj = ResourceManager.GetObject("_133140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7883,7 +7883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133141_tex {
+        internal static System.Drawing.Bitmap _133141_tex {
             get {
                 object obj = ResourceManager.GetObject("_133141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7893,7 +7893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133142_tex {
+        internal static System.Drawing.Bitmap _133142_tex {
             get {
                 object obj = ResourceManager.GetObject("_133142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7903,7 +7903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133143_tex {
+        internal static System.Drawing.Bitmap _133143_tex {
             get {
                 object obj = ResourceManager.GetObject("_133143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7913,7 +7913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133144_tex {
+        internal static System.Drawing.Bitmap _133144_tex {
             get {
                 object obj = ResourceManager.GetObject("_133144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7923,7 +7923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133145_tex {
+        internal static System.Drawing.Bitmap _133145_tex {
             get {
                 object obj = ResourceManager.GetObject("_133145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7933,7 +7933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133146_tex {
+        internal static System.Drawing.Bitmap _133146_tex {
             get {
                 object obj = ResourceManager.GetObject("_133146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7943,7 +7943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133147_tex {
+        internal static System.Drawing.Bitmap _133147_tex {
             get {
                 object obj = ResourceManager.GetObject("_133147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7953,7 +7953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133200_tex {
+        internal static System.Drawing.Bitmap _133200_tex {
             get {
                 object obj = ResourceManager.GetObject("_133200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7963,7 +7963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133201_tex {
+        internal static System.Drawing.Bitmap _133201_tex {
             get {
                 object obj = ResourceManager.GetObject("_133201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7973,7 +7973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133202_tex {
+        internal static System.Drawing.Bitmap _133202_tex {
             get {
                 object obj = ResourceManager.GetObject("_133202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7983,7 +7983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133203_tex {
+        internal static System.Drawing.Bitmap _133203_tex {
             get {
                 object obj = ResourceManager.GetObject("_133203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7993,7 +7993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133204_tex {
+        internal static System.Drawing.Bitmap _133204_tex {
             get {
                 object obj = ResourceManager.GetObject("_133204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8003,7 +8003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133205_tex {
+        internal static System.Drawing.Bitmap _133205_tex {
             get {
                 object obj = ResourceManager.GetObject("_133205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8013,7 +8013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133206_tex {
+        internal static System.Drawing.Bitmap _133206_tex {
             get {
                 object obj = ResourceManager.GetObject("_133206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8023,7 +8023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133207_tex {
+        internal static System.Drawing.Bitmap _133207_tex {
             get {
                 object obj = ResourceManager.GetObject("_133207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8033,7 +8033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133208_tex {
+        internal static System.Drawing.Bitmap _133208_tex {
             get {
                 object obj = ResourceManager.GetObject("_133208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8043,7 +8043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133209_tex {
+        internal static System.Drawing.Bitmap _133209_tex {
             get {
                 object obj = ResourceManager.GetObject("_133209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8053,7 +8053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133210_tex {
+        internal static System.Drawing.Bitmap _133210_tex {
             get {
                 object obj = ResourceManager.GetObject("_133210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8063,7 +8063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133211_tex {
+        internal static System.Drawing.Bitmap _133211_tex {
             get {
                 object obj = ResourceManager.GetObject("_133211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8073,7 +8073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133212_tex {
+        internal static System.Drawing.Bitmap _133212_tex {
             get {
                 object obj = ResourceManager.GetObject("_133212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8083,7 +8083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133213_tex {
+        internal static System.Drawing.Bitmap _133213_tex {
             get {
                 object obj = ResourceManager.GetObject("_133213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8093,7 +8093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133214_tex {
+        internal static System.Drawing.Bitmap _133214_tex {
             get {
                 object obj = ResourceManager.GetObject("_133214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8103,7 +8103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133215_tex {
+        internal static System.Drawing.Bitmap _133215_tex {
             get {
                 object obj = ResourceManager.GetObject("_133215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8113,7 +8113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133216_tex {
+        internal static System.Drawing.Bitmap _133216_tex {
             get {
                 object obj = ResourceManager.GetObject("_133216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8123,7 +8123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133217_tex {
+        internal static System.Drawing.Bitmap _133217_tex {
             get {
                 object obj = ResourceManager.GetObject("_133217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8133,7 +8133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133218_tex {
+        internal static System.Drawing.Bitmap _133218_tex {
             get {
                 object obj = ResourceManager.GetObject("_133218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8143,7 +8143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133219_tex {
+        internal static System.Drawing.Bitmap _133219_tex {
             get {
                 object obj = ResourceManager.GetObject("_133219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8153,7 +8153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133220_tex {
+        internal static System.Drawing.Bitmap _133220_tex {
             get {
                 object obj = ResourceManager.GetObject("_133220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8163,7 +8163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133221_tex {
+        internal static System.Drawing.Bitmap _133221_tex {
             get {
                 object obj = ResourceManager.GetObject("_133221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8173,7 +8173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133222_tex {
+        internal static System.Drawing.Bitmap _133222_tex {
             get {
                 object obj = ResourceManager.GetObject("_133222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8183,7 +8183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133223_tex {
+        internal static System.Drawing.Bitmap _133223_tex {
             get {
                 object obj = ResourceManager.GetObject("_133223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8193,7 +8193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133224_tex {
+        internal static System.Drawing.Bitmap _133224_tex {
             get {
                 object obj = ResourceManager.GetObject("_133224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8203,7 +8203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133225_tex {
+        internal static System.Drawing.Bitmap _133225_tex {
             get {
                 object obj = ResourceManager.GetObject("_133225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8213,7 +8213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133226_tex {
+        internal static System.Drawing.Bitmap _133226_tex {
             get {
                 object obj = ResourceManager.GetObject("_133226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8223,7 +8223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133227_tex {
+        internal static System.Drawing.Bitmap _133227_tex {
             get {
                 object obj = ResourceManager.GetObject("_133227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8233,7 +8233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133228_tex {
+        internal static System.Drawing.Bitmap _133228_tex {
             get {
                 object obj = ResourceManager.GetObject("_133228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8243,7 +8243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133229_tex {
+        internal static System.Drawing.Bitmap _133229_tex {
             get {
                 object obj = ResourceManager.GetObject("_133229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8253,7 +8253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133230_tex {
+        internal static System.Drawing.Bitmap _133230_tex {
             get {
                 object obj = ResourceManager.GetObject("_133230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8263,7 +8263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133231_tex {
+        internal static System.Drawing.Bitmap _133231_tex {
             get {
                 object obj = ResourceManager.GetObject("_133231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8273,7 +8273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133232_tex {
+        internal static System.Drawing.Bitmap _133232_tex {
             get {
                 object obj = ResourceManager.GetObject("_133232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8283,7 +8283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133233_tex {
+        internal static System.Drawing.Bitmap _133233_tex {
             get {
                 object obj = ResourceManager.GetObject("_133233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8293,7 +8293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133234_tex {
+        internal static System.Drawing.Bitmap _133234_tex {
             get {
                 object obj = ResourceManager.GetObject("_133234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8303,7 +8303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133235_tex {
+        internal static System.Drawing.Bitmap _133235_tex {
             get {
                 object obj = ResourceManager.GetObject("_133235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8313,7 +8313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133236_tex {
+        internal static System.Drawing.Bitmap _133236_tex {
             get {
                 object obj = ResourceManager.GetObject("_133236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8323,7 +8323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133237_tex {
+        internal static System.Drawing.Bitmap _133237_tex {
             get {
                 object obj = ResourceManager.GetObject("_133237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8333,7 +8333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133238_tex {
+        internal static System.Drawing.Bitmap _133238_tex {
             get {
                 object obj = ResourceManager.GetObject("_133238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8343,7 +8343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133239_tex {
+        internal static System.Drawing.Bitmap _133239_tex {
             get {
                 object obj = ResourceManager.GetObject("_133239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8353,7 +8353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133240_tex {
+        internal static System.Drawing.Bitmap _133240_tex {
             get {
                 object obj = ResourceManager.GetObject("_133240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8363,7 +8363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133241_tex {
+        internal static System.Drawing.Bitmap _133241_tex {
             get {
                 object obj = ResourceManager.GetObject("_133241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8373,7 +8373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133242_tex {
+        internal static System.Drawing.Bitmap _133242_tex {
             get {
                 object obj = ResourceManager.GetObject("_133242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8383,7 +8383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133243_tex {
+        internal static System.Drawing.Bitmap _133243_tex {
             get {
                 object obj = ResourceManager.GetObject("_133243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8393,7 +8393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133244_tex {
+        internal static System.Drawing.Bitmap _133244_tex {
             get {
                 object obj = ResourceManager.GetObject("_133244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8403,7 +8403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133245_tex {
+        internal static System.Drawing.Bitmap _133245_tex {
             get {
                 object obj = ResourceManager.GetObject("_133245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8413,7 +8413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133246_tex {
+        internal static System.Drawing.Bitmap _133246_tex {
             get {
                 object obj = ResourceManager.GetObject("_133246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8423,7 +8423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133247_tex {
+        internal static System.Drawing.Bitmap _133247_tex {
             get {
                 object obj = ResourceManager.GetObject("_133247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8433,7 +8433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133248_tex {
+        internal static System.Drawing.Bitmap _133248_tex {
             get {
                 object obj = ResourceManager.GetObject("_133248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8443,7 +8443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133249_tex {
+        internal static System.Drawing.Bitmap _133249_tex {
             get {
                 object obj = ResourceManager.GetObject("_133249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8453,7 +8453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133250_tex {
+        internal static System.Drawing.Bitmap _133250_tex {
             get {
                 object obj = ResourceManager.GetObject("_133250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8463,7 +8463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133251_tex {
+        internal static System.Drawing.Bitmap _133251_tex {
             get {
                 object obj = ResourceManager.GetObject("_133251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8473,7 +8473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133252_tex {
+        internal static System.Drawing.Bitmap _133252_tex {
             get {
                 object obj = ResourceManager.GetObject("_133252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8483,7 +8483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133253_tex {
+        internal static System.Drawing.Bitmap _133253_tex {
             get {
                 object obj = ResourceManager.GetObject("_133253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8493,7 +8493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133254_tex {
+        internal static System.Drawing.Bitmap _133254_tex {
             get {
                 object obj = ResourceManager.GetObject("_133254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8503,7 +8503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133255_tex {
+        internal static System.Drawing.Bitmap _133255_tex {
             get {
                 object obj = ResourceManager.GetObject("_133255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8513,7 +8513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133256_tex {
+        internal static System.Drawing.Bitmap _133256_tex {
             get {
                 object obj = ResourceManager.GetObject("_133256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8523,7 +8523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133257_tex {
+        internal static System.Drawing.Bitmap _133257_tex {
             get {
                 object obj = ResourceManager.GetObject("_133257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8533,7 +8533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133258_tex {
+        internal static System.Drawing.Bitmap _133258_tex {
             get {
                 object obj = ResourceManager.GetObject("_133258_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8543,7 +8543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133259_tex {
+        internal static System.Drawing.Bitmap _133259_tex {
             get {
                 object obj = ResourceManager.GetObject("_133259_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8553,7 +8553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133260_tex {
+        internal static System.Drawing.Bitmap _133260_tex {
             get {
                 object obj = ResourceManager.GetObject("_133260_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8563,7 +8563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133261_tex {
+        internal static System.Drawing.Bitmap _133261_tex {
             get {
                 object obj = ResourceManager.GetObject("_133261_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8573,7 +8573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133262_tex {
+        internal static System.Drawing.Bitmap _133262_tex {
             get {
                 object obj = ResourceManager.GetObject("_133262_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8583,7 +8583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133300_tex {
+        internal static System.Drawing.Bitmap _133300_tex {
             get {
                 object obj = ResourceManager.GetObject("_133300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8593,7 +8593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133301_tex {
+        internal static System.Drawing.Bitmap _133301_tex {
             get {
                 object obj = ResourceManager.GetObject("_133301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8603,7 +8603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133302_tex {
+        internal static System.Drawing.Bitmap _133302_tex {
             get {
                 object obj = ResourceManager.GetObject("_133302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8613,7 +8613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133303_tex {
+        internal static System.Drawing.Bitmap _133303_tex {
             get {
                 object obj = ResourceManager.GetObject("_133303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8623,7 +8623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133304_tex {
+        internal static System.Drawing.Bitmap _133304_tex {
             get {
                 object obj = ResourceManager.GetObject("_133304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8633,7 +8633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133310_tex {
+        internal static System.Drawing.Bitmap _133310_tex {
             get {
                 object obj = ResourceManager.GetObject("_133310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8643,7 +8643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133311_tex {
+        internal static System.Drawing.Bitmap _133311_tex {
             get {
                 object obj = ResourceManager.GetObject("_133311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8653,7 +8653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133312_tex {
+        internal static System.Drawing.Bitmap _133312_tex {
             get {
                 object obj = ResourceManager.GetObject("_133312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8663,7 +8663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133313_tex {
+        internal static System.Drawing.Bitmap _133313_tex {
             get {
                 object obj = ResourceManager.GetObject("_133313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8673,7 +8673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133314_tex {
+        internal static System.Drawing.Bitmap _133314_tex {
             get {
                 object obj = ResourceManager.GetObject("_133314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8683,7 +8683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133315_tex {
+        internal static System.Drawing.Bitmap _133315_tex {
             get {
                 object obj = ResourceManager.GetObject("_133315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8693,7 +8693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133316_tex {
+        internal static System.Drawing.Bitmap _133316_tex {
             get {
                 object obj = ResourceManager.GetObject("_133316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8703,7 +8703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133317_tex {
+        internal static System.Drawing.Bitmap _133317_tex {
             get {
                 object obj = ResourceManager.GetObject("_133317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8713,7 +8713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133320_tex {
+        internal static System.Drawing.Bitmap _133320_tex {
             get {
                 object obj = ResourceManager.GetObject("_133320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8723,7 +8723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133321_tex {
+        internal static System.Drawing.Bitmap _133321_tex {
             get {
                 object obj = ResourceManager.GetObject("_133321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8733,7 +8733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133322_tex {
+        internal static System.Drawing.Bitmap _133322_tex {
             get {
                 object obj = ResourceManager.GetObject("_133322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8743,7 +8743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133323_tex {
+        internal static System.Drawing.Bitmap _133323_tex {
             get {
                 object obj = ResourceManager.GetObject("_133323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8753,7 +8753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133324_tex {
+        internal static System.Drawing.Bitmap _133324_tex {
             get {
                 object obj = ResourceManager.GetObject("_133324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8763,7 +8763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133325_tex {
+        internal static System.Drawing.Bitmap _133325_tex {
             get {
                 object obj = ResourceManager.GetObject("_133325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8773,7 +8773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133326_tex {
+        internal static System.Drawing.Bitmap _133326_tex {
             get {
                 object obj = ResourceManager.GetObject("_133326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8783,7 +8783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133327_tex {
+        internal static System.Drawing.Bitmap _133327_tex {
             get {
                 object obj = ResourceManager.GetObject("_133327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8793,7 +8793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133330_tex {
+        internal static System.Drawing.Bitmap _133330_tex {
             get {
                 object obj = ResourceManager.GetObject("_133330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8803,7 +8803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133331_tex {
+        internal static System.Drawing.Bitmap _133331_tex {
             get {
                 object obj = ResourceManager.GetObject("_133331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8813,7 +8813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133332_tex {
+        internal static System.Drawing.Bitmap _133332_tex {
             get {
                 object obj = ResourceManager.GetObject("_133332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8823,7 +8823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133333_tex {
+        internal static System.Drawing.Bitmap _133333_tex {
             get {
                 object obj = ResourceManager.GetObject("_133333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8833,7 +8833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133334_tex {
+        internal static System.Drawing.Bitmap _133334_tex {
             get {
                 object obj = ResourceManager.GetObject("_133334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8843,7 +8843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133335_tex {
+        internal static System.Drawing.Bitmap _133335_tex {
             get {
                 object obj = ResourceManager.GetObject("_133335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8853,7 +8853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133336_tex {
+        internal static System.Drawing.Bitmap _133336_tex {
             get {
                 object obj = ResourceManager.GetObject("_133336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8863,7 +8863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133337_tex {
+        internal static System.Drawing.Bitmap _133337_tex {
             get {
                 object obj = ResourceManager.GetObject("_133337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8873,7 +8873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133340_tex {
+        internal static System.Drawing.Bitmap _133340_tex {
             get {
                 object obj = ResourceManager.GetObject("_133340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8883,7 +8883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133341_tex {
+        internal static System.Drawing.Bitmap _133341_tex {
             get {
                 object obj = ResourceManager.GetObject("_133341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8893,7 +8893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133342_tex {
+        internal static System.Drawing.Bitmap _133342_tex {
             get {
                 object obj = ResourceManager.GetObject("_133342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8903,7 +8903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133343_tex {
+        internal static System.Drawing.Bitmap _133343_tex {
             get {
                 object obj = ResourceManager.GetObject("_133343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8913,7 +8913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133344_tex {
+        internal static System.Drawing.Bitmap _133344_tex {
             get {
                 object obj = ResourceManager.GetObject("_133344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8923,7 +8923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133345_tex {
+        internal static System.Drawing.Bitmap _133345_tex {
             get {
                 object obj = ResourceManager.GetObject("_133345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8933,7 +8933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133346_tex {
+        internal static System.Drawing.Bitmap _133346_tex {
             get {
                 object obj = ResourceManager.GetObject("_133346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8943,7 +8943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133347_tex {
+        internal static System.Drawing.Bitmap _133347_tex {
             get {
                 object obj = ResourceManager.GetObject("_133347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8953,7 +8953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133600_tex {
+        internal static System.Drawing.Bitmap _133600_tex {
             get {
                 object obj = ResourceManager.GetObject("_133600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8963,7 +8963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133601_tex {
+        internal static System.Drawing.Bitmap _133601_tex {
             get {
                 object obj = ResourceManager.GetObject("_133601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8973,7 +8973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133602_tex {
+        internal static System.Drawing.Bitmap _133602_tex {
             get {
                 object obj = ResourceManager.GetObject("_133602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8983,7 +8983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133603_tex {
+        internal static System.Drawing.Bitmap _133603_tex {
             get {
                 object obj = ResourceManager.GetObject("_133603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8993,7 +8993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133604_tex {
+        internal static System.Drawing.Bitmap _133604_tex {
             get {
                 object obj = ResourceManager.GetObject("_133604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9003,7 +9003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133610_tex {
+        internal static System.Drawing.Bitmap _133610_tex {
             get {
                 object obj = ResourceManager.GetObject("_133610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9013,7 +9013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133611_tex {
+        internal static System.Drawing.Bitmap _133611_tex {
             get {
                 object obj = ResourceManager.GetObject("_133611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9023,7 +9023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133612_tex {
+        internal static System.Drawing.Bitmap _133612_tex {
             get {
                 object obj = ResourceManager.GetObject("_133612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9033,7 +9033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133613_tex {
+        internal static System.Drawing.Bitmap _133613_tex {
             get {
                 object obj = ResourceManager.GetObject("_133613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9043,7 +9043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133614_tex {
+        internal static System.Drawing.Bitmap _133614_tex {
             get {
                 object obj = ResourceManager.GetObject("_133614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9053,7 +9053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133615_tex {
+        internal static System.Drawing.Bitmap _133615_tex {
             get {
                 object obj = ResourceManager.GetObject("_133615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9063,7 +9063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133616_tex {
+        internal static System.Drawing.Bitmap _133616_tex {
             get {
                 object obj = ResourceManager.GetObject("_133616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9073,7 +9073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133617_tex {
+        internal static System.Drawing.Bitmap _133617_tex {
             get {
                 object obj = ResourceManager.GetObject("_133617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9083,7 +9083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133620_tex {
+        internal static System.Drawing.Bitmap _133620_tex {
             get {
                 object obj = ResourceManager.GetObject("_133620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9093,7 +9093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133621_tex {
+        internal static System.Drawing.Bitmap _133621_tex {
             get {
                 object obj = ResourceManager.GetObject("_133621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9103,7 +9103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133622_tex {
+        internal static System.Drawing.Bitmap _133622_tex {
             get {
                 object obj = ResourceManager.GetObject("_133622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9113,7 +9113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133623_tex {
+        internal static System.Drawing.Bitmap _133623_tex {
             get {
                 object obj = ResourceManager.GetObject("_133623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9123,7 +9123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133624_tex {
+        internal static System.Drawing.Bitmap _133624_tex {
             get {
                 object obj = ResourceManager.GetObject("_133624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9133,7 +9133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133625_tex {
+        internal static System.Drawing.Bitmap _133625_tex {
             get {
                 object obj = ResourceManager.GetObject("_133625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9143,7 +9143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133626_tex {
+        internal static System.Drawing.Bitmap _133626_tex {
             get {
                 object obj = ResourceManager.GetObject("_133626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9153,7 +9153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133627_tex {
+        internal static System.Drawing.Bitmap _133627_tex {
             get {
                 object obj = ResourceManager.GetObject("_133627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9163,7 +9163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133630_tex {
+        internal static System.Drawing.Bitmap _133630_tex {
             get {
                 object obj = ResourceManager.GetObject("_133630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9173,7 +9173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133631_tex {
+        internal static System.Drawing.Bitmap _133631_tex {
             get {
                 object obj = ResourceManager.GetObject("_133631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9183,7 +9183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133632_tex {
+        internal static System.Drawing.Bitmap _133632_tex {
             get {
                 object obj = ResourceManager.GetObject("_133632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9193,7 +9193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133633_tex {
+        internal static System.Drawing.Bitmap _133633_tex {
             get {
                 object obj = ResourceManager.GetObject("_133633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9203,7 +9203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133634_tex {
+        internal static System.Drawing.Bitmap _133634_tex {
             get {
                 object obj = ResourceManager.GetObject("_133634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9213,7 +9213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133635_tex {
+        internal static System.Drawing.Bitmap _133635_tex {
             get {
                 object obj = ResourceManager.GetObject("_133635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9223,7 +9223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133636_tex {
+        internal static System.Drawing.Bitmap _133636_tex {
             get {
                 object obj = ResourceManager.GetObject("_133636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9233,7 +9233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133637_tex {
+        internal static System.Drawing.Bitmap _133637_tex {
             get {
                 object obj = ResourceManager.GetObject("_133637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9243,7 +9243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133640_tex {
+        internal static System.Drawing.Bitmap _133640_tex {
             get {
                 object obj = ResourceManager.GetObject("_133640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9253,7 +9253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133641_tex {
+        internal static System.Drawing.Bitmap _133641_tex {
             get {
                 object obj = ResourceManager.GetObject("_133641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9263,7 +9263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133642_tex {
+        internal static System.Drawing.Bitmap _133642_tex {
             get {
                 object obj = ResourceManager.GetObject("_133642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9273,7 +9273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133643_tex {
+        internal static System.Drawing.Bitmap _133643_tex {
             get {
                 object obj = ResourceManager.GetObject("_133643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9283,7 +9283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133644_tex {
+        internal static System.Drawing.Bitmap _133644_tex {
             get {
                 object obj = ResourceManager.GetObject("_133644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9293,7 +9293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133645_tex {
+        internal static System.Drawing.Bitmap _133645_tex {
             get {
                 object obj = ResourceManager.GetObject("_133645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9303,7 +9303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133646_tex {
+        internal static System.Drawing.Bitmap _133646_tex {
             get {
                 object obj = ResourceManager.GetObject("_133646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9313,7 +9313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133647_tex {
+        internal static System.Drawing.Bitmap _133647_tex {
             get {
                 object obj = ResourceManager.GetObject("_133647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9323,7 +9323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133800_tex {
+        internal static System.Drawing.Bitmap _133800_tex {
             get {
                 object obj = ResourceManager.GetObject("_133800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9333,7 +9333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133801_tex {
+        internal static System.Drawing.Bitmap _133801_tex {
             get {
                 object obj = ResourceManager.GetObject("_133801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9343,7 +9343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133802_tex {
+        internal static System.Drawing.Bitmap _133802_tex {
             get {
                 object obj = ResourceManager.GetObject("_133802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9353,7 +9353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133803_tex {
+        internal static System.Drawing.Bitmap _133803_tex {
             get {
                 object obj = ResourceManager.GetObject("_133803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9363,7 +9363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133804_tex {
+        internal static System.Drawing.Bitmap _133804_tex {
             get {
                 object obj = ResourceManager.GetObject("_133804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9373,7 +9373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133810_tex {
+        internal static System.Drawing.Bitmap _133810_tex {
             get {
                 object obj = ResourceManager.GetObject("_133810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9383,7 +9383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133811_tex {
+        internal static System.Drawing.Bitmap _133811_tex {
             get {
                 object obj = ResourceManager.GetObject("_133811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9393,7 +9393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133812_tex {
+        internal static System.Drawing.Bitmap _133812_tex {
             get {
                 object obj = ResourceManager.GetObject("_133812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9403,7 +9403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133813_tex {
+        internal static System.Drawing.Bitmap _133813_tex {
             get {
                 object obj = ResourceManager.GetObject("_133813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9413,7 +9413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133814_tex {
+        internal static System.Drawing.Bitmap _133814_tex {
             get {
                 object obj = ResourceManager.GetObject("_133814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9423,7 +9423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133815_tex {
+        internal static System.Drawing.Bitmap _133815_tex {
             get {
                 object obj = ResourceManager.GetObject("_133815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9433,7 +9433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133816_tex {
+        internal static System.Drawing.Bitmap _133816_tex {
             get {
                 object obj = ResourceManager.GetObject("_133816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9443,7 +9443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133817_tex {
+        internal static System.Drawing.Bitmap _133817_tex {
             get {
                 object obj = ResourceManager.GetObject("_133817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9453,7 +9453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133820_tex {
+        internal static System.Drawing.Bitmap _133820_tex {
             get {
                 object obj = ResourceManager.GetObject("_133820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9463,7 +9463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133821_tex {
+        internal static System.Drawing.Bitmap _133821_tex {
             get {
                 object obj = ResourceManager.GetObject("_133821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9473,7 +9473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133822_tex {
+        internal static System.Drawing.Bitmap _133822_tex {
             get {
                 object obj = ResourceManager.GetObject("_133822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9483,7 +9483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133823_tex {
+        internal static System.Drawing.Bitmap _133823_tex {
             get {
                 object obj = ResourceManager.GetObject("_133823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9493,7 +9493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133824_tex {
+        internal static System.Drawing.Bitmap _133824_tex {
             get {
                 object obj = ResourceManager.GetObject("_133824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9503,7 +9503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133825_tex {
+        internal static System.Drawing.Bitmap _133825_tex {
             get {
                 object obj = ResourceManager.GetObject("_133825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9513,7 +9513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133826_tex {
+        internal static System.Drawing.Bitmap _133826_tex {
             get {
                 object obj = ResourceManager.GetObject("_133826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9523,7 +9523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133827_tex {
+        internal static System.Drawing.Bitmap _133827_tex {
             get {
                 object obj = ResourceManager.GetObject("_133827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9533,7 +9533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133830_tex {
+        internal static System.Drawing.Bitmap _133830_tex {
             get {
                 object obj = ResourceManager.GetObject("_133830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9543,7 +9543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133831_tex {
+        internal static System.Drawing.Bitmap _133831_tex {
             get {
                 object obj = ResourceManager.GetObject("_133831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9553,7 +9553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133832_tex {
+        internal static System.Drawing.Bitmap _133832_tex {
             get {
                 object obj = ResourceManager.GetObject("_133832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9563,7 +9563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133833_tex {
+        internal static System.Drawing.Bitmap _133833_tex {
             get {
                 object obj = ResourceManager.GetObject("_133833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9573,7 +9573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133834_tex {
+        internal static System.Drawing.Bitmap _133834_tex {
             get {
                 object obj = ResourceManager.GetObject("_133834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9583,7 +9583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133835_tex {
+        internal static System.Drawing.Bitmap _133835_tex {
             get {
                 object obj = ResourceManager.GetObject("_133835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9593,7 +9593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133836_tex {
+        internal static System.Drawing.Bitmap _133836_tex {
             get {
                 object obj = ResourceManager.GetObject("_133836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9603,7 +9603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133837_tex {
+        internal static System.Drawing.Bitmap _133837_tex {
             get {
                 object obj = ResourceManager.GetObject("_133837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9613,7 +9613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133840_tex {
+        internal static System.Drawing.Bitmap _133840_tex {
             get {
                 object obj = ResourceManager.GetObject("_133840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9623,7 +9623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133841_tex {
+        internal static System.Drawing.Bitmap _133841_tex {
             get {
                 object obj = ResourceManager.GetObject("_133841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9633,7 +9633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133842_tex {
+        internal static System.Drawing.Bitmap _133842_tex {
             get {
                 object obj = ResourceManager.GetObject("_133842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9643,7 +9643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133843_tex {
+        internal static System.Drawing.Bitmap _133843_tex {
             get {
                 object obj = ResourceManager.GetObject("_133843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9653,7 +9653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133844_tex {
+        internal static System.Drawing.Bitmap _133844_tex {
             get {
                 object obj = ResourceManager.GetObject("_133844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9663,7 +9663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133845_tex {
+        internal static System.Drawing.Bitmap _133845_tex {
             get {
                 object obj = ResourceManager.GetObject("_133845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9673,7 +9673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133846_tex {
+        internal static System.Drawing.Bitmap _133846_tex {
             get {
                 object obj = ResourceManager.GetObject("_133846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9683,7 +9683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _133847_tex {
+        internal static System.Drawing.Bitmap _133847_tex {
             get {
                 object obj = ResourceManager.GetObject("_133847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9693,7 +9693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134000_tex {
+        internal static System.Drawing.Bitmap _134000_tex {
             get {
                 object obj = ResourceManager.GetObject("_134000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9703,7 +9703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134001_tex {
+        internal static System.Drawing.Bitmap _134001_tex {
             get {
                 object obj = ResourceManager.GetObject("_134001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9713,7 +9713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134002_tex {
+        internal static System.Drawing.Bitmap _134002_tex {
             get {
                 object obj = ResourceManager.GetObject("_134002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9723,7 +9723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134003_tex {
+        internal static System.Drawing.Bitmap _134003_tex {
             get {
                 object obj = ResourceManager.GetObject("_134003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9733,7 +9733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134004_tex {
+        internal static System.Drawing.Bitmap _134004_tex {
             get {
                 object obj = ResourceManager.GetObject("_134004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9743,7 +9743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134005_tex {
+        internal static System.Drawing.Bitmap _134005_tex {
             get {
                 object obj = ResourceManager.GetObject("_134005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9753,7 +9753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134006_tex {
+        internal static System.Drawing.Bitmap _134006_tex {
             get {
                 object obj = ResourceManager.GetObject("_134006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9763,7 +9763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134007_tex {
+        internal static System.Drawing.Bitmap _134007_tex {
             get {
                 object obj = ResourceManager.GetObject("_134007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9773,7 +9773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134008_tex {
+        internal static System.Drawing.Bitmap _134008_tex {
             get {
                 object obj = ResourceManager.GetObject("_134008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9783,7 +9783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134009_tex {
+        internal static System.Drawing.Bitmap _134009_tex {
             get {
                 object obj = ResourceManager.GetObject("_134009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9793,7 +9793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134010_tex {
+        internal static System.Drawing.Bitmap _134010_tex {
             get {
                 object obj = ResourceManager.GetObject("_134010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9803,7 +9803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134011_tex {
+        internal static System.Drawing.Bitmap _134011_tex {
             get {
                 object obj = ResourceManager.GetObject("_134011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9813,7 +9813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134012_tex {
+        internal static System.Drawing.Bitmap _134012_tex {
             get {
                 object obj = ResourceManager.GetObject("_134012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9823,7 +9823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134013_tex {
+        internal static System.Drawing.Bitmap _134013_tex {
             get {
                 object obj = ResourceManager.GetObject("_134013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9833,7 +9833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134014_tex {
+        internal static System.Drawing.Bitmap _134014_tex {
             get {
                 object obj = ResourceManager.GetObject("_134014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9843,7 +9843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134015_tex {
+        internal static System.Drawing.Bitmap _134015_tex {
             get {
                 object obj = ResourceManager.GetObject("_134015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9853,7 +9853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134016_tex {
+        internal static System.Drawing.Bitmap _134016_tex {
             get {
                 object obj = ResourceManager.GetObject("_134016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9863,7 +9863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134017_tex {
+        internal static System.Drawing.Bitmap _134017_tex {
             get {
                 object obj = ResourceManager.GetObject("_134017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9873,7 +9873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134018_tex {
+        internal static System.Drawing.Bitmap _134018_tex {
             get {
                 object obj = ResourceManager.GetObject("_134018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9883,7 +9883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134019_tex {
+        internal static System.Drawing.Bitmap _134019_tex {
             get {
                 object obj = ResourceManager.GetObject("_134019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9893,7 +9893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134020_tex {
+        internal static System.Drawing.Bitmap _134020_tex {
             get {
                 object obj = ResourceManager.GetObject("_134020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9903,7 +9903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134021_tex {
+        internal static System.Drawing.Bitmap _134021_tex {
             get {
                 object obj = ResourceManager.GetObject("_134021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9913,7 +9913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134022_tex {
+        internal static System.Drawing.Bitmap _134022_tex {
             get {
                 object obj = ResourceManager.GetObject("_134022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9923,7 +9923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134023_tex {
+        internal static System.Drawing.Bitmap _134023_tex {
             get {
                 object obj = ResourceManager.GetObject("_134023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9933,7 +9933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134024_tex {
+        internal static System.Drawing.Bitmap _134024_tex {
             get {
                 object obj = ResourceManager.GetObject("_134024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9943,7 +9943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134025_tex {
+        internal static System.Drawing.Bitmap _134025_tex {
             get {
                 object obj = ResourceManager.GetObject("_134025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9953,7 +9953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134026_tex {
+        internal static System.Drawing.Bitmap _134026_tex {
             get {
                 object obj = ResourceManager.GetObject("_134026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9963,7 +9963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134027_tex {
+        internal static System.Drawing.Bitmap _134027_tex {
             get {
                 object obj = ResourceManager.GetObject("_134027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9973,7 +9973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134028_tex {
+        internal static System.Drawing.Bitmap _134028_tex {
             get {
                 object obj = ResourceManager.GetObject("_134028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9983,7 +9983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134029_tex {
+        internal static System.Drawing.Bitmap _134029_tex {
             get {
                 object obj = ResourceManager.GetObject("_134029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9993,7 +9993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134030_tex {
+        internal static System.Drawing.Bitmap _134030_tex {
             get {
                 object obj = ResourceManager.GetObject("_134030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10003,7 +10003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134031_tex {
+        internal static System.Drawing.Bitmap _134031_tex {
             get {
                 object obj = ResourceManager.GetObject("_134031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10013,7 +10013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134032_tex {
+        internal static System.Drawing.Bitmap _134032_tex {
             get {
                 object obj = ResourceManager.GetObject("_134032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10023,7 +10023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134033_tex {
+        internal static System.Drawing.Bitmap _134033_tex {
             get {
                 object obj = ResourceManager.GetObject("_134033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10033,7 +10033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134034_tex {
+        internal static System.Drawing.Bitmap _134034_tex {
             get {
                 object obj = ResourceManager.GetObject("_134034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10043,7 +10043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134035_tex {
+        internal static System.Drawing.Bitmap _134035_tex {
             get {
                 object obj = ResourceManager.GetObject("_134035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10053,7 +10053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134036_tex {
+        internal static System.Drawing.Bitmap _134036_tex {
             get {
                 object obj = ResourceManager.GetObject("_134036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10063,7 +10063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134037_tex {
+        internal static System.Drawing.Bitmap _134037_tex {
             get {
                 object obj = ResourceManager.GetObject("_134037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10073,7 +10073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134038_tex {
+        internal static System.Drawing.Bitmap _134038_tex {
             get {
                 object obj = ResourceManager.GetObject("_134038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10083,7 +10083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134039_tex {
+        internal static System.Drawing.Bitmap _134039_tex {
             get {
                 object obj = ResourceManager.GetObject("_134039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10093,7 +10093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134040_tex {
+        internal static System.Drawing.Bitmap _134040_tex {
             get {
                 object obj = ResourceManager.GetObject("_134040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10103,7 +10103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134041_tex {
+        internal static System.Drawing.Bitmap _134041_tex {
             get {
                 object obj = ResourceManager.GetObject("_134041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10113,7 +10113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134042_tex {
+        internal static System.Drawing.Bitmap _134042_tex {
             get {
                 object obj = ResourceManager.GetObject("_134042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10123,7 +10123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134043_tex {
+        internal static System.Drawing.Bitmap _134043_tex {
             get {
                 object obj = ResourceManager.GetObject("_134043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10133,7 +10133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134044_tex {
+        internal static System.Drawing.Bitmap _134044_tex {
             get {
                 object obj = ResourceManager.GetObject("_134044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10143,7 +10143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134045_tex {
+        internal static System.Drawing.Bitmap _134045_tex {
             get {
                 object obj = ResourceManager.GetObject("_134045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10153,7 +10153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134046_tex {
+        internal static System.Drawing.Bitmap _134046_tex {
             get {
                 object obj = ResourceManager.GetObject("_134046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10163,7 +10163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134047_tex {
+        internal static System.Drawing.Bitmap _134047_tex {
             get {
                 object obj = ResourceManager.GetObject("_134047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10173,7 +10173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134048_tex {
+        internal static System.Drawing.Bitmap _134048_tex {
             get {
                 object obj = ResourceManager.GetObject("_134048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10183,7 +10183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134049_tex {
+        internal static System.Drawing.Bitmap _134049_tex {
             get {
                 object obj = ResourceManager.GetObject("_134049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10193,7 +10193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134050_tex {
+        internal static System.Drawing.Bitmap _134050_tex {
             get {
                 object obj = ResourceManager.GetObject("_134050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10203,7 +10203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134051_tex {
+        internal static System.Drawing.Bitmap _134051_tex {
             get {
                 object obj = ResourceManager.GetObject("_134051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10213,7 +10213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134052_tex {
+        internal static System.Drawing.Bitmap _134052_tex {
             get {
                 object obj = ResourceManager.GetObject("_134052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10223,7 +10223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134053_tex {
+        internal static System.Drawing.Bitmap _134053_tex {
             get {
                 object obj = ResourceManager.GetObject("_134053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10233,7 +10233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134054_tex {
+        internal static System.Drawing.Bitmap _134054_tex {
             get {
                 object obj = ResourceManager.GetObject("_134054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10243,7 +10243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134055_tex {
+        internal static System.Drawing.Bitmap _134055_tex {
             get {
                 object obj = ResourceManager.GetObject("_134055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10253,7 +10253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134056_tex {
+        internal static System.Drawing.Bitmap _134056_tex {
             get {
                 object obj = ResourceManager.GetObject("_134056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10263,7 +10263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134100_tex {
+        internal static System.Drawing.Bitmap _134100_tex {
             get {
                 object obj = ResourceManager.GetObject("_134100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10273,7 +10273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134101_tex {
+        internal static System.Drawing.Bitmap _134101_tex {
             get {
                 object obj = ResourceManager.GetObject("_134101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10283,7 +10283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134102_tex {
+        internal static System.Drawing.Bitmap _134102_tex {
             get {
                 object obj = ResourceManager.GetObject("_134102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10293,7 +10293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134103_tex {
+        internal static System.Drawing.Bitmap _134103_tex {
             get {
                 object obj = ResourceManager.GetObject("_134103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10303,7 +10303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134104_tex {
+        internal static System.Drawing.Bitmap _134104_tex {
             get {
                 object obj = ResourceManager.GetObject("_134104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10313,7 +10313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134110_tex {
+        internal static System.Drawing.Bitmap _134110_tex {
             get {
                 object obj = ResourceManager.GetObject("_134110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10323,7 +10323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134111_tex {
+        internal static System.Drawing.Bitmap _134111_tex {
             get {
                 object obj = ResourceManager.GetObject("_134111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10333,7 +10333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134112_tex {
+        internal static System.Drawing.Bitmap _134112_tex {
             get {
                 object obj = ResourceManager.GetObject("_134112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10343,7 +10343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134113_tex {
+        internal static System.Drawing.Bitmap _134113_tex {
             get {
                 object obj = ResourceManager.GetObject("_134113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10353,7 +10353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134114_tex {
+        internal static System.Drawing.Bitmap _134114_tex {
             get {
                 object obj = ResourceManager.GetObject("_134114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10363,7 +10363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134115_tex {
+        internal static System.Drawing.Bitmap _134115_tex {
             get {
                 object obj = ResourceManager.GetObject("_134115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10373,7 +10373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134116_tex {
+        internal static System.Drawing.Bitmap _134116_tex {
             get {
                 object obj = ResourceManager.GetObject("_134116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10383,7 +10383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134117_tex {
+        internal static System.Drawing.Bitmap _134117_tex {
             get {
                 object obj = ResourceManager.GetObject("_134117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10393,7 +10393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134120_tex {
+        internal static System.Drawing.Bitmap _134120_tex {
             get {
                 object obj = ResourceManager.GetObject("_134120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10403,7 +10403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134121_tex {
+        internal static System.Drawing.Bitmap _134121_tex {
             get {
                 object obj = ResourceManager.GetObject("_134121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10413,7 +10413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134122_tex {
+        internal static System.Drawing.Bitmap _134122_tex {
             get {
                 object obj = ResourceManager.GetObject("_134122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10423,7 +10423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134123_tex {
+        internal static System.Drawing.Bitmap _134123_tex {
             get {
                 object obj = ResourceManager.GetObject("_134123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10433,7 +10433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134124_tex {
+        internal static System.Drawing.Bitmap _134124_tex {
             get {
                 object obj = ResourceManager.GetObject("_134124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10443,7 +10443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134125_tex {
+        internal static System.Drawing.Bitmap _134125_tex {
             get {
                 object obj = ResourceManager.GetObject("_134125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10453,7 +10453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134126_tex {
+        internal static System.Drawing.Bitmap _134126_tex {
             get {
                 object obj = ResourceManager.GetObject("_134126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10463,7 +10463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134127_tex {
+        internal static System.Drawing.Bitmap _134127_tex {
             get {
                 object obj = ResourceManager.GetObject("_134127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10473,7 +10473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134130_tex {
+        internal static System.Drawing.Bitmap _134130_tex {
             get {
                 object obj = ResourceManager.GetObject("_134130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10483,7 +10483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134131_tex {
+        internal static System.Drawing.Bitmap _134131_tex {
             get {
                 object obj = ResourceManager.GetObject("_134131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10493,7 +10493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134132_tex {
+        internal static System.Drawing.Bitmap _134132_tex {
             get {
                 object obj = ResourceManager.GetObject("_134132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10503,7 +10503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134133_tex {
+        internal static System.Drawing.Bitmap _134133_tex {
             get {
                 object obj = ResourceManager.GetObject("_134133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10513,7 +10513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134134_tex {
+        internal static System.Drawing.Bitmap _134134_tex {
             get {
                 object obj = ResourceManager.GetObject("_134134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10523,7 +10523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134135_tex {
+        internal static System.Drawing.Bitmap _134135_tex {
             get {
                 object obj = ResourceManager.GetObject("_134135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10533,7 +10533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134136_tex {
+        internal static System.Drawing.Bitmap _134136_tex {
             get {
                 object obj = ResourceManager.GetObject("_134136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10543,7 +10543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134137_tex {
+        internal static System.Drawing.Bitmap _134137_tex {
             get {
                 object obj = ResourceManager.GetObject("_134137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10553,7 +10553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134140_tex {
+        internal static System.Drawing.Bitmap _134140_tex {
             get {
                 object obj = ResourceManager.GetObject("_134140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10563,7 +10563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134141_tex {
+        internal static System.Drawing.Bitmap _134141_tex {
             get {
                 object obj = ResourceManager.GetObject("_134141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10573,7 +10573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134142_tex {
+        internal static System.Drawing.Bitmap _134142_tex {
             get {
                 object obj = ResourceManager.GetObject("_134142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10583,7 +10583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134143_tex {
+        internal static System.Drawing.Bitmap _134143_tex {
             get {
                 object obj = ResourceManager.GetObject("_134143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10593,7 +10593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134144_tex {
+        internal static System.Drawing.Bitmap _134144_tex {
             get {
                 object obj = ResourceManager.GetObject("_134144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10603,7 +10603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134145_tex {
+        internal static System.Drawing.Bitmap _134145_tex {
             get {
                 object obj = ResourceManager.GetObject("_134145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10613,7 +10613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134146_tex {
+        internal static System.Drawing.Bitmap _134146_tex {
             get {
                 object obj = ResourceManager.GetObject("_134146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10623,7 +10623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134147_tex {
+        internal static System.Drawing.Bitmap _134147_tex {
             get {
                 object obj = ResourceManager.GetObject("_134147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10633,7 +10633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134190_tex {
+        internal static System.Drawing.Bitmap _134190_tex {
             get {
                 object obj = ResourceManager.GetObject("_134190_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10643,7 +10643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134191_tex {
+        internal static System.Drawing.Bitmap _134191_tex {
             get {
                 object obj = ResourceManager.GetObject("_134191_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10653,7 +10653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134192_tex {
+        internal static System.Drawing.Bitmap _134192_tex {
             get {
                 object obj = ResourceManager.GetObject("_134192_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10663,7 +10663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134193_tex {
+        internal static System.Drawing.Bitmap _134193_tex {
             get {
                 object obj = ResourceManager.GetObject("_134193_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10673,7 +10673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134194_tex {
+        internal static System.Drawing.Bitmap _134194_tex {
             get {
                 object obj = ResourceManager.GetObject("_134194_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10683,7 +10683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134195_tex {
+        internal static System.Drawing.Bitmap _134195_tex {
             get {
                 object obj = ResourceManager.GetObject("_134195_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10693,7 +10693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134196_tex {
+        internal static System.Drawing.Bitmap _134196_tex {
             get {
                 object obj = ResourceManager.GetObject("_134196_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10703,7 +10703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134197_tex {
+        internal static System.Drawing.Bitmap _134197_tex {
             get {
                 object obj = ResourceManager.GetObject("_134197_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10713,7 +10713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134198_tex {
+        internal static System.Drawing.Bitmap _134198_tex {
             get {
                 object obj = ResourceManager.GetObject("_134198_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10723,7 +10723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134200_tex {
+        internal static System.Drawing.Bitmap _134200_tex {
             get {
                 object obj = ResourceManager.GetObject("_134200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10733,7 +10733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134201_tex {
+        internal static System.Drawing.Bitmap _134201_tex {
             get {
                 object obj = ResourceManager.GetObject("_134201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10743,7 +10743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134202_tex {
+        internal static System.Drawing.Bitmap _134202_tex {
             get {
                 object obj = ResourceManager.GetObject("_134202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10753,7 +10753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134203_tex {
+        internal static System.Drawing.Bitmap _134203_tex {
             get {
                 object obj = ResourceManager.GetObject("_134203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10763,7 +10763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134204_tex {
+        internal static System.Drawing.Bitmap _134204_tex {
             get {
                 object obj = ResourceManager.GetObject("_134204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10773,7 +10773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134205_tex {
+        internal static System.Drawing.Bitmap _134205_tex {
             get {
                 object obj = ResourceManager.GetObject("_134205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10783,7 +10783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134206_tex {
+        internal static System.Drawing.Bitmap _134206_tex {
             get {
                 object obj = ResourceManager.GetObject("_134206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10793,7 +10793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134207_tex {
+        internal static System.Drawing.Bitmap _134207_tex {
             get {
                 object obj = ResourceManager.GetObject("_134207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10803,7 +10803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134208_tex {
+        internal static System.Drawing.Bitmap _134208_tex {
             get {
                 object obj = ResourceManager.GetObject("_134208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10813,7 +10813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134209_tex {
+        internal static System.Drawing.Bitmap _134209_tex {
             get {
                 object obj = ResourceManager.GetObject("_134209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10823,7 +10823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134210_tex {
+        internal static System.Drawing.Bitmap _134210_tex {
             get {
                 object obj = ResourceManager.GetObject("_134210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10833,7 +10833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134211_tex {
+        internal static System.Drawing.Bitmap _134211_tex {
             get {
                 object obj = ResourceManager.GetObject("_134211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10843,7 +10843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134212_tex {
+        internal static System.Drawing.Bitmap _134212_tex {
             get {
                 object obj = ResourceManager.GetObject("_134212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10853,7 +10853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134213_tex {
+        internal static System.Drawing.Bitmap _134213_tex {
             get {
                 object obj = ResourceManager.GetObject("_134213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10863,7 +10863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134214_tex {
+        internal static System.Drawing.Bitmap _134214_tex {
             get {
                 object obj = ResourceManager.GetObject("_134214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10873,7 +10873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134215_tex {
+        internal static System.Drawing.Bitmap _134215_tex {
             get {
                 object obj = ResourceManager.GetObject("_134215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10883,7 +10883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134216_tex {
+        internal static System.Drawing.Bitmap _134216_tex {
             get {
                 object obj = ResourceManager.GetObject("_134216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10893,7 +10893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134217_tex {
+        internal static System.Drawing.Bitmap _134217_tex {
             get {
                 object obj = ResourceManager.GetObject("_134217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10903,7 +10903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134218_tex {
+        internal static System.Drawing.Bitmap _134218_tex {
             get {
                 object obj = ResourceManager.GetObject("_134218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10913,7 +10913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134219_tex {
+        internal static System.Drawing.Bitmap _134219_tex {
             get {
                 object obj = ResourceManager.GetObject("_134219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10923,7 +10923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134220_tex {
+        internal static System.Drawing.Bitmap _134220_tex {
             get {
                 object obj = ResourceManager.GetObject("_134220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10933,7 +10933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134221_tex {
+        internal static System.Drawing.Bitmap _134221_tex {
             get {
                 object obj = ResourceManager.GetObject("_134221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10943,7 +10943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134222_tex {
+        internal static System.Drawing.Bitmap _134222_tex {
             get {
                 object obj = ResourceManager.GetObject("_134222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10953,7 +10953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134223_tex {
+        internal static System.Drawing.Bitmap _134223_tex {
             get {
                 object obj = ResourceManager.GetObject("_134223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10963,7 +10963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134224_tex {
+        internal static System.Drawing.Bitmap _134224_tex {
             get {
                 object obj = ResourceManager.GetObject("_134224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10973,7 +10973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134225_tex {
+        internal static System.Drawing.Bitmap _134225_tex {
             get {
                 object obj = ResourceManager.GetObject("_134225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10983,7 +10983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134226_tex {
+        internal static System.Drawing.Bitmap _134226_tex {
             get {
                 object obj = ResourceManager.GetObject("_134226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10993,7 +10993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134227_tex {
+        internal static System.Drawing.Bitmap _134227_tex {
             get {
                 object obj = ResourceManager.GetObject("_134227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11003,7 +11003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134228_tex {
+        internal static System.Drawing.Bitmap _134228_tex {
             get {
                 object obj = ResourceManager.GetObject("_134228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11013,7 +11013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134229_tex {
+        internal static System.Drawing.Bitmap _134229_tex {
             get {
                 object obj = ResourceManager.GetObject("_134229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11023,7 +11023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134230_tex {
+        internal static System.Drawing.Bitmap _134230_tex {
             get {
                 object obj = ResourceManager.GetObject("_134230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11033,7 +11033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134231_tex {
+        internal static System.Drawing.Bitmap _134231_tex {
             get {
                 object obj = ResourceManager.GetObject("_134231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11043,7 +11043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134232_tex {
+        internal static System.Drawing.Bitmap _134232_tex {
             get {
                 object obj = ResourceManager.GetObject("_134232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11053,7 +11053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134233_tex {
+        internal static System.Drawing.Bitmap _134233_tex {
             get {
                 object obj = ResourceManager.GetObject("_134233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11063,7 +11063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134234_tex {
+        internal static System.Drawing.Bitmap _134234_tex {
             get {
                 object obj = ResourceManager.GetObject("_134234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11073,7 +11073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134235_tex {
+        internal static System.Drawing.Bitmap _134235_tex {
             get {
                 object obj = ResourceManager.GetObject("_134235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11083,7 +11083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134236_tex {
+        internal static System.Drawing.Bitmap _134236_tex {
             get {
                 object obj = ResourceManager.GetObject("_134236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11093,7 +11093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134237_tex {
+        internal static System.Drawing.Bitmap _134237_tex {
             get {
                 object obj = ResourceManager.GetObject("_134237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11103,7 +11103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134238_tex {
+        internal static System.Drawing.Bitmap _134238_tex {
             get {
                 object obj = ResourceManager.GetObject("_134238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11113,7 +11113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134239_tex {
+        internal static System.Drawing.Bitmap _134239_tex {
             get {
                 object obj = ResourceManager.GetObject("_134239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11123,7 +11123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134240_tex {
+        internal static System.Drawing.Bitmap _134240_tex {
             get {
                 object obj = ResourceManager.GetObject("_134240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11133,7 +11133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134241_tex {
+        internal static System.Drawing.Bitmap _134241_tex {
             get {
                 object obj = ResourceManager.GetObject("_134241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11143,7 +11143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134242_tex {
+        internal static System.Drawing.Bitmap _134242_tex {
             get {
                 object obj = ResourceManager.GetObject("_134242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11153,7 +11153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134243_tex {
+        internal static System.Drawing.Bitmap _134243_tex {
             get {
                 object obj = ResourceManager.GetObject("_134243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11163,7 +11163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134244_tex {
+        internal static System.Drawing.Bitmap _134244_tex {
             get {
                 object obj = ResourceManager.GetObject("_134244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11173,7 +11173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134245_tex {
+        internal static System.Drawing.Bitmap _134245_tex {
             get {
                 object obj = ResourceManager.GetObject("_134245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11183,7 +11183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134246_tex {
+        internal static System.Drawing.Bitmap _134246_tex {
             get {
                 object obj = ResourceManager.GetObject("_134246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11193,7 +11193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134247_tex {
+        internal static System.Drawing.Bitmap _134247_tex {
             get {
                 object obj = ResourceManager.GetObject("_134247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11203,7 +11203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134248_tex {
+        internal static System.Drawing.Bitmap _134248_tex {
             get {
                 object obj = ResourceManager.GetObject("_134248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11213,7 +11213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134249_tex {
+        internal static System.Drawing.Bitmap _134249_tex {
             get {
                 object obj = ResourceManager.GetObject("_134249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11223,7 +11223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134250_tex {
+        internal static System.Drawing.Bitmap _134250_tex {
             get {
                 object obj = ResourceManager.GetObject("_134250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11233,7 +11233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134251_tex {
+        internal static System.Drawing.Bitmap _134251_tex {
             get {
                 object obj = ResourceManager.GetObject("_134251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11243,7 +11243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134252_tex {
+        internal static System.Drawing.Bitmap _134252_tex {
             get {
                 object obj = ResourceManager.GetObject("_134252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11253,7 +11253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134253_tex {
+        internal static System.Drawing.Bitmap _134253_tex {
             get {
                 object obj = ResourceManager.GetObject("_134253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11263,7 +11263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134254_tex {
+        internal static System.Drawing.Bitmap _134254_tex {
             get {
                 object obj = ResourceManager.GetObject("_134254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11273,7 +11273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134255_tex {
+        internal static System.Drawing.Bitmap _134255_tex {
             get {
                 object obj = ResourceManager.GetObject("_134255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11283,7 +11283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134256_tex {
+        internal static System.Drawing.Bitmap _134256_tex {
             get {
                 object obj = ResourceManager.GetObject("_134256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11293,7 +11293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134257_tex {
+        internal static System.Drawing.Bitmap _134257_tex {
             get {
                 object obj = ResourceManager.GetObject("_134257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11303,7 +11303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134258_tex {
+        internal static System.Drawing.Bitmap _134258_tex {
             get {
                 object obj = ResourceManager.GetObject("_134258_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11313,7 +11313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134259_tex {
+        internal static System.Drawing.Bitmap _134259_tex {
             get {
                 object obj = ResourceManager.GetObject("_134259_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11323,7 +11323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134260_tex {
+        internal static System.Drawing.Bitmap _134260_tex {
             get {
                 object obj = ResourceManager.GetObject("_134260_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11333,7 +11333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134261_tex {
+        internal static System.Drawing.Bitmap _134261_tex {
             get {
                 object obj = ResourceManager.GetObject("_134261_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11343,7 +11343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134262_tex {
+        internal static System.Drawing.Bitmap _134262_tex {
             get {
                 object obj = ResourceManager.GetObject("_134262_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11353,7 +11353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134300_tex {
+        internal static System.Drawing.Bitmap _134300_tex {
             get {
                 object obj = ResourceManager.GetObject("_134300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11363,7 +11363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134301_tex {
+        internal static System.Drawing.Bitmap _134301_tex {
             get {
                 object obj = ResourceManager.GetObject("_134301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11373,7 +11373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134302_tex {
+        internal static System.Drawing.Bitmap _134302_tex {
             get {
                 object obj = ResourceManager.GetObject("_134302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11383,7 +11383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134303_tex {
+        internal static System.Drawing.Bitmap _134303_tex {
             get {
                 object obj = ResourceManager.GetObject("_134303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11393,7 +11393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134304_tex {
+        internal static System.Drawing.Bitmap _134304_tex {
             get {
                 object obj = ResourceManager.GetObject("_134304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11403,7 +11403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134310_tex {
+        internal static System.Drawing.Bitmap _134310_tex {
             get {
                 object obj = ResourceManager.GetObject("_134310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11413,7 +11413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134311_tex {
+        internal static System.Drawing.Bitmap _134311_tex {
             get {
                 object obj = ResourceManager.GetObject("_134311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11423,7 +11423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134312_tex {
+        internal static System.Drawing.Bitmap _134312_tex {
             get {
                 object obj = ResourceManager.GetObject("_134312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11433,7 +11433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134313_tex {
+        internal static System.Drawing.Bitmap _134313_tex {
             get {
                 object obj = ResourceManager.GetObject("_134313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11443,7 +11443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134314_tex {
+        internal static System.Drawing.Bitmap _134314_tex {
             get {
                 object obj = ResourceManager.GetObject("_134314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11453,7 +11453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134315_tex {
+        internal static System.Drawing.Bitmap _134315_tex {
             get {
                 object obj = ResourceManager.GetObject("_134315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11463,7 +11463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134316_tex {
+        internal static System.Drawing.Bitmap _134316_tex {
             get {
                 object obj = ResourceManager.GetObject("_134316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11473,7 +11473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134317_tex {
+        internal static System.Drawing.Bitmap _134317_tex {
             get {
                 object obj = ResourceManager.GetObject("_134317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11483,7 +11483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134320_tex {
+        internal static System.Drawing.Bitmap _134320_tex {
             get {
                 object obj = ResourceManager.GetObject("_134320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11493,7 +11493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134321_tex {
+        internal static System.Drawing.Bitmap _134321_tex {
             get {
                 object obj = ResourceManager.GetObject("_134321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11503,7 +11503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134322_tex {
+        internal static System.Drawing.Bitmap _134322_tex {
             get {
                 object obj = ResourceManager.GetObject("_134322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11513,7 +11513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134323_tex {
+        internal static System.Drawing.Bitmap _134323_tex {
             get {
                 object obj = ResourceManager.GetObject("_134323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11523,7 +11523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134324_tex {
+        internal static System.Drawing.Bitmap _134324_tex {
             get {
                 object obj = ResourceManager.GetObject("_134324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11533,7 +11533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134325_tex {
+        internal static System.Drawing.Bitmap _134325_tex {
             get {
                 object obj = ResourceManager.GetObject("_134325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11543,7 +11543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134326_tex {
+        internal static System.Drawing.Bitmap _134326_tex {
             get {
                 object obj = ResourceManager.GetObject("_134326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11553,7 +11553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134327_tex {
+        internal static System.Drawing.Bitmap _134327_tex {
             get {
                 object obj = ResourceManager.GetObject("_134327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11563,7 +11563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134330_tex {
+        internal static System.Drawing.Bitmap _134330_tex {
             get {
                 object obj = ResourceManager.GetObject("_134330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11573,7 +11573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134331_tex {
+        internal static System.Drawing.Bitmap _134331_tex {
             get {
                 object obj = ResourceManager.GetObject("_134331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11583,7 +11583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134332_tex {
+        internal static System.Drawing.Bitmap _134332_tex {
             get {
                 object obj = ResourceManager.GetObject("_134332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11593,7 +11593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134333_tex {
+        internal static System.Drawing.Bitmap _134333_tex {
             get {
                 object obj = ResourceManager.GetObject("_134333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11603,7 +11603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134334_tex {
+        internal static System.Drawing.Bitmap _134334_tex {
             get {
                 object obj = ResourceManager.GetObject("_134334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11613,7 +11613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134335_tex {
+        internal static System.Drawing.Bitmap _134335_tex {
             get {
                 object obj = ResourceManager.GetObject("_134335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11623,7 +11623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134336_tex {
+        internal static System.Drawing.Bitmap _134336_tex {
             get {
                 object obj = ResourceManager.GetObject("_134336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11633,7 +11633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134337_tex {
+        internal static System.Drawing.Bitmap _134337_tex {
             get {
                 object obj = ResourceManager.GetObject("_134337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11643,7 +11643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134340_tex {
+        internal static System.Drawing.Bitmap _134340_tex {
             get {
                 object obj = ResourceManager.GetObject("_134340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11653,7 +11653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134341_tex {
+        internal static System.Drawing.Bitmap _134341_tex {
             get {
                 object obj = ResourceManager.GetObject("_134341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11663,7 +11663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134342_tex {
+        internal static System.Drawing.Bitmap _134342_tex {
             get {
                 object obj = ResourceManager.GetObject("_134342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11673,7 +11673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134343_tex {
+        internal static System.Drawing.Bitmap _134343_tex {
             get {
                 object obj = ResourceManager.GetObject("_134343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11683,7 +11683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134344_tex {
+        internal static System.Drawing.Bitmap _134344_tex {
             get {
                 object obj = ResourceManager.GetObject("_134344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11693,7 +11693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134345_tex {
+        internal static System.Drawing.Bitmap _134345_tex {
             get {
                 object obj = ResourceManager.GetObject("_134345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11703,7 +11703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134346_tex {
+        internal static System.Drawing.Bitmap _134346_tex {
             get {
                 object obj = ResourceManager.GetObject("_134346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11713,7 +11713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134347_tex {
+        internal static System.Drawing.Bitmap _134347_tex {
             get {
                 object obj = ResourceManager.GetObject("_134347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11723,7 +11723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134390_tex {
+        internal static System.Drawing.Bitmap _134390_tex {
             get {
                 object obj = ResourceManager.GetObject("_134390_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11733,7 +11733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134391_tex {
+        internal static System.Drawing.Bitmap _134391_tex {
             get {
                 object obj = ResourceManager.GetObject("_134391_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11743,7 +11743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134392_tex {
+        internal static System.Drawing.Bitmap _134392_tex {
             get {
                 object obj = ResourceManager.GetObject("_134392_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11753,7 +11753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134393_tex {
+        internal static System.Drawing.Bitmap _134393_tex {
             get {
                 object obj = ResourceManager.GetObject("_134393_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11763,7 +11763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134394_tex {
+        internal static System.Drawing.Bitmap _134394_tex {
             get {
                 object obj = ResourceManager.GetObject("_134394_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11773,7 +11773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134395_tex {
+        internal static System.Drawing.Bitmap _134395_tex {
             get {
                 object obj = ResourceManager.GetObject("_134395_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11783,7 +11783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134396_tex {
+        internal static System.Drawing.Bitmap _134396_tex {
             get {
                 object obj = ResourceManager.GetObject("_134396_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11793,7 +11793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134397_tex {
+        internal static System.Drawing.Bitmap _134397_tex {
             get {
                 object obj = ResourceManager.GetObject("_134397_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11803,7 +11803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134398_tex {
+        internal static System.Drawing.Bitmap _134398_tex {
             get {
                 object obj = ResourceManager.GetObject("_134398_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11813,7 +11813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134600_tex {
+        internal static System.Drawing.Bitmap _134600_tex {
             get {
                 object obj = ResourceManager.GetObject("_134600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11823,7 +11823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134601_tex {
+        internal static System.Drawing.Bitmap _134601_tex {
             get {
                 object obj = ResourceManager.GetObject("_134601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11833,7 +11833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134602_tex {
+        internal static System.Drawing.Bitmap _134602_tex {
             get {
                 object obj = ResourceManager.GetObject("_134602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11843,7 +11843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134603_tex {
+        internal static System.Drawing.Bitmap _134603_tex {
             get {
                 object obj = ResourceManager.GetObject("_134603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11853,7 +11853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134604_tex {
+        internal static System.Drawing.Bitmap _134604_tex {
             get {
                 object obj = ResourceManager.GetObject("_134604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11863,7 +11863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134610_tex {
+        internal static System.Drawing.Bitmap _134610_tex {
             get {
                 object obj = ResourceManager.GetObject("_134610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11873,7 +11873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134611_tex {
+        internal static System.Drawing.Bitmap _134611_tex {
             get {
                 object obj = ResourceManager.GetObject("_134611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11883,7 +11883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134612_tex {
+        internal static System.Drawing.Bitmap _134612_tex {
             get {
                 object obj = ResourceManager.GetObject("_134612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11893,7 +11893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134613_tex {
+        internal static System.Drawing.Bitmap _134613_tex {
             get {
                 object obj = ResourceManager.GetObject("_134613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11903,7 +11903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134614_tex {
+        internal static System.Drawing.Bitmap _134614_tex {
             get {
                 object obj = ResourceManager.GetObject("_134614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11913,7 +11913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134615_tex {
+        internal static System.Drawing.Bitmap _134615_tex {
             get {
                 object obj = ResourceManager.GetObject("_134615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11923,7 +11923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134616_tex {
+        internal static System.Drawing.Bitmap _134616_tex {
             get {
                 object obj = ResourceManager.GetObject("_134616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11933,7 +11933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134617_tex {
+        internal static System.Drawing.Bitmap _134617_tex {
             get {
                 object obj = ResourceManager.GetObject("_134617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11943,7 +11943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134620_tex {
+        internal static System.Drawing.Bitmap _134620_tex {
             get {
                 object obj = ResourceManager.GetObject("_134620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11953,7 +11953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134621_tex {
+        internal static System.Drawing.Bitmap _134621_tex {
             get {
                 object obj = ResourceManager.GetObject("_134621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11963,7 +11963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134622_tex {
+        internal static System.Drawing.Bitmap _134622_tex {
             get {
                 object obj = ResourceManager.GetObject("_134622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11973,7 +11973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134623_tex {
+        internal static System.Drawing.Bitmap _134623_tex {
             get {
                 object obj = ResourceManager.GetObject("_134623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11983,7 +11983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134624_tex {
+        internal static System.Drawing.Bitmap _134624_tex {
             get {
                 object obj = ResourceManager.GetObject("_134624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11993,7 +11993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134625_tex {
+        internal static System.Drawing.Bitmap _134625_tex {
             get {
                 object obj = ResourceManager.GetObject("_134625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12003,7 +12003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134626_tex {
+        internal static System.Drawing.Bitmap _134626_tex {
             get {
                 object obj = ResourceManager.GetObject("_134626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12013,7 +12013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134627_tex {
+        internal static System.Drawing.Bitmap _134627_tex {
             get {
                 object obj = ResourceManager.GetObject("_134627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12023,7 +12023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134630_tex {
+        internal static System.Drawing.Bitmap _134630_tex {
             get {
                 object obj = ResourceManager.GetObject("_134630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12033,7 +12033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134631_tex {
+        internal static System.Drawing.Bitmap _134631_tex {
             get {
                 object obj = ResourceManager.GetObject("_134631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12043,7 +12043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134632_tex {
+        internal static System.Drawing.Bitmap _134632_tex {
             get {
                 object obj = ResourceManager.GetObject("_134632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12053,7 +12053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134633_tex {
+        internal static System.Drawing.Bitmap _134633_tex {
             get {
                 object obj = ResourceManager.GetObject("_134633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12063,7 +12063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134634_tex {
+        internal static System.Drawing.Bitmap _134634_tex {
             get {
                 object obj = ResourceManager.GetObject("_134634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12073,7 +12073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134635_tex {
+        internal static System.Drawing.Bitmap _134635_tex {
             get {
                 object obj = ResourceManager.GetObject("_134635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12083,7 +12083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134636_tex {
+        internal static System.Drawing.Bitmap _134636_tex {
             get {
                 object obj = ResourceManager.GetObject("_134636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12093,7 +12093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134637_tex {
+        internal static System.Drawing.Bitmap _134637_tex {
             get {
                 object obj = ResourceManager.GetObject("_134637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12103,7 +12103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134640_tex {
+        internal static System.Drawing.Bitmap _134640_tex {
             get {
                 object obj = ResourceManager.GetObject("_134640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12113,7 +12113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134641_tex {
+        internal static System.Drawing.Bitmap _134641_tex {
             get {
                 object obj = ResourceManager.GetObject("_134641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12123,7 +12123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134642_tex {
+        internal static System.Drawing.Bitmap _134642_tex {
             get {
                 object obj = ResourceManager.GetObject("_134642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12133,7 +12133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134643_tex {
+        internal static System.Drawing.Bitmap _134643_tex {
             get {
                 object obj = ResourceManager.GetObject("_134643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12143,7 +12143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134644_tex {
+        internal static System.Drawing.Bitmap _134644_tex {
             get {
                 object obj = ResourceManager.GetObject("_134644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12153,7 +12153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134645_tex {
+        internal static System.Drawing.Bitmap _134645_tex {
             get {
                 object obj = ResourceManager.GetObject("_134645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12163,7 +12163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134646_tex {
+        internal static System.Drawing.Bitmap _134646_tex {
             get {
                 object obj = ResourceManager.GetObject("_134646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12173,7 +12173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134647_tex {
+        internal static System.Drawing.Bitmap _134647_tex {
             get {
                 object obj = ResourceManager.GetObject("_134647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12183,7 +12183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134690_tex {
+        internal static System.Drawing.Bitmap _134690_tex {
             get {
                 object obj = ResourceManager.GetObject("_134690_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12193,7 +12193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134691_tex {
+        internal static System.Drawing.Bitmap _134691_tex {
             get {
                 object obj = ResourceManager.GetObject("_134691_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12203,7 +12203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134692_tex {
+        internal static System.Drawing.Bitmap _134692_tex {
             get {
                 object obj = ResourceManager.GetObject("_134692_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12213,7 +12213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134693_tex {
+        internal static System.Drawing.Bitmap _134693_tex {
             get {
                 object obj = ResourceManager.GetObject("_134693_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12223,7 +12223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134694_tex {
+        internal static System.Drawing.Bitmap _134694_tex {
             get {
                 object obj = ResourceManager.GetObject("_134694_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12233,7 +12233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134695_tex {
+        internal static System.Drawing.Bitmap _134695_tex {
             get {
                 object obj = ResourceManager.GetObject("_134695_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12243,7 +12243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134696_tex {
+        internal static System.Drawing.Bitmap _134696_tex {
             get {
                 object obj = ResourceManager.GetObject("_134696_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12253,7 +12253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134697_tex {
+        internal static System.Drawing.Bitmap _134697_tex {
             get {
                 object obj = ResourceManager.GetObject("_134697_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12263,7 +12263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134698_tex {
+        internal static System.Drawing.Bitmap _134698_tex {
             get {
                 object obj = ResourceManager.GetObject("_134698_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12273,7 +12273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134800_tex {
+        internal static System.Drawing.Bitmap _134800_tex {
             get {
                 object obj = ResourceManager.GetObject("_134800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12283,7 +12283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134801_tex {
+        internal static System.Drawing.Bitmap _134801_tex {
             get {
                 object obj = ResourceManager.GetObject("_134801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12293,7 +12293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134802_tex {
+        internal static System.Drawing.Bitmap _134802_tex {
             get {
                 object obj = ResourceManager.GetObject("_134802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12303,7 +12303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134803_tex {
+        internal static System.Drawing.Bitmap _134803_tex {
             get {
                 object obj = ResourceManager.GetObject("_134803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12313,7 +12313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134804_tex {
+        internal static System.Drawing.Bitmap _134804_tex {
             get {
                 object obj = ResourceManager.GetObject("_134804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12323,7 +12323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134810_tex {
+        internal static System.Drawing.Bitmap _134810_tex {
             get {
                 object obj = ResourceManager.GetObject("_134810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12333,7 +12333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134811_tex {
+        internal static System.Drawing.Bitmap _134811_tex {
             get {
                 object obj = ResourceManager.GetObject("_134811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12343,7 +12343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134812_tex {
+        internal static System.Drawing.Bitmap _134812_tex {
             get {
                 object obj = ResourceManager.GetObject("_134812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12353,7 +12353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134813_tex {
+        internal static System.Drawing.Bitmap _134813_tex {
             get {
                 object obj = ResourceManager.GetObject("_134813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12363,7 +12363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134814_tex {
+        internal static System.Drawing.Bitmap _134814_tex {
             get {
                 object obj = ResourceManager.GetObject("_134814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12373,7 +12373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134815_tex {
+        internal static System.Drawing.Bitmap _134815_tex {
             get {
                 object obj = ResourceManager.GetObject("_134815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12383,7 +12383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134816_tex {
+        internal static System.Drawing.Bitmap _134816_tex {
             get {
                 object obj = ResourceManager.GetObject("_134816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12393,7 +12393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134817_tex {
+        internal static System.Drawing.Bitmap _134817_tex {
             get {
                 object obj = ResourceManager.GetObject("_134817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12403,7 +12403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134820_tex {
+        internal static System.Drawing.Bitmap _134820_tex {
             get {
                 object obj = ResourceManager.GetObject("_134820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12413,7 +12413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134821_tex {
+        internal static System.Drawing.Bitmap _134821_tex {
             get {
                 object obj = ResourceManager.GetObject("_134821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12423,7 +12423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134822_tex {
+        internal static System.Drawing.Bitmap _134822_tex {
             get {
                 object obj = ResourceManager.GetObject("_134822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12433,7 +12433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134823_tex {
+        internal static System.Drawing.Bitmap _134823_tex {
             get {
                 object obj = ResourceManager.GetObject("_134823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12443,7 +12443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134824_tex {
+        internal static System.Drawing.Bitmap _134824_tex {
             get {
                 object obj = ResourceManager.GetObject("_134824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12453,7 +12453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134825_tex {
+        internal static System.Drawing.Bitmap _134825_tex {
             get {
                 object obj = ResourceManager.GetObject("_134825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12463,7 +12463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134826_tex {
+        internal static System.Drawing.Bitmap _134826_tex {
             get {
                 object obj = ResourceManager.GetObject("_134826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12473,7 +12473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134827_tex {
+        internal static System.Drawing.Bitmap _134827_tex {
             get {
                 object obj = ResourceManager.GetObject("_134827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12483,7 +12483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134830_tex {
+        internal static System.Drawing.Bitmap _134830_tex {
             get {
                 object obj = ResourceManager.GetObject("_134830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12493,7 +12493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134831_tex {
+        internal static System.Drawing.Bitmap _134831_tex {
             get {
                 object obj = ResourceManager.GetObject("_134831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12503,7 +12503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134832_tex {
+        internal static System.Drawing.Bitmap _134832_tex {
             get {
                 object obj = ResourceManager.GetObject("_134832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12513,7 +12513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134833_tex {
+        internal static System.Drawing.Bitmap _134833_tex {
             get {
                 object obj = ResourceManager.GetObject("_134833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12523,7 +12523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134834_tex {
+        internal static System.Drawing.Bitmap _134834_tex {
             get {
                 object obj = ResourceManager.GetObject("_134834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12533,7 +12533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134835_tex {
+        internal static System.Drawing.Bitmap _134835_tex {
             get {
                 object obj = ResourceManager.GetObject("_134835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12543,7 +12543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134836_tex {
+        internal static System.Drawing.Bitmap _134836_tex {
             get {
                 object obj = ResourceManager.GetObject("_134836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12553,7 +12553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134837_tex {
+        internal static System.Drawing.Bitmap _134837_tex {
             get {
                 object obj = ResourceManager.GetObject("_134837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12563,7 +12563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134840_tex {
+        internal static System.Drawing.Bitmap _134840_tex {
             get {
                 object obj = ResourceManager.GetObject("_134840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12573,7 +12573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134841_tex {
+        internal static System.Drawing.Bitmap _134841_tex {
             get {
                 object obj = ResourceManager.GetObject("_134841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12583,7 +12583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134842_tex {
+        internal static System.Drawing.Bitmap _134842_tex {
             get {
                 object obj = ResourceManager.GetObject("_134842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12593,7 +12593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134843_tex {
+        internal static System.Drawing.Bitmap _134843_tex {
             get {
                 object obj = ResourceManager.GetObject("_134843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12603,7 +12603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134844_tex {
+        internal static System.Drawing.Bitmap _134844_tex {
             get {
                 object obj = ResourceManager.GetObject("_134844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12613,7 +12613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134845_tex {
+        internal static System.Drawing.Bitmap _134845_tex {
             get {
                 object obj = ResourceManager.GetObject("_134845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12623,7 +12623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134846_tex {
+        internal static System.Drawing.Bitmap _134846_tex {
             get {
                 object obj = ResourceManager.GetObject("_134846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12633,7 +12633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134847_tex {
+        internal static System.Drawing.Bitmap _134847_tex {
             get {
                 object obj = ResourceManager.GetObject("_134847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12643,7 +12643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134890_tex {
+        internal static System.Drawing.Bitmap _134890_tex {
             get {
                 object obj = ResourceManager.GetObject("_134890_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12653,7 +12653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134891_tex {
+        internal static System.Drawing.Bitmap _134891_tex {
             get {
                 object obj = ResourceManager.GetObject("_134891_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12663,7 +12663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134892_tex {
+        internal static System.Drawing.Bitmap _134892_tex {
             get {
                 object obj = ResourceManager.GetObject("_134892_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12673,7 +12673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134893_tex {
+        internal static System.Drawing.Bitmap _134893_tex {
             get {
                 object obj = ResourceManager.GetObject("_134893_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12683,7 +12683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134894_tex {
+        internal static System.Drawing.Bitmap _134894_tex {
             get {
                 object obj = ResourceManager.GetObject("_134894_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12693,7 +12693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134895_tex {
+        internal static System.Drawing.Bitmap _134895_tex {
             get {
                 object obj = ResourceManager.GetObject("_134895_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12703,7 +12703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134896_tex {
+        internal static System.Drawing.Bitmap _134896_tex {
             get {
                 object obj = ResourceManager.GetObject("_134896_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12713,7 +12713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134897_tex {
+        internal static System.Drawing.Bitmap _134897_tex {
             get {
                 object obj = ResourceManager.GetObject("_134897_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12723,7 +12723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _134898_tex {
+        internal static System.Drawing.Bitmap _134898_tex {
             get {
                 object obj = ResourceManager.GetObject("_134898_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12733,7 +12733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135000_tex {
+        internal static System.Drawing.Bitmap _135000_tex {
             get {
                 object obj = ResourceManager.GetObject("_135000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12743,7 +12743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135001_tex {
+        internal static System.Drawing.Bitmap _135001_tex {
             get {
                 object obj = ResourceManager.GetObject("_135001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12753,7 +12753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135002_tex {
+        internal static System.Drawing.Bitmap _135002_tex {
             get {
                 object obj = ResourceManager.GetObject("_135002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12763,7 +12763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135003_tex {
+        internal static System.Drawing.Bitmap _135003_tex {
             get {
                 object obj = ResourceManager.GetObject("_135003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12773,7 +12773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135004_tex {
+        internal static System.Drawing.Bitmap _135004_tex {
             get {
                 object obj = ResourceManager.GetObject("_135004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12783,7 +12783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135005_tex {
+        internal static System.Drawing.Bitmap _135005_tex {
             get {
                 object obj = ResourceManager.GetObject("_135005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12793,7 +12793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135006_tex {
+        internal static System.Drawing.Bitmap _135006_tex {
             get {
                 object obj = ResourceManager.GetObject("_135006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12803,7 +12803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135007_tex {
+        internal static System.Drawing.Bitmap _135007_tex {
             get {
                 object obj = ResourceManager.GetObject("_135007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12813,7 +12813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135008_tex {
+        internal static System.Drawing.Bitmap _135008_tex {
             get {
                 object obj = ResourceManager.GetObject("_135008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12823,7 +12823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135009_tex {
+        internal static System.Drawing.Bitmap _135009_tex {
             get {
                 object obj = ResourceManager.GetObject("_135009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12833,7 +12833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135010_tex {
+        internal static System.Drawing.Bitmap _135010_tex {
             get {
                 object obj = ResourceManager.GetObject("_135010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12843,7 +12843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135011_tex {
+        internal static System.Drawing.Bitmap _135011_tex {
             get {
                 object obj = ResourceManager.GetObject("_135011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12853,7 +12853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135012_tex {
+        internal static System.Drawing.Bitmap _135012_tex {
             get {
                 object obj = ResourceManager.GetObject("_135012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12863,7 +12863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135013_tex {
+        internal static System.Drawing.Bitmap _135013_tex {
             get {
                 object obj = ResourceManager.GetObject("_135013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12873,7 +12873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135014_tex {
+        internal static System.Drawing.Bitmap _135014_tex {
             get {
                 object obj = ResourceManager.GetObject("_135014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12883,7 +12883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135015_tex {
+        internal static System.Drawing.Bitmap _135015_tex {
             get {
                 object obj = ResourceManager.GetObject("_135015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12893,7 +12893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135016_tex {
+        internal static System.Drawing.Bitmap _135016_tex {
             get {
                 object obj = ResourceManager.GetObject("_135016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12903,7 +12903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135017_tex {
+        internal static System.Drawing.Bitmap _135017_tex {
             get {
                 object obj = ResourceManager.GetObject("_135017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12913,7 +12913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135018_tex {
+        internal static System.Drawing.Bitmap _135018_tex {
             get {
                 object obj = ResourceManager.GetObject("_135018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12923,7 +12923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135019_tex {
+        internal static System.Drawing.Bitmap _135019_tex {
             get {
                 object obj = ResourceManager.GetObject("_135019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12933,7 +12933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135020_tex {
+        internal static System.Drawing.Bitmap _135020_tex {
             get {
                 object obj = ResourceManager.GetObject("_135020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12943,7 +12943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135021_tex {
+        internal static System.Drawing.Bitmap _135021_tex {
             get {
                 object obj = ResourceManager.GetObject("_135021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12953,7 +12953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135022_tex {
+        internal static System.Drawing.Bitmap _135022_tex {
             get {
                 object obj = ResourceManager.GetObject("_135022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12963,7 +12963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135023_tex {
+        internal static System.Drawing.Bitmap _135023_tex {
             get {
                 object obj = ResourceManager.GetObject("_135023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12973,7 +12973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135024_tex {
+        internal static System.Drawing.Bitmap _135024_tex {
             get {
                 object obj = ResourceManager.GetObject("_135024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12983,7 +12983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135025_tex {
+        internal static System.Drawing.Bitmap _135025_tex {
             get {
                 object obj = ResourceManager.GetObject("_135025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -12993,7 +12993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135026_tex {
+        internal static System.Drawing.Bitmap _135026_tex {
             get {
                 object obj = ResourceManager.GetObject("_135026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13003,7 +13003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135027_tex {
+        internal static System.Drawing.Bitmap _135027_tex {
             get {
                 object obj = ResourceManager.GetObject("_135027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13013,7 +13013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135028_tex {
+        internal static System.Drawing.Bitmap _135028_tex {
             get {
                 object obj = ResourceManager.GetObject("_135028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13023,7 +13023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135029_tex {
+        internal static System.Drawing.Bitmap _135029_tex {
             get {
                 object obj = ResourceManager.GetObject("_135029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13033,7 +13033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135030_tex {
+        internal static System.Drawing.Bitmap _135030_tex {
             get {
                 object obj = ResourceManager.GetObject("_135030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13043,7 +13043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135031_tex {
+        internal static System.Drawing.Bitmap _135031_tex {
             get {
                 object obj = ResourceManager.GetObject("_135031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13053,7 +13053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135032_tex {
+        internal static System.Drawing.Bitmap _135032_tex {
             get {
                 object obj = ResourceManager.GetObject("_135032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13063,7 +13063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135033_tex {
+        internal static System.Drawing.Bitmap _135033_tex {
             get {
                 object obj = ResourceManager.GetObject("_135033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13073,7 +13073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135034_tex {
+        internal static System.Drawing.Bitmap _135034_tex {
             get {
                 object obj = ResourceManager.GetObject("_135034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13083,7 +13083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135035_tex {
+        internal static System.Drawing.Bitmap _135035_tex {
             get {
                 object obj = ResourceManager.GetObject("_135035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13093,7 +13093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135036_tex {
+        internal static System.Drawing.Bitmap _135036_tex {
             get {
                 object obj = ResourceManager.GetObject("_135036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13103,7 +13103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135037_tex {
+        internal static System.Drawing.Bitmap _135037_tex {
             get {
                 object obj = ResourceManager.GetObject("_135037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13113,7 +13113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135038_tex {
+        internal static System.Drawing.Bitmap _135038_tex {
             get {
                 object obj = ResourceManager.GetObject("_135038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13123,7 +13123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135039_tex {
+        internal static System.Drawing.Bitmap _135039_tex {
             get {
                 object obj = ResourceManager.GetObject("_135039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13133,7 +13133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135040_tex {
+        internal static System.Drawing.Bitmap _135040_tex {
             get {
                 object obj = ResourceManager.GetObject("_135040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13143,7 +13143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135041_tex {
+        internal static System.Drawing.Bitmap _135041_tex {
             get {
                 object obj = ResourceManager.GetObject("_135041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13153,7 +13153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135042_tex {
+        internal static System.Drawing.Bitmap _135042_tex {
             get {
                 object obj = ResourceManager.GetObject("_135042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13163,7 +13163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135043_tex {
+        internal static System.Drawing.Bitmap _135043_tex {
             get {
                 object obj = ResourceManager.GetObject("_135043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13173,7 +13173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135044_tex {
+        internal static System.Drawing.Bitmap _135044_tex {
             get {
                 object obj = ResourceManager.GetObject("_135044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13183,7 +13183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135045_tex {
+        internal static System.Drawing.Bitmap _135045_tex {
             get {
                 object obj = ResourceManager.GetObject("_135045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13193,7 +13193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135046_tex {
+        internal static System.Drawing.Bitmap _135046_tex {
             get {
                 object obj = ResourceManager.GetObject("_135046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13203,7 +13203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135047_tex {
+        internal static System.Drawing.Bitmap _135047_tex {
             get {
                 object obj = ResourceManager.GetObject("_135047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13213,7 +13213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135048_tex {
+        internal static System.Drawing.Bitmap _135048_tex {
             get {
                 object obj = ResourceManager.GetObject("_135048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13223,7 +13223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135049_tex {
+        internal static System.Drawing.Bitmap _135049_tex {
             get {
                 object obj = ResourceManager.GetObject("_135049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13233,7 +13233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135050_tex {
+        internal static System.Drawing.Bitmap _135050_tex {
             get {
                 object obj = ResourceManager.GetObject("_135050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13243,7 +13243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135051_tex {
+        internal static System.Drawing.Bitmap _135051_tex {
             get {
                 object obj = ResourceManager.GetObject("_135051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13253,7 +13253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135052_tex {
+        internal static System.Drawing.Bitmap _135052_tex {
             get {
                 object obj = ResourceManager.GetObject("_135052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13263,7 +13263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135053_tex {
+        internal static System.Drawing.Bitmap _135053_tex {
             get {
                 object obj = ResourceManager.GetObject("_135053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13273,7 +13273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135054_tex {
+        internal static System.Drawing.Bitmap _135054_tex {
             get {
                 object obj = ResourceManager.GetObject("_135054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13283,7 +13283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135055_tex {
+        internal static System.Drawing.Bitmap _135055_tex {
             get {
                 object obj = ResourceManager.GetObject("_135055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13293,7 +13293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135056_tex {
+        internal static System.Drawing.Bitmap _135056_tex {
             get {
                 object obj = ResourceManager.GetObject("_135056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13303,7 +13303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135057_tex {
+        internal static System.Drawing.Bitmap _135057_tex {
             get {
                 object obj = ResourceManager.GetObject("_135057_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13313,7 +13313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135058_tex {
+        internal static System.Drawing.Bitmap _135058_tex {
             get {
                 object obj = ResourceManager.GetObject("_135058_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13323,7 +13323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135059_tex {
+        internal static System.Drawing.Bitmap _135059_tex {
             get {
                 object obj = ResourceManager.GetObject("_135059_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13333,7 +13333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135060_tex {
+        internal static System.Drawing.Bitmap _135060_tex {
             get {
                 object obj = ResourceManager.GetObject("_135060_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13343,7 +13343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135061_tex {
+        internal static System.Drawing.Bitmap _135061_tex {
             get {
                 object obj = ResourceManager.GetObject("_135061_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13353,7 +13353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135062_tex {
+        internal static System.Drawing.Bitmap _135062_tex {
             get {
                 object obj = ResourceManager.GetObject("_135062_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13363,7 +13363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135063_tex {
+        internal static System.Drawing.Bitmap _135063_tex {
             get {
                 object obj = ResourceManager.GetObject("_135063_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13373,7 +13373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135100_tex {
+        internal static System.Drawing.Bitmap _135100_tex {
             get {
                 object obj = ResourceManager.GetObject("_135100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13383,7 +13383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135101_tex {
+        internal static System.Drawing.Bitmap _135101_tex {
             get {
                 object obj = ResourceManager.GetObject("_135101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13393,7 +13393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135102_tex {
+        internal static System.Drawing.Bitmap _135102_tex {
             get {
                 object obj = ResourceManager.GetObject("_135102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13403,7 +13403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135103_tex {
+        internal static System.Drawing.Bitmap _135103_tex {
             get {
                 object obj = ResourceManager.GetObject("_135103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13413,7 +13413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135104_tex {
+        internal static System.Drawing.Bitmap _135104_tex {
             get {
                 object obj = ResourceManager.GetObject("_135104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13423,7 +13423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135110_tex {
+        internal static System.Drawing.Bitmap _135110_tex {
             get {
                 object obj = ResourceManager.GetObject("_135110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13433,7 +13433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135111_tex {
+        internal static System.Drawing.Bitmap _135111_tex {
             get {
                 object obj = ResourceManager.GetObject("_135111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13443,7 +13443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135112_tex {
+        internal static System.Drawing.Bitmap _135112_tex {
             get {
                 object obj = ResourceManager.GetObject("_135112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13453,7 +13453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135113_tex {
+        internal static System.Drawing.Bitmap _135113_tex {
             get {
                 object obj = ResourceManager.GetObject("_135113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13463,7 +13463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135114_tex {
+        internal static System.Drawing.Bitmap _135114_tex {
             get {
                 object obj = ResourceManager.GetObject("_135114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13473,7 +13473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135115_tex {
+        internal static System.Drawing.Bitmap _135115_tex {
             get {
                 object obj = ResourceManager.GetObject("_135115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13483,7 +13483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135116_tex {
+        internal static System.Drawing.Bitmap _135116_tex {
             get {
                 object obj = ResourceManager.GetObject("_135116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13493,7 +13493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135117_tex {
+        internal static System.Drawing.Bitmap _135117_tex {
             get {
                 object obj = ResourceManager.GetObject("_135117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13503,7 +13503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135120_tex {
+        internal static System.Drawing.Bitmap _135120_tex {
             get {
                 object obj = ResourceManager.GetObject("_135120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13513,7 +13513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135121_tex {
+        internal static System.Drawing.Bitmap _135121_tex {
             get {
                 object obj = ResourceManager.GetObject("_135121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13523,7 +13523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135122_tex {
+        internal static System.Drawing.Bitmap _135122_tex {
             get {
                 object obj = ResourceManager.GetObject("_135122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13533,7 +13533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135123_tex {
+        internal static System.Drawing.Bitmap _135123_tex {
             get {
                 object obj = ResourceManager.GetObject("_135123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13543,7 +13543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135124_tex {
+        internal static System.Drawing.Bitmap _135124_tex {
             get {
                 object obj = ResourceManager.GetObject("_135124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13553,7 +13553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135125_tex {
+        internal static System.Drawing.Bitmap _135125_tex {
             get {
                 object obj = ResourceManager.GetObject("_135125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13563,7 +13563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135126_tex {
+        internal static System.Drawing.Bitmap _135126_tex {
             get {
                 object obj = ResourceManager.GetObject("_135126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13573,7 +13573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135127_tex {
+        internal static System.Drawing.Bitmap _135127_tex {
             get {
                 object obj = ResourceManager.GetObject("_135127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13583,7 +13583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135130_tex {
+        internal static System.Drawing.Bitmap _135130_tex {
             get {
                 object obj = ResourceManager.GetObject("_135130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13593,7 +13593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135131_tex {
+        internal static System.Drawing.Bitmap _135131_tex {
             get {
                 object obj = ResourceManager.GetObject("_135131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13603,7 +13603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135132_tex {
+        internal static System.Drawing.Bitmap _135132_tex {
             get {
                 object obj = ResourceManager.GetObject("_135132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13613,7 +13613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135133_tex {
+        internal static System.Drawing.Bitmap _135133_tex {
             get {
                 object obj = ResourceManager.GetObject("_135133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13623,7 +13623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135134_tex {
+        internal static System.Drawing.Bitmap _135134_tex {
             get {
                 object obj = ResourceManager.GetObject("_135134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13633,7 +13633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135135_tex {
+        internal static System.Drawing.Bitmap _135135_tex {
             get {
                 object obj = ResourceManager.GetObject("_135135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13643,7 +13643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135136_tex {
+        internal static System.Drawing.Bitmap _135136_tex {
             get {
                 object obj = ResourceManager.GetObject("_135136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13653,7 +13653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135137_tex {
+        internal static System.Drawing.Bitmap _135137_tex {
             get {
                 object obj = ResourceManager.GetObject("_135137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13663,7 +13663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135140_tex {
+        internal static System.Drawing.Bitmap _135140_tex {
             get {
                 object obj = ResourceManager.GetObject("_135140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13673,7 +13673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135141_tex {
+        internal static System.Drawing.Bitmap _135141_tex {
             get {
                 object obj = ResourceManager.GetObject("_135141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13683,7 +13683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135142_tex {
+        internal static System.Drawing.Bitmap _135142_tex {
             get {
                 object obj = ResourceManager.GetObject("_135142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13693,7 +13693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135143_tex {
+        internal static System.Drawing.Bitmap _135143_tex {
             get {
                 object obj = ResourceManager.GetObject("_135143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13703,7 +13703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135144_tex {
+        internal static System.Drawing.Bitmap _135144_tex {
             get {
                 object obj = ResourceManager.GetObject("_135144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13713,7 +13713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135145_tex {
+        internal static System.Drawing.Bitmap _135145_tex {
             get {
                 object obj = ResourceManager.GetObject("_135145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13723,7 +13723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135146_tex {
+        internal static System.Drawing.Bitmap _135146_tex {
             get {
                 object obj = ResourceManager.GetObject("_135146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13733,7 +13733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135147_tex {
+        internal static System.Drawing.Bitmap _135147_tex {
             get {
                 object obj = ResourceManager.GetObject("_135147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13743,7 +13743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135200_tex {
+        internal static System.Drawing.Bitmap _135200_tex {
             get {
                 object obj = ResourceManager.GetObject("_135200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13753,7 +13753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135201_tex {
+        internal static System.Drawing.Bitmap _135201_tex {
             get {
                 object obj = ResourceManager.GetObject("_135201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13763,7 +13763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135202_tex {
+        internal static System.Drawing.Bitmap _135202_tex {
             get {
                 object obj = ResourceManager.GetObject("_135202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13773,7 +13773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135203_tex {
+        internal static System.Drawing.Bitmap _135203_tex {
             get {
                 object obj = ResourceManager.GetObject("_135203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13783,7 +13783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135204_tex {
+        internal static System.Drawing.Bitmap _135204_tex {
             get {
                 object obj = ResourceManager.GetObject("_135204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13793,7 +13793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135205_tex {
+        internal static System.Drawing.Bitmap _135205_tex {
             get {
                 object obj = ResourceManager.GetObject("_135205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13803,7 +13803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135206_tex {
+        internal static System.Drawing.Bitmap _135206_tex {
             get {
                 object obj = ResourceManager.GetObject("_135206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13813,7 +13813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135207_tex {
+        internal static System.Drawing.Bitmap _135207_tex {
             get {
                 object obj = ResourceManager.GetObject("_135207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13823,7 +13823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135208_tex {
+        internal static System.Drawing.Bitmap _135208_tex {
             get {
                 object obj = ResourceManager.GetObject("_135208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13833,7 +13833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135209_tex {
+        internal static System.Drawing.Bitmap _135209_tex {
             get {
                 object obj = ResourceManager.GetObject("_135209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13843,7 +13843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135210_tex {
+        internal static System.Drawing.Bitmap _135210_tex {
             get {
                 object obj = ResourceManager.GetObject("_135210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13853,7 +13853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135211_tex {
+        internal static System.Drawing.Bitmap _135211_tex {
             get {
                 object obj = ResourceManager.GetObject("_135211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13863,7 +13863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135212_tex {
+        internal static System.Drawing.Bitmap _135212_tex {
             get {
                 object obj = ResourceManager.GetObject("_135212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13873,7 +13873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135213_tex {
+        internal static System.Drawing.Bitmap _135213_tex {
             get {
                 object obj = ResourceManager.GetObject("_135213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13883,7 +13883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135214_tex {
+        internal static System.Drawing.Bitmap _135214_tex {
             get {
                 object obj = ResourceManager.GetObject("_135214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13893,7 +13893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135215_tex {
+        internal static System.Drawing.Bitmap _135215_tex {
             get {
                 object obj = ResourceManager.GetObject("_135215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13903,7 +13903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135216_tex {
+        internal static System.Drawing.Bitmap _135216_tex {
             get {
                 object obj = ResourceManager.GetObject("_135216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13913,7 +13913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135217_tex {
+        internal static System.Drawing.Bitmap _135217_tex {
             get {
                 object obj = ResourceManager.GetObject("_135217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13923,7 +13923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135218_tex {
+        internal static System.Drawing.Bitmap _135218_tex {
             get {
                 object obj = ResourceManager.GetObject("_135218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13933,7 +13933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135219_tex {
+        internal static System.Drawing.Bitmap _135219_tex {
             get {
                 object obj = ResourceManager.GetObject("_135219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13943,7 +13943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135220_tex {
+        internal static System.Drawing.Bitmap _135220_tex {
             get {
                 object obj = ResourceManager.GetObject("_135220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13953,7 +13953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135221_tex {
+        internal static System.Drawing.Bitmap _135221_tex {
             get {
                 object obj = ResourceManager.GetObject("_135221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13963,7 +13963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135222_tex {
+        internal static System.Drawing.Bitmap _135222_tex {
             get {
                 object obj = ResourceManager.GetObject("_135222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13973,7 +13973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135223_tex {
+        internal static System.Drawing.Bitmap _135223_tex {
             get {
                 object obj = ResourceManager.GetObject("_135223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13983,7 +13983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135224_tex {
+        internal static System.Drawing.Bitmap _135224_tex {
             get {
                 object obj = ResourceManager.GetObject("_135224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -13993,7 +13993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135225_tex {
+        internal static System.Drawing.Bitmap _135225_tex {
             get {
                 object obj = ResourceManager.GetObject("_135225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14003,7 +14003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135226_tex {
+        internal static System.Drawing.Bitmap _135226_tex {
             get {
                 object obj = ResourceManager.GetObject("_135226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14013,7 +14013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135227_tex {
+        internal static System.Drawing.Bitmap _135227_tex {
             get {
                 object obj = ResourceManager.GetObject("_135227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14023,7 +14023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135228_tex {
+        internal static System.Drawing.Bitmap _135228_tex {
             get {
                 object obj = ResourceManager.GetObject("_135228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14033,7 +14033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135229_tex {
+        internal static System.Drawing.Bitmap _135229_tex {
             get {
                 object obj = ResourceManager.GetObject("_135229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14043,7 +14043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135230_tex {
+        internal static System.Drawing.Bitmap _135230_tex {
             get {
                 object obj = ResourceManager.GetObject("_135230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14053,7 +14053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135231_tex {
+        internal static System.Drawing.Bitmap _135231_tex {
             get {
                 object obj = ResourceManager.GetObject("_135231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14063,7 +14063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135232_tex {
+        internal static System.Drawing.Bitmap _135232_tex {
             get {
                 object obj = ResourceManager.GetObject("_135232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14073,7 +14073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135233_tex {
+        internal static System.Drawing.Bitmap _135233_tex {
             get {
                 object obj = ResourceManager.GetObject("_135233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14083,7 +14083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135234_tex {
+        internal static System.Drawing.Bitmap _135234_tex {
             get {
                 object obj = ResourceManager.GetObject("_135234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14093,7 +14093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135235_tex {
+        internal static System.Drawing.Bitmap _135235_tex {
             get {
                 object obj = ResourceManager.GetObject("_135235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14103,7 +14103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135236_tex {
+        internal static System.Drawing.Bitmap _135236_tex {
             get {
                 object obj = ResourceManager.GetObject("_135236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14113,7 +14113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135237_tex {
+        internal static System.Drawing.Bitmap _135237_tex {
             get {
                 object obj = ResourceManager.GetObject("_135237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14123,7 +14123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135238_tex {
+        internal static System.Drawing.Bitmap _135238_tex {
             get {
                 object obj = ResourceManager.GetObject("_135238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14133,7 +14133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135239_tex {
+        internal static System.Drawing.Bitmap _135239_tex {
             get {
                 object obj = ResourceManager.GetObject("_135239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14143,7 +14143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135240_tex {
+        internal static System.Drawing.Bitmap _135240_tex {
             get {
                 object obj = ResourceManager.GetObject("_135240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14153,7 +14153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135241_tex {
+        internal static System.Drawing.Bitmap _135241_tex {
             get {
                 object obj = ResourceManager.GetObject("_135241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14163,7 +14163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135242_tex {
+        internal static System.Drawing.Bitmap _135242_tex {
             get {
                 object obj = ResourceManager.GetObject("_135242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14173,7 +14173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135243_tex {
+        internal static System.Drawing.Bitmap _135243_tex {
             get {
                 object obj = ResourceManager.GetObject("_135243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14183,7 +14183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135244_tex {
+        internal static System.Drawing.Bitmap _135244_tex {
             get {
                 object obj = ResourceManager.GetObject("_135244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14193,7 +14193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135245_tex {
+        internal static System.Drawing.Bitmap _135245_tex {
             get {
                 object obj = ResourceManager.GetObject("_135245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14203,7 +14203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135246_tex {
+        internal static System.Drawing.Bitmap _135246_tex {
             get {
                 object obj = ResourceManager.GetObject("_135246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14213,7 +14213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135247_tex {
+        internal static System.Drawing.Bitmap _135247_tex {
             get {
                 object obj = ResourceManager.GetObject("_135247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14223,7 +14223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135248_tex {
+        internal static System.Drawing.Bitmap _135248_tex {
             get {
                 object obj = ResourceManager.GetObject("_135248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14233,7 +14233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135249_tex {
+        internal static System.Drawing.Bitmap _135249_tex {
             get {
                 object obj = ResourceManager.GetObject("_135249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14243,7 +14243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135250_tex {
+        internal static System.Drawing.Bitmap _135250_tex {
             get {
                 object obj = ResourceManager.GetObject("_135250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14253,7 +14253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135251_tex {
+        internal static System.Drawing.Bitmap _135251_tex {
             get {
                 object obj = ResourceManager.GetObject("_135251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14263,7 +14263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135252_tex {
+        internal static System.Drawing.Bitmap _135252_tex {
             get {
                 object obj = ResourceManager.GetObject("_135252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14273,7 +14273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135253_tex {
+        internal static System.Drawing.Bitmap _135253_tex {
             get {
                 object obj = ResourceManager.GetObject("_135253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14283,7 +14283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135254_tex {
+        internal static System.Drawing.Bitmap _135254_tex {
             get {
                 object obj = ResourceManager.GetObject("_135254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14293,7 +14293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135255_tex {
+        internal static System.Drawing.Bitmap _135255_tex {
             get {
                 object obj = ResourceManager.GetObject("_135255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14303,7 +14303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135256_tex {
+        internal static System.Drawing.Bitmap _135256_tex {
             get {
                 object obj = ResourceManager.GetObject("_135256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14313,7 +14313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135257_tex {
+        internal static System.Drawing.Bitmap _135257_tex {
             get {
                 object obj = ResourceManager.GetObject("_135257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14323,7 +14323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135258_tex {
+        internal static System.Drawing.Bitmap _135258_tex {
             get {
                 object obj = ResourceManager.GetObject("_135258_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14333,7 +14333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135300_tex {
+        internal static System.Drawing.Bitmap _135300_tex {
             get {
                 object obj = ResourceManager.GetObject("_135300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14343,7 +14343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135301_tex {
+        internal static System.Drawing.Bitmap _135301_tex {
             get {
                 object obj = ResourceManager.GetObject("_135301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14353,7 +14353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135302_tex {
+        internal static System.Drawing.Bitmap _135302_tex {
             get {
                 object obj = ResourceManager.GetObject("_135302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14363,7 +14363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135303_tex {
+        internal static System.Drawing.Bitmap _135303_tex {
             get {
                 object obj = ResourceManager.GetObject("_135303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14373,7 +14373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135304_tex {
+        internal static System.Drawing.Bitmap _135304_tex {
             get {
                 object obj = ResourceManager.GetObject("_135304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14383,7 +14383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135310_tex {
+        internal static System.Drawing.Bitmap _135310_tex {
             get {
                 object obj = ResourceManager.GetObject("_135310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14393,7 +14393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135311_tex {
+        internal static System.Drawing.Bitmap _135311_tex {
             get {
                 object obj = ResourceManager.GetObject("_135311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14403,7 +14403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135312_tex {
+        internal static System.Drawing.Bitmap _135312_tex {
             get {
                 object obj = ResourceManager.GetObject("_135312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14413,7 +14413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135313_tex {
+        internal static System.Drawing.Bitmap _135313_tex {
             get {
                 object obj = ResourceManager.GetObject("_135313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14423,7 +14423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135314_tex {
+        internal static System.Drawing.Bitmap _135314_tex {
             get {
                 object obj = ResourceManager.GetObject("_135314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14433,7 +14433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135315_tex {
+        internal static System.Drawing.Bitmap _135315_tex {
             get {
                 object obj = ResourceManager.GetObject("_135315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14443,7 +14443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135316_tex {
+        internal static System.Drawing.Bitmap _135316_tex {
             get {
                 object obj = ResourceManager.GetObject("_135316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14453,7 +14453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135317_tex {
+        internal static System.Drawing.Bitmap _135317_tex {
             get {
                 object obj = ResourceManager.GetObject("_135317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14463,7 +14463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135320_tex {
+        internal static System.Drawing.Bitmap _135320_tex {
             get {
                 object obj = ResourceManager.GetObject("_135320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14473,7 +14473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135321_tex {
+        internal static System.Drawing.Bitmap _135321_tex {
             get {
                 object obj = ResourceManager.GetObject("_135321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14483,7 +14483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135322_tex {
+        internal static System.Drawing.Bitmap _135322_tex {
             get {
                 object obj = ResourceManager.GetObject("_135322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14493,7 +14493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135323_tex {
+        internal static System.Drawing.Bitmap _135323_tex {
             get {
                 object obj = ResourceManager.GetObject("_135323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14503,7 +14503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135324_tex {
+        internal static System.Drawing.Bitmap _135324_tex {
             get {
                 object obj = ResourceManager.GetObject("_135324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14513,7 +14513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135325_tex {
+        internal static System.Drawing.Bitmap _135325_tex {
             get {
                 object obj = ResourceManager.GetObject("_135325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14523,7 +14523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135326_tex {
+        internal static System.Drawing.Bitmap _135326_tex {
             get {
                 object obj = ResourceManager.GetObject("_135326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14533,7 +14533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135327_tex {
+        internal static System.Drawing.Bitmap _135327_tex {
             get {
                 object obj = ResourceManager.GetObject("_135327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14543,7 +14543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135330_tex {
+        internal static System.Drawing.Bitmap _135330_tex {
             get {
                 object obj = ResourceManager.GetObject("_135330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14553,7 +14553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135331_tex {
+        internal static System.Drawing.Bitmap _135331_tex {
             get {
                 object obj = ResourceManager.GetObject("_135331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14563,7 +14563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135332_tex {
+        internal static System.Drawing.Bitmap _135332_tex {
             get {
                 object obj = ResourceManager.GetObject("_135332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14573,7 +14573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135333_tex {
+        internal static System.Drawing.Bitmap _135333_tex {
             get {
                 object obj = ResourceManager.GetObject("_135333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14583,7 +14583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135334_tex {
+        internal static System.Drawing.Bitmap _135334_tex {
             get {
                 object obj = ResourceManager.GetObject("_135334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14593,7 +14593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135335_tex {
+        internal static System.Drawing.Bitmap _135335_tex {
             get {
                 object obj = ResourceManager.GetObject("_135335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14603,7 +14603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135336_tex {
+        internal static System.Drawing.Bitmap _135336_tex {
             get {
                 object obj = ResourceManager.GetObject("_135336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14613,7 +14613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135337_tex {
+        internal static System.Drawing.Bitmap _135337_tex {
             get {
                 object obj = ResourceManager.GetObject("_135337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14623,7 +14623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135340_tex {
+        internal static System.Drawing.Bitmap _135340_tex {
             get {
                 object obj = ResourceManager.GetObject("_135340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14633,7 +14633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135341_tex {
+        internal static System.Drawing.Bitmap _135341_tex {
             get {
                 object obj = ResourceManager.GetObject("_135341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14643,7 +14643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135342_tex {
+        internal static System.Drawing.Bitmap _135342_tex {
             get {
                 object obj = ResourceManager.GetObject("_135342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14653,7 +14653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135343_tex {
+        internal static System.Drawing.Bitmap _135343_tex {
             get {
                 object obj = ResourceManager.GetObject("_135343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14663,7 +14663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135344_tex {
+        internal static System.Drawing.Bitmap _135344_tex {
             get {
                 object obj = ResourceManager.GetObject("_135344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14673,7 +14673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135345_tex {
+        internal static System.Drawing.Bitmap _135345_tex {
             get {
                 object obj = ResourceManager.GetObject("_135345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14683,7 +14683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135346_tex {
+        internal static System.Drawing.Bitmap _135346_tex {
             get {
                 object obj = ResourceManager.GetObject("_135346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14693,7 +14693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135347_tex {
+        internal static System.Drawing.Bitmap _135347_tex {
             get {
                 object obj = ResourceManager.GetObject("_135347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14703,7 +14703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135600_tex {
+        internal static System.Drawing.Bitmap _135600_tex {
             get {
                 object obj = ResourceManager.GetObject("_135600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14713,7 +14713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135601_tex {
+        internal static System.Drawing.Bitmap _135601_tex {
             get {
                 object obj = ResourceManager.GetObject("_135601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14723,7 +14723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135602_tex {
+        internal static System.Drawing.Bitmap _135602_tex {
             get {
                 object obj = ResourceManager.GetObject("_135602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14733,7 +14733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135603_tex {
+        internal static System.Drawing.Bitmap _135603_tex {
             get {
                 object obj = ResourceManager.GetObject("_135603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14743,7 +14743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135604_tex {
+        internal static System.Drawing.Bitmap _135604_tex {
             get {
                 object obj = ResourceManager.GetObject("_135604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14753,7 +14753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135610_tex {
+        internal static System.Drawing.Bitmap _135610_tex {
             get {
                 object obj = ResourceManager.GetObject("_135610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14763,7 +14763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135611_tex {
+        internal static System.Drawing.Bitmap _135611_tex {
             get {
                 object obj = ResourceManager.GetObject("_135611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14773,7 +14773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135612_tex {
+        internal static System.Drawing.Bitmap _135612_tex {
             get {
                 object obj = ResourceManager.GetObject("_135612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14783,7 +14783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135613_tex {
+        internal static System.Drawing.Bitmap _135613_tex {
             get {
                 object obj = ResourceManager.GetObject("_135613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14793,7 +14793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135614_tex {
+        internal static System.Drawing.Bitmap _135614_tex {
             get {
                 object obj = ResourceManager.GetObject("_135614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14803,7 +14803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135615_tex {
+        internal static System.Drawing.Bitmap _135615_tex {
             get {
                 object obj = ResourceManager.GetObject("_135615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14813,7 +14813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135616_tex {
+        internal static System.Drawing.Bitmap _135616_tex {
             get {
                 object obj = ResourceManager.GetObject("_135616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14823,7 +14823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135617_tex {
+        internal static System.Drawing.Bitmap _135617_tex {
             get {
                 object obj = ResourceManager.GetObject("_135617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14833,7 +14833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135620_tex {
+        internal static System.Drawing.Bitmap _135620_tex {
             get {
                 object obj = ResourceManager.GetObject("_135620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14843,7 +14843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135621_tex {
+        internal static System.Drawing.Bitmap _135621_tex {
             get {
                 object obj = ResourceManager.GetObject("_135621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14853,7 +14853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135622_tex {
+        internal static System.Drawing.Bitmap _135622_tex {
             get {
                 object obj = ResourceManager.GetObject("_135622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14863,7 +14863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135623_tex {
+        internal static System.Drawing.Bitmap _135623_tex {
             get {
                 object obj = ResourceManager.GetObject("_135623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14873,7 +14873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135624_tex {
+        internal static System.Drawing.Bitmap _135624_tex {
             get {
                 object obj = ResourceManager.GetObject("_135624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14883,7 +14883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135625_tex {
+        internal static System.Drawing.Bitmap _135625_tex {
             get {
                 object obj = ResourceManager.GetObject("_135625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14893,7 +14893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135626_tex {
+        internal static System.Drawing.Bitmap _135626_tex {
             get {
                 object obj = ResourceManager.GetObject("_135626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14903,7 +14903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135627_tex {
+        internal static System.Drawing.Bitmap _135627_tex {
             get {
                 object obj = ResourceManager.GetObject("_135627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14913,7 +14913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135630_tex {
+        internal static System.Drawing.Bitmap _135630_tex {
             get {
                 object obj = ResourceManager.GetObject("_135630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14923,7 +14923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135631_tex {
+        internal static System.Drawing.Bitmap _135631_tex {
             get {
                 object obj = ResourceManager.GetObject("_135631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14933,7 +14933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135632_tex {
+        internal static System.Drawing.Bitmap _135632_tex {
             get {
                 object obj = ResourceManager.GetObject("_135632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14943,7 +14943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135633_tex {
+        internal static System.Drawing.Bitmap _135633_tex {
             get {
                 object obj = ResourceManager.GetObject("_135633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14953,7 +14953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135634_tex {
+        internal static System.Drawing.Bitmap _135634_tex {
             get {
                 object obj = ResourceManager.GetObject("_135634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14963,7 +14963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135635_tex {
+        internal static System.Drawing.Bitmap _135635_tex {
             get {
                 object obj = ResourceManager.GetObject("_135635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14973,7 +14973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135636_tex {
+        internal static System.Drawing.Bitmap _135636_tex {
             get {
                 object obj = ResourceManager.GetObject("_135636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14983,7 +14983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135637_tex {
+        internal static System.Drawing.Bitmap _135637_tex {
             get {
                 object obj = ResourceManager.GetObject("_135637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -14993,7 +14993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135640_tex {
+        internal static System.Drawing.Bitmap _135640_tex {
             get {
                 object obj = ResourceManager.GetObject("_135640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15003,7 +15003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135641_tex {
+        internal static System.Drawing.Bitmap _135641_tex {
             get {
                 object obj = ResourceManager.GetObject("_135641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15013,7 +15013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135642_tex {
+        internal static System.Drawing.Bitmap _135642_tex {
             get {
                 object obj = ResourceManager.GetObject("_135642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15023,7 +15023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135643_tex {
+        internal static System.Drawing.Bitmap _135643_tex {
             get {
                 object obj = ResourceManager.GetObject("_135643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15033,7 +15033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135644_tex {
+        internal static System.Drawing.Bitmap _135644_tex {
             get {
                 object obj = ResourceManager.GetObject("_135644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15043,7 +15043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135645_tex {
+        internal static System.Drawing.Bitmap _135645_tex {
             get {
                 object obj = ResourceManager.GetObject("_135645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15053,7 +15053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135646_tex {
+        internal static System.Drawing.Bitmap _135646_tex {
             get {
                 object obj = ResourceManager.GetObject("_135646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15063,7 +15063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135647_tex {
+        internal static System.Drawing.Bitmap _135647_tex {
             get {
                 object obj = ResourceManager.GetObject("_135647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15073,7 +15073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135800_tex {
+        internal static System.Drawing.Bitmap _135800_tex {
             get {
                 object obj = ResourceManager.GetObject("_135800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15083,7 +15083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135801_tex {
+        internal static System.Drawing.Bitmap _135801_tex {
             get {
                 object obj = ResourceManager.GetObject("_135801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15093,7 +15093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135802_tex {
+        internal static System.Drawing.Bitmap _135802_tex {
             get {
                 object obj = ResourceManager.GetObject("_135802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15103,7 +15103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135803_tex {
+        internal static System.Drawing.Bitmap _135803_tex {
             get {
                 object obj = ResourceManager.GetObject("_135803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15113,7 +15113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135804_tex {
+        internal static System.Drawing.Bitmap _135804_tex {
             get {
                 object obj = ResourceManager.GetObject("_135804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15123,7 +15123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135810_tex {
+        internal static System.Drawing.Bitmap _135810_tex {
             get {
                 object obj = ResourceManager.GetObject("_135810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15133,7 +15133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135811_tex {
+        internal static System.Drawing.Bitmap _135811_tex {
             get {
                 object obj = ResourceManager.GetObject("_135811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15143,7 +15143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135812_tex {
+        internal static System.Drawing.Bitmap _135812_tex {
             get {
                 object obj = ResourceManager.GetObject("_135812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15153,7 +15153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135813_tex {
+        internal static System.Drawing.Bitmap _135813_tex {
             get {
                 object obj = ResourceManager.GetObject("_135813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15163,7 +15163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135814_tex {
+        internal static System.Drawing.Bitmap _135814_tex {
             get {
                 object obj = ResourceManager.GetObject("_135814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15173,7 +15173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135815_tex {
+        internal static System.Drawing.Bitmap _135815_tex {
             get {
                 object obj = ResourceManager.GetObject("_135815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15183,7 +15183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135816_tex {
+        internal static System.Drawing.Bitmap _135816_tex {
             get {
                 object obj = ResourceManager.GetObject("_135816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15193,7 +15193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135817_tex {
+        internal static System.Drawing.Bitmap _135817_tex {
             get {
                 object obj = ResourceManager.GetObject("_135817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15203,7 +15203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135820_tex {
+        internal static System.Drawing.Bitmap _135820_tex {
             get {
                 object obj = ResourceManager.GetObject("_135820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15213,7 +15213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135821_tex {
+        internal static System.Drawing.Bitmap _135821_tex {
             get {
                 object obj = ResourceManager.GetObject("_135821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15223,7 +15223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135822_tex {
+        internal static System.Drawing.Bitmap _135822_tex {
             get {
                 object obj = ResourceManager.GetObject("_135822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15233,7 +15233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135823_tex {
+        internal static System.Drawing.Bitmap _135823_tex {
             get {
                 object obj = ResourceManager.GetObject("_135823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15243,7 +15243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135824_tex {
+        internal static System.Drawing.Bitmap _135824_tex {
             get {
                 object obj = ResourceManager.GetObject("_135824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15253,7 +15253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135825_tex {
+        internal static System.Drawing.Bitmap _135825_tex {
             get {
                 object obj = ResourceManager.GetObject("_135825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15263,7 +15263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135826_tex {
+        internal static System.Drawing.Bitmap _135826_tex {
             get {
                 object obj = ResourceManager.GetObject("_135826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15273,7 +15273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135827_tex {
+        internal static System.Drawing.Bitmap _135827_tex {
             get {
                 object obj = ResourceManager.GetObject("_135827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15283,7 +15283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135830_tex {
+        internal static System.Drawing.Bitmap _135830_tex {
             get {
                 object obj = ResourceManager.GetObject("_135830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15293,7 +15293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135831_tex {
+        internal static System.Drawing.Bitmap _135831_tex {
             get {
                 object obj = ResourceManager.GetObject("_135831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15303,7 +15303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135832_tex {
+        internal static System.Drawing.Bitmap _135832_tex {
             get {
                 object obj = ResourceManager.GetObject("_135832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15313,7 +15313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135833_tex {
+        internal static System.Drawing.Bitmap _135833_tex {
             get {
                 object obj = ResourceManager.GetObject("_135833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15323,7 +15323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135834_tex {
+        internal static System.Drawing.Bitmap _135834_tex {
             get {
                 object obj = ResourceManager.GetObject("_135834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15333,7 +15333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135835_tex {
+        internal static System.Drawing.Bitmap _135835_tex {
             get {
                 object obj = ResourceManager.GetObject("_135835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15343,7 +15343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135836_tex {
+        internal static System.Drawing.Bitmap _135836_tex {
             get {
                 object obj = ResourceManager.GetObject("_135836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15353,7 +15353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135837_tex {
+        internal static System.Drawing.Bitmap _135837_tex {
             get {
                 object obj = ResourceManager.GetObject("_135837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15363,7 +15363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135840_tex {
+        internal static System.Drawing.Bitmap _135840_tex {
             get {
                 object obj = ResourceManager.GetObject("_135840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15373,7 +15373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135841_tex {
+        internal static System.Drawing.Bitmap _135841_tex {
             get {
                 object obj = ResourceManager.GetObject("_135841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15383,7 +15383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135842_tex {
+        internal static System.Drawing.Bitmap _135842_tex {
             get {
                 object obj = ResourceManager.GetObject("_135842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15393,7 +15393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135843_tex {
+        internal static System.Drawing.Bitmap _135843_tex {
             get {
                 object obj = ResourceManager.GetObject("_135843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15403,7 +15403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135844_tex {
+        internal static System.Drawing.Bitmap _135844_tex {
             get {
                 object obj = ResourceManager.GetObject("_135844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15413,7 +15413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135845_tex {
+        internal static System.Drawing.Bitmap _135845_tex {
             get {
                 object obj = ResourceManager.GetObject("_135845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15423,7 +15423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135846_tex {
+        internal static System.Drawing.Bitmap _135846_tex {
             get {
                 object obj = ResourceManager.GetObject("_135846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15433,7 +15433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _135847_tex {
+        internal static System.Drawing.Bitmap _135847_tex {
             get {
                 object obj = ResourceManager.GetObject("_135847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15443,7 +15443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136000_tex {
+        internal static System.Drawing.Bitmap _136000_tex {
             get {
                 object obj = ResourceManager.GetObject("_136000_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15453,7 +15453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136001_tex {
+        internal static System.Drawing.Bitmap _136001_tex {
             get {
                 object obj = ResourceManager.GetObject("_136001_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15463,7 +15463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136002_tex {
+        internal static System.Drawing.Bitmap _136002_tex {
             get {
                 object obj = ResourceManager.GetObject("_136002_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15473,7 +15473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136003_tex {
+        internal static System.Drawing.Bitmap _136003_tex {
             get {
                 object obj = ResourceManager.GetObject("_136003_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15483,7 +15483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136004_tex {
+        internal static System.Drawing.Bitmap _136004_tex {
             get {
                 object obj = ResourceManager.GetObject("_136004_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15493,7 +15493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136005_tex {
+        internal static System.Drawing.Bitmap _136005_tex {
             get {
                 object obj = ResourceManager.GetObject("_136005_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15503,7 +15503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136006_tex {
+        internal static System.Drawing.Bitmap _136006_tex {
             get {
                 object obj = ResourceManager.GetObject("_136006_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15513,7 +15513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136007_tex {
+        internal static System.Drawing.Bitmap _136007_tex {
             get {
                 object obj = ResourceManager.GetObject("_136007_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15523,7 +15523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136008_tex {
+        internal static System.Drawing.Bitmap _136008_tex {
             get {
                 object obj = ResourceManager.GetObject("_136008_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15533,7 +15533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136009_tex {
+        internal static System.Drawing.Bitmap _136009_tex {
             get {
                 object obj = ResourceManager.GetObject("_136009_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15543,7 +15543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136010_tex {
+        internal static System.Drawing.Bitmap _136010_tex {
             get {
                 object obj = ResourceManager.GetObject("_136010_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15553,7 +15553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136011_tex {
+        internal static System.Drawing.Bitmap _136011_tex {
             get {
                 object obj = ResourceManager.GetObject("_136011_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15563,7 +15563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136012_tex {
+        internal static System.Drawing.Bitmap _136012_tex {
             get {
                 object obj = ResourceManager.GetObject("_136012_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15573,7 +15573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136013_tex {
+        internal static System.Drawing.Bitmap _136013_tex {
             get {
                 object obj = ResourceManager.GetObject("_136013_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15583,7 +15583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136014_tex {
+        internal static System.Drawing.Bitmap _136014_tex {
             get {
                 object obj = ResourceManager.GetObject("_136014_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15593,7 +15593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136015_tex {
+        internal static System.Drawing.Bitmap _136015_tex {
             get {
                 object obj = ResourceManager.GetObject("_136015_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15603,7 +15603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136016_tex {
+        internal static System.Drawing.Bitmap _136016_tex {
             get {
                 object obj = ResourceManager.GetObject("_136016_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15613,7 +15613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136017_tex {
+        internal static System.Drawing.Bitmap _136017_tex {
             get {
                 object obj = ResourceManager.GetObject("_136017_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15623,7 +15623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136018_tex {
+        internal static System.Drawing.Bitmap _136018_tex {
             get {
                 object obj = ResourceManager.GetObject("_136018_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15633,7 +15633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136019_tex {
+        internal static System.Drawing.Bitmap _136019_tex {
             get {
                 object obj = ResourceManager.GetObject("_136019_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15643,7 +15643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136020_tex {
+        internal static System.Drawing.Bitmap _136020_tex {
             get {
                 object obj = ResourceManager.GetObject("_136020_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15653,7 +15653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136021_tex {
+        internal static System.Drawing.Bitmap _136021_tex {
             get {
                 object obj = ResourceManager.GetObject("_136021_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15663,7 +15663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136022_tex {
+        internal static System.Drawing.Bitmap _136022_tex {
             get {
                 object obj = ResourceManager.GetObject("_136022_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15673,7 +15673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136023_tex {
+        internal static System.Drawing.Bitmap _136023_tex {
             get {
                 object obj = ResourceManager.GetObject("_136023_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15683,7 +15683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136024_tex {
+        internal static System.Drawing.Bitmap _136024_tex {
             get {
                 object obj = ResourceManager.GetObject("_136024_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15693,7 +15693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136025_tex {
+        internal static System.Drawing.Bitmap _136025_tex {
             get {
                 object obj = ResourceManager.GetObject("_136025_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15703,7 +15703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136026_tex {
+        internal static System.Drawing.Bitmap _136026_tex {
             get {
                 object obj = ResourceManager.GetObject("_136026_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15713,7 +15713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136027_tex {
+        internal static System.Drawing.Bitmap _136027_tex {
             get {
                 object obj = ResourceManager.GetObject("_136027_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15723,7 +15723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136028_tex {
+        internal static System.Drawing.Bitmap _136028_tex {
             get {
                 object obj = ResourceManager.GetObject("_136028_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15733,7 +15733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136029_tex {
+        internal static System.Drawing.Bitmap _136029_tex {
             get {
                 object obj = ResourceManager.GetObject("_136029_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15743,7 +15743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136030_tex {
+        internal static System.Drawing.Bitmap _136030_tex {
             get {
                 object obj = ResourceManager.GetObject("_136030_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15753,7 +15753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136031_tex {
+        internal static System.Drawing.Bitmap _136031_tex {
             get {
                 object obj = ResourceManager.GetObject("_136031_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15763,7 +15763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136032_tex {
+        internal static System.Drawing.Bitmap _136032_tex {
             get {
                 object obj = ResourceManager.GetObject("_136032_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15773,7 +15773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136033_tex {
+        internal static System.Drawing.Bitmap _136033_tex {
             get {
                 object obj = ResourceManager.GetObject("_136033_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15783,7 +15783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136034_tex {
+        internal static System.Drawing.Bitmap _136034_tex {
             get {
                 object obj = ResourceManager.GetObject("_136034_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15793,7 +15793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136035_tex {
+        internal static System.Drawing.Bitmap _136035_tex {
             get {
                 object obj = ResourceManager.GetObject("_136035_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15803,7 +15803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136036_tex {
+        internal static System.Drawing.Bitmap _136036_tex {
             get {
                 object obj = ResourceManager.GetObject("_136036_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15813,7 +15813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136037_tex {
+        internal static System.Drawing.Bitmap _136037_tex {
             get {
                 object obj = ResourceManager.GetObject("_136037_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15823,7 +15823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136038_tex {
+        internal static System.Drawing.Bitmap _136038_tex {
             get {
                 object obj = ResourceManager.GetObject("_136038_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15833,7 +15833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136039_tex {
+        internal static System.Drawing.Bitmap _136039_tex {
             get {
                 object obj = ResourceManager.GetObject("_136039_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15843,7 +15843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136040_tex {
+        internal static System.Drawing.Bitmap _136040_tex {
             get {
                 object obj = ResourceManager.GetObject("_136040_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15853,7 +15853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136041_tex {
+        internal static System.Drawing.Bitmap _136041_tex {
             get {
                 object obj = ResourceManager.GetObject("_136041_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15863,7 +15863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136042_tex {
+        internal static System.Drawing.Bitmap _136042_tex {
             get {
                 object obj = ResourceManager.GetObject("_136042_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15873,7 +15873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136043_tex {
+        internal static System.Drawing.Bitmap _136043_tex {
             get {
                 object obj = ResourceManager.GetObject("_136043_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15883,7 +15883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136044_tex {
+        internal static System.Drawing.Bitmap _136044_tex {
             get {
                 object obj = ResourceManager.GetObject("_136044_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15893,7 +15893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136045_tex {
+        internal static System.Drawing.Bitmap _136045_tex {
             get {
                 object obj = ResourceManager.GetObject("_136045_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15903,7 +15903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136046_tex {
+        internal static System.Drawing.Bitmap _136046_tex {
             get {
                 object obj = ResourceManager.GetObject("_136046_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15913,7 +15913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136047_tex {
+        internal static System.Drawing.Bitmap _136047_tex {
             get {
                 object obj = ResourceManager.GetObject("_136047_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15923,7 +15923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136048_tex {
+        internal static System.Drawing.Bitmap _136048_tex {
             get {
                 object obj = ResourceManager.GetObject("_136048_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15933,7 +15933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136049_tex {
+        internal static System.Drawing.Bitmap _136049_tex {
             get {
                 object obj = ResourceManager.GetObject("_136049_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15943,7 +15943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136050_tex {
+        internal static System.Drawing.Bitmap _136050_tex {
             get {
                 object obj = ResourceManager.GetObject("_136050_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15953,7 +15953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136051_tex {
+        internal static System.Drawing.Bitmap _136051_tex {
             get {
                 object obj = ResourceManager.GetObject("_136051_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15963,7 +15963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136052_tex {
+        internal static System.Drawing.Bitmap _136052_tex {
             get {
                 object obj = ResourceManager.GetObject("_136052_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15973,7 +15973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136053_tex {
+        internal static System.Drawing.Bitmap _136053_tex {
             get {
                 object obj = ResourceManager.GetObject("_136053_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15983,7 +15983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136054_tex {
+        internal static System.Drawing.Bitmap _136054_tex {
             get {
                 object obj = ResourceManager.GetObject("_136054_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -15993,7 +15993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136055_tex {
+        internal static System.Drawing.Bitmap _136055_tex {
             get {
                 object obj = ResourceManager.GetObject("_136055_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16003,7 +16003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136056_tex {
+        internal static System.Drawing.Bitmap _136056_tex {
             get {
                 object obj = ResourceManager.GetObject("_136056_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16013,7 +16013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136100_tex {
+        internal static System.Drawing.Bitmap _136100_tex {
             get {
                 object obj = ResourceManager.GetObject("_136100_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16023,7 +16023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136101_tex {
+        internal static System.Drawing.Bitmap _136101_tex {
             get {
                 object obj = ResourceManager.GetObject("_136101_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16033,7 +16033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136102_tex {
+        internal static System.Drawing.Bitmap _136102_tex {
             get {
                 object obj = ResourceManager.GetObject("_136102_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16043,7 +16043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136103_tex {
+        internal static System.Drawing.Bitmap _136103_tex {
             get {
                 object obj = ResourceManager.GetObject("_136103_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16053,7 +16053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136104_tex {
+        internal static System.Drawing.Bitmap _136104_tex {
             get {
                 object obj = ResourceManager.GetObject("_136104_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16063,7 +16063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136110_tex {
+        internal static System.Drawing.Bitmap _136110_tex {
             get {
                 object obj = ResourceManager.GetObject("_136110_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16073,7 +16073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136111_tex {
+        internal static System.Drawing.Bitmap _136111_tex {
             get {
                 object obj = ResourceManager.GetObject("_136111_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16083,7 +16083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136112_tex {
+        internal static System.Drawing.Bitmap _136112_tex {
             get {
                 object obj = ResourceManager.GetObject("_136112_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16093,7 +16093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136113_tex {
+        internal static System.Drawing.Bitmap _136113_tex {
             get {
                 object obj = ResourceManager.GetObject("_136113_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16103,7 +16103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136114_tex {
+        internal static System.Drawing.Bitmap _136114_tex {
             get {
                 object obj = ResourceManager.GetObject("_136114_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16113,7 +16113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136115_tex {
+        internal static System.Drawing.Bitmap _136115_tex {
             get {
                 object obj = ResourceManager.GetObject("_136115_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16123,7 +16123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136116_tex {
+        internal static System.Drawing.Bitmap _136116_tex {
             get {
                 object obj = ResourceManager.GetObject("_136116_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16133,7 +16133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136117_tex {
+        internal static System.Drawing.Bitmap _136117_tex {
             get {
                 object obj = ResourceManager.GetObject("_136117_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16143,7 +16143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136120_tex {
+        internal static System.Drawing.Bitmap _136120_tex {
             get {
                 object obj = ResourceManager.GetObject("_136120_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16153,7 +16153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136121_tex {
+        internal static System.Drawing.Bitmap _136121_tex {
             get {
                 object obj = ResourceManager.GetObject("_136121_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16163,7 +16163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136122_tex {
+        internal static System.Drawing.Bitmap _136122_tex {
             get {
                 object obj = ResourceManager.GetObject("_136122_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16173,7 +16173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136123_tex {
+        internal static System.Drawing.Bitmap _136123_tex {
             get {
                 object obj = ResourceManager.GetObject("_136123_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16183,7 +16183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136124_tex {
+        internal static System.Drawing.Bitmap _136124_tex {
             get {
                 object obj = ResourceManager.GetObject("_136124_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16193,7 +16193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136125_tex {
+        internal static System.Drawing.Bitmap _136125_tex {
             get {
                 object obj = ResourceManager.GetObject("_136125_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16203,7 +16203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136126_tex {
+        internal static System.Drawing.Bitmap _136126_tex {
             get {
                 object obj = ResourceManager.GetObject("_136126_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16213,7 +16213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136127_tex {
+        internal static System.Drawing.Bitmap _136127_tex {
             get {
                 object obj = ResourceManager.GetObject("_136127_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16223,7 +16223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136130_tex {
+        internal static System.Drawing.Bitmap _136130_tex {
             get {
                 object obj = ResourceManager.GetObject("_136130_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16233,7 +16233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136131_tex {
+        internal static System.Drawing.Bitmap _136131_tex {
             get {
                 object obj = ResourceManager.GetObject("_136131_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16243,7 +16243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136132_tex {
+        internal static System.Drawing.Bitmap _136132_tex {
             get {
                 object obj = ResourceManager.GetObject("_136132_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16253,7 +16253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136133_tex {
+        internal static System.Drawing.Bitmap _136133_tex {
             get {
                 object obj = ResourceManager.GetObject("_136133_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16263,7 +16263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136134_tex {
+        internal static System.Drawing.Bitmap _136134_tex {
             get {
                 object obj = ResourceManager.GetObject("_136134_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16273,7 +16273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136135_tex {
+        internal static System.Drawing.Bitmap _136135_tex {
             get {
                 object obj = ResourceManager.GetObject("_136135_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16283,7 +16283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136136_tex {
+        internal static System.Drawing.Bitmap _136136_tex {
             get {
                 object obj = ResourceManager.GetObject("_136136_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16293,7 +16293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136137_tex {
+        internal static System.Drawing.Bitmap _136137_tex {
             get {
                 object obj = ResourceManager.GetObject("_136137_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16303,7 +16303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136140_tex {
+        internal static System.Drawing.Bitmap _136140_tex {
             get {
                 object obj = ResourceManager.GetObject("_136140_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16313,7 +16313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136141_tex {
+        internal static System.Drawing.Bitmap _136141_tex {
             get {
                 object obj = ResourceManager.GetObject("_136141_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16323,7 +16323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136142_tex {
+        internal static System.Drawing.Bitmap _136142_tex {
             get {
                 object obj = ResourceManager.GetObject("_136142_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16333,7 +16333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136143_tex {
+        internal static System.Drawing.Bitmap _136143_tex {
             get {
                 object obj = ResourceManager.GetObject("_136143_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16343,7 +16343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136144_tex {
+        internal static System.Drawing.Bitmap _136144_tex {
             get {
                 object obj = ResourceManager.GetObject("_136144_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16353,7 +16353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136145_tex {
+        internal static System.Drawing.Bitmap _136145_tex {
             get {
                 object obj = ResourceManager.GetObject("_136145_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16363,7 +16363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136146_tex {
+        internal static System.Drawing.Bitmap _136146_tex {
             get {
                 object obj = ResourceManager.GetObject("_136146_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16373,7 +16373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136147_tex {
+        internal static System.Drawing.Bitmap _136147_tex {
             get {
                 object obj = ResourceManager.GetObject("_136147_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16383,7 +16383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136190_tex {
+        internal static System.Drawing.Bitmap _136190_tex {
             get {
                 object obj = ResourceManager.GetObject("_136190_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16393,7 +16393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136191_tex {
+        internal static System.Drawing.Bitmap _136191_tex {
             get {
                 object obj = ResourceManager.GetObject("_136191_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16403,7 +16403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136192_tex {
+        internal static System.Drawing.Bitmap _136192_tex {
             get {
                 object obj = ResourceManager.GetObject("_136192_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16413,7 +16413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136193_tex {
+        internal static System.Drawing.Bitmap _136193_tex {
             get {
                 object obj = ResourceManager.GetObject("_136193_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16423,7 +16423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136194_tex {
+        internal static System.Drawing.Bitmap _136194_tex {
             get {
                 object obj = ResourceManager.GetObject("_136194_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16433,7 +16433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136200_tex {
+        internal static System.Drawing.Bitmap _136200_tex {
             get {
                 object obj = ResourceManager.GetObject("_136200_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16443,7 +16443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136201_tex {
+        internal static System.Drawing.Bitmap _136201_tex {
             get {
                 object obj = ResourceManager.GetObject("_136201_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16453,7 +16453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136202_tex {
+        internal static System.Drawing.Bitmap _136202_tex {
             get {
                 object obj = ResourceManager.GetObject("_136202_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16463,7 +16463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136203_tex {
+        internal static System.Drawing.Bitmap _136203_tex {
             get {
                 object obj = ResourceManager.GetObject("_136203_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16473,7 +16473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136204_tex {
+        internal static System.Drawing.Bitmap _136204_tex {
             get {
                 object obj = ResourceManager.GetObject("_136204_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16483,7 +16483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136205_tex {
+        internal static System.Drawing.Bitmap _136205_tex {
             get {
                 object obj = ResourceManager.GetObject("_136205_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16493,7 +16493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136206_tex {
+        internal static System.Drawing.Bitmap _136206_tex {
             get {
                 object obj = ResourceManager.GetObject("_136206_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16503,7 +16503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136207_tex {
+        internal static System.Drawing.Bitmap _136207_tex {
             get {
                 object obj = ResourceManager.GetObject("_136207_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16513,7 +16513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136208_tex {
+        internal static System.Drawing.Bitmap _136208_tex {
             get {
                 object obj = ResourceManager.GetObject("_136208_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16523,7 +16523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136209_tex {
+        internal static System.Drawing.Bitmap _136209_tex {
             get {
                 object obj = ResourceManager.GetObject("_136209_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16533,7 +16533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136210_tex {
+        internal static System.Drawing.Bitmap _136210_tex {
             get {
                 object obj = ResourceManager.GetObject("_136210_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16543,7 +16543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136211_tex {
+        internal static System.Drawing.Bitmap _136211_tex {
             get {
                 object obj = ResourceManager.GetObject("_136211_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16553,7 +16553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136212_tex {
+        internal static System.Drawing.Bitmap _136212_tex {
             get {
                 object obj = ResourceManager.GetObject("_136212_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16563,7 +16563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136213_tex {
+        internal static System.Drawing.Bitmap _136213_tex {
             get {
                 object obj = ResourceManager.GetObject("_136213_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16573,7 +16573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136214_tex {
+        internal static System.Drawing.Bitmap _136214_tex {
             get {
                 object obj = ResourceManager.GetObject("_136214_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16583,7 +16583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136215_tex {
+        internal static System.Drawing.Bitmap _136215_tex {
             get {
                 object obj = ResourceManager.GetObject("_136215_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16593,7 +16593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136216_tex {
+        internal static System.Drawing.Bitmap _136216_tex {
             get {
                 object obj = ResourceManager.GetObject("_136216_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16603,7 +16603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136217_tex {
+        internal static System.Drawing.Bitmap _136217_tex {
             get {
                 object obj = ResourceManager.GetObject("_136217_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16613,7 +16613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136218_tex {
+        internal static System.Drawing.Bitmap _136218_tex {
             get {
                 object obj = ResourceManager.GetObject("_136218_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16623,7 +16623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136219_tex {
+        internal static System.Drawing.Bitmap _136219_tex {
             get {
                 object obj = ResourceManager.GetObject("_136219_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16633,7 +16633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136220_tex {
+        internal static System.Drawing.Bitmap _136220_tex {
             get {
                 object obj = ResourceManager.GetObject("_136220_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16643,7 +16643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136221_tex {
+        internal static System.Drawing.Bitmap _136221_tex {
             get {
                 object obj = ResourceManager.GetObject("_136221_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16653,7 +16653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136222_tex {
+        internal static System.Drawing.Bitmap _136222_tex {
             get {
                 object obj = ResourceManager.GetObject("_136222_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16663,7 +16663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136223_tex {
+        internal static System.Drawing.Bitmap _136223_tex {
             get {
                 object obj = ResourceManager.GetObject("_136223_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16673,7 +16673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136224_tex {
+        internal static System.Drawing.Bitmap _136224_tex {
             get {
                 object obj = ResourceManager.GetObject("_136224_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16683,7 +16683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136225_tex {
+        internal static System.Drawing.Bitmap _136225_tex {
             get {
                 object obj = ResourceManager.GetObject("_136225_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16693,7 +16693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136226_tex {
+        internal static System.Drawing.Bitmap _136226_tex {
             get {
                 object obj = ResourceManager.GetObject("_136226_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16703,7 +16703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136227_tex {
+        internal static System.Drawing.Bitmap _136227_tex {
             get {
                 object obj = ResourceManager.GetObject("_136227_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16713,7 +16713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136228_tex {
+        internal static System.Drawing.Bitmap _136228_tex {
             get {
                 object obj = ResourceManager.GetObject("_136228_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16723,7 +16723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136229_tex {
+        internal static System.Drawing.Bitmap _136229_tex {
             get {
                 object obj = ResourceManager.GetObject("_136229_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16733,7 +16733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136230_tex {
+        internal static System.Drawing.Bitmap _136230_tex {
             get {
                 object obj = ResourceManager.GetObject("_136230_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16743,7 +16743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136231_tex {
+        internal static System.Drawing.Bitmap _136231_tex {
             get {
                 object obj = ResourceManager.GetObject("_136231_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16753,7 +16753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136232_tex {
+        internal static System.Drawing.Bitmap _136232_tex {
             get {
                 object obj = ResourceManager.GetObject("_136232_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16763,7 +16763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136233_tex {
+        internal static System.Drawing.Bitmap _136233_tex {
             get {
                 object obj = ResourceManager.GetObject("_136233_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16773,7 +16773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136234_tex {
+        internal static System.Drawing.Bitmap _136234_tex {
             get {
                 object obj = ResourceManager.GetObject("_136234_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16783,7 +16783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136235_tex {
+        internal static System.Drawing.Bitmap _136235_tex {
             get {
                 object obj = ResourceManager.GetObject("_136235_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16793,7 +16793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136236_tex {
+        internal static System.Drawing.Bitmap _136236_tex {
             get {
                 object obj = ResourceManager.GetObject("_136236_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16803,7 +16803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136237_tex {
+        internal static System.Drawing.Bitmap _136237_tex {
             get {
                 object obj = ResourceManager.GetObject("_136237_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16813,7 +16813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136238_tex {
+        internal static System.Drawing.Bitmap _136238_tex {
             get {
                 object obj = ResourceManager.GetObject("_136238_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16823,7 +16823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136239_tex {
+        internal static System.Drawing.Bitmap _136239_tex {
             get {
                 object obj = ResourceManager.GetObject("_136239_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16833,7 +16833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136240_tex {
+        internal static System.Drawing.Bitmap _136240_tex {
             get {
                 object obj = ResourceManager.GetObject("_136240_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16843,7 +16843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136241_tex {
+        internal static System.Drawing.Bitmap _136241_tex {
             get {
                 object obj = ResourceManager.GetObject("_136241_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16853,7 +16853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136242_tex {
+        internal static System.Drawing.Bitmap _136242_tex {
             get {
                 object obj = ResourceManager.GetObject("_136242_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16863,7 +16863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136243_tex {
+        internal static System.Drawing.Bitmap _136243_tex {
             get {
                 object obj = ResourceManager.GetObject("_136243_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16873,7 +16873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136244_tex {
+        internal static System.Drawing.Bitmap _136244_tex {
             get {
                 object obj = ResourceManager.GetObject("_136244_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16883,7 +16883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136245_tex {
+        internal static System.Drawing.Bitmap _136245_tex {
             get {
                 object obj = ResourceManager.GetObject("_136245_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16893,7 +16893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136246_tex {
+        internal static System.Drawing.Bitmap _136246_tex {
             get {
                 object obj = ResourceManager.GetObject("_136246_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16903,7 +16903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136247_tex {
+        internal static System.Drawing.Bitmap _136247_tex {
             get {
                 object obj = ResourceManager.GetObject("_136247_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16913,7 +16913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136248_tex {
+        internal static System.Drawing.Bitmap _136248_tex {
             get {
                 object obj = ResourceManager.GetObject("_136248_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16923,7 +16923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136249_tex {
+        internal static System.Drawing.Bitmap _136249_tex {
             get {
                 object obj = ResourceManager.GetObject("_136249_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16933,7 +16933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136250_tex {
+        internal static System.Drawing.Bitmap _136250_tex {
             get {
                 object obj = ResourceManager.GetObject("_136250_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16943,7 +16943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136251_tex {
+        internal static System.Drawing.Bitmap _136251_tex {
             get {
                 object obj = ResourceManager.GetObject("_136251_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16953,7 +16953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136252_tex {
+        internal static System.Drawing.Bitmap _136252_tex {
             get {
                 object obj = ResourceManager.GetObject("_136252_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16963,7 +16963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136253_tex {
+        internal static System.Drawing.Bitmap _136253_tex {
             get {
                 object obj = ResourceManager.GetObject("_136253_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16973,7 +16973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136254_tex {
+        internal static System.Drawing.Bitmap _136254_tex {
             get {
                 object obj = ResourceManager.GetObject("_136254_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16983,7 +16983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136255_tex {
+        internal static System.Drawing.Bitmap _136255_tex {
             get {
                 object obj = ResourceManager.GetObject("_136255_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -16993,7 +16993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136256_tex {
+        internal static System.Drawing.Bitmap _136256_tex {
             get {
                 object obj = ResourceManager.GetObject("_136256_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17003,7 +17003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136257_tex {
+        internal static System.Drawing.Bitmap _136257_tex {
             get {
                 object obj = ResourceManager.GetObject("_136257_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17013,7 +17013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136300_tex {
+        internal static System.Drawing.Bitmap _136300_tex {
             get {
                 object obj = ResourceManager.GetObject("_136300_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17023,7 +17023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136301_tex {
+        internal static System.Drawing.Bitmap _136301_tex {
             get {
                 object obj = ResourceManager.GetObject("_136301_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17033,7 +17033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136302_tex {
+        internal static System.Drawing.Bitmap _136302_tex {
             get {
                 object obj = ResourceManager.GetObject("_136302_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17043,7 +17043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136303_tex {
+        internal static System.Drawing.Bitmap _136303_tex {
             get {
                 object obj = ResourceManager.GetObject("_136303_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17053,7 +17053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136304_tex {
+        internal static System.Drawing.Bitmap _136304_tex {
             get {
                 object obj = ResourceManager.GetObject("_136304_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17063,7 +17063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136310_tex {
+        internal static System.Drawing.Bitmap _136310_tex {
             get {
                 object obj = ResourceManager.GetObject("_136310_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17073,7 +17073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136311_tex {
+        internal static System.Drawing.Bitmap _136311_tex {
             get {
                 object obj = ResourceManager.GetObject("_136311_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17083,7 +17083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136312_tex {
+        internal static System.Drawing.Bitmap _136312_tex {
             get {
                 object obj = ResourceManager.GetObject("_136312_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17093,7 +17093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136313_tex {
+        internal static System.Drawing.Bitmap _136313_tex {
             get {
                 object obj = ResourceManager.GetObject("_136313_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17103,7 +17103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136314_tex {
+        internal static System.Drawing.Bitmap _136314_tex {
             get {
                 object obj = ResourceManager.GetObject("_136314_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17113,7 +17113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136315_tex {
+        internal static System.Drawing.Bitmap _136315_tex {
             get {
                 object obj = ResourceManager.GetObject("_136315_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17123,7 +17123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136316_tex {
+        internal static System.Drawing.Bitmap _136316_tex {
             get {
                 object obj = ResourceManager.GetObject("_136316_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17133,7 +17133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136317_tex {
+        internal static System.Drawing.Bitmap _136317_tex {
             get {
                 object obj = ResourceManager.GetObject("_136317_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17143,7 +17143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136320_tex {
+        internal static System.Drawing.Bitmap _136320_tex {
             get {
                 object obj = ResourceManager.GetObject("_136320_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17153,7 +17153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136321_tex {
+        internal static System.Drawing.Bitmap _136321_tex {
             get {
                 object obj = ResourceManager.GetObject("_136321_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17163,7 +17163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136322_tex {
+        internal static System.Drawing.Bitmap _136322_tex {
             get {
                 object obj = ResourceManager.GetObject("_136322_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17173,7 +17173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136323_tex {
+        internal static System.Drawing.Bitmap _136323_tex {
             get {
                 object obj = ResourceManager.GetObject("_136323_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17183,7 +17183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136324_tex {
+        internal static System.Drawing.Bitmap _136324_tex {
             get {
                 object obj = ResourceManager.GetObject("_136324_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17193,7 +17193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136325_tex {
+        internal static System.Drawing.Bitmap _136325_tex {
             get {
                 object obj = ResourceManager.GetObject("_136325_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17203,7 +17203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136326_tex {
+        internal static System.Drawing.Bitmap _136326_tex {
             get {
                 object obj = ResourceManager.GetObject("_136326_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17213,7 +17213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136327_tex {
+        internal static System.Drawing.Bitmap _136327_tex {
             get {
                 object obj = ResourceManager.GetObject("_136327_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17223,7 +17223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136330_tex {
+        internal static System.Drawing.Bitmap _136330_tex {
             get {
                 object obj = ResourceManager.GetObject("_136330_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17233,7 +17233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136331_tex {
+        internal static System.Drawing.Bitmap _136331_tex {
             get {
                 object obj = ResourceManager.GetObject("_136331_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17243,7 +17243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136332_tex {
+        internal static System.Drawing.Bitmap _136332_tex {
             get {
                 object obj = ResourceManager.GetObject("_136332_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17253,7 +17253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136333_tex {
+        internal static System.Drawing.Bitmap _136333_tex {
             get {
                 object obj = ResourceManager.GetObject("_136333_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17263,7 +17263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136334_tex {
+        internal static System.Drawing.Bitmap _136334_tex {
             get {
                 object obj = ResourceManager.GetObject("_136334_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17273,7 +17273,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136335_tex {
+        internal static System.Drawing.Bitmap _136335_tex {
             get {
                 object obj = ResourceManager.GetObject("_136335_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17283,7 +17283,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136336_tex {
+        internal static System.Drawing.Bitmap _136336_tex {
             get {
                 object obj = ResourceManager.GetObject("_136336_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17293,7 +17293,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136337_tex {
+        internal static System.Drawing.Bitmap _136337_tex {
             get {
                 object obj = ResourceManager.GetObject("_136337_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17303,7 +17303,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136340_tex {
+        internal static System.Drawing.Bitmap _136340_tex {
             get {
                 object obj = ResourceManager.GetObject("_136340_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17313,7 +17313,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136341_tex {
+        internal static System.Drawing.Bitmap _136341_tex {
             get {
                 object obj = ResourceManager.GetObject("_136341_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17323,7 +17323,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136342_tex {
+        internal static System.Drawing.Bitmap _136342_tex {
             get {
                 object obj = ResourceManager.GetObject("_136342_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17333,7 +17333,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136343_tex {
+        internal static System.Drawing.Bitmap _136343_tex {
             get {
                 object obj = ResourceManager.GetObject("_136343_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17343,7 +17343,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136344_tex {
+        internal static System.Drawing.Bitmap _136344_tex {
             get {
                 object obj = ResourceManager.GetObject("_136344_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17353,7 +17353,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136345_tex {
+        internal static System.Drawing.Bitmap _136345_tex {
             get {
                 object obj = ResourceManager.GetObject("_136345_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17363,7 +17363,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136346_tex {
+        internal static System.Drawing.Bitmap _136346_tex {
             get {
                 object obj = ResourceManager.GetObject("_136346_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17373,7 +17373,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136347_tex {
+        internal static System.Drawing.Bitmap _136347_tex {
             get {
                 object obj = ResourceManager.GetObject("_136347_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17383,7 +17383,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136350_tex {
+        internal static System.Drawing.Bitmap _136350_tex {
             get {
                 object obj = ResourceManager.GetObject("_136350_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17393,7 +17393,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136351_tex {
+        internal static System.Drawing.Bitmap _136351_tex {
             get {
                 object obj = ResourceManager.GetObject("_136351_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17403,7 +17403,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136352_tex {
+        internal static System.Drawing.Bitmap _136352_tex {
             get {
                 object obj = ResourceManager.GetObject("_136352_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17413,7 +17413,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136353_tex {
+        internal static System.Drawing.Bitmap _136353_tex {
             get {
                 object obj = ResourceManager.GetObject("_136353_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17423,7 +17423,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136354_tex {
+        internal static System.Drawing.Bitmap _136354_tex {
             get {
                 object obj = ResourceManager.GetObject("_136354_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17433,7 +17433,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136600_tex {
+        internal static System.Drawing.Bitmap _136600_tex {
             get {
                 object obj = ResourceManager.GetObject("_136600_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17443,7 +17443,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136601_tex {
+        internal static System.Drawing.Bitmap _136601_tex {
             get {
                 object obj = ResourceManager.GetObject("_136601_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17453,7 +17453,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136602_tex {
+        internal static System.Drawing.Bitmap _136602_tex {
             get {
                 object obj = ResourceManager.GetObject("_136602_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17463,7 +17463,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136603_tex {
+        internal static System.Drawing.Bitmap _136603_tex {
             get {
                 object obj = ResourceManager.GetObject("_136603_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17473,7 +17473,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136604_tex {
+        internal static System.Drawing.Bitmap _136604_tex {
             get {
                 object obj = ResourceManager.GetObject("_136604_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17483,7 +17483,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136610_tex {
+        internal static System.Drawing.Bitmap _136610_tex {
             get {
                 object obj = ResourceManager.GetObject("_136610_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17493,7 +17493,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136611_tex {
+        internal static System.Drawing.Bitmap _136611_tex {
             get {
                 object obj = ResourceManager.GetObject("_136611_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17503,7 +17503,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136612_tex {
+        internal static System.Drawing.Bitmap _136612_tex {
             get {
                 object obj = ResourceManager.GetObject("_136612_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17513,7 +17513,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136613_tex {
+        internal static System.Drawing.Bitmap _136613_tex {
             get {
                 object obj = ResourceManager.GetObject("_136613_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17523,7 +17523,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136614_tex {
+        internal static System.Drawing.Bitmap _136614_tex {
             get {
                 object obj = ResourceManager.GetObject("_136614_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17533,7 +17533,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136615_tex {
+        internal static System.Drawing.Bitmap _136615_tex {
             get {
                 object obj = ResourceManager.GetObject("_136615_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17543,7 +17543,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136616_tex {
+        internal static System.Drawing.Bitmap _136616_tex {
             get {
                 object obj = ResourceManager.GetObject("_136616_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17553,7 +17553,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136617_tex {
+        internal static System.Drawing.Bitmap _136617_tex {
             get {
                 object obj = ResourceManager.GetObject("_136617_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17563,7 +17563,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136620_tex {
+        internal static System.Drawing.Bitmap _136620_tex {
             get {
                 object obj = ResourceManager.GetObject("_136620_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17573,7 +17573,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136621_tex {
+        internal static System.Drawing.Bitmap _136621_tex {
             get {
                 object obj = ResourceManager.GetObject("_136621_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17583,7 +17583,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136622_tex {
+        internal static System.Drawing.Bitmap _136622_tex {
             get {
                 object obj = ResourceManager.GetObject("_136622_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17593,7 +17593,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136623_tex {
+        internal static System.Drawing.Bitmap _136623_tex {
             get {
                 object obj = ResourceManager.GetObject("_136623_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17603,7 +17603,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136624_tex {
+        internal static System.Drawing.Bitmap _136624_tex {
             get {
                 object obj = ResourceManager.GetObject("_136624_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17613,7 +17613,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136625_tex {
+        internal static System.Drawing.Bitmap _136625_tex {
             get {
                 object obj = ResourceManager.GetObject("_136625_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17623,7 +17623,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136626_tex {
+        internal static System.Drawing.Bitmap _136626_tex {
             get {
                 object obj = ResourceManager.GetObject("_136626_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17633,7 +17633,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136627_tex {
+        internal static System.Drawing.Bitmap _136627_tex {
             get {
                 object obj = ResourceManager.GetObject("_136627_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17643,7 +17643,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136630_tex {
+        internal static System.Drawing.Bitmap _136630_tex {
             get {
                 object obj = ResourceManager.GetObject("_136630_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17653,7 +17653,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136631_tex {
+        internal static System.Drawing.Bitmap _136631_tex {
             get {
                 object obj = ResourceManager.GetObject("_136631_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17663,7 +17663,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136632_tex {
+        internal static System.Drawing.Bitmap _136632_tex {
             get {
                 object obj = ResourceManager.GetObject("_136632_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17673,7 +17673,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136633_tex {
+        internal static System.Drawing.Bitmap _136633_tex {
             get {
                 object obj = ResourceManager.GetObject("_136633_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17683,7 +17683,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136634_tex {
+        internal static System.Drawing.Bitmap _136634_tex {
             get {
                 object obj = ResourceManager.GetObject("_136634_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17693,7 +17693,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136635_tex {
+        internal static System.Drawing.Bitmap _136635_tex {
             get {
                 object obj = ResourceManager.GetObject("_136635_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17703,7 +17703,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136636_tex {
+        internal static System.Drawing.Bitmap _136636_tex {
             get {
                 object obj = ResourceManager.GetObject("_136636_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17713,7 +17713,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136637_tex {
+        internal static System.Drawing.Bitmap _136637_tex {
             get {
                 object obj = ResourceManager.GetObject("_136637_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17723,7 +17723,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136640_tex {
+        internal static System.Drawing.Bitmap _136640_tex {
             get {
                 object obj = ResourceManager.GetObject("_136640_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17733,7 +17733,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136641_tex {
+        internal static System.Drawing.Bitmap _136641_tex {
             get {
                 object obj = ResourceManager.GetObject("_136641_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17743,7 +17743,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136642_tex {
+        internal static System.Drawing.Bitmap _136642_tex {
             get {
                 object obj = ResourceManager.GetObject("_136642_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17753,7 +17753,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136643_tex {
+        internal static System.Drawing.Bitmap _136643_tex {
             get {
                 object obj = ResourceManager.GetObject("_136643_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17763,7 +17763,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136644_tex {
+        internal static System.Drawing.Bitmap _136644_tex {
             get {
                 object obj = ResourceManager.GetObject("_136644_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17773,7 +17773,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136645_tex {
+        internal static System.Drawing.Bitmap _136645_tex {
             get {
                 object obj = ResourceManager.GetObject("_136645_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17783,7 +17783,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136646_tex {
+        internal static System.Drawing.Bitmap _136646_tex {
             get {
                 object obj = ResourceManager.GetObject("_136646_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17793,7 +17793,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136647_tex {
+        internal static System.Drawing.Bitmap _136647_tex {
             get {
                 object obj = ResourceManager.GetObject("_136647_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17803,7 +17803,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136690_tex {
+        internal static System.Drawing.Bitmap _136690_tex {
             get {
                 object obj = ResourceManager.GetObject("_136690_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17813,7 +17813,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136691_tex {
+        internal static System.Drawing.Bitmap _136691_tex {
             get {
                 object obj = ResourceManager.GetObject("_136691_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17823,7 +17823,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136692_tex {
+        internal static System.Drawing.Bitmap _136692_tex {
             get {
                 object obj = ResourceManager.GetObject("_136692_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17833,7 +17833,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136693_tex {
+        internal static System.Drawing.Bitmap _136693_tex {
             get {
                 object obj = ResourceManager.GetObject("_136693_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17843,7 +17843,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136694_tex {
+        internal static System.Drawing.Bitmap _136694_tex {
             get {
                 object obj = ResourceManager.GetObject("_136694_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17853,7 +17853,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136800_tex {
+        internal static System.Drawing.Bitmap _136800_tex {
             get {
                 object obj = ResourceManager.GetObject("_136800_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17863,7 +17863,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136801_tex {
+        internal static System.Drawing.Bitmap _136801_tex {
             get {
                 object obj = ResourceManager.GetObject("_136801_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17873,7 +17873,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136802_tex {
+        internal static System.Drawing.Bitmap _136802_tex {
             get {
                 object obj = ResourceManager.GetObject("_136802_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17883,7 +17883,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136803_tex {
+        internal static System.Drawing.Bitmap _136803_tex {
             get {
                 object obj = ResourceManager.GetObject("_136803_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17893,7 +17893,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136804_tex {
+        internal static System.Drawing.Bitmap _136804_tex {
             get {
                 object obj = ResourceManager.GetObject("_136804_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17903,7 +17903,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136810_tex {
+        internal static System.Drawing.Bitmap _136810_tex {
             get {
                 object obj = ResourceManager.GetObject("_136810_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17913,7 +17913,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136811_tex {
+        internal static System.Drawing.Bitmap _136811_tex {
             get {
                 object obj = ResourceManager.GetObject("_136811_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17923,7 +17923,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136812_tex {
+        internal static System.Drawing.Bitmap _136812_tex {
             get {
                 object obj = ResourceManager.GetObject("_136812_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17933,7 +17933,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136813_tex {
+        internal static System.Drawing.Bitmap _136813_tex {
             get {
                 object obj = ResourceManager.GetObject("_136813_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17943,7 +17943,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136814_tex {
+        internal static System.Drawing.Bitmap _136814_tex {
             get {
                 object obj = ResourceManager.GetObject("_136814_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17953,7 +17953,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136815_tex {
+        internal static System.Drawing.Bitmap _136815_tex {
             get {
                 object obj = ResourceManager.GetObject("_136815_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17963,7 +17963,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136816_tex {
+        internal static System.Drawing.Bitmap _136816_tex {
             get {
                 object obj = ResourceManager.GetObject("_136816_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17973,7 +17973,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136817_tex {
+        internal static System.Drawing.Bitmap _136817_tex {
             get {
                 object obj = ResourceManager.GetObject("_136817_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17983,7 +17983,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136820_tex {
+        internal static System.Drawing.Bitmap _136820_tex {
             get {
                 object obj = ResourceManager.GetObject("_136820_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -17993,7 +17993,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136821_tex {
+        internal static System.Drawing.Bitmap _136821_tex {
             get {
                 object obj = ResourceManager.GetObject("_136821_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18003,7 +18003,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136822_tex {
+        internal static System.Drawing.Bitmap _136822_tex {
             get {
                 object obj = ResourceManager.GetObject("_136822_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18013,7 +18013,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136823_tex {
+        internal static System.Drawing.Bitmap _136823_tex {
             get {
                 object obj = ResourceManager.GetObject("_136823_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18023,7 +18023,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136824_tex {
+        internal static System.Drawing.Bitmap _136824_tex {
             get {
                 object obj = ResourceManager.GetObject("_136824_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18033,7 +18033,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136825_tex {
+        internal static System.Drawing.Bitmap _136825_tex {
             get {
                 object obj = ResourceManager.GetObject("_136825_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18043,7 +18043,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136826_tex {
+        internal static System.Drawing.Bitmap _136826_tex {
             get {
                 object obj = ResourceManager.GetObject("_136826_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18053,7 +18053,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136827_tex {
+        internal static System.Drawing.Bitmap _136827_tex {
             get {
                 object obj = ResourceManager.GetObject("_136827_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18063,7 +18063,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136830_tex {
+        internal static System.Drawing.Bitmap _136830_tex {
             get {
                 object obj = ResourceManager.GetObject("_136830_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18073,7 +18073,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136831_tex {
+        internal static System.Drawing.Bitmap _136831_tex {
             get {
                 object obj = ResourceManager.GetObject("_136831_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18083,7 +18083,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136832_tex {
+        internal static System.Drawing.Bitmap _136832_tex {
             get {
                 object obj = ResourceManager.GetObject("_136832_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18093,7 +18093,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136833_tex {
+        internal static System.Drawing.Bitmap _136833_tex {
             get {
                 object obj = ResourceManager.GetObject("_136833_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18103,7 +18103,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136834_tex {
+        internal static System.Drawing.Bitmap _136834_tex {
             get {
                 object obj = ResourceManager.GetObject("_136834_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18113,7 +18113,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136835_tex {
+        internal static System.Drawing.Bitmap _136835_tex {
             get {
                 object obj = ResourceManager.GetObject("_136835_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18123,7 +18123,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136836_tex {
+        internal static System.Drawing.Bitmap _136836_tex {
             get {
                 object obj = ResourceManager.GetObject("_136836_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18133,7 +18133,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136837_tex {
+        internal static System.Drawing.Bitmap _136837_tex {
             get {
                 object obj = ResourceManager.GetObject("_136837_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18143,7 +18143,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136840_tex {
+        internal static System.Drawing.Bitmap _136840_tex {
             get {
                 object obj = ResourceManager.GetObject("_136840_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18153,7 +18153,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136841_tex {
+        internal static System.Drawing.Bitmap _136841_tex {
             get {
                 object obj = ResourceManager.GetObject("_136841_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18163,7 +18163,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136842_tex {
+        internal static System.Drawing.Bitmap _136842_tex {
             get {
                 object obj = ResourceManager.GetObject("_136842_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18173,7 +18173,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136843_tex {
+        internal static System.Drawing.Bitmap _136843_tex {
             get {
                 object obj = ResourceManager.GetObject("_136843_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18183,7 +18183,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136844_tex {
+        internal static System.Drawing.Bitmap _136844_tex {
             get {
                 object obj = ResourceManager.GetObject("_136844_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18193,7 +18193,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136845_tex {
+        internal static System.Drawing.Bitmap _136845_tex {
             get {
                 object obj = ResourceManager.GetObject("_136845_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18203,7 +18203,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136846_tex {
+        internal static System.Drawing.Bitmap _136846_tex {
             get {
                 object obj = ResourceManager.GetObject("_136846_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18213,7 +18213,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136847_tex {
+        internal static System.Drawing.Bitmap _136847_tex {
             get {
                 object obj = ResourceManager.GetObject("_136847_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18223,7 +18223,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136890_tex {
+        internal static System.Drawing.Bitmap _136890_tex {
             get {
                 object obj = ResourceManager.GetObject("_136890_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18233,7 +18233,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136891_tex {
+        internal static System.Drawing.Bitmap _136891_tex {
             get {
                 object obj = ResourceManager.GetObject("_136891_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18243,7 +18243,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136892_tex {
+        internal static System.Drawing.Bitmap _136892_tex {
             get {
                 object obj = ResourceManager.GetObject("_136892_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18253,7 +18253,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136893_tex {
+        internal static System.Drawing.Bitmap _136893_tex {
             get {
                 object obj = ResourceManager.GetObject("_136893_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18263,7 +18263,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _136894_tex {
+        internal static System.Drawing.Bitmap _136894_tex {
             get {
                 object obj = ResourceManager.GetObject("_136894_tex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -18275,7 +18275,7 @@ namespace FFTrainer.Properties {
         ///0,0,1,false,0,0,0,&quot;&quot;,0,0,0,0,0,0,false,false,true,false,true
         ///1,0,1,false,0,1,0,&quot;normal/Battle Start&quot;,0,0,0,2,3,0,false,fal [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string actiontimeline {
+        internal static string actiontimeline {
             get {
                 return ResourceManager.GetString("actiontimeline", resourceCulture);
             }
@@ -18306,7 +18306,7 @@ namespace FFTrainer.Properties {
         ///20,104,131022,0,false
         ///21,102,13102 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string charamakecustomize_exh {
+        internal static string charamakecustomize_exh {
             get {
                 return ResourceManager.GetString("charamakecustomize_exh", resourceCulture);
             }
@@ -18315,7 +18315,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [USHORT(0x5)][0xbc],1 [BBOOL(0x19)][0xef],2 [UINT(0x7)][0x0],3 [UINT(0x7)][0x4],4 [UINT(0x7)][0x8],5 [UINT(0x7)][0xc],6 [UINT(0x7)][0x10],7 [UINT(0x7)][0x14],8 [UINT(0x7)][0x18],9 [UINT(0x7)][0x1c],10 [UINT(0x7)][0x20],11 [UINT(0x7)][0x24],12 [UINT(0x7)][0x28],13 [UINT(0x7)][0x2c],14 [UINT(0x7)][0x30],15 [UINT(0x7)][0x34],16 [UINT(0x7)][0x38],17 [UINT(0x7)][0x3c],18 [UINT(0x7)][0x40],19 [UINT(0x7)][0x44],20 [UINT(0x7)][0x48],21 [UINT(0x7)][0x4c],22 [UINT(0x7)][0x50],23 [UINT(0x7)][0x54],24 [UINT(0x7 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string enpcbase_exh {
+        internal static string enpcbase_exh {
             get {
                 return ResourceManager.GetString("enpcbase_exh", resourceCulture);
             }
@@ -18332,7 +18332,7 @@ namespace FFTrainer.Properties {
         ///1000006,&quot;&quot;,0,&quot;&quot;,0,0,0,0,0,&quot;&quot;,0,false
         ///1000007,&quot;&quot;,0,&quot;&quot;, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string enpcresident_exh_de {
+        internal static string enpcresident_exh_de {
             get {
                 return ResourceManager.GetString("enpcresident_exh_de", resourceCulture);
             }
@@ -18349,7 +18349,7 @@ namespace FFTrainer.Properties {
         ///1000006,&quot;&quot;,0,&quot;&quot;,0,0,0,0,0,&quot;&quot;,0,false
         ///1000007,&quot;&quot;,0,&quot;&quot;, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string enpcresident_exh_en {
+        internal static string enpcresident_exh_en {
             get {
                 return ResourceManager.GetString("enpcresident_exh_en", resourceCulture);
             }
@@ -18366,7 +18366,7 @@ namespace FFTrainer.Properties {
         ///1000006,&quot;&quot;,0,&quot;&quot;,0,0,0,0,0,&quot;&quot;,0,false
         ///1000007,&quot;&quot;,0,&quot;&quot;, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string enpcresident_exh_fr {
+        internal static string enpcresident_exh_fr {
             get {
                 return ResourceManager.GetString("enpcresident_exh_fr", resourceCulture);
             }
@@ -18383,7 +18383,7 @@ namespace FFTrainer.Properties {
         ///1000006,&quot;&quot;,0,&quot;&quot;,0,0,0,0,0,&quot;&quot;,0,false
         ///1000007,&quot;&quot;,0,&quot;&quot;, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string enpcresident_exh_ja {
+        internal static string enpcresident_exh_ja {
             get {
                 return ResourceManager.GetString("enpcresident_exh_ja", resourceCulture);
             }
@@ -18392,7 +18392,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] human {
+        internal static byte[] human {
             get {
                 object obj = ResourceManager.GetObject("human", resourceCulture);
                 return ((byte[])(obj));
@@ -18402,7 +18402,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [BYTE(0x2)][0x10],2 [STRING(0x0)][0x4],3 [BYTE(0x2)][0x11],4 [BYTE(0x2)][0x12],5 [BYTE(0x2)][0x13],6 [BYTE(0x2)][0x14],7 [BYTE(0x2)][0x15],8 [STRING(0x0)][0x8],9 [STRING(0x0)][0xc],10 [USHORT(0x5)][0x80],11 [USHORT(0x5)][0x82],12 [UBYTE(0x3)][0x8e],13 [UBYTE(0x3)][0x8f],14 [UINT(0x7)][0x68],15 [UBYTE(0x3)][0x90],16 [UBYTE(0x3)][0x91],17 [UBYTE(0x3)][0x92],18 [USHORT(0x5)][0x84],19 [UINT(0x7)][0x6c],20 [BBOOL(0x19)][0x95],21 [BBOOL(0x1a)][0x95],22 [BBOOL(0x1b)][0x95],23 [BBOOL(0x [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Item {
+        internal static string Item {
             get {
                 return ResourceManager.GetString("Item", resourceCulture);
             }
@@ -18411,7 +18411,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [BYTE(0x2)][0x10],2 [STRING(0x0)][0x4],3 [BYTE(0x2)][0x11],4 [BYTE(0x2)][0x12],5 [BYTE(0x2)][0x13],6 [BYTE(0x2)][0x14],7 [BYTE(0x2)][0x15],8 [STRING(0x0)][0x8],9 [STRING(0x0)][0xc],10 [USHORT(0x5)][0x80],11 [USHORT(0x5)][0x82],12 [UBYTE(0x3)][0x8e],13 [UBYTE(0x3)][0x8f],14 [UINT(0x7)][0x68],15 [UBYTE(0x3)][0x90],16 [UBYTE(0x3)][0x91],17 [UBYTE(0x3)][0x92],18 [USHORT(0x5)][0x84],19 [UINT(0x7)][0x6c],20 [BBOOL(0x19)][0x95],21 [BBOOL(0x1a)][0x95],22 [BBOOL(0x1b)][0x95],23 [BBOOL(0x [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string item_0_exh_fr {
+        internal static string item_0_exh_fr {
             get {
                 return ResourceManager.GetString("item_0_exh_fr", resourceCulture);
             }
@@ -18420,7 +18420,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [BYTE(0x2)][0x10],2 [STRING(0x0)][0x4],3 [BYTE(0x2)][0x11],4 [BYTE(0x2)][0x12],5 [BYTE(0x2)][0x13],6 [BYTE(0x2)][0x14],7 [BYTE(0x2)][0x15],8 [STRING(0x0)][0x8],9 [STRING(0x0)][0xc],10 [USHORT(0x5)][0x80],11 [USHORT(0x5)][0x82],12 [UBYTE(0x3)][0x8e],13 [UBYTE(0x3)][0x8f],14 [UINT(0x7)][0x68],15 [UBYTE(0x3)][0x90],16 [UBYTE(0x3)][0x91],17 [UBYTE(0x3)][0x92],18 [USHORT(0x5)][0x84],19 [UINT(0x7)][0x6c],20 [BBOOL(0x19)][0x95],21 [BBOOL(0x1a)][0x95],22 [BBOOL(0x1b)][0x95],23 [BBOOL(0x [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string ItemG {
+        internal static string ItemG {
             get {
                 return ResourceManager.GetString("ItemG", resourceCulture);
             }
@@ -18429,7 +18429,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [BYTE(0x2)][0x10],2 [STRING(0x0)][0x4],3 [BYTE(0x2)][0x11],4 [BYTE(0x2)][0x12],5 [BYTE(0x2)][0x13],6 [BYTE(0x2)][0x14],7 [BYTE(0x2)][0x15],8 [STRING(0x0)][0x8],9 [STRING(0x0)][0xc],10 [USHORT(0x5)][0x80],11 [USHORT(0x5)][0x82],12 [UBYTE(0x3)][0x8e],13 [UBYTE(0x3)][0x8f],14 [UINT(0x7)][0x68],15 [UBYTE(0x3)][0x90],16 [UBYTE(0x3)][0x91],17 [UBYTE(0x3)][0x92],18 [USHORT(0x5)][0x84],19 [UINT(0x7)][0x6c],20 [BBOOL(0x19)][0x95],21 [BBOOL(0x1a)][0x95],22 [BBOOL(0x1b)][0x95],23 [BBOOL(0x [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string itemJP {
+        internal static string itemJP {
             get {
                 return ResourceManager.GetString("itemJP", resourceCulture);
             }
@@ -18473,7 +18473,7 @@ namespace FFTrainer.Properties {
         ///34,&quot;Ochu&quot;
         ///35, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string MonsterList {
+        internal static string MonsterList {
             get {
                 return ResourceManager.GetString("MonsterList", resourceCulture);
             }
@@ -18488,7 +18488,7 @@ namespace FFTrainer.Properties {
         ///4,&quot;Miqo&apos;te&quot;,&quot;Miqo&apos;te&quot;,2989,3526,3302,3756,2990,3527,3303,3757
         ///5,&quot;Roegadyn&quot;,&quot;Roegadyne&quot;,299 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string race_exh_fr {
+        internal static string race_exh_fr {
             get {
                 return ResourceManager.GetString("race_exh_fr", resourceCulture);
             }
@@ -18503,7 +18503,7 @@ namespace FFTrainer.Properties {
         ///4,&quot;Miqo&apos;te&quot;,&quot;Miqo&apos;te&quot;,2989,3526,3302,3756,2990,3527,3303,3757
         ///5,&quot;Roegadyn&quot;,&quot;Roegadyn&quot;,29 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string raceDE {
+        internal static string raceDE {
             get {
                 return ResourceManager.GetString("raceDE", resourceCulture);
             }
@@ -18518,7 +18518,7 @@ namespace FFTrainer.Properties {
         ///4,&quot;Miqo&apos;te&quot;,&quot;Miqo&apos;te&quot;,2989,3526,3302,3756,2990,3527,3303,3757
         ///5,&quot;Roegadyn&quot;,&quot;Roegadyn&quot;,2991,3528, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string raceEN {
+        internal static string raceEN {
             get {
                 return ResourceManager.GetString("raceEN", resourceCulture);
             }
@@ -18533,7 +18533,7 @@ namespace FFTrainer.Properties {
         ///4,&quot;ミコッテ&quot;,&quot;ミコッテ&quot;,2989,3526,3302,3756,2990,3527,3303,3757
         ///5,&quot;ルガディン&quot;,&quot;ルガディン&quot;,2991,3528,3304,3758,2992,3529,3305 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string raceJP {
+        internal static string raceJP {
             get {
                 return ResourceManager.GetString("raceJP", resourceCulture);
             }
@@ -18554,7 +18554,7 @@ namespace FFTrainer.Properties {
         ///10,7871002,4,&quot;Dalamudrot&quot;,false,true
         ///11,6 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string stain_exh_de {
+        internal static string stain_exh_de {
             get {
                 return ResourceManager.GetString("stain_exh_de", resourceCulture);
             }
@@ -18574,7 +18574,7 @@ namespace FFTrainer.Properties {
         ///9,5969705,4,&quot;Rolanberry Red&quot;,false,true
         ///10,7871002,4,&quot;Dalamud Red&quot;,false,t [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string stain_exh_en {
+        internal static string stain_exh_en {
             get {
                 return ResourceManager.GetString("stain_exh_en", resourceCulture);
             }
@@ -18594,7 +18594,7 @@ namespace FFTrainer.Properties {
         ///9,5969705,4,&quot;rouge rolanbaie&quot;,false,true
         ///10,7871002,4,&quot;rouge Dalamud&quot;,fals [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string stain_exh_fr {
+        internal static string stain_exh_fr {
             get {
                 return ResourceManager.GetString("stain_exh_fr", resourceCulture);
             }
@@ -18615,7 +18615,7 @@ namespace FFTrainer.Properties {
         ///10,7871002,4,&quot;ダラガブレッド&quot;,false,true
         ///11,6431239,4,&quot;ラストレッド&quot;,false,tru [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string stain_exh_ja {
+        internal static string stain_exh_ja {
             get {
                 return ResourceManager.GetString("stain_exh_ja", resourceCulture);
             }
@@ -18624,7 +18624,7 @@ namespace FFTrainer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [STRING(0x0)][0x4],2 [UBYTE(0x3)][0x2c],3 [USHORT(0x5)][0x1c],4 [USHORT(0x5)][0x1e],5 [USHORT(0x5)][0x20],6 [USHORT(0x5)][0x22],7 [UBYTE(0x3)][0x2d],8 [UBYTE(0x3)][0x2e],9 [UBYTE(0x3)][0x2f],10 [USHORT(0x5)][0x24],11 [BBOOL(0x19)][0x37],12 [UBYTE(0x3)][0x30],13 [BBOOL(0x1a)][0x37],14 [UBYTE(0x3)][0x31],15 [BBOOL(0x1b)][0x37],16 [BBOOL(0x1c)][0x37],17 [BBOOL(0x1d)][0x37],18 [BBOOL(0x1e)][0x37],19 [USHORT(0x5)][0x26],20 [INT(0x6)][0xc],21 [INT(0x6)][0x10],22 [UINT(0x7)][0x8],23 [U [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string territorytype_exh {
+        internal static string territorytype_exh {
             get {
                 return ResourceManager.GetString("territorytype_exh", resourceCulture);
             }
@@ -18641,7 +18641,7 @@ namespace FFTrainer.Properties {
         ///6,&quot;Sandling&quot;,&quot;Sandling&quot;,0,0,-1,-2,1,2,3,0
         ///7, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string tribe_exh_de {
+        internal static string tribe_exh_de {
             get {
                 return ResourceManager.GetString("tribe_exh_de", resourceCulture);
             }
@@ -18658,7 +18658,7 @@ namespace FFTrainer.Properties {
         ///6,&quot;Dunesfolk&quot;,&quot;Dunesfolk&quot;,0,0,-1,-2,1,2,3,0
         ///7,&quot;Seeke [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string tribe_exh_en {
+        internal static string tribe_exh_en {
             get {
                 return ResourceManager.GetString("tribe_exh_en", resourceCulture);
             }
@@ -18674,7 +18674,7 @@ namespace FFTrainer.Properties {
         ///5,&quot;Peuple des Plaines&quot;,&quot;Peuple des Plaines&quot;,0,0,-1,-1,3,2,0,0
         ///6,&quot;Peuple des Dunes&quot;,&quot;Peuple de [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string tribe_exh_fr {
+        internal static string tribe_exh_fr {
             get {
                 return ResourceManager.GetString("tribe_exh_fr", resourceCulture);
             }
@@ -18692,7 +18692,7 @@ namespace FFTrainer.Properties {
         ///7,&quot;サンシーカー&quot;,&quot;サンシーカー&quot;,0,0,2,0,3,-1,-1,0
         ///8 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string tribe_exh_ja {
+        internal static string tribe_exh_ja {
             get {
                 return ResourceManager.GetString("tribe_exh_ja", resourceCulture);
             }
@@ -18711,7 +18711,7 @@ namespace FFTrainer.Properties {
         ///8,60208,&quot;Showers&quot;,&quot;showery&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
         ///9,60209,&quot;Thunder&quot;,&quot;thundery&quot....
         /// </summary>
-        public static string weather_0_exh_en {
+        internal static string weather_0_exh_en {
             get {
                 return ResourceManager.GetString("weather_0_exh_en", resourceCulture);
             }
@@ -18729,7 +18729,7 @@ namespace FFTrainer.Properties {
         ///7,60207,&quot;Pluie&quot;,&quot;pluvieux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
         ///8,60208,&quot;Pluie torrentielle&quot;,&quot;très pl [rest of stri....
         /// </summary>
-        public static string weather_0_exh_fr {
+        internal static string weather_0_exh_fr {
             get {
                 return ResourceManager.GetString("weather_0_exh_fr", resourceCulture);
             }
@@ -18747,7 +18747,80 @@ namespace FFTrainer.Properties {
         ///7,60207,&quot;Regnerisch&quot;,&quot;regnerisch&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
         ///8,60208,&quot;Wolkenbruch&quot;,&quot;wolkenbruchartig&quot;,&quot;&quot;,&quot;....
         /// </summary>
-        public static string weatherDE {
+        internal static string weather_exh_de {
+            get {
+                return ResourceManager.GetString("weather_exh_de", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index,0 [INT(0x6)][0x18],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x4],3 [STRING(0x0)][0x8],4 [STRING(0x0)][0xc],5 [STRING(0x0)][0x10],6 [STRING(0x0)][0x14]
+        ///0,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///1,60201,&quot;Clear Skies&quot;,&quot;clear&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///2,60202,&quot;Fair Skies&quot;,&quot;fair&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///3,60203,&quot;Clouds&quot;,&quot;overcast&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///4,60204,&quot;Fog&quot;,&quot;foggy&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///5,60205,&quot;Wind&quot;,&quot;windy&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///6,60206,&quot;Gales&quot;,&quot;gusty&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///7,60207,&quot;Rain&quot;,&quot;rainy&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///8,60208,&quot;Showers&quot;,&quot;showery&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&q....
+        /// </summary>
+        internal static string weather_exh_en {
+            get {
+                return ResourceManager.GetString("weather_exh_en", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index,0 [INT(0x6)][0x18],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x4],3 [STRING(0x0)][0x8],4 [STRING(0x0)][0xc],5 [STRING(0x0)][0x10],6 [STRING(0x0)][0x14]
+        ///0,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///1,60201,&quot;Dégagé&quot;,&quot;radieux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///2,60202,&quot;Clair&quot;,&quot;ensoleillé&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///3,60203,&quot;Couvert&quot;,&quot;couvert&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///4,60204,&quot;Brouillard&quot;,&quot;brumeux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///5,60205,&quot;Vent&quot;,&quot;venteux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///6,60206,&quot;Vents violents&quot;,&quot;très venteux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///7,60207,&quot;Pluie&quot;,&quot;pluvieux&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///8,60208,&quot;Pluie torrentielle&quot;,&quot;très pl [rest of stri....
+        /// </summary>
+        internal static string weather_exh_fr {
+            get {
+                return ResourceManager.GetString("weather_exh_fr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index,0 [INT(0x6)][0x18],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x4],3 [STRING(0x0)][0x8],4 [STRING(0x0)][0xc],5 [STRING(0x0)][0x10],6 [STRING(0x0)][0x14]
+        ///0,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///1,60201,&quot;快晴&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///2,60202,&quot;晴れ&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///3,60203,&quot;曇り&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///4,60204,&quot;霧&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///5,60205,&quot;風&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///6,60206,&quot;暴風&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///7,60207,&quot;雨&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///8,60208,&quot;暴雨&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///9,60209,&quot;雷&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&....
+        /// </summary>
+        internal static string weather_exh_ja {
+            get {
+                return ResourceManager.GetString("weather_exh_ja", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index,0 [INT(0x6)][0x18],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x4],3 [STRING(0x0)][0x8],4 [STRING(0x0)][0xc],5 [STRING(0x0)][0x10],6 [STRING(0x0)][0x14]
+        ///0,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///1,60201,&quot;Klar&quot;,&quot;klar&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///2,60202,&quot;Heiter&quot;,&quot;heiter&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///3,60203,&quot;Wolkig&quot;,&quot;wolkig&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///4,60204,&quot;Neblig&quot;,&quot;nebelig&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///5,60205,&quot;Windig&quot;,&quot;windig&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///6,60206,&quot;Stürmisch&quot;,&quot;stürmisch&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///7,60207,&quot;Regnerisch&quot;,&quot;regnerisch&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
+        ///8,60208,&quot;Wolkenbruch&quot;,&quot;wolkenbruchartig&quot;,&quot;&quot;,&quot;....
+        /// </summary>
+        internal static string weatherDE {
             get {
                 return ResourceManager.GetString("weatherDE", resourceCulture);
             }
@@ -18766,7 +18839,7 @@ namespace FFTrainer.Properties {
         ///8,60208,&quot;暴雨&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;
         ///9,60209,&quot;雷&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&....
         /// </summary>
-        public static string weatherJP {
+        internal static string weatherJP {
             get {
                 return ResourceManager.GetString("weatherJP", resourceCulture);
             }
@@ -18780,7 +18853,7 @@ namespace FFTrainer.Properties {
         ///3,9,5,7,15,4,10,3,10,2,15,1,30,2,15,0,0
         ///4,9,5,7,15,4,10,3,10,2, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string weatherrate_exh {
+        internal static string weatherrate_exh {
             get {
                 return ResourceManager.GetString("weatherrate_exh", resourceCulture);
             }

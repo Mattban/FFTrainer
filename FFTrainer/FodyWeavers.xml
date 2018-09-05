@@ -6,10 +6,9 @@
   <Costura>
     <IncludeAssemblies>
       Memory
-      Xceed
-      FontAwesome5
       PropetyuChanged
+      MahApps.Metro
     </IncludeAssemblies>
-</Costura>
- <Costura />
+  </Costura>
+  <Costura />
 </Weavers>

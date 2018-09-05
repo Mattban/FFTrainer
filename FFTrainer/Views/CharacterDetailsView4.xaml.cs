@@ -1,5 +1,7 @@
 ﻿using FFTrainer.Models;
+using FFTrainer.Util;
 using FFTrainer.ViewModels;
+using FFTrainer.Windows;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -18,7 +20,7 @@ namespace FFTrainer.Views
             _exdProvider.MakeWeatherList();
             _exdProvider.MakeWeatherRateList();
             _exdProvider.MakeTerritoryTypeList();
-            if(Properties.Settings.Default.UnlockedK == true)
+            if (Properties.Settings.Default.UnlockedK == true)
             {
                 HousingPlace.IsEnabled = true;
                 HousingPlace.Visibility = Visibility.Visible;
@@ -27,7 +29,7 @@ namespace FFTrainer.Views
         private void MaxZoomXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (MaxZoom.Value.HasValue && CharacterDetailsViewModel.NotAllowed == false)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Max), "float", MaxZoom.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Max), "float", MaxZoom.Value.ToString());
             MaxZoom.ValueChanged -= MaxZoomXD;
         }
 
@@ -85,19 +87,19 @@ namespace FFTrainer.Views
         private void CurrentFOVXD(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (CurrentFOV.Value.HasValue)
-                {
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVC), "float", CurrentFOV.Value.ToString());
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVMAX), "float", CurrentFOV.Value.ToString());
-                }
+            {
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVC), "float", CurrentFOV.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVMAX), "float", CurrentFOV.Value.ToString());
+            }
             CurrentFOV.ValueChanged -= CurrentFOVXA;
         }
         private void CurrentFOVXA(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (CurrentFOV.Value.HasValue)
-                {
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVC), "float", CurrentFOV.Value.ToString());
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVMAX), "float", CurrentFOV.Value.ToString());
-                }
+            {
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVC), "float", CurrentFOV.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVMAX), "float", CurrentFOV.Value.ToString());
+            }
             FOV1S.ValueChanged -= CurrentFOVXD;
         }
         private void CurrentFOV_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -172,7 +174,7 @@ namespace FFTrainer.Views
         private void FOV2Ax(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (FOV2.Value.HasValue)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOV2), "float", FOV2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOV2), "float", FOV2.Value.ToString());
             FOV2S.ValueChanged -= FOV2Ax;
         }
         private void FOV2_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -232,7 +234,7 @@ namespace FFTrainer.Views
 
         private void HousingPlace_Checked(object sender, RoutedEventArgs e)
         {
-            if(HousingPlace.IsChecked==true)
+            if (HousingPlace.IsChecked == true)
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "01");
         }
 
@@ -245,7 +247,7 @@ namespace FFTrainer.Views
 
         private void HousingPlace_Unchecked(object sender, RoutedEventArgs e)
         {
-           MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
         }
 
         private void Timexd_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)

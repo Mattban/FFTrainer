@@ -1,4 +1,5 @@
 ﻿using FFTrainer.Models;
+using FFTrainer.Util;
 
 namespace FFTrainer.ViewModels
 {

@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
-             mc:Ignorable="d" Height="450" Width="1075">
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1075">
     <Grid>
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="182" Margin="10,36,0,0" VerticalAlignment="Top" Width="264"/>
         <Label Content="{DynamicResource SkinColor}" HorizontalAlignment="Left" Margin="92,5,0,0" VerticalAlignment="Top" Width="138" FontSize="16" FontWeight="Bold"/>

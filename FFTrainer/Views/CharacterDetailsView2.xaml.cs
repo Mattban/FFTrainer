@@ -7,11 +7,11 @@ using System;
 using System.Linq;
 using FFTrainer.Models;
 using System.Windows.Threading;
-using System.ComponentModel;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using System.Reflection;
+using FFTrainer.Util;
+using FFTrainer.Windows;
 
 namespace FFTrainer.Views
 {
@@ -58,7 +58,7 @@ namespace FFTrainer.Views
                 Emotesx = _exdProvider.Emotes.Values.ToArray();
                 foreach (ExdCsvReader.Emote xD in Emotesx)
                 {
-                    if (xD.Realist == true||xD.SpeacialReal==true)
+                    if (xD.Realist == true || xD.SpeacialReal == true)
                     {
                         EmoteBox.Items.Add(new Emotexd
                         {
@@ -224,7 +224,7 @@ namespace FFTrainer.Views
         private void XPos2_V(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (XPos2.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.WeaponX), "float", XPos2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.WeaponX), "float", XPos2.Value.ToString());
             XPos2.ValueChanged -= XPos2_V;
         }
         private void XPos2_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -239,7 +239,7 @@ namespace FFTrainer.Views
         private void XPos2_V2(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (XPos2_Copy.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.WeaponY), "float", XPos2_Copy.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.WeaponY), "float", XPos2_Copy.Value.ToString());
             XPos2_Copy.ValueChanged -= XPos2_V2;
         }
 
@@ -459,7 +459,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-            //    if (CharacterDetails.HeadPiece.freeze == true) { CharacterDetails.HeadPiece.freeze = false; CharacterDetails.HeadPiece.Activated = true; }
+                //    if (CharacterDetails.HeadPiece.freeze == true) { CharacterDetails.HeadPiece.freeze = false; CharacterDetails.HeadPiece.Activated = true; }
                 CharacterDetails.HeadSlot.value = p.Choice.ModelMain;
                 headGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -490,7 +490,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-               // if (CharacterDetails.Chest.freeze == true) { CharacterDetails.Chest.freeze = false; CharacterDetails.Chest.Activated = true; }
+                // if (CharacterDetails.Chest.freeze == true) { CharacterDetails.Chest.freeze = false; CharacterDetails.Chest.Activated = true; }
                 CharacterDetails.BodySlot.value = p.Choice.ModelMain;
                 bodyGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -508,7 +508,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-          //      if (CharacterDetails.Arms.freeze == true) { CharacterDetails.Arms.freeze = false; CharacterDetails.Arms.Activated = true; }
+                //      if (CharacterDetails.Arms.freeze == true) { CharacterDetails.Arms.freeze = false; CharacterDetails.Arms.Activated = true; }
                 CharacterDetails.ArmSlot.value = p.Choice.ModelMain;
                 handsGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -526,7 +526,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-             //   if (CharacterDetails.Legs.freeze == true) { CharacterDetails.Legs.freeze = false; CharacterDetails.Legs.Activated = true; }
+                //   if (CharacterDetails.Legs.freeze == true) { CharacterDetails.Legs.freeze = false; CharacterDetails.Legs.Activated = true; }
                 CharacterDetails.LegSlot.value = p.Choice.ModelMain;
                 legsGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -544,7 +544,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-              //  if (CharacterDetails.Job.freeze == true) { CharacterDetails.Job.freeze = false; CharacterDetails.Job.Activated = true; }
+                //  if (CharacterDetails.Job.freeze == true) { CharacterDetails.Job.freeze = false; CharacterDetails.Job.Activated = true; }
                 CharacterDetails.WeaponSlot.value = p.Choice.ModelMain;
                 mainWepTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -562,7 +562,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-              //  if (CharacterDetails.Ear.freeze == true) { CharacterDetails.Ear.freeze = false; CharacterDetails.Ear.Activated = true; }
+                //  if (CharacterDetails.Ear.freeze == true) { CharacterDetails.Ear.freeze = false; CharacterDetails.Ear.Activated = true; }
                 CharacterDetails.EarSlot.value = p.Choice.ModelMain;
                 earGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -580,7 +580,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-              //  if (CharacterDetails.Neck.freeze == true) { CharacterDetails.Neck.freeze = false; CharacterDetails.Neck.Activated = true; }
+                //  if (CharacterDetails.Neck.freeze == true) { CharacterDetails.Neck.freeze = false; CharacterDetails.Neck.Activated = true; }
                 CharacterDetails.NeckSlot.value = p.Choice.ModelMain;
                 neckGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -598,7 +598,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-             //   if (CharacterDetails.Wrist.freeze == true) { CharacterDetails.Wrist.freeze = false; CharacterDetails.Wrist.Activated = true; }
+                //   if (CharacterDetails.Wrist.freeze == true) { CharacterDetails.Wrist.freeze = false; CharacterDetails.Wrist.Activated = true; }
                 CharacterDetails.WristSlot.value = p.Choice.ModelMain;
                 wristGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -616,7 +616,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-              //  if (CharacterDetails.RFinger.freeze == true) { CharacterDetails.RFinger.freeze = false; CharacterDetails.RFinger.Activated = true; }
+                //  if (CharacterDetails.RFinger.freeze == true) { CharacterDetails.RFinger.freeze = false; CharacterDetails.RFinger.Activated = true; }
                 CharacterDetails.RFingerSlot.value = p.Choice.ModelMain;
                 rRingGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -634,7 +634,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-             //   if (CharacterDetails.LFinger.freeze == true) { CharacterDetails.LFinger.freeze = false; CharacterDetails.LFinger.Activated = true; }
+                //   if (CharacterDetails.LFinger.freeze == true) { CharacterDetails.LFinger.freeze = false; CharacterDetails.LFinger.Activated = true; }
                 CharacterDetails.LFingerSlot.value = p.Choice.ModelMain;
                 lRingGearTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -652,7 +652,7 @@ namespace FFTrainer.Views
 
             if (p.Choice != null)
             {
-              //  if (CharacterDetails.Offhand.freeze == true) { CharacterDetails.Offhand.freeze = false; CharacterDetails.Offhand.Activated = true; }
+                //  if (CharacterDetails.Offhand.freeze == true) { CharacterDetails.Offhand.freeze = false; CharacterDetails.Offhand.Activated = true; }
                 CharacterDetails.OffhandSlot.value = p.Choice.ModelMain;
                 offWepTextBox.Text = p.Choice.ModelMain;
                 WriteGear_Click();
@@ -662,7 +662,7 @@ namespace FFTrainer.Views
         private void OXPOSXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (OXPos.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandX), "float", OXPos.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandX), "float", OXPos.Value.ToString());
             OXPos.ValueChanged -= OXPOSXD;
         }
 
@@ -724,7 +724,7 @@ namespace FFTrainer.Views
         private void OFFGXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (OffGreen.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandGreen), "float", OffGreen.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandGreen), "float", OffGreen.Value.ToString());
             OffGreen.ValueChanged -= OFFGXD;
         }
 
@@ -740,7 +740,7 @@ namespace FFTrainer.Views
         private void OFFBXD(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (OffBlue.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandBlue), "float", OffBlue.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandBlue), "float", OffBlue.Value.ToString());
             OffBlue.ValueChanged -= OFFBXD;
         }
 
@@ -811,7 +811,7 @@ namespace FFTrainer.Views
             f.Owner = Application.Current.MainWindow;
             f.ShowDialog();
 
-            if (f.Dontbother == false) 
+            if (f.Dontbother == false)
                 return;
             CharacterDetails.ModelType.value = (int)f.Choice;
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.ModelType), "int", f.Choice.ToString());
@@ -845,7 +845,7 @@ namespace FFTrainer.Views
             D.Owner = Application.Current.MainWindow;
             D.ShowDialog();
 
-            if (D.Choice.Length<=0)
+            if (D.Choice.Length <= 0)
                 return;
 
             ResidentSelector f = new ResidentSelector(_exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
@@ -856,7 +856,7 @@ namespace FFTrainer.Views
                 return;
 
             var gs = f.Choice.Gear;
-            if(D.Choice=="All")
+            if (D.Choice == "All")
             {
                 _cGearSet.Customize = gs.Customize;
                 _cGearSet = gs;
@@ -889,7 +889,7 @@ namespace FFTrainer.Views
                 WriteCurrentGearTuples();
                 WriteCurrentCustomize();
             }
-            if (D.Choice=="Xuip")
+            if (D.Choice == "Xuip")
             {
                 _cGearSet = gs;
                 FillCustoms();
@@ -897,7 +897,7 @@ namespace FFTrainer.Views
             }
             if (D.Choice == "App")
             {
-                 _cGearSet.Customize = gs.Customize;
+                _cGearSet.Customize = gs.Customize;
                 CharacterDetails.Highlights.Activated = true;
                 if (CharacterDetails.Race.freeze == true) { CharacterDetails.Race.freeze = false; CharacterDetails.Race.Activated = true; }
                 if (CharacterDetails.Gender.freeze == true) { CharacterDetails.Gender.freeze = false; CharacterDetails.Gender.Activated = true; }
@@ -1005,8 +1005,8 @@ namespace FFTrainer.Views
             if (CharacterDetails.LFinger.freeze == true) { CharacterDetails.LFinger.freeze = false; CharacterDetails.LFinger.Activated = true; }
             if (CharacterDetails.Job.freeze == true) { CharacterDetails.Job.freeze = false; CharacterDetails.Job.Activated = true; }
             if (CharacterDetails.Offhand.freeze == true) { CharacterDetails.Offhand.freeze = false; CharacterDetails.Offhand.Activated = true; }
-            CharacterDetails.HeadSlot.value= GearTupleToComma(_cGearSet.HeadGear);
-            CharacterDetails.BodySlot.value= GearTupleToComma(_cGearSet.BodyGear);
+            CharacterDetails.HeadSlot.value = GearTupleToComma(_cGearSet.HeadGear);
+            CharacterDetails.BodySlot.value = GearTupleToComma(_cGearSet.BodyGear);
             CharacterDetails.ArmSlot.value = GearTupleToComma(_cGearSet.HandsGear);
             CharacterDetails.LegSlot.value = GearTupleToComma(_cGearSet.LegsGear);
             CharacterDetails.FeetSlot.value = GearTupleToComma(_cGearSet.FeetGear);
@@ -1531,7 +1531,7 @@ namespace FFTrainer.Views
             string filter = searchTextBox.Text.ToLower();
             EmoteBox.Items.Clear();
             foreach (ExdCsvReader.Emote xD in Emotesx.Where(g => g.Name.ToLower().Contains(filter)))
-                if (xD.Realist == true||xD.SpeacialReal == true)
+                if (xD.Realist == true || xD.SpeacialReal == true)
                 {
                     EmoteBox.Items.Add(new Emotexd
                     {

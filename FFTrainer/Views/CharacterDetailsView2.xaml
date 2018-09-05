@@ -2,11 +2,12 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FFTrainer.Views"
              xmlns:Models="clr-namespace:FFTrainer.Models"
-             xmlns:util="clr-namespace:FFTrainer.Util"
-             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
-             mc:Ignorable="d" Height="966.35" Width="1075" Loaded="UserControl_Loaded" Initialized="UserControl_Initialized">
+             mc:Ignorable="d" 
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             d:DesignHeight="966.35" d:DesignWidth="1075" Loaded="UserControl_Loaded" Initialized="UserControl_Initialized">
     <Grid Margin="0,-10,0,10" RenderTransformOrigin="0.471,0.597">
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="126" Margin="16,24,0,0" VerticalAlignment="Top" Width="835"/>
         <CheckBox x:Name="JobBox" IsChecked="{Binding Path=CharacterDetails.CharacterDetails.Job.freeze}" Content="" HorizontalAlignment="Left" Margin="22,58,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.374,0.448" IsTabStop="False"/>

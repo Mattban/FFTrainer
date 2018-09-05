@@ -17,6 +17,9 @@ using MahApps.Metro;
 using System.Linq;
 using System.Windows.Controls;
 using System.Diagnostics;
+using FFTrainer.Util;
+using FFTrainer.Windows;
+
 namespace FFTrainer
 {
     /// <summary>
@@ -246,7 +249,7 @@ namespace FFTrainer
                 if (CharacterDetails.Jaw.freeze && !CharacterDetails.Jaw.Activated) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Jaw), CharacterDetails.Jaw.GetBytes());
                 if (CharacterDetails.TailorMuscle.freeze && !CharacterDetails.TailorMuscle.Activated) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.TailorMuscle), CharacterDetails.TailorMuscle.GetBytes());
                 if (CharacterDetails.FreezeFacial.Activated) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.EmoteAddress, Settings.Instance.Character.FreezeFacial), "float", "0");
-                if(CharacterDetails.Name.freeze)
+                if (CharacterDetails.Name.freeze)
                 {
                     CharacterDetails.Name.value = CharacterDetails.Name.value.Replace("\0", string.Empty);
                     MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Name), "string", CharacterDetails.Name.value + "\0\0\0\0\0\0\0\0\0\0");
@@ -268,7 +271,7 @@ namespace FFTrainer
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Emote), CharacterDetails.EmoteX.GetBytes());
                 }
                 Thread.Sleep(Properties.Settings.Default.Write);
-                }
+            }
         }
         private void GposeMode_Checked(object sender, RoutedEventArgs e)
         {
@@ -316,7 +319,7 @@ namespace FFTrainer
             {
                 CharacterDetails Save1 = new CharacterDetails(); // CharacterDetails is class with all address
                 Save1 = CharacterDetails;
-                string details = JsonConvert.SerializeObject(Save1,Formatting.Indented);
+                string details = JsonConvert.SerializeObject(Save1, Formatting.Indented);
                 File.WriteAllText(dig.FileName, details);
                 CurrentlySaving = false;
             }
@@ -437,7 +440,7 @@ namespace FFTrainer
 
         private void dqwewqw()
         {
-            OpenFileDialog dig = new OpenFileDialog(); 
+            OpenFileDialog dig = new OpenFileDialog();
             dig.Filter = "Json File(*.json)|*.json";
             dig.DefaultExt = ".json";
             if (dig.ShowDialog() == true)
@@ -827,8 +830,8 @@ namespace FFTrainer
         private KonamiSequence sequence = new KonamiSequence();
         private void MetroWindow_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
-            if(Properties.Settings.Default.UnlockedK == false)
-                if(haha.IsSelected)
+            if (Properties.Settings.Default.UnlockedK == false)
+                if (haha.IsSelected)
                     if (sequence.IsCompletedBy(e.Key))
                     {
                         Properties.Settings.Default.UnlockedK = true;
@@ -838,7 +841,7 @@ namespace FFTrainer
                     }
             if (Properties.Settings.Default.UnlockedA == false)
                 if (Extra.IsSelected)
-                    if (sequence.IsCompletedBy(e.Key)&&CharacterDetails.ModelType.value==1955&&CharacterDetails.Job.value==2207&&CharacterDetails.WeaponBase.value==1 && CharacterDetails.WeaponV.value == 2)
+                    if (sequence.IsCompletedBy(e.Key) && CharacterDetails.ModelType.value == 1955 && CharacterDetails.Job.value == 2207 && CharacterDetails.WeaponBase.value == 1 && CharacterDetails.WeaponV.value == 2)
                     {
                         Properties.Settings.Default.UnlockedA = true;
                         Properties.Settings.Default.Save();
@@ -1041,8 +1044,8 @@ namespace FFTrainer
                     if (CharacterDetails.LimbalB.freeze == true) { CharacterDetails.LimbalB.freeze = false; CharacterDetails.LimbalB.freezetest = true; characterDetailsView3.LimbalB.IsChecked = false; }
                     if (CharacterDetails.LimbalG.freeze == true) { CharacterDetails.LimbalG.freeze = false; CharacterDetails.LimbalG.freezetest = true; characterDetailsView3.LimbalG.IsChecked = false; }
                     if (CharacterDetails.LimbalR.freeze == true) { CharacterDetails.LimbalR.freeze = false; CharacterDetails.LimbalR.freezetest = true; characterDetailsView3.LimbalR.IsChecked = false; }
-                if (CharacterDetails.BodyType.freeze == false) { CharacterDetails.BodyType.freeze = true; CharacterDetails.BodyType.freezetest = true; }
-              }
+                    if (CharacterDetails.BodyType.freeze == false) { CharacterDetails.BodyType.freeze = true; CharacterDetails.BodyType.freezetest = true; }
+                }
                 CharacterDetails.Highlights.Activated = true;
                 CharacterDetails.Race.freeze = true;
                 CharacterDetails.Clan.freeze = true;

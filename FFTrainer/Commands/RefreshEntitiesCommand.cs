@@ -1,6 +1,8 @@
 ﻿using System;
 using FFTrainer.ViewModels;
 using System.Windows.Input;
+using FFTrainer.Util;
+
 namespace FFTrainer.Commands
 {
     public class RefreshEntitiesCommand : ICommand

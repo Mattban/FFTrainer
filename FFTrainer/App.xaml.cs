@@ -1,4 +1,5 @@
-﻿using MahApps.Metro;
+﻿using FFTrainer.Util;
+using MahApps.Metro;
 using System;
 using System.Windows;
 using System.Windows.Media;

@@ -1,25 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Windows.Controls;
-using System.Data;
-using System.Diagnostics;
+﻿using FFTrainer.Models;
+using FFTrainer.Util;
+using FFTrainer.ViewModels;
+using FFTrainer.Windows;
+using System;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
-using FFTrainer.Models;
-using System.Linq;
-using FFTrainer.ViewModels;
-using Newtonsoft.Json;
-using FFTrainer.Util;
 
 namespace FFTrainer.Views
 {
     /// <summary>
     /// Interaction logic for CharacterDetailsView.xaml
     /// </summary>
-    /// 
     public partial class CharacterDetailsView : UserControl
     {
 
