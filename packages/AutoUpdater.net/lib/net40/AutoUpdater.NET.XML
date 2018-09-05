@@ -329,7 +329,7 @@
               Looks up a localized string similar to Downloading at {0}/s.
             </summary>
         </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.ffxivmeteorlogo">
+        <member name="P:AutoUpdaterDotNET.Properties.Resources.FFXIV_iCON">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
