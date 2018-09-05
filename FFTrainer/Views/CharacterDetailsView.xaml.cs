@@ -30,7 +30,7 @@ namespace FFTrainer.Views
             InitializeComponent();
             _exdProvider.RaceList();
             _exdProvider.TribeList();
-            DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(40)};
+            DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(40) };
             timer.Tick += delegate
             {
                 for (int i = 0; i < _exdProvider.Races.Count; i++)
@@ -388,13 +388,13 @@ namespace FFTrainer.Views
         private void Height2x_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (Height2x.Value.HasValue)
-                    if (Height2x.Value > 0) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", Height2x.Value.ToString());
+                if (Height2x.Value > 0) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", Height2x.Value.ToString());
             Height2x.ValueChanged -= Height2x_ValueChanged;
         }
         private void Height2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (Height2x.Value.HasValue)
-                    if (Height2x.Value > 0) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", Height2x.Value.ToString());
+                if (Height2x.Value > 0) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", Height2x.Value.ToString());
             HeightSlider.ValueChanged -= Height2_ValueChanged;
         }
         private void Height2x_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -414,13 +414,13 @@ namespace FFTrainer.Views
         private void XPos2_V(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (XPos2.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", XPos2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", XPos2.Value.ToString());
             XPos2.ValueChanged -= XPos2_V;
         }
         private void XPos2xd(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (XPos2.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", XPos.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", XPos.Value.ToString());
             XPos.ValueChanged -= XPos2xd;
         }
         private void XPos2_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
@@ -430,7 +430,7 @@ namespace FFTrainer.Views
                 XPos2.ValueChanged -= XPos2_V;
                 XPos2.ValueChanged += XPos2_V;
             }
-            if(XPos.IsMouseOver || XPos.IsKeyboardFocusWithin)
+            if (XPos.IsMouseOver || XPos.IsKeyboardFocusWithin)
             {
                 XPos.ValueChanged -= XPos2xd;
                 XPos.ValueChanged += XPos2xd;
@@ -440,7 +440,7 @@ namespace FFTrainer.Views
         private void BustX2s(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (BustX.Value > 0)
-                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.X), "float", BustX2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.X), "float", BustX2.Value.ToString());
             BustX2.ValueChanged -= BustX2s;
         }
         private void BustX2a(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -468,7 +468,7 @@ namespace FFTrainer.Views
         private void BustY2_(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (BustY.Value > 0)
-               MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Y), "float", BustY2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Y), "float", BustY2.Value.ToString());
             BustY2.ValueChanged -= BustY2_;
         }
         private void BustY1(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -574,7 +574,7 @@ namespace FFTrainer.Views
         private void Rot1V(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (Rot1.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Rotation), "float", Rot1.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Rotation), "float", Rot1.Value.ToString());
             Rot1.ValueChanged -= Rot1V;
         }
         private void Rot1S(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -752,17 +752,17 @@ namespace FFTrainer.Views
         private void MuscleT(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (Muscletone.Value.HasValue)
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.MuscleTone), "float", Muscletone.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.MuscleTone), "float", Muscletone.Value.ToString());
             Muscletone.ValueChanged -= MuscleT;
         }
 
         private void Muscletone_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
         {
-                if (Muscletone.IsMouseOver || Muscletone.IsKeyboardFocusWithin)
-                {
+            if (Muscletone.IsMouseOver || Muscletone.IsKeyboardFocusWithin)
+            {
                 Muscletone.ValueChanged -= MuscleT;
                 Muscletone.ValueChanged += MuscleT;
-                }
+            }
         }
         private void TailSz(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
@@ -798,7 +798,7 @@ namespace FFTrainer.Views
             if (e.Key != System.Windows.Input.Key.Enter) return;
             e.Handled = true;
             CharacterDetails.Name.value = Namexd.Text.Replace("\0", string.Empty);
-            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Name), "string", Namexd.Text+"\0\0\0\0\0\0\0\0\0\0");
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Name), "string", Namexd.Text + "\0\0\0\0\0\0\0\0\0\0");
         }
 
         private void Refresh_Click(object sender, RoutedEventArgs e)
@@ -855,7 +855,7 @@ namespace FFTrainer.Views
         private CmpReader _colorMap = new CmpReader(Properties.Resources.human);
         private void HairColor_Click(object sender, RoutedEventArgs e)
         {
-            var c = new CharaMakeColorSelector(_colorMap, 3584, 255, (int) CharacterDetails.HairTone.value);
+            var c = new CharaMakeColorSelector(_colorMap, 3584, 255, (int)CharacterDetails.HairTone.value);
             c.ShowDialog();
 
             if (c.Choice != -1)
@@ -864,24 +864,24 @@ namespace FFTrainer.Views
                 CharacterDetails.HairTone.value = (byte)c.Choice;
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HairTone), CharacterDetails.HairTone.GetBytes());
                 if (CharacterDetails.HairTone.freezetest == true) CharacterDetails.HairTone.freeze = false; CharacterDetails.HairTone.freezetest = false;
-             //   FillDefaults();
+                //   FillDefaults();
             }
         }
 
         private void SkinColor_Click(object sender, RoutedEventArgs e)
         {
             var seearchE = 3328; // leave this at default
-            if (CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 1 
-                || CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 2 || 
-                CharacterDetails.Race.value==2 && CharacterDetails.Clan.value==3 ||
-                CharacterDetails.Race.value==4 && CharacterDetails.Clan.value==7||
+            if (CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 1
+                || CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 2 ||
+                CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 3 ||
+                CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 7 ||
                 CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 6) seearchE = 3328;
-            if (CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 8||CharacterDetails.Race.value==2&&CharacterDetails.Clan.value==4) seearchE = 21248;
+            if (CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 8 || CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 4) seearchE = 21248;
             if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 11) seearchE = 29440;
             if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 12) seearchE = 32768;
             if (CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 5) seearchE = 4608;
-            if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 9) seearchE = 5120;
-            if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 10) seearchE = 8448;
+            if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 9) seearchE = 23808;
+            if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 10) seearchE = 26368;
             var c = new CharaMakeColorSelector(_colorMap, seearchE, 255, (int)CharacterDetails.Skintone.value);
             c.ShowDialog();
 
@@ -966,7 +966,7 @@ namespace FFTrainer.Views
 
         private void RefresHNPC_Click(object sender, RoutedEventArgs e)
         {
-            var xdad= (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.EntityType));
+            var xdad = (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.EntityType));
             if (xdad == 1)
             {
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.EntityType), "byte", "2");

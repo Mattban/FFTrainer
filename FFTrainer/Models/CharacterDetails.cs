@@ -73,6 +73,8 @@ namespace FFTrainer.Models
         [JsonIgnore]  public Address<float> X { get; set; }
         [JsonIgnore]  public Address<float> Y { get; set; }
         [JsonIgnore]  public Address<float> Z { get; set; }
+        [JsonIgnore] public Address<byte> FilterEnable { get; set; }
+        [JsonIgnore] public Address<string> FilterAoB { get; set; }
         public Address<byte> Head { get; set; }
         public Address<byte> Hair { get; set; }
         public Address<byte> TailType { get; set; }
@@ -218,6 +220,8 @@ namespace FFTrainer.Models
 
         public CharacterDetails()
         {
+            FilterAoB = new Address<string>();
+            FilterEnable = new Address<byte>();
             BodyType = new Address<byte>();
             ModelType = new Address<int>();
             TestArray2 = new Address<string>();

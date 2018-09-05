@@ -1732,5 +1732,10 @@ namespace FFTrainer.Views
                 ShowError("One or more fields were not formatted correctly.\n\n" + exc);
             }
         }
+
+        private void Filters_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

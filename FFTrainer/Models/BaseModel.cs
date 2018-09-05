@@ -22,6 +22,7 @@ namespace FFTrainer.Models
         [JsonIgnore] public bool Activated { get; set; }
         [JsonIgnore] public bool Checker { get; set; }
         [JsonIgnore] public bool freezetest { get; set; }
+        [JsonIgnore] public int Selected { get; set; }
         /// <summary>
         /// Get a byte array of this address
         /// </summary>

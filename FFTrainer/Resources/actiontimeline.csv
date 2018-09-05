@@ -6248,7 +6248,7 @@ Index,0 [UBYTE(0x3)][0x6],1 [UBYTE(0x3)][0x7],2 [BBOOL(0x19)][0x10],3 [UBYTE(0x3
 6246,0,0,true,0,0,0,"normal/sp11_loop",0,2,1,2,0,0,true,true,false,false,true
 6247,0,1,false,0,0,0,"normal/sp12_start",0,2,0,2,0,0,true,true,false,false,true
 6248,0,0,true,0,0,0,"normal/sp12_loop",0,2,1,2,0,0,true,true,false,false,true
-6249,0,1,false,0,0,1,"normal/Eastern Fighting",0,2,1,2,0,0,true,true,false,false,true
+6249,0,1,false,0,0,1,"normal/Crimson Lotus",0,2,1,2,0,0,true,true,false,false,true
 6250,0,0,false,0,0,0,"",0,0,0,0,0,0,false,false,false,false,false
 6251,0,0,false,0,0,0,"",0,0,0,0,0,0,false,false,false,false,false
 6252,0,1,false,0,0,0,"normal/Water Splash!",0,2,1,2,0,0,true,true,false,false,true

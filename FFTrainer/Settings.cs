@@ -31,6 +31,7 @@ namespace FFTrainer
         public string WeatherOffset { get; set; }
         public string HousingOffset { get; set; }
         public string TerritoryOffset { get; set; }
+        public string GposeFilters { get; set; }
         public bool VersionCheck { get; set; }
         public CharacterOffsets Character { get; set; }
     }
@@ -44,6 +45,8 @@ namespace FFTrainer
         public string TimeControl { get; set; }
         public string Weather { get; set; }
         public string Gender { get; set; }
+        public string FilterEnable { get; set; }
+        public string FilterAoB { get; set; }
         public string EyeBrowType { get; set; }
         public string Clan { get; set; }
         public string BodyType { get; set; }

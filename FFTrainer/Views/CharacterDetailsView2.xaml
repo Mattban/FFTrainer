@@ -232,5 +232,31 @@
                 <TextBox x:Name="searchTextBox" Height="20" TextWrapping="Wrap" Margin="0,5,97,5" TextChanged="TextBox_TextChanged"  mah:TextBoxHelper.Watermark="Search..."/>
             </StackPanel>
         </mah:Flyout>
+        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="440,854,0,0" VerticalAlignment="Top" Width="120" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" SelectionChanged="Filters_SelectionChanged" IsTabStop="False">
+            <ComboBoxItem Content="Normal"/>
+            <ComboBoxItem Content="Sepia 1"/>
+            <ComboBoxItem Content="Sepia 2"/>
+            <ComboBoxItem Content="Monochrome 1"/>
+            <ComboBoxItem Content="Monochrome 2"/>
+            <ComboBoxItem Content="Bright 1"/>
+            <ComboBoxItem Content="Bright 2"/>
+            <ComboBoxItem Content="Bright 3"/>
+            <ComboBoxItem Content="Bright 4"/>
+            <ComboBoxItem Content="Posterization 1"/>
+            <ComboBoxItem Content="Posterization 2"/>
+            <ComboBoxItem Content="Colored Pencil"/>
+            <ComboBoxItem Content="Pencil"/>
+            <ComboBoxItem Content="Colored Marker 1"/>
+            <ComboBoxItem Content="Colored Marker 2"/>
+            <ComboBoxItem Content="Pastel 1"/>
+            <ComboBoxItem Content="Pastel 2"/>
+            <ComboBoxItem Content="Pastel 3"/>
+            <ComboBoxItem Content="Monotone 1"/>
+            <ComboBoxItem Content="Monotone 2"/>
+            <ComboBoxItem Content="Monotone 3"/>
+            <ComboBoxItem Content="Echo"/>
+            <ComboBoxItem Content="Aetherometer"/>
+            <ComboBoxItem Content="Strengthened Effects"/>
+        </ComboBox>
     </Grid>
 </UserControl>
