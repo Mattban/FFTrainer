@@ -233,7 +233,7 @@
                 <TextBox x:Name="searchTextBox" Height="20" TextWrapping="Wrap" Margin="0,5,97,5" TextChanged="TextBox_TextChanged"  mah:TextBoxHelper.Watermark="Search..."/>
             </StackPanel>
         </mah:Flyout>
-        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="433,846,0,0" VerticalAlignment="Top" Width="127" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" SelectionChanged="Filters_SelectionChanged" IsTabStop="False" RenderTransformOrigin="0.5,0.577">
+        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="420,827,0,0" VerticalAlignment="Top" Width="141" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" SelectionChanged="Filters_SelectionChanged" IsTabStop="False" RenderTransformOrigin="0.5,0.577">
             <ComboBoxItem Content="Normal"/>
             <ComboBoxItem Content="Sepia 1"/>
             <ComboBoxItem Content="Sepia 2"/>
@@ -259,6 +259,6 @@
             <ComboBoxItem Content="Aetherometer"/>
             <ComboBoxItem Content="Strengthened Effects"/>
         </ComboBox>
-        <CheckBox x:Name="HousingPlace" Content="{DynamicResource HousingRestrict}" HorizontalAlignment="Left" Margin="316,877,0,0" VerticalAlignment="Top" Checked="HousingPlace_Checked" Unchecked="HousingPlace_Unchecked" Width="236" Height="29" FontWeight="Bold"/>
+        <CheckBox x:Name="HousingPlace" Content="{DynamicResource HousingRestrict}" HorizontalAlignment="Left" Margin="316,876,0,0" VerticalAlignment="Top" Checked="HousingPlace_Checked" Unchecked="HousingPlace_Unchecked" Width="236" Height="29" FontWeight="Bold"/>
     </Grid>
 </UserControl>
