@@ -865,17 +865,18 @@ namespace FFTrainer.Views
         private void SkinColor_Click(object sender, RoutedEventArgs e)
         {
             var seearchE = 3328; // leave this at default
-            if (CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 1
-                || CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 2 ||
-                CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 3 ||
-                CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 7 ||
-                CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 6) seearchE = 3328;
-            if (CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 8 || CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 4) seearchE = 21248;
-            if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 11) seearchE = 29440;
-            if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 12) seearchE = 32768;
-            if (CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 5) seearchE = 4608;
+            if (CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 1) seearchE = 3328;
+            if (CharacterDetails.Race.value == 1 && CharacterDetails.Clan.value == 2) seearchE = 5888;
+            if(CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 3) seearchE = 8448;
+            if(CharacterDetails.Race.value == 2 && CharacterDetails.Clan.value == 4) seearchE = 11008;
+            if (CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 5) seearchE = 13568;
+            if (CharacterDetails.Race.value == 3 && CharacterDetails.Clan.value == 6) seearchE = 16128;
+            if (CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 7) seearchE = 18688;
+            if (CharacterDetails.Race.value == 4 && CharacterDetails.Clan.value == 8) seearchE = 21248;
             if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 9) seearchE = 23808;
             if (CharacterDetails.Race.value == 5 && CharacterDetails.Clan.value == 10) seearchE = 26368;
+            if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 11) seearchE = 28928;
+            if (CharacterDetails.Race.value == 6 && CharacterDetails.Clan.value == 12) seearchE = 31488;
             var c = new CharaMakeColorSelector(_colorMap, seearchE, 255, (int)CharacterDetails.Skintone.value);
             c.ShowDialog();
 
