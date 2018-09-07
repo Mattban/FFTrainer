@@ -1,4 +1,4 @@
-﻿using System.Windows;
+﻿ using System.Windows;
 using System.Windows.Controls;
 using FFTrainer.ViewModels;
 using GearTuple = System.Tuple<int, int, int>;
@@ -799,13 +799,18 @@ namespace FFTrainer.Views
         {
             if (!CheckMonsterList())
                 return;
-
+            var xdad = (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.EntityType));
+            if (xdad == 2) return;
             MonsterWindow f = new MonsterWindow(_exdProvider.Monsters.Values.ToArray());
             f.Owner = Application.Current.MainWindow;
             f.ShowDialog();
 
             if (f.Dontbother == false)
                 return;
+
+            var xdadx = (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.EntityType));
+            if (xdadx == 2) return;
+
             CharacterDetails.ModelType.value = (int)f.Choice;
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.ModelType), "int", f.Choice.ToString());
         }
