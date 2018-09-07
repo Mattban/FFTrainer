@@ -147,9 +147,9 @@
         <Button Content="{DynamicResource Search}" HorizontalAlignment="Left" Margin="658,308,0,0" VerticalAlignment="Top" Width="56" FontSize="12" Height="26" BorderThickness="1" Click="Button_Click_4" TextOptions.TextFormattingMode="Display" Padding="3,6,5,6" FontWeight="Bold" IsTabStop="False"/>
         <Button Content="{DynamicResource Search}" HorizontalAlignment="Left" Margin="658,338,0,0" VerticalAlignment="Top" Width="56" FontSize="12" Height="27" BorderThickness="1" Click="Button_Click_5" TextOptions.TextFormattingMode="Display" Padding="3,6,5,6" FontWeight="Bold" IsTabStop="False"/>
         <TextBox  x:Name="offWepTextBox" HorizontalAlignment="Left" Height="23" Margin="132,-110,0,0" TextWrapping="Wrap" Text="{Binding CharacterDetails.CharacterDetails.OffhandSlot.value, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="79" IsEnabled="False" IsTabStop="False"/>
-        <Button Content="{DynamicResource NPCGear}" HorizontalAlignment="Left" Margin="856,29,0,0" VerticalAlignment="Top" Width="136" Height="43" Click="Button_Click_6" FontSize="11" FontWeight="Bold" BorderThickness="1" IsTabStop="False"/>
-        <Button x:Name="Unfreeze" Content="{DynamicResource Unfreeze}" HorizontalAlignment="Left" Margin="970,80,0,0" VerticalAlignment="Top" Width="97" Height="38" FontSize="11" Click="Unfreeze_Click" FontWeight="Bold" BorderThickness="1" IsTabStop="False"/>
-        <Button x:Name="Refresh" Content="{DynamicResource RefreshCharacter}" Margin="853,80,110,0" VerticalAlignment="Top" Height="38" FontSize="11" FontWeight="Bold" Click="Refresh_Click" BorderThickness="1" Padding="4,5,5,5" IsTabStop="False"/>
+        <Button Content="{DynamicResource NPCGear}" HorizontalAlignment="Left" Margin="856,29,0,0" VerticalAlignment="Top" Width="102" Height="43" Click="Button_Click_6" FontSize="11" FontWeight="Bold" BorderThickness="1" IsTabStop="False" Padding="5,5,10,5"/>
+        <Button x:Name="Unfreeze" Content="{DynamicResource Unfreeze}" HorizontalAlignment="Left" Margin="856,77,0,0" VerticalAlignment="Top" Width="102" Height="43" FontSize="11" Click="Unfreeze_Click" FontWeight="Bold" BorderThickness="1" IsTabStop="False"/>
+        <Button x:Name="Refresh" Content="{DynamicResource RefreshCharacter}" Margin="963,29,7,0" VerticalAlignment="Top" Height="43" FontSize="11" FontWeight="Bold" Click="Refresh_Click" BorderThickness="1" Padding="4,5,5,5" IsTabStop="False"/>
         <TextBox x:Name="customizeTextBox" HorizontalAlignment="Left" Height="29" Margin="121,569,0,0" TextWrapping="Wrap" Text="{Binding CharacterDetails.CharacterDetails.TestArray.value}" VerticalAlignment="Top" Width="554" MaxLength="77" KeyDown="customizeTextBox_KeyDown" IsTabStop="False"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.CharacterDetails.TestArray.freeze}" Content="Character AoB" HorizontalAlignment="Left" Margin="3,580,0,0" VerticalAlignment="Top" IsTabStop="False" FontWeight="Bold"/>
         <Button Content="{DynamicResource NPCGear}" HorizontalAlignment="Left" Margin="791,562,0,0" VerticalAlignment="Top" Width="128" Height="52" Click="Button_Click_6" FontSize="12" FontWeight="Bold" BorderThickness="1" IsTabStop="False"/>
@@ -233,7 +233,7 @@
                 <TextBox x:Name="searchTextBox" Height="20" TextWrapping="Wrap" Margin="0,5,97,5" TextChanged="TextBox_TextChanged"  mah:TextBoxHelper.Watermark="Search..."/>
             </StackPanel>
         </mah:Flyout>
-        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="420,827,0,0" VerticalAlignment="Top" Width="141" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" IsTabStop="False" RenderTransformOrigin="0.5,0.577" SelectionChanged="FiltersChange">
+        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="402,827,0,0" VerticalAlignment="Top" Width="159" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" IsTabStop="False" RenderTransformOrigin="0.5,0.577" SelectionChanged="FiltersChange">
             <ComboBoxItem Content="Normal"/>
             <ComboBoxItem Content="Sepia 1"/>
             <ComboBoxItem Content="Sepia 2"/>
@@ -260,5 +260,6 @@
             <ComboBoxItem Content="Strengthened Effects"/>
         </ComboBox>
         <CheckBox x:Name="HousingPlace" Content="{DynamicResource HousingRestrict}" HorizontalAlignment="Left" Margin="316,876,0,0" VerticalAlignment="Top" Checked="HousingPlace_Checked" Unchecked="HousingPlace_Unchecked" Width="236" Height="29" FontWeight="Bold"/>
+        <Button x:Name="RefresHNPC_Copy" Content="Refresh (NPC)&#xA;Character Data" HorizontalAlignment="Left" Margin="963,76,0,0" VerticalAlignment="Top" Width="105" Height="43" FontSize="12" FontWeight="Bold" BorderThickness="1" Padding="0,5,10,5" Click="RefresHNPC_Click" RenderTransformOrigin="0.512,0.481"/>
     </Grid>
 </UserControl>
