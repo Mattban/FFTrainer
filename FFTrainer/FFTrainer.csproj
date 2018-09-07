@@ -80,7 +80,7 @@
     <Reference Include="JetBrains.Annotations">
       <HintPath>..\packages\MahApps\bin\Release\net45\JetBrains.Annotations.dll</HintPath>
     </Reference>
-    <Reference Include="MahApps.Metro">
+    <Reference Include="MahApps.Metro, Version=1.6.0.0, Culture=neutral, PublicKeyToken=18810889b8a6425a, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps\bin\Release\net45\MahApps.Metro.dll</HintPath>
     </Reference>
     <Reference Include="Memory">

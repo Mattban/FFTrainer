@@ -1726,7 +1726,7 @@ namespace FFTrainer.Views
             }
         }
 
-        private void Filters_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void FiltersChange(object sender, SelectionChangedEventArgs e)
         {
             if (Filters.SelectedIndex == 0)
             {
@@ -1760,6 +1760,7 @@ namespace FFTrainer.Views
                 if (Filters.SelectedIndex == 22) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "9A 99 99 3E 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 33 33 33 3F 9A 99 99 3E 00 00 80 3F CD CC 4C BF 00 00 80 BF 00 00 80 3F");
                 if (Filters.SelectedIndex == 23) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 80 3E 00 00 00 3F CD CC CC BE CD CC 4C BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00");
             }
+            Filters.SelectionChanged -= FiltersChange;
         }
 
         private void HousingPlace_Unchecked(object sender, RoutedEventArgs e)
@@ -1771,6 +1772,11 @@ namespace FFTrainer.Views
         {
             if (HousingPlace.IsChecked == true)
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "01");
+        }
+
+        private void Filters_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (Filters.IsKeyboardFocusWithin || Filters.IsMouseOver) Filters.SelectionChanged += FiltersChange;
         }
     }
 }

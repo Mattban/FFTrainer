@@ -102,6 +102,9 @@ namespace FFTrainer.ViewModels
                 {
                     NotAllowed = true;
                     CheckAble = false;
+                    CharacterDetails.Max.freeze = false;
+                    CharacterDetails.CZoom.freeze = false;
+                    CharacterDetails.Min.freeze = false;
                     //These are the checkbox to freeze addresses
                     CharacterDetails.Max.Checker = false;
                     CharacterDetails.Min.Checker = false;
