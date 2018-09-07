@@ -80,6 +80,24 @@ namespace FFTrainer.ViewModels
             CharacterDetails.Territoryxd.value = MemoryManager.Instance.MemLib.readInt(MemoryManager.GetAddressString(MemoryManager.Instance.TerritoryAddress, Settings.Instance.Character.Territory));
             if (ZoneBlacklist.Contains(CharacterDetails.Territoryxd.value))
             {
+                if (CharacterDetails.Max.value > (float)20.00) // Maximum Zoom limit is 20.00
+                {
+                    CharacterDetails.Max.freeze = false;
+                    CharacterDetails.Max.value = (float)20.00;
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Max), "float", "20");
+                }
+                if (CharacterDetails.Min.value < (float)1.50) // Minimum Zoom limit is 1.50
+                {
+                    CharacterDetails.Min.freeze = false;
+                    CharacterDetails.Min.value = (float)1.50;
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Min), "float", "1.50");
+                }
+                if (CharacterDetails.CZoom.value > (float)20.00) // Camera's current zoom 
+                {
+                    CharacterDetails.CZoom.freeze = false;
+                    CharacterDetails.CZoom.value = (float)19.50;
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CZoom), "float", "20");
+                }
                 if (CheckAble == true)
                 {
                     NotAllowed = true;
@@ -88,18 +106,6 @@ namespace FFTrainer.ViewModels
                     CharacterDetails.Max.Checker = false;
                     CharacterDetails.Min.Checker = false;
                     CharacterDetails.CZoom.Checker = false;
-                    CharacterDetails.CZoom.freeze = false;
-                    CharacterDetails.Max.value = (float)20.00; //Maximum you can zoom out
-                    CharacterDetails.Min.value = (float)1.50; // minimum you can zoom in
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Max), "float", "20");
-                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.Min), "float", "1.50");
-                    if (CharacterDetails.CZoom.value > 20.00) // 20 is the maxmimum you can zoom out. 
-                    {
-                        CharacterDetails.CZoom.value = (float)20.00;
-                        MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CZoom), "float", "20");
-                    }
-                    CharacterDetails.Max.freeze = false;
-                    CharacterDetails.Min.freeze = false;
                 }
             }
             else
