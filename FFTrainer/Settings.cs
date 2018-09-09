@@ -30,7 +30,6 @@ namespace FFTrainer
         public string TimeOffset { get; set; }
         public string WeatherOffset { get; set; }
         public string HousingOffset { get; set; }
-        public string HousingOffset1 { get; set; }
         public string TerritoryOffset { get; set; }
         public string GposeFilters { get; set; }
         public bool VersionCheck { get; set; }
