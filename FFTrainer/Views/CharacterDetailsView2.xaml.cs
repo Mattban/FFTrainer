@@ -21,15 +21,6 @@ namespace FFTrainer.Views
     public partial class CharacterDetailsView2 : UserControl
     {
         public ExdCsvReader.Emote[] Emotesx;
-        public class Emotexd
-        {
-            public int Index { get; set; }
-            public string Name { get; set; }
-            public override string ToString()
-            {
-                return Name;
-            }
-        }
         public CharacterDetailsView2()
         {
             InitializeComponent();
@@ -53,7 +44,7 @@ namespace FFTrainer.Views
                 {
                     if (xD.Realist == true || xD.SpeacialReal == true)
                     {
-                        EmoteBox.Items.Add(new Emotexd
+                        EmoteBox.Items.Add(new ExdCsvReader.Emote
                         {
                             Index = Convert.ToInt32(xD.Index),
                             Name = xD.Name.ToString()
@@ -1520,7 +1511,7 @@ namespace FFTrainer.Views
             if (EmoteBox.SelectedItem == null)
                 return;
             var item = (ListBox)sender;
-            var Value = (Emotexd)item.SelectedItem;
+            var Value = (ExdCsvReader.Emote)item.SelectedItem;
             CharacterDetails.EmoteX.value = (int)Value.Index;
         }
 
@@ -1531,7 +1522,7 @@ namespace FFTrainer.Views
             foreach (ExdCsvReader.Emote xD in Emotesx.Where(g => g.Name.ToLower().Contains(filter)))
                 if (xD.Realist == true || xD.SpeacialReal == true)
                 {
-                    EmoteBox.Items.Add(new Emotexd
+                    EmoteBox.Items.Add(new ExdCsvReader.Emote
                     {
                         Index = Convert.ToInt32(xD.Index),
                         Name = xD.Name.ToString()
@@ -1777,7 +1768,6 @@ namespace FFTrainer.Views
         private void HousingPlace_Unchecked(object sender, RoutedEventArgs e)
         {
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
-            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset1, "byte", "00");
         }
 
         private void HousingPlace_Checked(object sender, RoutedEventArgs e)
@@ -1785,7 +1775,6 @@ namespace FFTrainer.Views
             if (HousingPlace.IsChecked == true)
             {
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "01");
-                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset1, "byte", "01");
             }
         }
     }

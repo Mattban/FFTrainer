@@ -14,17 +14,6 @@ namespace FFTrainer.Windows
         private ExdCsvReader.Monster[] _monsters;
         public int Choice = 0;
         public bool Dontbother = false;
-        public class MobsxD
-        {
-            public int Index { get; set; }
-            public bool Real { get; set; }
-            public string Name { get; set; }
-
-            public override string ToString()
-            {
-                return Name;
-            }
-        }
         public MonsterWindow(ExdCsvReader.Monster[] monsters)
         {
             InitializeComponent();
@@ -34,7 +23,7 @@ namespace FFTrainer.Windows
             {
                 if (xD.Real == true)
                 {
-                    monsterlist.Items.Add(new MobsxD
+                    monsterlist.Items.Add(new ExdCsvReader.Monster
                     {
                         Index = Convert.ToInt32(xD.Index),
                         Name = xD.Name.ToString()
@@ -50,7 +39,7 @@ namespace FFTrainer.Windows
             foreach (ExdCsvReader.Monster xD in _monsters.Where(g => g.Name.ToLower().Contains(filter)))
                 if (xD.Real == true)
                 {
-                    monsterlist.Items.Add(new MobsxD
+                    monsterlist.Items.Add(new ExdCsvReader.Monster
                     {
                         Index = Convert.ToInt32(xD.Index),
                         Name = xD.Name.ToString()
@@ -64,7 +53,7 @@ namespace FFTrainer.Windows
                 Close();
 
             Dontbother = true;
-            var Value = (MobsxD)monsterlist.SelectedItem;
+            var Value = (ExdCsvReader.Monster)monsterlist.SelectedItem;
 
             Choice = (int)Value.Index;
             Close();

@@ -457,8 +457,6 @@ namespace FFTrainer.Views
             }
         }
 
-
-
         private void BustY2_(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (BustY.Value > 0)

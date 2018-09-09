@@ -12,17 +12,6 @@ namespace FFTrainer.Windows
     {
         private ExdCsvReader.Resident[] _residents;
         public ExdCsvReader.Resident Choice = null;
-        public class Residentxd
-        {
-            public int Index { get; set; }
-            public string Name { get; set; }
-            public GearSet Gear { get; set; }
-
-            public override string ToString()
-            {
-                return Name;
-            }
-        }
 
         public ResidentSelector(ExdCsvReader.Resident[] residents)
         {

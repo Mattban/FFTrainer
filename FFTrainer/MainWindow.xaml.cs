@@ -56,7 +56,7 @@ namespace FFTrainer
                 {
                     if (xD.Realist == true)
                     {
-                        EmoteBox.Items.Add(new Emotexd
+                        EmoteBox.Items.Add(new ExdCsvReader.Emote
                         {
                             Index = Convert.ToInt32(xD.Index),
                             Name = xD.Name.ToString()
@@ -383,15 +383,6 @@ namespace FFTrainer
             AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/Updates.xml");
         }
         public static ExdCsvReader.Emote[] Emotesx;
-        public class Emotexd
-        {
-            public int Index { get; set; }
-            public string Name { get; set; }
-            public override string ToString()
-            {
-                return Name;
-            }
-        }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             if (EmoteFlyout.IsOpen == false)
@@ -404,7 +395,7 @@ namespace FFTrainer
             if (EmoteBox.SelectedItem == null)
                 return;
             var item = (ListBox)sender;
-            var Value = (Emotexd)item.SelectedItem;
+            var Value = (ExdCsvReader.Emote)item.SelectedItem;
             CharacterDetails.Emote.value = (int)Value.Index;
         }
 
@@ -415,7 +406,7 @@ namespace FFTrainer
             foreach (ExdCsvReader.Emote xD in Emotesx.Where(g => g.Name.ToLower().Contains(filter)))
                 if (xD.Realist == true)
                 {
-                    EmoteBox.Items.Add(new Emotexd
+                    EmoteBox.Items.Add(new ExdCsvReader.Emote
                     {
                         Index = Convert.ToInt32(xD.Index),
                         Name = xD.Name.ToString()
