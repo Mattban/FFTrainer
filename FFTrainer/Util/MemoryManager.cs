@@ -43,7 +43,6 @@ namespace FFTrainer.Util
         public string TimeAddress { get; set; }
         public string TerritoryAddress { get; set; }
         public string HousingOffset { get; set; }
-        public string GposeFilters { get; set; }
 
         /// <summary>
         /// Constructor for the singleton memory manager

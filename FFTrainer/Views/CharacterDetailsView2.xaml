@@ -233,33 +233,7 @@
                 <TextBox x:Name="searchTextBox" Height="20" TextWrapping="Wrap" Margin="0,5,97,5" TextChanged="TextBox_TextChanged"  mah:TextBoxHelper.Watermark="Search..."/>
             </StackPanel>
         </mah:Flyout>
-        <ComboBox SelectedIndex="{Binding CharacterDetails.CharacterDetails.FilterAoB.Selected}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="402,827,0,0" VerticalAlignment="Top" Width="159" mah:TextBoxHelper.Watermark="Filters" mah:TextBoxHelper.WatermarkTrimming="WordEllipsis" mah:TextBoxHelper.HasText="True" mah:TextBoxHelper.UseFloatingWatermark="True" IsTabStop="False" RenderTransformOrigin="0.5,0.577" SelectionChanged="FiltersChange">
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Sepia 1"/>
-            <ComboBoxItem Content="Sepia 2"/>
-            <ComboBoxItem Content="Monochrome 1"/>
-            <ComboBoxItem Content="Monochrome 2"/>
-            <ComboBoxItem Content="Bright 1"/>
-            <ComboBoxItem Content="Bright 2"/>
-            <ComboBoxItem Content="Bright 3"/>
-            <ComboBoxItem Content="Bright 4"/>
-            <ComboBoxItem Content="Posterization 1"/>
-            <ComboBoxItem Content="Posterization 2"/>
-            <ComboBoxItem Content="Colored Pencil"/>
-            <ComboBoxItem Content="Pencil"/>
-            <ComboBoxItem Content="Colored Marker 1"/>
-            <ComboBoxItem Content="Colored Marker 2"/>
-            <ComboBoxItem Content="Pastel 1"/>
-            <ComboBoxItem Content="Pastel 2"/>
-            <ComboBoxItem Content="Pastel 3"/>
-            <ComboBoxItem Content="Monotone 1"/>
-            <ComboBoxItem Content="Monotone 2"/>
-            <ComboBoxItem Content="Monotone 3"/>
-            <ComboBoxItem Content="Echo"/>
-            <ComboBoxItem Content="Aetherometer"/>
-            <ComboBoxItem Content="Strengthened Effects"/>
-        </ComboBox>
-        <CheckBox x:Name="HousingPlace" Content="{DynamicResource HousingRestrict}" HorizontalAlignment="Left" Margin="316,876,0,0" VerticalAlignment="Top" Checked="HousingPlace_Checked" Unchecked="HousingPlace_Unchecked" Width="236" Height="29" FontWeight="Bold"/>
+        <CheckBox x:Name="HousingPlace" Content="{DynamicResource HousingRestrict}" HorizontalAlignment="Left" Margin="316,830,0,0" VerticalAlignment="Top" Checked="HousingPlace_Checked" Unchecked="HousingPlace_Unchecked" Width="236" Height="29" FontWeight="Bold"/>
         <Button x:Name="RefresHNPC_Copy" Content="Refresh (NPC)&#xA;Character Data" HorizontalAlignment="Left" Margin="963,76,0,0" VerticalAlignment="Top" Width="105" Height="43" FontSize="12" FontWeight="Bold" BorderThickness="1" Padding="0,5,10,5" Click="RefresHNPC_Click" RenderTransformOrigin="0.512,0.481"/>
     </Grid>
 </UserControl>
