@@ -16,6 +16,8 @@ using FFXIVTool.Models;
 using Newtonsoft.Json;
 using System.IO;
 using MaterialDesignThemes.Wpf;
+using AutoUpdaterDotNET;
+using System.Net;
 
 namespace FFXIVTool
 {
@@ -30,6 +32,10 @@ namespace FFXIVTool
         Version version = Assembly.GetExecutingAssembly().GetName().Version;
         public MainWindow()
         {
+            ServicePointManager.SecurityProtocol = (ServicePointManager.SecurityProtocol & SecurityProtocolType.Ssl3) | (SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
+            AutoUpdater.RunUpdateAsAdmin = true;
+            AutoUpdater.DownloadPath = Environment.CurrentDirectory;
+            AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/Updates.xml");
             List<ProcessLooker.Game> GameList = new List<ProcessLooker.Game>();
 
             Process[] processlist = Process.GetProcesses();
