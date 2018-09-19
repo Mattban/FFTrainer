@@ -480,6 +480,8 @@ namespace FFXIVTool.Views
 
         private void SearchModelBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            if (EquipBoxC.SelectedItem == null)
+                return;
             string filter = SearchModelBox.Text.ToLower();
             EquipBox.Items.Clear();
             foreach (ExdCsvReader.Item game in _items.Where(g => g.Name.ToLower().Contains(filter)))
