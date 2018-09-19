@@ -393,7 +393,7 @@ namespace FFXIVTool.ViewModel
 
                 if (!CharacterDetails.SkinRedPigment.freeze) CharacterDetails.SkinRedPigment.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinRedPigment));
 
-                if (!CharacterDetails.CameraHeight2.freeze) CharacterDetails.CameraHeight2.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CameraHeight));
+                if (!CharacterDetails.CameraHeight2.freeze) CharacterDetails.CameraHeight2.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CameraHeight2));
 
                 if (!CharacterDetails.CameraYAMin.freeze) CharacterDetails.CameraYAMin.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CameraYAMin));
 

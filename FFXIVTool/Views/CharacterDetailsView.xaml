@@ -46,7 +46,7 @@
         <TextBox Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left"  PreviewTextInput="DigitCheckInput" Height="23" Margin="107,312,0,0" TextWrapping="Wrap" Text="{Binding Path=CharacterDetails.HairTone.value, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="51" TextAlignment="Center"/>
         <Button  Content="Search" HorizontalAlignment="Left" materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="180,309,0,0" VerticalAlignment="Top" Width="75" Height="26" Click="HairSelectButton_Click"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.Highlights.freeze}" Content="Highlights" HorizontalAlignment="Left" Margin="10,345,0,0" VerticalAlignment="Top"/>
-        <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}" IsChecked="{Binding Path=CharacterDetails.Highlights.SpecialActivate}" ToolTip="Highlight Toggle Switch" Margin="135,342,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" />
+        <ToggleButton x:Name="HighLightButton" Style="{StaticResource MaterialDesignSwitchToggleButton}" IsChecked="{Binding Path=CharacterDetails.Highlights.SpecialActivate}" ToolTip="Highlight Toggle Switch" Margin="135,342,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Checked="HighLightButton_Checked" Unchecked="HighLightButton_Unchecked" />
         <Label Content="Off" HorizontalAlignment="Left" Margin="102,342,0,0" VerticalAlignment="Top"/>
         <Label Content="On" HorizontalAlignment="Left" Margin="174,342,0,0" VerticalAlignment="Top"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.HighlightTone.freeze}" Content="Highlights Color" HorizontalAlignment="Left" Margin="10,376,0,0" VerticalAlignment="Top"/>
@@ -151,7 +151,7 @@
         <Label Content="On" HorizontalAlignment="Left" Margin="731,375,0,0" VerticalAlignment="Top"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.EmoteSpeed1.freeze}" Content="Emote Speed" HorizontalAlignment="Left" Margin="543,404,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown x:Name="EmoteSpeed" Value="{Binding Path=CharacterDetails.EmoteSpeed1.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="646,402,0,0" VerticalAlignment="Top" Width="112" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F3" Interval="0.25" TextAlignment="Right"/>
-        <Views:EmoteFlyOut x:Name="EmoteFlyouts" Width="535" HorizontalAlignment="Left" VerticalAlignment="Top" Height="460" Visibility="Hidden"/>
+        <Views:EmoteFlyOut x:Name="EmoteFlyouts" Width="535" HorizontalAlignment="Left" VerticalAlignment="Top" Height="460" Visibility="Collapsed"/>
         <Label Content="Gpose Only" HorizontalAlignment="Left" Margin="687,313,0,0" VerticalAlignment="Top" FontSize="16" BorderBrush="Black"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.CameraHeight.freeze}" Content="Cam Height" HorizontalAlignment="Left" Margin="543,432,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown x:Name="CameraHeight" Value="{Binding Path=CharacterDetails.CameraHeight.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="646,431,0,0" VerticalAlignment="Top" Width="166" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" SourceUpdated="CameraHeight_SourceUpdated"/>

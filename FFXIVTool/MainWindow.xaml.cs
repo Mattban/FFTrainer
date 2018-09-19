@@ -35,7 +35,7 @@ namespace FFXIVTool
             ServicePointManager.SecurityProtocol = (ServicePointManager.SecurityProtocol & SecurityProtocolType.Ssl3) | (SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
             AutoUpdater.RunUpdateAsAdmin = true;
             AutoUpdater.DownloadPath = Environment.CurrentDirectory;
-            AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/Updates.xml");
+            AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/UpdateTest.xml");
             List<ProcessLooker.Game> GameList = new List<ProcessLooker.Game>();
 
             Process[] processlist = Process.GetProcesses();
@@ -72,6 +72,11 @@ namespace FFXIVTool
                 }
                 MainViewModel.gameProcId = f.Choice.ID;
             }
+            Properties.Settings.Default.Upgrade();
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "FFXIVTool.zip");
+            var path2 = Path.Combine(Directory.GetCurrentDirectory(), "ZipExtractor.exe");
+            if (File.Exists(path)) File.Delete(path);
+            if (File.Exists(path2)) File.Delete(path2);
             InitializeComponent();
         }
         public static ImageSource IconToImageSource(System.Drawing.Icon icon)
@@ -83,7 +88,7 @@ namespace FFXIVTool
         }
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            this.Title = "FFXIV Screenshot Tool - v" + version;
+            this.Title = "FFXIV Screenshot Tool - v" + version + "- Made By: Johto";
             DataContext = new MainViewModel();
             var accentColor = Properties.Settings.Default.Accent;
             new PaletteHelper().ReplacePrimaryColor(accentColor);
@@ -248,7 +253,7 @@ namespace FFXIVTool
                     if (CharacterDetails.LimbalR.freeze == true) { CharacterDetails.LimbalR.freeze = false; CharacterDetails.LimbalR.freezetest = true;  }
                     if (CharacterDetails.BodyType.freeze == false) { CharacterDetails.BodyType.freeze = true; CharacterDetails.BodyType.freezetest = true; }
                 }
-                CharacterDetails.Highlights.Activated = true;
+                CharacterDetails.Highlights.freeze = true;
                 CharacterDetails.Race.freeze = true;
                 CharacterDetails.Clan.freeze = true;
                 CharacterDetails.Gender.freeze = true;
@@ -508,7 +513,7 @@ namespace FFXIVTool
                 }
                 Task.Delay(400).Wait();
                 {
-                    CharacterDetails.Highlights.Activated = false;
+                    if (CharacterDetails.Highlights.freezetest == true) { CharacterDetails.Highlights.freeze = false; CharacterDetails.Highlights.freezetest = false; }
                     if (CharacterDetails.BodyType.freezetest == true) { CharacterDetails.BodyType.freeze = false; CharacterDetails.BodyType.freezetest = false; }
                     if (CharacterDetails.MuscleTone.freezetest == true) { CharacterDetails.MuscleTone.freeze = true; CharacterDetails.MuscleTone.freezetest = false;  }
                     if (CharacterDetails.TailSize.freezetest == true) { CharacterDetails.TailSize.freeze = true; CharacterDetails.TailSize.freezetest = false;  }
@@ -910,7 +915,7 @@ namespace FFXIVTool
                 }
                 Task.Delay(400).Wait();
                 {
-                    CharacterDetails.Highlights.Activated = false;
+                    if (CharacterDetails.Highlights.freezetest == true) { CharacterDetails.Highlights.freeze = false; CharacterDetails.Highlights.freezetest = false; }
                     if (CharacterDetails.BodyType.freezetest == true) { CharacterDetails.BodyType.freeze = false; CharacterDetails.BodyType.freezetest = false; }
                     if (CharacterDetails.MuscleTone.freezetest == true) { CharacterDetails.MuscleTone.freeze = true; CharacterDetails.MuscleTone.freezetest = false;  }
                     if (CharacterDetails.TailSize.freezetest == true) { CharacterDetails.TailSize.freeze = true; CharacterDetails.TailSize.freezetest = false;  }

@@ -113,7 +113,7 @@ namespace FFXIVTool.Views
         private void CamHeightxd(object sender, RoutedPropertyChangedEventArgs<double?> e)
         {
             if (CameraHeight2.Value.HasValue)
-                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CameraHeight), "float", CameraHeight2.Value.ToString());
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.CameraHeight2), "float", CameraHeight2.Value.ToString());
             CameraHeight2.ValueChanged -= CamHeightxd;
         }
 
