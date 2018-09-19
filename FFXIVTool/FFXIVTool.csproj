@@ -70,7 +70,11 @@
       <HintPath>..\packages\MaterialDesignThemes.2.4.1.1101\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Memory">
+<<<<<<< HEAD
       <HintPath>..\packages\Memory.dll\Memory.dll</HintPath>
+=======
+      <HintPath>..\..\packages\Memory.dll\Memory.dll</HintPath>
+>>>>>>> 573e1006b9383e28a806e88465a24db571047446
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
