@@ -121,6 +121,8 @@ namespace FFXIVTool.Utility
                 if (CharacterDetails.LimbalR.freeze) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalR), CharacterDetails.LimbalR.GetBytes());
                 if (CharacterDetails.LimbalB.freeze) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalB), CharacterDetails.LimbalB.GetBytes());
                 if (CharacterDetails.LimbalG.freeze) MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalG), CharacterDetails.LimbalG.GetBytes());
+                if (CharacterDetails.Wetness.Activated) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Wetness), "float", "1");
+                if (CharacterDetails.SWetness.Activated) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.SWetness), "float", "5");
                 if (CharacterDetails.FOVMAX.freeze)
                 {
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.CameraAddress, Settings.Instance.Character.FOVMAX), CharacterDetails.FOVMAX.GetBytes());
@@ -206,12 +208,12 @@ namespace FFXIVTool.Utility
                 }
                 if (CharacterDetails.Emote.freeze)
                 {
-                    if (CharacterDetails.Emote.value > 6558) CharacterDetails.Emote.value = 6558;
+                    if (CharacterDetails.Emote.value > 7121) CharacterDetails.Emote.value = 7121;
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.EmoteAddress, Settings.Instance.Character.Emote), CharacterDetails.Emote.GetBytes());
                 }
                 if (CharacterDetails.EmoteX.freeze)
                 {
-                    if (CharacterDetails.EmoteX.value > 6558) CharacterDetails.EmoteX.value = 6558;
+                    if (CharacterDetails.EmoteX.value > 7121) CharacterDetails.EmoteX.value = 7121;
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Emote), CharacterDetails.EmoteX.GetBytes());
                 }
 

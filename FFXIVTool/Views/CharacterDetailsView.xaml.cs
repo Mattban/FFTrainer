@@ -721,5 +721,20 @@ namespace FFXIVTool.Views
             CharacterDetails.Highlights.value = 0;
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Highlights), "byte", "0");
         }
+
+        private void EmoteBox_SourceUpdated(object sender, DataTransferEventArgs e)
+        {
+            if (EmoteBox.IsMouseOver || EmoteBox.IsKeyboardFocusWithin)
+            {
+                EmoteBox.ValueChanged -= Emotexd;
+                EmoteBox.ValueChanged += Emotexd;
+            }
+        }
+        private void Emotexd(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (EmoteBox.Value.HasValue)
+                if (EmoteBox.Value <= 7121) CharacterDetails.Emote.value = (int)EmoteBox.Value;
+            EmoteBox.ValueChanged -= Emotexd;
+        }
     }
 }
