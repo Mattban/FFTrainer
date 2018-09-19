@@ -152,7 +152,7 @@
         <CheckBox IsChecked="{Binding Path=CharacterDetails.EmoteSpeed1.freeze}" Content="Emote Speed" HorizontalAlignment="Left" Margin="543,404,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown x:Name="EmoteSpeed" Value="{Binding Path=CharacterDetails.EmoteSpeed1.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="646,402,0,0" VerticalAlignment="Top" Width="112" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F3" Interval="0.25" TextAlignment="Right"/>
         <Views:EmoteFlyOut x:Name="EmoteFlyouts" Width="535" HorizontalAlignment="Left" VerticalAlignment="Top" Height="460" Visibility="Hidden"/>
-        <Label Content="Gpose Only" HorizontalAlignment="Left" Margin="687,313,0,0" VerticalAlignment="Top" FontSize="16" BorderBrush="Black"/>
+        <Label Content="Gpose Only" HorizontalAlignment="Left" Margin="711,312,0,0" VerticalAlignment="Top" FontSize="16" BorderBrush="Black"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.CameraHeight.freeze}" Content="Cam Height" HorizontalAlignment="Left" Margin="543,432,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown x:Name="CameraHeight" Value="{Binding Path=CharacterDetails.CameraHeight.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="646,431,0,0" VerticalAlignment="Top" Width="166" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" SourceUpdated="CameraHeight_SourceUpdated"/>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.CamX.freeze}" Content="Cam X" HorizontalAlignment="Left" Margin="846,347,0,0" VerticalAlignment="Top"/>
@@ -162,5 +162,7 @@
         <CheckBox IsChecked="{Binding Path=CharacterDetails.CamZ.freeze}" Content="Cam Z" HorizontalAlignment="Left" Margin="846,408,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown x:Name="CamZ" Value="{Binding Path=CharacterDetails.CamZ.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="932,406,0,0" VerticalAlignment="Top" Width="166" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" SourceUpdated="CamZ_SourceUpdated"/>
         <Views:SpecialControl x:Name="SpecialControl" Width="583" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden" Margin="531,0,0,-12"/>
+        <Label Content="Emote Checker:" HorizontalAlignment="Left" Margin="540,314,0,0" VerticalAlignment="Top"/>
+        <TextBox Style="{StaticResource MaterialDesignTextBox}" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="642,318,0,0" TextWrapping="Wrap" Text="{Binding Path=CharacterDetails.EmoteX.value, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="64" TextAlignment="Center"/>
     </Grid>
 </UserControl>
