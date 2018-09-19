@@ -217,7 +217,7 @@ namespace FFXIVTool.Utility
                     MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Emote), CharacterDetails.EmoteX.GetBytes());
                 }
 
-                Thread.Sleep(10);
+                Thread.Sleep(9);
             }
         }
     }
