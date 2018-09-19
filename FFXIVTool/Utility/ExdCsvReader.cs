@@ -837,7 +837,7 @@ namespace FFXIVTool.Utility
                         }
                         catch (KeyNotFoundException)
                         {
-                            Console.WriteLine("Did not find corresponding entry for: " + id);
+                            //Console.WriteLine("Did not find corresponding entry for: " + id);
                         }
 
                     }

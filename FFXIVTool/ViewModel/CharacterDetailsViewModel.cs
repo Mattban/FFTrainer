@@ -192,6 +192,10 @@ namespace FFXIVTool.ViewModel
 
                 if (!CharacterDetails.RHeight.freeze) CharacterDetails.RHeight.value = (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(baseAddr, Settings.Instance.Character.RHeight));
 
+                if (!CharacterDetails.RBust.freeze) CharacterDetails.RBust.value = (byte)MemoryManager.Instance.MemLib.readByte(MemoryManager.GetAddressString(baseAddr, Settings.Instance.Character.RBust));
+
+                if (!CharacterDetails.BodyType.freeze) CharacterDetails.BodyType.value = (byte)MemoryManager.Instance.MemLib.read2Byte(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.BodyType));
+
                 if (!CharacterDetails.TestArray.freeze) CharacterDetails.TestArray.value = MemoryManager.ByteArrayToString(MemoryManager.Instance.MemLib.readBytes(MemoryManager.GetAddressString(baseAddr, Settings.Instance.Character.Race), 26));
 
                 if (!CharacterDetails.BustX.freeze) CharacterDetails.BustX.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.X));
