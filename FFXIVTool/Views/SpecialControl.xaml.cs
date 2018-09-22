@@ -34,6 +34,7 @@ namespace FFXIVTool.Views
         {
             public static byte Race = 0;
             public static byte Tribe = 0;
+            public static byte Gender = 0;
             public static bool Firstimeopening = false;
         }
         public class FeatureSelect
@@ -335,9 +336,10 @@ namespace FFXIVTool.Views
                     Saveints.Firstimeopening = true;
                     Saveints.Race = CharacterDetails.Race.value;
                     Saveints.Tribe = CharacterDetails.Clan.value;
+                    Saveints.Gender = CharacterDetails.Gender.value;
                     CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, CharacterDetailsView._exdProvider);
                 }
-                else if (Saveints.Race != CharacterDetails.Race.value || Saveints.Tribe != CharacterDetails.Clan.value)
+                else if (Saveints.Race != CharacterDetails.Race.value || Saveints.Tribe != CharacterDetails.Clan.value || SpecialControl.Saveints.Gender != CharacterDetails.Gender.value)
                     CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, CharacterDetailsView._exdProvider);
             }
             Userinteraction2 = false;

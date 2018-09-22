@@ -670,9 +670,10 @@ namespace FFXIVTool.Views
                         SpecialControl.Saveints.Firstimeopening = true;
                         SpecialControl.Saveints.Race = CharacterDetails.Race.value;
                         SpecialControl.Saveints.Tribe = CharacterDetails.Clan.value;
+                        SpecialControl.Saveints.Gender = CharacterDetails.Gender.value;
                         SpecialControl.CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, _exdProvider);
                     }
-                    else if (SpecialControl.Saveints.Race != CharacterDetails.Race.value || SpecialControl.Saveints.Tribe != CharacterDetails.Clan.value)
+                    else if (SpecialControl.Saveints.Race != CharacterDetails.Race.value || SpecialControl.Saveints.Tribe != CharacterDetails.Clan.value || SpecialControl.Saveints.Gender != CharacterDetails.Gender.value)
                         SpecialControl.CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, _exdProvider);
                 }
                 else SpecialControl.IsOpen = !SpecialControl.IsOpen;
@@ -686,9 +687,10 @@ namespace FFXIVTool.Views
                     SpecialControl.Saveints.Firstimeopening = true;
                     SpecialControl.Saveints.Race = CharacterDetails.Race.value;
                     SpecialControl.Saveints.Tribe = CharacterDetails.Clan.value;
+                    SpecialControl.Saveints.Gender = CharacterDetails.Gender.value;
                     SpecialControl.CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, _exdProvider);
                 }
-                else if(SpecialControl.Saveints.Race != CharacterDetails.Race.value|| SpecialControl.Saveints.Tribe!=CharacterDetails.Clan.value)
+                else if(SpecialControl.Saveints.Race != CharacterDetails.Race.value|| SpecialControl.Saveints.Tribe!=CharacterDetails.Clan.value || SpecialControl.Saveints.Gender != CharacterDetails.Gender.value)
                     SpecialControl.CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, _exdProvider);
             }
         }

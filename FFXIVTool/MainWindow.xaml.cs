@@ -1083,5 +1083,15 @@ namespace FFXIVTool
                 this.Topmost = false;
             }
         }
+
+        private void UpdateButton_Click(object sender, RoutedEventArgs e)
+        {
+            ServicePointManager.SecurityProtocol = (ServicePointManager.SecurityProtocol & SecurityProtocolType.Ssl3) | (SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
+            AutoUpdater.RunUpdateAsAdmin = true;
+            AutoUpdater.DownloadPath = Environment.CurrentDirectory;
+            AutoUpdater.Mandatory = true;
+            AutoUpdater.ShowRemindLaterButton = false;
+            AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/UpdateTest.xml");
+        }
     }
 }
