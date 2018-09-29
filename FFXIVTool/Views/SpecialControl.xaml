@@ -50,7 +50,7 @@
 
                                 </ListView.ItemsPanel>
                             </ListView>
-                            <ComboBox materialDesign:HintAssist.Hint="Select Type" x:Name="ClanBox" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146" SelectionChanged="ClanBox_SelectionChanged" PreviewMouseDown="ClanBox_PreviewMouseDown">
+                            <ComboBox materialDesign:HintAssist.Hint="Select Type" x:Name="ClanBox" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146" SelectionChanged="ClanBox_SelectionChanged" PreviewMouseDown="ClanBox_PreviewMouseDown" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling">
                                 <ComboBoxItem Content="Skin Color"/>
                                 <ComboBoxItem Content="Hair Color"/>
                                 <ComboBoxItem Content="Highlights Color"/>
@@ -58,6 +58,7 @@
                                 <ComboBoxItem Content="Right-Eye Color"/>
                                 <ComboBoxItem Content="Left-Eye Color"/>
                                 <ComboBoxItem Content="FacePaint Color"/>
+                                <ComboBoxItem Content="Limbal-Eye Color"/>
                             </ComboBox>
                         </Grid>
                     </TabItem>

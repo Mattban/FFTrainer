@@ -106,6 +106,11 @@ namespace FFXIVTool.Views
                 CharacterDetails.FacePaintColor.value = (byte)colorListView.SelectedIndex;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.FacePaintColor), "byte", hexValue);
             }
+            if (ClanBox.SelectedIndex == 7)
+            {
+                CharacterDetails.LimbalEyes.value = (byte)colorListView.SelectedIndex;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalEyes), "byte", hexValue);
+            }
         }
 
         public static int GetSkin(int Clan, bool Gender)
@@ -185,6 +190,7 @@ namespace FFXIVTool.Views
                 if (ClanBox.SelectedIndex == 4) CharaMakeColorSelector(CharacterDetailsView._colorMap, 0, 192);
                 if (ClanBox.SelectedIndex == 5) CharaMakeColorSelector(CharacterDetailsView._colorMap, 0, 192);
                 if (ClanBox.SelectedIndex == 6) CharaMakeColorSelector(CharacterDetailsView._colorMap, 1152, 96);
+                if (ClanBox.SelectedIndex == 7) CharaMakeColorSelector(CharacterDetailsView._colorMap, 0, 192);
                 isUserInteraction = false;
             }
         }

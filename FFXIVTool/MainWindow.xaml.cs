@@ -205,6 +205,7 @@ namespace FFXIVTool
                 CharacterDetails load1 = JsonConvert.DeserializeObject<CharacterDetails>(File.ReadAllText(dig.FileName));
                 Load.IsEnabled = false;
                 {
+                    if (CharacterDetails.LimbalEyes.freeze == true) { CharacterDetails.LimbalEyes.freeze = false; CharacterDetails.LimbalEyes.freezetest = true; }
                     if (CharacterDetails.MuscleTone.freeze == true) { CharacterDetails.MuscleTone.freeze = false; CharacterDetails.MuscleTone.freezetest = true;  }
                     if (CharacterDetails.TailSize.freeze == true) { CharacterDetails.TailSize.freeze = false; CharacterDetails.TailSize.freezetest = true;  }
                     if (CharacterDetails.BustX.freeze == true) { CharacterDetails.BustX.freeze = false; CharacterDetails.BustX.freezetest = true;  }
@@ -260,6 +261,7 @@ namespace FFXIVTool
                 CharacterDetails.Head.freeze = true;
                 CharacterDetails.TailType.freeze = true;
                 CharacterDetails.Nose.freeze = true;
+                CharacterDetails.LimbalEyes.freeze = true;
                 CharacterDetails.Lips.freeze = true;
                 CharacterDetails.BodyType.freeze = true;
                 CharacterDetails.Voices.freeze = true;
@@ -322,6 +324,8 @@ namespace FFXIVTool
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightGreenPigment), "float", load1.HighlightGreenPigment.value.ToString());
                 CharacterDetails.HighlightBluePigment.value = load1.HighlightBluePigment.value;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.HighlightBluePigment), "float", load1.HighlightBluePigment.value.ToString());
+                CharacterDetails.LimbalEyes.value = load1.LimbalEyes.value;
+                MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalEyes), load1.LimbalEyes.GetBytes());
                 CharacterDetails.SkinRedPigment.value = load1.SkinRedPigment.value;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.SkinRedPigment), "float", load1.SkinRedPigment.value.ToString());
                 CharacterDetails.SkinGreenPigment.value = load1.SkinGreenPigment.value;
@@ -513,6 +517,7 @@ namespace FFXIVTool
                 }
                 Task.Delay(400).Wait();
                 {
+                    if (CharacterDetails.LimbalEyes.freezetest == true) { CharacterDetails.LimbalEyes.freeze = false; CharacterDetails.LimbalEyes.freezetest = false; }
                     if (CharacterDetails.Highlights.freezetest == true) { CharacterDetails.Highlights.freeze = false; CharacterDetails.Highlights.freezetest = false; }
                     if (CharacterDetails.BodyType.freezetest == true) { CharacterDetails.BodyType.freeze = false; CharacterDetails.BodyType.freezetest = false; }
                     if (CharacterDetails.MuscleTone.freezetest == true) { CharacterDetails.MuscleTone.freeze = true; CharacterDetails.MuscleTone.freezetest = false;  }
@@ -720,6 +725,7 @@ namespace FFXIVTool
                 CharacterDetails load1 = JsonConvert.DeserializeObject<CharacterDetails>(File.ReadAllText(dig.FileName));
                 Load.IsEnabled = false;
                 {
+                    if (CharacterDetails.LimbalEyes.freeze == true) { CharacterDetails.LimbalEyes.freeze = false; CharacterDetails.LimbalEyes.freezetest = true; }
                     if (CharacterDetails.MuscleTone.freeze == true) { CharacterDetails.MuscleTone.freeze = false; CharacterDetails.MuscleTone.freezetest = true;  }
                     if (CharacterDetails.TailSize.freeze == true) { CharacterDetails.TailSize.freeze = false; CharacterDetails.TailSize.freezetest = true;  }
                     if (CharacterDetails.BustX.freeze == true) { CharacterDetails.BustX.freeze = false; CharacterDetails.BustX.freezetest = true;  }
@@ -762,6 +768,7 @@ namespace FFXIVTool
                 CharacterDetails.Gender.freeze = true;
                 CharacterDetails.Head.freeze = true;
                 CharacterDetails.TailType.freeze = true;
+                CharacterDetails.LimbalEyes.freeze = true;
                 CharacterDetails.Nose.freeze = true;
                 CharacterDetails.Lips.freeze = true;
                 CharacterDetails.BodyType.freeze = true;
@@ -862,6 +869,8 @@ namespace FFXIVTool
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RBust), load1.RBust.GetBytes());
                 CharacterDetails.Race.value = load1.Race.value;
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Race), load1.Race.GetBytes());
+                CharacterDetails.LimbalEyes.value = load1.LimbalEyes.value;
+                MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.LimbalEyes), load1.LimbalEyes.GetBytes());
                 CharacterDetails.TailorMuscle.value = load1.TailorMuscle.value;
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.TailorMuscle), load1.TailorMuscle.GetBytes());
                 CharacterDetails.Clan.value = load1.Clan.value;
@@ -915,6 +924,7 @@ namespace FFXIVTool
                 }
                 Task.Delay(400).Wait();
                 {
+                    if (CharacterDetails.LimbalEyes.freezetest == true) { CharacterDetails.LimbalEyes.freeze = false; CharacterDetails.LimbalEyes.freezetest = false; }
                     if (CharacterDetails.Highlights.freezetest == true) { CharacterDetails.Highlights.freeze = false; CharacterDetails.Highlights.freezetest = false; }
                     if (CharacterDetails.BodyType.freezetest == true) { CharacterDetails.BodyType.freeze = false; CharacterDetails.BodyType.freezetest = false; }
                     if (CharacterDetails.MuscleTone.freezetest == true) { CharacterDetails.MuscleTone.freeze = true; CharacterDetails.MuscleTone.freezetest = false;  }
@@ -978,6 +988,7 @@ namespace FFXIVTool
             CharacterDetails.Emote.freeze = false;
             CharacterDetails.MuscleTone.freeze = false;
             CharacterDetails.TailSize.freeze = false;
+            CharacterDetails.LimbalEyes.freeze = false;
             CharacterDetails.BustX.freeze = false;
             CharacterDetails.BustY.freeze = false;
             CharacterDetails.BustZ.freeze = false;

@@ -178,6 +178,7 @@ namespace FFXIVTool.Models
         public Address<float> LimbalR { get; set; }
         public Address<float> LimbalG { get; set; }
         public Address<float> LimbalB { get; set; }
+        public Address<byte> LimbalEyes { get; set; }
         [JsonIgnore] public Address<float> CameraYAMin { get; set; }
         [JsonIgnore] public Address<float> FOV2 { get; set; }
         [JsonIgnore] public Address<float> CameraYAMax { get; set; }
@@ -207,6 +208,7 @@ namespace FFXIVTool.Models
         public CharacterDetails()
         {
             BodyType = new Address<byte>();
+            LimbalEyes = new Address<byte>();
             ModelType = new Address<int>();
             TestArray2 = new Address<string>();
             TestArray = new Address<string>();

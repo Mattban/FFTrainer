@@ -36,7 +36,6 @@ namespace FFXIVTool.Utility
         public string WeatherOffset { get; set; }
         public string HousingOffset { get; set; }
         public string TerritoryOffset { get; set; }
-        public bool VersionCheck { get; set; }
         public CharacterOffsets Character { get; set; }
     }
 
@@ -72,6 +71,7 @@ namespace FFXIVTool.Utility
         public string RBust { get; set; }
         public string Highlights { get; set; }
         public string HighlightTone { get; set; }
+        public string LimbalEyes { get; set; }
         public string Skintone { get; set; }
         public string FOV2 { get; set; }
         public string HairTone { get; set; }

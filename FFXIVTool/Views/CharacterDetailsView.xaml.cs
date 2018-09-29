@@ -632,8 +632,8 @@ namespace FFXIVTool.Views
             {
                 SpecialControl.IsOpen = !SpecialControl.IsOpen;
                 SpecialControl.ColorTab.IsSelected = true;
-                SpecialControl.CharaMakeColorSelector(_colorMap, 1152, 96);
-                SpecialControl.ClanBox.SelectedIndex = 6;
+                SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);
+                SpecialControl.ClanBox.SelectedIndex = 5;
             }
         }
 
@@ -737,6 +737,27 @@ namespace FFXIVTool.Views
             if (EmoteBox.Value.HasValue)
                 if (EmoteBox.Value <= 7121) CharacterDetails.Emote.value = (int)EmoteBox.Value;
             EmoteBox.ValueChanged -= Emotexd;
+        }
+
+        private void LimbalEyeSearch_Click(object sender, RoutedEventArgs e)
+        {
+            if (SpecialControl.IsOpen)
+            {
+                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                {
+                    SpecialControl.ColorTab.IsSelected = true;
+                    SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);
+                    SpecialControl.ClanBox.SelectedIndex = 7;
+                }
+                else SpecialControl.IsOpen = !SpecialControl.IsOpen;
+            }
+            else
+            {
+                SpecialControl.IsOpen = !SpecialControl.IsOpen;
+                SpecialControl.ColorTab.IsSelected = true;
+                SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);
+                SpecialControl.ClanBox.SelectedIndex = 7;
+            }
         }
     }
 }
