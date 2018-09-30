@@ -219,7 +219,12 @@ namespace FFXIVTool.Views
                 if (EquipBoxC.SelectedIndex == 9) GearPicker(CharacterDetailsView._exdProvider.Items.Values.Where(c => c.Type == ExdCsvReader.ItemType.Wrists).ToArray());
                 if (EquipBoxC.SelectedIndex == 10) GearPicker(CharacterDetailsView._exdProvider.Items.Values.Where(c => c.Type == ExdCsvReader.ItemType.Ring).ToArray());
                 if (EquipBoxC.SelectedIndex == 11) GearPicker(CharacterDetailsView._exdProvider.Items.Values.Where(c => c.Type == ExdCsvReader.ItemType.Ring).ToArray());
-
+                if (EquipBoxC.SelectedIndex == 12)
+                {
+                    if (!CharacterDetailsView2.CheckPropList())
+                        return;
+                    GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+                }
                 isUserInteraction = false;
             }
         }
@@ -294,6 +299,11 @@ namespace FFXIVTool.Views
                 if (EquipBoxC.SelectedIndex == 11)
                 {
                     CharacterDetails.LFingerSlot.value = Value.ModelMain;
+                    WriteGear_Click();
+                }
+                if (EquipBoxC.SelectedIndex == 12)
+                {
+                    CharacterDetails.WeaponSlot.value = Value.ModelMain;
                     WriteGear_Click();
                 }
             }

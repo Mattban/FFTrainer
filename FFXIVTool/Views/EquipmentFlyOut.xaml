@@ -60,6 +60,7 @@
                                 <ComboBoxItem Content="Wrist"/>
                                 <ComboBoxItem Content="Right Finger"/>
                                 <ComboBoxItem Content="Left Finger"/>
+                                <ComboBoxItem Content="Props"/>
                             </ComboBox>
                         </Grid>
                     </TabItem>

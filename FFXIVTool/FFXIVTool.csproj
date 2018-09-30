@@ -244,6 +244,7 @@
     <None Include="Resources\human.cmp" />
     <None Include="Resources\Item.csv" />
     <None Include="Resources\MonsterList.csv" />
+    <None Include="Resources\PropsList.csv" />
     <None Include="Resources\raceEN.csv" />
     <None Include="Resources\stain.exh_en.csv" />
     <None Include="Resources\territorytype.exh.csv" />

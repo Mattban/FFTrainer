@@ -160,6 +160,7 @@ namespace FFXIVTool.Utility
         public static Monster[] MonsterX;
         public static Dye[] DyesX;
         public Dictionary<int, Item> Items = null;
+        public Dictionary<int, Item> ItemsProps = null;
         public Dictionary<int, Weather> Weathers = null;
         public Dictionary<int, WeatherRate> WeatherRates = null;
         public Dictionary<int, TerritoryType> TerritoryTypes = null;
@@ -1002,6 +1003,65 @@ namespace FFXIVTool.Utility
                 catch (Exception exc)
                 {
                     Weathers = null;
+#if DEBUG
+                    throw exc;
+#endif
+                }
+            }
+        }
+        public void MakePropList()
+        {
+            ItemsProps = new Dictionary<int, Item>();
+            {
+                try
+                {
+                    using (TextFieldParser parser = new TextFieldParser(new StringReader(Resources.PropsList)))
+                    {
+                        parser.TextFieldType = FieldType.Delimited;
+                        parser.SetDelimiters(",");
+                        int rowCount = 0;
+                        while (!parser.EndOfData)
+                        {
+                            //Processing row
+                            rowCount++;
+
+                            var item = new Item();
+                            string[] fields = parser.ReadFields();
+                            int fCount = 0;
+                            int index = 0;
+                            if (rowCount == 1)
+                                continue;
+                            foreach (string field in fields)
+                            {
+                                fCount++;
+
+                                if (fCount == 1)
+                                {
+                                    int.TryParse(field, out index);
+                                }
+
+                                if (fCount == 2)
+                                {
+                                    item.Name = field;
+                                }
+
+                                if (fCount == 3)
+                                {
+                                    {
+                                    var tfield = field.Replace(" ", "");
+                                    item.ModelMain = tfield;
+                                    }
+                                }
+                            }
+                               //Debug.WriteLine(item.Name + " - ");
+                            ItemsProps.Add(index, item);
+                        }
+                           //. Debug.WriteLine($"ExdCsvReader: {rowCount} items read");
+                    }
+                }
+                catch (Exception exc)
+                {
+                    ItemsProps = null;
 #if DEBUG
                     throw exc;
 #endif

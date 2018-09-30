@@ -230,6 +230,18 @@ namespace FFXIVTool.Views
             }
             return true;
         }
+        public static bool CheckPropList()
+        {
+            if (CharacterDetailsView._exdProvider.ItemsProps == null)
+            {
+                CharacterDetailsView._exdProvider.MakePropList();
+                if (CharacterDetailsView._exdProvider.ItemsProps == null)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
         private void MainSearch_Click(object sender, RoutedEventArgs e)
         {
             if (!CheckItemList())
@@ -580,5 +592,31 @@ namespace FFXIVTool.Views
             if (!char.IsDigit(e.Text, e.Text.Length - 1))
                 e.Handled = true;
         }
+
+        private void PropSearch_Click(object sender, RoutedEventArgs e)
+        {
+            if (!CheckPropList())
+                return;
+            if (EquipmentControl.IsOpen)
+            {
+                if (!EquipmentControl.EquipTab.IsSelected)
+                {
+                    EquipmentControl.EquipTab.IsSelected = true;
+                    EquipmentControl.EquipBoxC.SelectedIndex = 12;
+                    EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
+                    EquipmentControl.GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+                }
+                else EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
+            }
+            else
+            {
+                EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
+                EquipmentControl.EquipBoxC.SelectedIndex = 12;
+                EquipmentControl.EquipTab.IsSelected = true;
+                EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
+                EquipmentControl.GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+            }
+        }
     }
 }
+

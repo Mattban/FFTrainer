@@ -8914,7 +8914,8 @@ namespace FFXIVTool.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1000000,&quot;&quot;
+        ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 
+        ///1000000,&quot;&quot;
         ///1000001,&quot;&quot;
         ///1000002,&quot;&quot;
         ///1000003,&quot;&quot;
@@ -8954,9 +8955,7 @@ namespace FFXIVTool.Properties {
         ///1000037,&quot;&quot;
         ///1000038,&quot;&quot;
         ///1000039,&quot;&quot;
-        ///1000040,&quot;&quot;
-        ///1000041,&quot;&quot;
-        ///1000042, [rest of string was truncated]&quot;;.
+        ///1 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string enpcresident_exh_en {
             get {
@@ -8975,7 +8974,8 @@ namespace FFXIVTool.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0,&quot;&quot;,0,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
+        ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x0],3 [STRING(0x0)][0x0],4
+        ///0,&quot;&quot;,0,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
         ///1,&quot;gil&quot;,63,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
         ///2,&quot;fire shard&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
         ///3,&quot;ice shard&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
@@ -8985,9 +8985,7 @@ namespace FFXIVTool.Properties {
         ///7,&quot;water shard&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
         ///8,&quot;fire crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
         ///9,&quot;ice crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
-        ///10,&quot;wind crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
-        ///11,&quot;earth crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;
-        ///12,&quot;lightning crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0,0&quot;        /// [rest of string was truncated]&quot;;.
+        ///10,&quot;wind crystal&quot;,59,&quot;0,0,0,0&quot;,&quot;0,0,0, [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Item {
             get {
@@ -9039,6 +9037,29 @@ namespace FFXIVTool.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [STRING(0x0)][0x0],2
+        ///0,&quot;Target&quot;,&quot;9001,228,1,0&quot;
+        ///1,&quot;Japanese Fan&quot;,&quot;9001,227,1,0&quot;
+        ///2,&quot;Japanese Bell&quot;,&quot;9001,226,1,0&quot;
+        ///3,&quot;Zenos&apos; Katana (?)&quot;,&quot;9001,225,1,0&quot;
+        ///4,&quot;Necklace&quot;,&quot;9001,224,1,0&quot;
+        ///5,&quot;Corked Rose Alcohol Bottle&quot;,&quot;9001,222,1,0&quot;
+        ///6,&quot;Corked Alcohol Bottle&quot;,&quot;9001,221,1,0&quot;
+        ///7,&quot;Sparrow Taiyaki&quot;,&quot;9001,219,1,0&quot;
+        ///8,&quot;Bom Boko Taiyaki&quot;,&quot;9001,218,1,0&quot;
+        ///9,&quot;Odder Otter Taiyaki&quot;,&quot;9001,217,1,0&quot;
+        ///10,&quot;BIG TUNA&quot;,&quot;9001,216,1,0&quot;
+        ///11,&quot;Bamboo Blowgun&quot;,&quot;9001,212,1,0&quot;
+        ///12,&quot;Papers(?)&quot;,&quot;9001,211,1,0&quot;
+        ///1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string PropsList {
+            get {
+                return ResourceManager.GetString("PropsList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1
         ///0,&quot;None&quot;
         ///1,&quot;Hyur&quot;
@@ -9046,8 +9067,7 @@ namespace FFXIVTool.Properties {
         ///3,&quot;Lalafell&quot;
         ///4,&quot;Miqo&apos;te&quot;
         ///5,&quot;Roegadyn&quot;
-        ///6,&quot;Au Ra&quot;
-        ///.
+        ///6,&quot;Au Ra&quot;.
         /// </summary>
         internal static string raceEN {
             get {
