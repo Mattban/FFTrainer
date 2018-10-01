@@ -294,8 +294,11 @@ namespace FFXIVTool
                 CharacterDetails.RFinger.freeze = true;
                 CharacterDetails.LFinger.freeze = true;
                 Task.Delay(450).Wait();
-                CharacterDetails.Height.value = load1.Height.value;
-                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", load1.Height.value.ToString());
+                if (load1.Height.value != 0.000)
+                {
+                    CharacterDetails.Height.value = load1.Height.value;
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", load1.Height.value.ToString());
+                }
                 CharacterDetails.MuscleTone.value = load1.MuscleTone.value;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.MuscleTone), "float", load1.MuscleTone.value.ToString());
                 CharacterDetails.TailSize.value = load1.TailSize.value;
@@ -791,8 +794,11 @@ namespace FFXIVTool
                 CharacterDetails.FacePaintColor.freeze = true;
                 CharacterDetails.BodyType.freeze = true;
                 Task.Delay(450).Wait();
-                CharacterDetails.Height.value = load1.Height.value;
-                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", load1.Height.value.ToString());
+                if (load1.Height.value != 0.000)
+                {
+                    CharacterDetails.Height.value = load1.Height.value;
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", load1.Height.value.ToString());
+                }
                 CharacterDetails.MuscleTone.value = load1.MuscleTone.value;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.MuscleTone), "float", load1.MuscleTone.value.ToString());
                 CharacterDetails.TailSize.value = load1.TailSize.value;
@@ -1067,6 +1073,7 @@ namespace FFXIVTool
             CharacterDetails.Ear.freeze = false;
             CharacterDetails.Neck.freeze = false;
             CharacterDetails.Wrist.freeze = false;
+            CharacterDetails.Highlights.freeze = false;
             CharacterDetails.RFinger.freeze = false;
             CharacterDetails.LFinger.freeze = false;
             CharacterDetails.ScaleX.freeze = false;

@@ -226,7 +226,6 @@ namespace FFXIVTool.Models
             Transparency = new Address<float>();
             Jaw = new Address<byte>();
             RBust = new Address<byte>();
-            RHeight = new Address<byte>();
             Jaw = new Address<byte>();
             TimeControl = new Address<byte>();
             Weather = new Address<byte>();
