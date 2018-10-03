@@ -91,7 +91,7 @@ namespace FFXIVTool
             this.Title = "FFXIV Screenshot Tool - v" + version + "- Made By: Johto";
             DataContext = new MainViewModel();
             var accentColor = Properties.Settings.Default.Accent;
-            new PaletteHelper().ReplacePrimaryColor(accentColor);
+            new PaletteHelper().ReplaceAccentColor(accentColor);
             var primaryColor = Properties.Settings.Default.Primary;
             new PaletteHelper().ReplacePrimaryColor(primaryColor);
             var theme = Properties.Settings.Default.Theme;

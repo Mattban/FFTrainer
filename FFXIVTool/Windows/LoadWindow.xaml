@@ -11,7 +11,7 @@
         BorderThickness="1"              
         FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
         mc:Ignorable="d"
-        Title="Load Window" Height="191.643" Width="286.244" ResizeMode="NoResize" Icon="/FFXIVTool;component/ffxivmeteorlogo.ico">
+        Title="Load Window" Height="191.643" Width="286.244" ResizeMode="NoResize" Icon="/FFXIVTool;component/ffxivmeteorlogo.ico" WindowStartupLocation="CenterOwner">
     <Grid>
         <ListBox BorderThickness="1" FontSize="24" Margin="10,10,0,0" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Width="258" Height="142">
             <ListBoxItem x:Name="All" MouseDoubleClick="ListBoxItem_MouseDoubleClick" Content="Load All" Uid="1" KeyDown="All_KeyDown"/>

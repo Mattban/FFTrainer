@@ -225,6 +225,12 @@ namespace FFXIVTool.Views
                         return;
                     GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
                 }
+                if (EquipBoxC.SelectedIndex == 13)
+                {
+                    if (!CharacterDetailsView2.CheckPropList())
+                        return;
+                    GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+                }
                 isUserInteraction = false;
             }
         }
@@ -304,6 +310,11 @@ namespace FFXIVTool.Views
                 if (EquipBoxC.SelectedIndex == 12)
                 {
                     CharacterDetails.WeaponSlot.value = Value.ModelMain;
+                    WriteGear_Click();
+                }
+                if (EquipBoxC.SelectedIndex == 13)
+                {
+                    CharacterDetails.OffhandSlot.value = Value.ModelMain;
                     WriteGear_Click();
                 }
             }

@@ -46,8 +46,8 @@
                                     <DataGridTextColumn Header="Model Values" Binding="{Binding Path=ModelMain}" Width="*"/>
                                 </DataGrid.Columns>
                             </DataGrid>
-                            <TextBox x:Name="SearchModelBox" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="26" Margin="2,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" TextChanged="SearchModelBox_TextChanged" BorderThickness="0,1"/>
-                            <ComboBox materialDesign:HintAssist.Hint="Select Type" x:Name="EquipBoxC" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146" SelectionChanged="EquipBoxC_SelectionChanged" PreviewMouseDown="EquipBoxC_PreviewMouseDown">
+                            <TextBox x:Name="SearchModelBox" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="31" Margin="2,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" TextChanged="SearchModelBox_TextChanged" BorderThickness="0,1"/>
+                            <ComboBox materialDesign:HintAssist.Hint="Select Type" x:Name="EquipBoxC" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="EquipBoxC_SelectionChanged" PreviewMouseDown="EquipBoxC_PreviewMouseDown">
                                 <ComboBoxItem Content="Main Hand"/>
                                 <ComboBoxItem Content="Off Hand"/>
                                 <ComboBoxItem Content="Head"/>
@@ -60,7 +60,8 @@
                                 <ComboBoxItem Content="Wrist"/>
                                 <ComboBoxItem Content="Right Finger"/>
                                 <ComboBoxItem Content="Left Finger"/>
-                                <ComboBoxItem Content="Props"/>
+                                <ComboBoxItem Content="Props Main Hand"/>
+                                <ComboBoxItem Content="Off Main Hand"/>
                             </ComboBox>
                         </Grid>
                     </TabItem>
@@ -71,7 +72,7 @@
                                     <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}" Width="*"/>
                                 </DataGrid.Columns>
                             </DataGrid>
-                            <TextBox x:Name="SearchModelBox2" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="26" Margin="2,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" TextChanged="SearchModelBox2_TextChanged" BorderThickness="0,1"/>
+                            <TextBox x:Name="SearchModelBox2" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="31" Margin="2,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" TextChanged="SearchModelBox2_TextChanged" BorderThickness="0,1"/>
                             <ComboBox SelectedIndex="0" materialDesign:HintAssist.Hint="Select Type" x:Name="LoadType" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146" PreviewMouseDown="EquipBoxC_PreviewMouseDown">
                                 <ComboBoxItem Content="All"/>
                                 <ComboBoxItem Content="Appearance Only"/>

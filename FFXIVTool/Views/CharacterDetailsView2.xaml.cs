@@ -595,7 +595,7 @@ namespace FFXIVTool.Views
 
         private void PropSearch_Click(object sender, RoutedEventArgs e)
         {
-            if (!CheckPropList())
+           if (!CheckPropList())
                 return;
             if (EquipmentControl.IsOpen)
             {
@@ -612,6 +612,31 @@ namespace FFXIVTool.Views
             {
                 EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                 EquipmentControl.EquipBoxC.SelectedIndex = 12;
+                EquipmentControl.EquipTab.IsSelected = true;
+                EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
+                EquipmentControl.GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+            }
+        }
+
+        private void PropSearchOH_Click(object sender, RoutedEventArgs e)
+        {
+            if (!CheckPropList())
+                return;
+            if (EquipmentControl.IsOpen)
+            {
+                if (!EquipmentControl.EquipTab.IsSelected)
+                {
+                    EquipmentControl.EquipTab.IsSelected = true;
+                    EquipmentControl.EquipBoxC.SelectedIndex = 13;
+                    EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
+                    EquipmentControl.GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
+                }
+                else EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
+            }
+            else
+            {
+                EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
+                EquipmentControl.EquipBoxC.SelectedIndex = 13;
                 EquipmentControl.EquipTab.IsSelected = true;
                 EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
                 EquipmentControl.GearPicker(CharacterDetailsView._exdProvider.ItemsProps.Values.ToArray());
