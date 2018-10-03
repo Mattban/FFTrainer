@@ -22,7 +22,7 @@ namespace FFXIVTool.ViewModel
         public static bool CheckAble = true;
         public static bool CurrentlySaving = false;
         public int WritingCheck = 0;
-        HashSet<int> ZoneBlacklist = new HashSet<int> { 691, 692, 693, 694, 695, 696, 697, 698, 733, 734, 725, 748, 749, 750, 751, 752, 753, 754, 755, 758, 765, 766, 767, 777, 791 };
+        HashSet<int> ZoneBlacklist = new HashSet<int> { 691, 692, 693, 694, 695, 696, 697, 698, 733, 734, 725, 748, 749, 750, 751, 752, 753, 754, 755, 758, 765, 766, 767, 777, 798, 799, 800, 801, 802, 803, 804, 805, 807, 808, 810, 811, 812 };
         public static string baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, eOffset);
         public RefreshEntitiesCommand RefreshEntitiesCommand
         {
