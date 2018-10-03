@@ -204,9 +204,45 @@ namespace FFXIVTool.Models
         [JsonIgnore] public Address<string> TestArray2 { get; set; } // Equipment
         [JsonIgnore] public Address<int> ModelType { get; set; } // Equipment
         public Address<byte> BodyType { get; set; }
+        [JsonIgnore] public Address<float> HDR { get; set; }
+        [JsonIgnore] public Address<float> Brightness { get; set; }
+        [JsonIgnore] public Address<string> FilterAoB { get; set; }
+        [JsonIgnore] public Address<float> Contrast { get; set; }
+        [JsonIgnore] public Address<float> Exposure { get; set; }
+        [JsonIgnore] public Address<float> Filmic { get; set; }
+        [JsonIgnore] public Address<float> SHDR { get; set; }
+        [JsonIgnore] public Address<float> Colorfulness { get; set; }
+        [JsonIgnore] public Address<float> Contrast2 { get; set; }
+        [JsonIgnore] public Address<float> Colorfulnesss2 { get; set; }
+        [JsonIgnore] public Address<float> Vibrance { get; set; }
+        [JsonIgnore] public Address<float> Gamma { get; set; }
+        [JsonIgnore] public Address<float> GBlue { get; set; }
+        [JsonIgnore] public Address<float> GGreens { get; set; }
+        [JsonIgnore] public Address<float> GRed { get; set; }
+        [JsonIgnore] public Address<byte> Vignette { get; set; }
+        [JsonIgnore] public Address<byte> FilterEnable { get; set; }
+        [JsonIgnore] public Address<bool> LoadChecked { get; set; }
 
         public CharacterDetails()
         {
+            LoadChecked = new Address<bool>();
+            HDR = new Address<float>();
+            Brightness = new Address<float>();
+            FilterAoB = new Address<string>();
+            FilterEnable = new Address<byte>();
+            Contrast = new Address<float>();
+            Exposure = new Address<float>();
+            Filmic = new Address<float>();
+            SHDR = new Address<float>();
+            Colorfulness = new Address<float>();
+            Contrast2 = new Address<float>();
+            Colorfulnesss2 = new Address<float>();
+            Vibrance = new Address<float>();
+            Gamma = new Address<float>();
+            GBlue = new Address<float>();
+            GGreens = new Address<float>();
+            GRed = new Address<float>();
+            Vignette = new Address<byte>();
             BodyType = new Address<byte>();
             LimbalEyes = new Address<byte>();
             ModelType = new Address<int>();

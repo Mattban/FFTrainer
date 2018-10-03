@@ -1,7 +1,10 @@
 ﻿using FFXIVTool.Models;
 using FFXIVTool.Utility;
 using FFXIVTool.ViewModel;
+using Microsoft.Win32;
+using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -13,6 +16,11 @@ namespace FFXIVTool.Views
     /// </summary>
     public partial class CharacterDetailsView3 : UserControl
     {
+        public class FiltersDetails : BaseModel
+        {
+            public Address<string> FilterAoB { get; set; }
+            public Address<byte> Vignette { get; set; }
+        }
         private List<ExdCsvReader.Weather> AllowedWeathers;
         private bool isUserInteraction;
         public CharacterDetails CharacterDetails { get => (CharacterDetails)BaseViewModel.model; set => BaseViewModel.model = value; }
@@ -290,6 +298,598 @@ namespace FFXIVTool.Views
         private void HousingButton_Unchecked(object sender, RoutedEventArgs e)
         {
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.Instance.HousingOffset, "byte", "00");
+        }
+
+        private void Filters_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            if (Filters.IsKeyboardFocusWithin || Filters.IsMouseOver)
+            {
+                if (Filters.SelectedIndex == 0)
+                {
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "00");
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00");
+                }
+                else
+                {
+                    MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "40");
+                    if (Filters.SelectedIndex == 1) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D 66 66 66 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 99 BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C BE 00 00 80 3F 00 00 00 00 00 00 00 00");
+                    if (Filters.SelectedIndex == 2) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC 4C 3E CD CC 4C 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 BF 00 00 00 00 CD CC CC 3D 66 66 66 3F 9A 99 99 3E 00 00 00 00 CD CC 4C 3E 00 00 00 00 CD CC 4C BE 00 00 00 00");
+                    if (Filters.SelectedIndex == 3) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00");
+                    if (Filters.SelectedIndex == 4) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 3F 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00");
+                    if (Filters.SelectedIndex == 5) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC CC 3D 00 00 00 00 CD CC CC 3D CD CC 4C BE 00 00 00 00 CD CC 4C BE 00 00 00 00");
+                    if (Filters.SelectedIndex == 6) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC 4C 3E 9A 99 19 3F 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 19 3F 00 00 00 00 00 00 00 00 CD CC 4C 3F 9A 99 19 3F CD CC CC 3E CD CC CC 3E 9A 99 19 BF CD CC 4C 3E CD CC CC 3D");
+                    if (Filters.SelectedIndex == 7) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC 4C 3E CD CC 4C 3F 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3E CD CC CC BD 00 00 00 00 CD CC 4C 3F CD CC 4C 3F 00 00 80 3F CD CC CC 3E 00 00 00 00 CD CC 4C 3E 00 00 00 00");
+                    if (Filters.SelectedIndex == 8) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 CD CC 4C 3F 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 19 3F 00 00 00 00 00 00 00 00 33 33 33 3F 9A 99 19 3F 00 00 00 3F CD CC CC 3E 9A 99 19 BF CD CC 4C 3E 00 00 00 00");
+                    if (Filters.SelectedIndex == 9) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 3F 00 00 00 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3E 00 00 00 3F 00 00 00 00");
+                    if (Filters.SelectedIndex == 10) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "66 66 66 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00");
+                    if (Filters.SelectedIndex == 11) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3E 9A 99 19 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC CC 3D 9A 99 99 BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3E CD CC CC BD CD CC 4C BE");
+                    if (Filters.SelectedIndex == 12) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3E 33 33 33 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C BE 00 00 80 3F 00 00 00 00");
+                    if (Filters.SelectedIndex == 13) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 CD CC CC 3E CD CC CC BE 9A 99 19 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 99 BE CD CC 4C 3E 00 00 00 00");
+                    if (Filters.SelectedIndex == 14) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 33 33 B3 3E CD CC CC BE CD CC CC 3E 00 00 00 00 CD CC 4C BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 99 BE CD CC CC 3E 00 00 00 00");
+                    if (Filters.SelectedIndex == 15) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D CD CC CC 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC CC 3D 9A 99 99 BE 9A 99 19 3F 9A 99 19 3F 9A 99 19 3F CD CC CC BD CD CC 4C 3E 00 00 00 00 CD CC 4C BE");
+                    if (Filters.SelectedIndex == 16) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D 9A 99 99 3E 00 00 00 00 CD CC 4C BE 00 00 00 00 CD CC CC BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00");
+                    if (Filters.SelectedIndex == 17) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D CD CC CC 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC CC 3D 9A 99 99 BE 33 33 33 3F 33 33 33 3F 33 33 33 3F CD CC 4C BE CD CC 4C 3E CD CC 4C BE CD CC 4C BE");
+                    if (Filters.SelectedIndex == 18) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D 66 66 66 3F 00 00 00 00 CD CC 4C 3E 00 00 00 00 00 00 80 BF 00 00 00 00 00 00 00 00 66 66 66 3F CD CC CC 3D 00 00 00 3F CD CC 4C 3E 00 00 00 00 00 00 00 00 00 00 00 00");
+                    if (Filters.SelectedIndex == 19) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D 66 66 66 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 BF 00 00 00 00 CD CC CC 3D CD CC CC 3D CD CC CC 3E CD CC CC 3D CD CC 4C 3E CD CC 4C BE 00 00 00 00 00 00 00 00");
+                    if (Filters.SelectedIndex == 20) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "CD CC CC 3D 66 66 66 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 BF 00 00 00 00 CD CC CC 3D CD CC CC 3D CD CC CC 3E 00 00 80 3F 9A 99 99 3E 00 00 00 00 CD CC 4C BE 00 00 00 00");
+                    if (Filters.SelectedIndex == 21) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 00 00 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C BE CD CC 4C BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9A 99 19 3F 00 00 00 00 00 00 00 00");
+                    if (Filters.SelectedIndex == 22) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "9A 99 99 3E 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 33 33 33 3F 9A 99 99 3E 00 00 80 3F CD CC 4C BF 00 00 80 BF 00 00 80 3F");
+                    if (Filters.SelectedIndex == 23) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), "bytes", "00 00 80 3E 00 00 00 3F CD CC CC BE CD CC 4C BE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00");
+                }
+            }
+        }
+
+        private void SaveButtonX_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.CurrentlySaving = true;
+            SaveFileDialog dig = new SaveFileDialog();
+            dig.Filter = "Json File(*.json)|*.json";
+            dig.DefaultExt = ".json";
+            if (dig.ShowDialog() == true)
+            {
+                FiltersDetails Save1 = new FiltersDetails(); // CharacterDetails is class with all address
+                Save1.FilterAoB = CharacterDetails.FilterAoB;
+                Save1.Vignette = CharacterDetails.Vignette;
+                string details = JsonConvert.SerializeObject(Save1, Formatting.Indented);
+                File.WriteAllText(dig.FileName, details);
+                MainWindow.CurrentlySaving = false;
+            }
+            else MainWindow.CurrentlySaving = false;
+        }
+
+        private void BrightSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            {
+                if (BrightSlider.IsMouseOver || BrightSlider.IsKeyboardFocusWithin)
+                {
+                    BrightSlider.ValueChanged -= BrightSlider_ValueChange;
+                    BrightSlider.ValueChanged += BrightSlider_ValueChange;
+                }
+                if (BrightUpDown.IsMouseOver || BrightUpDown.IsKeyboardFocusWithin)
+                {
+                    BrightUpDown.ValueChanged -= Bright_ValueChange;
+                    BrightUpDown.ValueChanged += Bright_ValueChange;
+                }
+            }
+        }
+
+        private void Bright_ValueChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (BrightUpDown.Value.HasValue)
+            {
+                CharacterDetails.Brightness.value = (float)BrightUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Brightness), "float", BrightUpDown.Value.ToString());
+            }
+            BrightUpDown.ValueChanged -= Bright_ValueChange;
+        }
+
+        private void BrightSlider_ValueChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (BrightUpDown.Value.HasValue)
+            {
+                CharacterDetails.Brightness.value = (float)BrightSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Brightness), "float", BrightSlider.Value.ToString());
+            }
+            BrightSlider.ValueChanged -= BrightSlider_ValueChange;
+        }
+
+        private void ExpoSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            {
+                if (ExpoSlider.IsMouseOver || ExpoSlider.IsKeyboardFocusWithin)
+                {
+                    ExpoSlider.ValueChanged -= ExpoSliderChange;
+                    ExpoSlider.ValueChanged += ExpoSliderChange;
+                }
+                if (ExpoUpDown.IsMouseOver || ExpoUpDown.IsKeyboardFocusWithin)
+                {
+                    ExpoUpDown.ValueChanged -= Expo_ValueChange;
+                    ExpoUpDown.ValueChanged += Expo_ValueChange;
+                }
+            }
+        }
+
+        private void ExpoSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (ExpoUpDown.Value.HasValue)
+            {
+                CharacterDetails.Exposure.value = (float)ExpoSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Exposure), "float", ExpoSlider.Value.ToString());
+            }
+            ExpoSlider.ValueChanged -= ExpoSliderChange;
+        }
+
+        private void Expo_ValueChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (ExpoUpDown.Value.HasValue)
+            {
+                CharacterDetails.Exposure.value = (float)ExpoUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Exposure), "float", ExpoUpDown.Value.ToString());
+            }
+            ExpoUpDown.ValueChanged -= Expo_ValueChange;
+        }
+
+        private void ContrastSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            {
+                if (ContrastSlider.IsMouseOver || ContrastSlider.IsKeyboardFocusWithin)
+                {
+                    ContrastSlider.ValueChanged -= ContrastSliderChange;
+                    ContrastSlider.ValueChanged += ContrastSliderChange;
+                }
+                if (ContrastUpDown.IsMouseOver || ContrastUpDown.IsKeyboardFocusWithin)
+                {
+                    ContrastUpDown.ValueChanged -= ContrastUpDownChange;
+                    ContrastUpDown.ValueChanged += ContrastUpDownChange;
+                }
+            }
+        }
+        private void ContrastSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (ContrastUpDown.Value.HasValue)
+            {
+                CharacterDetails.Contrast.value = (float)ContrastSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Contrast), "float", ContrastSlider.Value.ToString());
+            }
+            ContrastSlider.ValueChanged -= ContrastSliderChange;
+        }
+
+        private void ContrastUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (ContrastUpDown.Value.HasValue)
+            {
+                CharacterDetails.Contrast.value = (float)ContrastUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Contrast), "float", ContrastUpDown.Value.ToString());
+            }
+            ContrastUpDown.ValueChanged -= ContrastUpDownChange;
+        }
+
+        private void GammaSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (GammaSlider.IsMouseOver || GammaSlider.IsKeyboardFocusWithin)
+            {
+                GammaSlider.ValueChanged -= GammaSliderChange;
+                GammaSlider.ValueChanged += GammaSliderChange;
+            }
+            if (GammaUpDown.IsMouseOver || GammaUpDown.IsKeyboardFocusWithin)
+            {
+                GammaUpDown.ValueChanged -= GammaUpDownChange;
+                GammaUpDown.ValueChanged += GammaUpDownChange;
+            }
+        }
+
+        private void GammaSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (GammaUpDown.Value.HasValue)
+            {
+                CharacterDetails.Gamma.value = (float)GammaSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Gamma), "float", GammaSlider.Value.ToString());
+            }
+            GammaSlider.ValueChanged -= GammaSliderChange;
+        }
+
+        private void GammaUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (GammaUpDown.Value.HasValue)
+            {
+                CharacterDetails.Gamma.value = (float)GammaUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Gamma), "float", GammaUpDown.Value.ToString());
+            }
+            GammaUpDown.ValueChanged -= GammaUpDownChange;
+        }
+
+        private void RedSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (RedSlider.IsMouseOver || RedSlider.IsKeyboardFocusWithin)
+            {
+                RedSlider.ValueChanged -= RedSliderChange;
+                RedSlider.ValueChanged += RedSliderChange;
+            }
+            if (RedUpDown.IsMouseOver || RedUpDown.IsKeyboardFocusWithin)
+            {
+                RedUpDown.ValueChanged -= RedUpDownChange;
+                RedUpDown.ValueChanged += RedUpDownChange;
+            }
+        }
+
+        private void RedSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (RedUpDown.Value.HasValue)
+            {
+                CharacterDetails.GRed.value = (float)RedSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GRed), "float", RedSlider.Value.ToString());
+            }
+            RedSlider.ValueChanged -= RedSliderChange;
+        }
+
+        private void RedUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (RedUpDown.Value.HasValue)
+            {
+                CharacterDetails.GRed.value = (float)RedUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GRed), "float", RedUpDown.Value.ToString());
+            }
+            RedUpDown.ValueChanged -= RedUpDownChange;
+        }
+
+        private void GreenSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (GreenSlider.IsMouseOver || GreenSlider.IsKeyboardFocusWithin)
+            {
+                GreenSlider.ValueChanged -= GreenSliderChange;
+                GreenSlider.ValueChanged += GreenSliderChange;
+            }
+            if (GreenUpDown.IsMouseOver || GreenUpDown.IsKeyboardFocusWithin)
+            {
+                GreenUpDown.ValueChanged -= GreenUpDownChange;
+                GreenUpDown.ValueChanged += GreenUpDownChange;
+            }
+        }
+
+        private void GreenSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (GreenUpDown.Value.HasValue)
+            {
+                CharacterDetails.GGreens.value = (float)GreenSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GGreens), "float", GreenSlider.Value.ToString());
+            }
+            GreenSlider.ValueChanged -= GreenSliderChange;
+        }
+
+        private void GreenUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (GreenUpDown.Value.HasValue)
+            {
+                CharacterDetails.GGreens.value = (float)GreenUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GGreens), "float", GreenUpDown.Value.ToString());
+            }
+            GreenUpDown.ValueChanged -= GreenUpDownChange;
+        }
+
+        private void BlueSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (BlueSlider.IsMouseOver || BlueSlider.IsKeyboardFocusWithin)
+            {
+                BlueSlider.ValueChanged -= BlueSliderChange;
+                BlueSlider.ValueChanged += BlueSliderChange;
+            }
+            if (BlueUpDown.IsMouseOver || BlueUpDown.IsKeyboardFocusWithin)
+            {
+                BlueUpDown.ValueChanged -= BlueUpDownChange;
+                BlueUpDown.ValueChanged += BlueUpDownChange;
+            }
+        }
+
+        private void BlueSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (BlueUpDown.Value.HasValue)
+            {
+                CharacterDetails.GBlue.value = (float)BlueSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GBlue), "float", BlueSlider.Value.ToString());
+            }
+            BlueSlider.ValueChanged -= BlueSliderChange;
+        }
+
+        private void BlueUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (BlueUpDown.Value.HasValue)
+            {
+                CharacterDetails.GBlue.value = (float)BlueUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GBlue), "float", BlueUpDown.Value.ToString());
+            }
+            BlueUpDown.ValueChanged -= BlueUpDownChange;
+        }
+
+        private void HDRSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (HDRSlider.IsMouseOver || HDRSlider.IsKeyboardFocusWithin)
+            {
+                HDRSlider.ValueChanged -= HDRSliderChange;
+                HDRSlider.ValueChanged += HDRSliderChange;
+            }
+            if (HDRUpDown.IsMouseOver || HDRUpDown.IsKeyboardFocusWithin)
+            {
+                HDRUpDown.ValueChanged -= HDRUpDownChange;
+                HDRUpDown.ValueChanged += HDRUpDownChange;
+            }
+        }
+
+        private void HDRSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (HDRUpDown.Value.HasValue)
+            {
+                CharacterDetails.HDR.value = (float)HDRSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.HDR), "float", HDRSlider.Value.ToString());
+            }
+            HDRSlider.ValueChanged -= HDRSliderChange;
+        }
+
+        private void HDRUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (HDRUpDown.Value.HasValue)
+            {
+                CharacterDetails.HDR.value = (float)HDRUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.HDR), "float", HDRUpDown.Value.ToString());
+            }
+            HDRUpDown.ValueChanged -= HDRUpDownChange;
+        }
+
+        private void SHDRSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (SHDRSlider.IsMouseOver || SHDRSlider.IsKeyboardFocusWithin)
+            {
+                SHDRSlider.ValueChanged -= SHDRSliderChange;
+                SHDRSlider.ValueChanged += SHDRSliderChange;
+            }
+            if (SHDRUpDown.IsMouseOver || SHDRUpDown.IsKeyboardFocusWithin)
+            {
+                SHDRUpDown.ValueChanged -= SHDRUpDownChange;
+                SHDRUpDown.ValueChanged += SHDRUpDownChange;
+            }
+        }
+
+        private void SHDRSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (SHDRUpDown.Value.HasValue)
+            {
+                CharacterDetails.SHDR.value = (float)SHDRSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.SHDR), "float", SHDRSlider.Value.ToString());
+            }
+            SHDRSlider.ValueChanged -= SHDRSliderChange;
+        }
+
+        private void SHDRUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (SHDRUpDown.Value.HasValue)
+            {
+                CharacterDetails.SHDR.value = (float)SHDRUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.SHDR), "float", SHDRUpDown.Value.ToString());
+            }
+            SHDRUpDown.ValueChanged -= SHDRUpDownChange;
+        }
+
+        private void FilmicSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (FilmicSlider.IsMouseOver || FilmicSlider.IsKeyboardFocusWithin)
+            {
+                FilmicSlider.ValueChanged -= FilmicSliderChange;
+                FilmicSlider.ValueChanged += FilmicSliderChange;
+            }
+            if (SHDRUpDown.IsMouseOver || FilmicUpDown.IsKeyboardFocusWithin)
+            {
+                FilmicUpDown.ValueChanged -= FilmicUpDownChange;
+                FilmicUpDown.ValueChanged += FilmicUpDownChange;
+            }
+        }
+
+        private void FilmicSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (FilmicUpDown.Value.HasValue)
+            {
+                CharacterDetails.Filmic.value = (float)FilmicSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Filmic), "float", FilmicSlider.Value.ToString());
+            }
+            FilmicSlider.ValueChanged -= FilmicSliderChange;
+        }
+
+        private void FilmicUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (FilmicUpDown.Value.HasValue)
+            {
+                CharacterDetails.Filmic.value = (float)FilmicUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Filmic), "float", FilmicUpDown.Value.ToString());
+            }
+            FilmicUpDown.ValueChanged -= FilmicUpDownChange;
+        }
+
+        private void ColorfulnessSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (ColorfulnessSlider.IsMouseOver || ColorfulnessSlider.IsKeyboardFocusWithin)
+            {
+                ColorfulnessSlider.ValueChanged -= ColorfulnessSliderChange;
+                ColorfulnessSlider.ValueChanged += ColorfulnessSliderChange;
+            }
+            if (ColorfulnessUpDown.IsMouseOver || ColorfulnessUpDown.IsKeyboardFocusWithin)
+            {
+                ColorfulnessUpDown.ValueChanged -= ColorfulnessUpDownChange;
+                ColorfulnessUpDown.ValueChanged += ColorfulnessUpDownChange;
+            }
+        }
+
+        private void ColorfulnessSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (ColorfulnessUpDown.Value.HasValue)
+            {
+                CharacterDetails.Colorfulness.value = (float)ColorfulnessSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Colorfulness), "float", ColorfulnessSlider.Value.ToString());
+            }
+            ColorfulnessSlider.ValueChanged -= ColorfulnessSliderChange;
+        }
+
+        private void ColorfulnessUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (ColorfulnessUpDown.Value.HasValue)
+            {
+                CharacterDetails.Colorfulness.value = (float)ColorfulnessUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Colorfulness), "float", ColorfulnessUpDown.Value.ToString());
+            }
+            ColorfulnessUpDown.ValueChanged -= ColorfulnessUpDownChange;
+        }
+
+        private void Colorfulness2Slider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            if (Colorfulness2Slider.IsMouseOver || Colorfulness2Slider.IsKeyboardFocusWithin)
+            {
+                Colorfulness2Slider.ValueChanged -= Colorfulness2SliderChange;
+                Colorfulness2Slider.ValueChanged += Colorfulness2SliderChange;
+            }
+            if (Colorfulness2UpDown.IsMouseOver || Colorfulness2UpDown.IsKeyboardFocusWithin)
+            {
+                Colorfulness2UpDown.ValueChanged -= Colorfulness2UpDownChange;
+                Colorfulness2UpDown.ValueChanged += Colorfulness2UpDownChange;
+            }
+        }
+
+        private void Colorfulness2SliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (Colorfulness2UpDown.Value.HasValue)
+            {
+                CharacterDetails.Colorfulnesss2.value = (float)Colorfulness2Slider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Colorfulnesss2), "float", Colorfulness2Slider.Value.ToString());
+            }
+            Colorfulness2Slider.ValueChanged -= Colorfulness2SliderChange;
+        }
+
+        private void Colorfulness2UpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (Colorfulness2UpDown.Value.HasValue)
+            {
+                CharacterDetails.Colorfulnesss2.value = (float)Colorfulness2UpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Colorfulnesss2), "float", Colorfulness2UpDown.Value.ToString());
+            }
+            Colorfulness2UpDown.ValueChanged -= Colorfulness2UpDownChange;
+        }
+
+        private void Contrast2Slider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            {
+                if (Contrast2Slider.IsMouseOver || Contrast2Slider.IsKeyboardFocusWithin)
+                {
+                    Contrast2Slider.ValueChanged -= Contrast2SliderChange;
+                    Contrast2Slider.ValueChanged += Contrast2SliderChange;
+                }
+                if (Contrast2UpDown.IsMouseOver || Contrast2UpDown.IsKeyboardFocusWithin)
+                {
+                    Contrast2UpDown.ValueChanged -= Contrast2UpDownChange;
+                    Contrast2UpDown.ValueChanged += Contrast2UpDownChange;
+                }
+            }
+        }
+
+        private void Contrast2SliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (Contrast2UpDown.Value.HasValue)
+            {
+                CharacterDetails.Contrast2.value = (float)Contrast2Slider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Contrast2), "float", Contrast2Slider.Value.ToString());
+            }
+            Contrast2Slider.ValueChanged -= Contrast2SliderChange;
+        }
+
+        private void Contrast2UpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (Contrast2UpDown.Value.HasValue)
+            {
+                CharacterDetails.Contrast2.value = (float)Contrast2UpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Contrast2), "float", Contrast2UpDown.Value.ToString());
+            }
+            Contrast2UpDown.ValueChanged -= Contrast2UpDownChange;
+        }
+
+        private void VibranceSlider_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
+            {
+                if (VibranceSlider.IsMouseOver || VibranceSlider.IsKeyboardFocusWithin)
+                {
+                    VibranceSlider.ValueChanged -= VibranceSliderChange;
+                    VibranceSlider.ValueChanged += VibranceSliderChange;
+                }
+                if (VibranceUpDown.IsMouseOver || VibranceUpDown.IsKeyboardFocusWithin)
+                {
+                    VibranceUpDown.ValueChanged -= VibranceUpDownChange;
+                    VibranceUpDown.ValueChanged += VibranceUpDownChange;
+                }
+            }
+        }
+
+        private void VibranceSliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (VibranceUpDown.Value.HasValue)
+            {
+                CharacterDetails.Vibrance.value = (float)VibranceSlider.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vibrance), "float", VibranceSlider.Value.ToString());
+            }
+            VibranceSlider.ValueChanged -= VibranceSliderChange;
+        }
+
+        private void VibranceUpDownChange(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (VibranceUpDown.Value.HasValue)
+            {
+                CharacterDetails.Vibrance.value = (float)VibranceUpDown.Value;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vibrance), "float", VibranceUpDown.Value.ToString());
+            }
+            VibranceUpDown.ValueChanged -= VibranceUpDownChange;
+        }
+
+        private void Vignette_Checked(object sender, RoutedEventArgs e)
+        {
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "04");
+        }
+
+        private void Vignette_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "00");
+        }
+
+        private void FreezeAlll_Unchecked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.FreezeAll = true;
+        }
+
+        private void FreezeAlll_Checked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.FreezeAll = false;
+        }
+
+        private void EnableEditing_Checked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.EnabledEditing = true;
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "40");
+        }
+
+        private void EnableEditing_Unchecked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.EnabledEditing = false;
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "00");
+        }
+
+        private void Load_Button_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dig = new OpenFileDialog();
+            dig.Filter = "Json File(*.json)|*.json";
+            dig.DefaultExt = ".json";
+            if (dig.ShowDialog() == true)
+            {
+                FiltersDetails load1 = JsonConvert.DeserializeObject<FiltersDetails>(File.ReadAllText(dig.FileName));
+                CharacterDetailsViewModel.EnabledEditing = true;
+                MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "40");
+                CharacterDetails.FilterAoB.value = load1.FilterAoB.value;
+                var LoadFilter = MemoryManager.StringToByteArray(load1.FilterAoB.value.Replace(" ", string.Empty));
+                MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), LoadFilter);
+                if (load1.Vignette.Checked)
+                    CharacterDetails.Vignette.Checked = true;
+            }
         }
     }
 }

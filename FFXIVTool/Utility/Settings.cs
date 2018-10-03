@@ -36,12 +36,30 @@ namespace FFXIVTool.Utility
         public string WeatherOffset { get; set; }
         public string HousingOffset { get; set; }
         public string TerritoryOffset { get; set; }
+        public string GposeFilters { get; set; }
         public CharacterOffsets Character { get; set; }
     }
 
     [Serializable]
     public struct CharacterOffsets
     {
+        public string HDR { get; set; }
+        public string Brightness { get; set; }
+        public string Contrast { get; set; }
+        public string FilterEnable { get; set; }
+        public string FilterAoB { get; set; }
+        public string Exposure { get; set; }
+        public string Filmic { get; set; }
+        public string SHDR { get; set; }
+        public string Colorfulness { get; set; }
+        public string Contrast2 { get; set; }
+        public string Colorfulnesss2 { get; set; }
+        public string Gamma { get; set; }
+        public string Vibrance { get; set; }
+        public string GBlue { get; set; }
+        public string GGreens { get; set; }
+        public string GRed { get; set; }
+        public string Vigenette { get; set; }
         public string Name { get; set; }
         public string Race { get; set; }
         public string RenderDistance { get; set; }

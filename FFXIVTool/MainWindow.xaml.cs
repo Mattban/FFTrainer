@@ -183,7 +183,6 @@ namespace FFXIVTool
             }
             else CurrentlySaving = false;
         }
-
         private void Load_Click(object sender, RoutedEventArgs e)
         {
             var c = new LoadWindow();

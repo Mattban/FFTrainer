@@ -76,6 +76,7 @@ namespace FFXIVTool.ViewModel
             MemoryManager.Instance.WeatherAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.WeatherOffset, NumberStyles.HexNumber));
             MemoryManager.Instance.TerritoryAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.TerritoryOffset, NumberStyles.HexNumber));
             MemoryManager.Instance.HousingOffset = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.HousingOffset, NumberStyles.HexNumber));
+            MemoryManager.Instance.GposeFilters = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.GposeFilters, NumberStyles.HexNumber));
             while (true)
             {
                 if (worker.CancellationPending)

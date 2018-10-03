@@ -42,6 +42,7 @@ namespace FFXIVTool.Utility
         public string TimeAddress { get; set; }
         public string TerritoryAddress { get; set; }
         public string HousingOffset { get; set; }
+        public string GposeFilters { get; set; }
 
         /// <summary>
         /// Constructor for the singleton memory manager
@@ -111,6 +112,19 @@ namespace FFXIVTool.Utility
                     hex.AppendFormat("{0:x2} ", b);
                 var str = hex.ToString();
                 return str.Remove(str.Length - 1);
+            }
+            else return "0";
+        }
+        public static string ByteArrayToStringU(byte[] ba)
+        {
+            if (ba != null)
+            {
+                StringBuilder hex = new StringBuilder(ba.Length * 2);
+                foreach (byte b in ba)
+                    hex.AppendFormat("{0:x2} ", b);
+                var str = hex.ToString();
+                var stre = str.ToUpper();
+                return stre.Remove(stre.Length - 1);
             }
             else return "0";
         }
