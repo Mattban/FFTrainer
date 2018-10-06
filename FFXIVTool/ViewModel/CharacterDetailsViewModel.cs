@@ -143,10 +143,11 @@ namespace FFXIVTool.ViewModel
                 if (!CurrentlySaving)
                 {
                     CharacterDetails.FilterAoB.value = MemoryManager.ByteArrayToStringU(MemoryManager.Instance.MemLib.readBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), 60));
-                    if (CharacterDetails.Vignette.Checked) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "04");
-                    else MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "00");
                     if (EnabledEditing)
-                    { MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "40"); WritingCheck = 0; }
+                    {
+                        MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "40");
+                        WritingCheck = 0;
+                    }
                     else if (WritingCheck <= 3)
                     {
                         WritingCheck++;

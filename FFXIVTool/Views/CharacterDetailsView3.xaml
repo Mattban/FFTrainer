@@ -77,8 +77,7 @@
         <Label Content="Vibrance" HorizontalAlignment="Left" Margin="740,143,0,0" VerticalAlignment="Top" Width="112" FontSize="13.25"/>
         <Slider x:Name="VibranceSlider" Value="{Binding Path=CharacterDetails.Vibrance.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="833,148,0,0" VerticalAlignment="Top" Width="104" Height="26" Maximum="1" Minimum="-1" LargeChange="0.2" TickFrequency="0.1" IsSnapToTickEnabled="True" SourceUpdated="VibranceSlider_SourceUpdated"/>
         <mah:NumericUpDown x:Name="VibranceUpDown" Value="{Binding Path=CharacterDetails.Vibrance.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="947,144,0,0" VerticalAlignment="Top" Width="146" Minimum="-1" Maximum="1" Speedup="False" StringFormat="F5" Interval="0.1" SourceUpdated="VibranceSlider_SourceUpdated" BorderBrush="#8A000000" BorderThickness="0,0,0,1" Background="{x:Null}"/>
-        <ToggleButton IsChecked="{Binding Path=CharacterDetails.Vignette.Checked}" x:Name="Vignette" HorizontalAlignment="Left" Height="22" Margin="825,176,0,0" VerticalAlignment="Top" Width="33" Checked="Vignette_Checked" Unchecked="Vignette_Unchecked" FontSize="13.25"/>
-        <ComboBox SelectedIndex="{Binding Path=CharacterDetails.FilterAoB.Selected}" materialDesign:HintAssist.Hint="Filters" Style="{StaticResource MaterialDesignFloatingHintComboBox}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="882,173,0,0" VerticalAlignment="Top" Width="211" IsTabStop="False" RenderTransformOrigin="0.5,0.577" FontSize="16" SelectionChanged="Filters_SelectionChanged" Height="44">
+        <ComboBox SelectedIndex="{Binding Path=CharacterDetails.FilterAoB.Selected}" materialDesign:HintAssist.Hint="Filters" Style="{StaticResource MaterialDesignFloatingHintComboBox}" MaxDropDownHeight="150" x:Name="Filters" HorizontalAlignment="Left" Margin="745,175,0,0" VerticalAlignment="Top" Width="211" IsTabStop="False" RenderTransformOrigin="0.5,0.577" FontSize="16" SelectionChanged="Filters_SelectionChanged" Height="44">
             <ComboBoxItem Content="Normal"/>
             <ComboBoxItem Content="Sepia 1"/>
             <ComboBoxItem Content="Sepia 2"/>
@@ -104,16 +103,16 @@
             <ComboBoxItem Content="Aetherometer"/>
             <ComboBoxItem Content="Strengthened Effects"/>
         </ComboBox>
-        <Label Content="Save" HorizontalAlignment="Left" Margin="752,344,0,0" VerticalAlignment="Top" Width="54" FontSize="16"/>
-        <Label Content="Load" HorizontalAlignment="Left" Margin="821,344,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="744,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="98" FontSize="13.25" Text="Notes: RGB is affected by Gamma."/>
-        <CheckBox x:Name="EnableEditing" Content="Enable Me First! (For Editing)" HorizontalAlignment="Left" Margin="877,231,0,0" VerticalAlignment="Top" FontSize="13.25" Checked="EnableEditing_Checked" Unchecked="EnableEditing_Unchecked"/>
-        <CheckBox x:Name="FreezeAlll" Content="Freeze All" HorizontalAlignment="Left" Margin="877,255,0,0" VerticalAlignment="Top" FontSize="13.25" Unchecked="FreezeAlll_Unchecked" Checked="FreezeAlll_Checked"/>
-        <Button x:Name="SaveButtonX" HorizontalAlignment="Left" Margin="752,291,0,0" VerticalAlignment="Top" Width="51" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}" ToolTip="Save" Height="50" Padding="0" Click="SaveButtonX_Click">
+        <Label Content="Save" HorizontalAlignment="Left" Margin="980,338,0,0" VerticalAlignment="Top" Width="54" FontSize="16"/>
+        <Label Content="Load" HorizontalAlignment="Left" Margin="1049,338,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="740,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="98" FontSize="13.25" Text="Notes: RGB is affected by Gamma."/>
+        <CheckBox x:Name="EnableEditing" Content="Enable Me First! (For Editing)" HorizontalAlignment="Left" Margin="745,228,0,0" VerticalAlignment="Top" FontSize="13.25" Checked="EnableEditing_Checked" Unchecked="EnableEditing_Unchecked"/>
+        <CheckBox x:Name="FreezeAlll" Content="Freeze All" HorizontalAlignment="Left" Margin="745,252,0,0" VerticalAlignment="Top" FontSize="13.25" Unchecked="FreezeAlll_Unchecked" Checked="FreezeAlll_Checked"/>
+        <Button x:Name="SaveButtonX" HorizontalAlignment="Left" Margin="980,285,0,0" VerticalAlignment="Top" Width="51" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}" ToolTip="Save" Height="50" Padding="0" Click="SaveButtonX_Click">
             <materialDesign:PackIcon Kind="ContentSave" Height="24" Width="24">
             </materialDesign:PackIcon>
         </Button>
-        <Button x:Name="Load_Button" HorizontalAlignment="Left" Margin="818,291,0,0" VerticalAlignment="Top" Width="51" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}" ToolTip="Load" Height="50" Padding="0" Click="Load_Button_Click">
+        <Button x:Name="Load_Button" HorizontalAlignment="Left" Margin="1046,285,0,0" VerticalAlignment="Top" Width="51" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}" ToolTip="Load" Height="50" Padding="0" Click="Load_Button_Click">
             <materialDesign:PackIcon Kind="Upload" Height="24" Width="24"/>
         </Button>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.Weather.freeze}" Content="Weather" HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top"/>
@@ -134,8 +133,5 @@
         <Label Content="Remove Housing Placement Restriction" HorizontalAlignment="Left" Margin="806,386,0,0" VerticalAlignment="Top"/>
         <Label Content="Off" HorizontalAlignment="Left" Margin="888,410,0,0" VerticalAlignment="Top"/>
         <Label Content="On" HorizontalAlignment="Left" Margin="946,410,0,0" VerticalAlignment="Top"/>
-        <Label Content="Vigentte" HorizontalAlignment="Left" Margin="740,173,0,0" VerticalAlignment="Top" Width="69" FontSize="13.25"/>
-        <Label Content="Off" HorizontalAlignment="Left" Margin="797,173,0,0" VerticalAlignment="Top"/>
-        <Label Content="On" HorizontalAlignment="Left" Margin="854,173,0,0" VerticalAlignment="Top"/>
     </Grid>
 </UserControl>

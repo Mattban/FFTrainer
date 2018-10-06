@@ -59,7 +59,6 @@ namespace FFXIVTool.Utility
         public string GBlue { get; set; }
         public string GGreens { get; set; }
         public string GRed { get; set; }
-        public string Vigenette { get; set; }
         public string Name { get; set; }
         public string Race { get; set; }
         public string RenderDistance { get; set; }

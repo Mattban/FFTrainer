@@ -219,7 +219,6 @@ namespace FFXIVTool.Models
         [JsonIgnore] public Address<float> GBlue { get; set; }
         [JsonIgnore] public Address<float> GGreens { get; set; }
         [JsonIgnore] public Address<float> GRed { get; set; }
-        [JsonIgnore] public Address<byte> Vignette { get; set; }
         [JsonIgnore] public Address<byte> FilterEnable { get; set; }
         [JsonIgnore] public Address<bool> LoadChecked { get; set; }
 
@@ -242,7 +241,6 @@ namespace FFXIVTool.Models
             GBlue = new Address<float>();
             GGreens = new Address<float>();
             GRed = new Address<float>();
-            Vignette = new Address<byte>();
             BodyType = new Address<byte>();
             LimbalEyes = new Address<byte>();
             ModelType = new Address<int>();

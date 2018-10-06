@@ -349,7 +349,6 @@ namespace FFXIVTool.Views
             {
                 FiltersDetails Save1 = new FiltersDetails(); // CharacterDetails is class with all address
                 Save1.FilterAoB = CharacterDetails.FilterAoB;
-                Save1.Vignette = CharacterDetails.Vignette;
                 string details = JsonConvert.SerializeObject(Save1, Formatting.Indented);
                 File.WriteAllText(dig.FileName, details);
                 MainWindow.CurrentlySaving = false;
@@ -842,16 +841,6 @@ namespace FFXIVTool.Views
             VibranceUpDown.ValueChanged -= VibranceUpDownChange;
         }
 
-        private void Vignette_Checked(object sender, RoutedEventArgs e)
-        {
-            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "04");
-        }
-
-        private void Vignette_Unchecked(object sender, RoutedEventArgs e)
-        {
-            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Vigenette), "byte", "00");
-        }
-
         private void FreezeAlll_Unchecked(object sender, RoutedEventArgs e)
         {
             CharacterDetailsViewModel.FreezeAll = true;
@@ -887,8 +876,6 @@ namespace FFXIVTool.Views
                 CharacterDetails.FilterAoB.value = load1.FilterAoB.value;
                 var LoadFilter = MemoryManager.StringToByteArray(load1.FilterAoB.value.Replace(" ", string.Empty));
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), LoadFilter);
-                if (load1.Vignette.Checked)
-                    CharacterDetails.Vignette.Checked = true;
             }
         }
     }
