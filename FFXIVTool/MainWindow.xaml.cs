@@ -156,17 +156,6 @@ namespace FFXIVTool
         {
             Process.Start("https://discord.gg/nxu2Ydp");
         }
-
-        private void GposeButton_Checked(object sender, RoutedEventArgs e)
-        {
-            CharacterDetailsViewModel.baseAddr = MemoryManager.Instance.GposeAddress;
-        }
-
-        private void GposeButton_Unchecked(object sender, RoutedEventArgs e)
-        {
-            CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
-        }
-
         private void Save_Click(object sender, RoutedEventArgs e)
         {
             CurrentlySaving = true;
@@ -1110,5 +1099,42 @@ namespace FFXIVTool
             AutoUpdater.ShowRemindLaterButton = false;
             AutoUpdater.Start("https://raw.githubusercontent.com/SaberNaut/xd/master/UpdateTest.xml");
         }
+
+        private void GposeButton_Checked(object sender, RoutedEventArgs e)
+        {
+           if (TargetButton.IsChecked == true) TargetButton.IsChecked = false;
+            CharacterDetailsViewModel.baseAddr = MemoryManager.Instance.GposeAddress;
+        }
+
+        private void GposeButton_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (GposeButton.IsKeyboardFocusWithin || GposeButton.IsMouseOver)
+                CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
+        }
+
+        private void TargetButton_Checked(object sender, RoutedEventArgs e)
+        {
+            if (GposeButton.IsChecked == true) GposeButton.IsChecked = false;
+            CharacterDetailsViewModel.baseAddr = MemoryManager.Instance.TargetAddress;
+        }
+
+        private void TargetButton_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (TargetButton.IsKeyboardFocusWithin || TargetButton.IsMouseOver)
+                CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
+        }
     }
 }
+
+/*
+ * 
+        private void GposeButton_Checked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.baseAddr = MemoryManager.Instance.GposeAddress;
+        }
+
+        private void GposeButton_Unchecked(object sender, RoutedEventArgs e)
+        {
+            CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
+        }
+ * */

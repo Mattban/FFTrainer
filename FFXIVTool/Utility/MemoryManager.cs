@@ -38,6 +38,7 @@ namespace FFXIVTool.Utility
         public string CameraAddress { get; set; }
         public string GposeAddress { get; set; }
         public string EmoteAddress { get; set; }
+        public string TargetAddress { get; set; }
         public string WeatherAddress { get; set; }
         public string TimeAddress { get; set; }
         public string TerritoryAddress { get; set; }

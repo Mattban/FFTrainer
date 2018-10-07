@@ -69,6 +69,7 @@ namespace FFXIVTool.ViewModel
         {
             // no fancy tricks here boi
             MemoryManager.Instance.BaseAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.AoBOffset, NumberStyles.HexNumber));
+            MemoryManager.Instance.TargetAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.TargetOffset, NumberStyles.HexNumber));
             MemoryManager.Instance.CameraAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.CameraOffset, NumberStyles.HexNumber));
             MemoryManager.Instance.EmoteAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.GposeEmoteOffset, NumberStyles.HexNumber));
             MemoryManager.Instance.GposeAddress = MemoryManager.Instance.GetBaseAddress(int.Parse(Settings.Instance.GposeOffset, NumberStyles.HexNumber));

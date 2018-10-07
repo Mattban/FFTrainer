@@ -36,6 +36,7 @@ namespace FFXIVTool.Utility
         public string WeatherOffset { get; set; }
         public string HousingOffset { get; set; }
         public string TerritoryOffset { get; set; }
+        public string TargetOffset { get; set; }
         public string GposeFilters { get; set; }
         public CharacterOffsets Character { get; set; }
     }
