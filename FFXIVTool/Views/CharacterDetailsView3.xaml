@@ -12,7 +12,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="460" d:DesignWidth="1115">
     <Grid>
-        <GroupBox Header="Gpose Filters" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{DynamicResource MaterialDesignGroupBox}" Margin="402,10,0,0" materialDesign:ShadowAssist.ShadowDepth="Depth3" BorderThickness="1" Height="366" Width="703"/>
+        <GroupBox Header="Gpose Filters" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{DynamicResource MaterialDesignGroupBox}" Margin="402,10,0,0" materialDesign:ShadowAssist.ShadowDepth="Depth3" BorderThickness="1" Height="359" Width="703"/>
         <GroupBox Header="Camera Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{DynamicResource MaterialDesignGroupBox}" Margin="10,10,0,0" materialDesign:ShadowAssist.ShadowDepth="Depth3" BorderThickness="1" Height="331" Width="387"/>
         <CheckBox IsEnabled="{Binding Path=CharacterDetails.Max.Checker}" IsChecked="{Binding Path=CharacterDetails.Max.freeze}" Content="Max Zoom" HorizontalAlignment="Left" Margin="16,52,0,0" VerticalAlignment="Top"/>
         <mah:NumericUpDown  x:Name="MaxZoom" Value="{Binding Path=CharacterDetails.Max.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="106,52,0,0" VerticalAlignment="Top" Width="160" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F5" Interval="0.01"  TextAlignment="Right" SourceUpdated="MaxZoom_SourceUpdated"/>
@@ -116,7 +116,7 @@
             <materialDesign:PackIcon Kind="Upload" Height="24" Width="24"/>
         </Button>
         <CheckBox IsChecked="{Binding Path=CharacterDetails.Weather.freeze}" Content="Weather" HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top"/>
-        <mah:NumericUpDown x:Name="Weather" Maximum="140" Minimum="1" Value="{Binding Path=CharacterDetails.Weather.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="86,346,0,0" VerticalAlignment="Top" Width="116" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" Interval="1" TextAlignment="Right" HasDecimals="False" NumericInputMode="Numbers" SourceUpdated="Weather_SourceUpdated"/>
+        <mah:NumericUpDown x:Name="Weather" Maximum="140" Minimum="1" Value="{Binding Path=CharacterDetails.Weather.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="86,346,0,0" VerticalAlignment="Top" Width="116" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" Interval="1" TextAlignment="Right" HasDecimals="False" NumericInputMode="Numbers" SourceUpdated="Weather_SourceUpdated" Speedup="False"/>
         <ComboBox x:Name="WeatherBox" materialDesign:HintAssist.Hint="Weather Select" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="86,377,0,0" VerticalAlignment="Top" Width="116" SelectionChanged="WeatherBox_SelectionChanged" PreviewMouseDown="WeatherBox_PreviewMouseDown">
             <ComboBox.ItemsPanel>
                 <ItemsPanelTemplate>

@@ -30,13 +30,6 @@ namespace FFXIVTool.Views
         [return: MarshalAs(UnmanagedType.Bool)]
         internal static extern bool DeleteObject(IntPtr value);
 
-        public static class Saveints
-        {
-            public static byte Race = 0;
-            public static byte Tribe = 0;
-            public static byte Gender = 0;
-            public static bool Firstimeopening = false;
-        }
         public class FeatureSelect
         {
             public int ID { get; set; }
@@ -337,16 +330,7 @@ namespace FFXIVTool.Views
         {
             if (HairTab.IsSelected&&Userinteraction2)
             {
-                if (!Saveints.Firstimeopening)
-                {
-                    Saveints.Firstimeopening = true;
-                    Saveints.Race = CharacterDetails.Race.value;
-                    Saveints.Tribe = CharacterDetails.Clan.value;
-                    Saveints.Gender = CharacterDetails.Gender.value;
-                    CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, CharacterDetailsView._exdProvider);
-                }
-                else if (Saveints.Race != CharacterDetails.Race.value || Saveints.Tribe != CharacterDetails.Clan.value || SpecialControl.Saveints.Gender != CharacterDetails.Gender.value)
-                    CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, CharacterDetailsView._exdProvider);
+                CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, CharacterDetailsView._exdProvider);
             }
             Userinteraction2 = false;
         }
