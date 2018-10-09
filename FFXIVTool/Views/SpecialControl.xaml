@@ -71,7 +71,10 @@
                             <ListView x:Name="CharacterFeature" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="CharacterFeature_SelectionChanged" Margin="4,0,6,0">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding FeatureImage}" Height="95" Width="95"/>
+                                        <StackPanel>
+                                            <Image Source="{Binding FeatureImage}" Height="95" Width="95" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                            <TextBlock Text="{Binding ID}" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15"/>
+                                        </StackPanel>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
                                 <ListView.ItemsPanel>
