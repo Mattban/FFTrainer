@@ -73,7 +73,7 @@
                                 </DataGrid.Columns>
                             </DataGrid>
                             <TextBox x:Name="SearchModelBox2" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="31" Margin="2,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" TextChanged="SearchModelBox2_TextChanged" BorderThickness="0,1"/>
-                            <ComboBox SelectedIndex="0" materialDesign:HintAssist.Hint="Select Type" x:Name="LoadType" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146" PreviewMouseDown="EquipBoxC_PreviewMouseDown">
+                            <ComboBox SelectedIndex="0" materialDesign:HintAssist.Hint="Select Type" x:Name="LoadType" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="146">
                                 <ComboBoxItem Content="All"/>
                                 <ComboBoxItem Content="Appearance Only"/>
                                 <ComboBoxItem Content="Equipment Only"/>

@@ -322,9 +322,9 @@ namespace FFXIVTool.Views
         public void ResidentSelector(ExdCsvReader.Resident[] residents)
         {
             InitializeComponent();
+            residentlist.Items.Clear();
             _residents = residents;
             foreach (ExdCsvReader.Resident resident in _residents) residentlist.Items.Add(resident);
-
 
             _residents = residents;
         }
