@@ -587,7 +587,7 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 12)
                 {
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 12;
@@ -612,7 +612,7 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 13)
                 {
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 13;
