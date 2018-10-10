@@ -31,6 +31,7 @@ namespace FFXIVTool.ViewModel
             worker.WorkerSupportsCancellation = true;
             worker.RunWorkerAsync();
             characterDetails = new CharacterDetailsViewModel(mediator);
+            CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, "8");
             Task.Delay(40).Wait();
             ThreadTime = new ThreadWriting(); // Thread Writing
         }
