@@ -516,7 +516,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 0)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, SpecialControl.GetSkin(CharacterDetails.Clan.value, Convert.ToBoolean(CharacterDetails.Gender.value)), 192);
@@ -537,7 +537,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 1)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, SpecialControl.GetHair(CharacterDetails.Clan.value, Convert.ToBoolean(CharacterDetails.Gender.value)), 192);
@@ -557,7 +557,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 2)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 256, 192);
@@ -578,7 +578,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 3)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 512, 96);
@@ -599,7 +599,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 4)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);
@@ -620,7 +620,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 5)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);
@@ -641,7 +641,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex != 6)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 1152, 96);
@@ -662,7 +662,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.ColorTab.IsSelected||SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.HairTab.IsSelected)
                 {
                     SpecialControl.HairTab.IsSelected = true;
                     SpecialControl.CharaMakeFeatureSelector(CharacterDetails.Clan.value, CharacterDetails.Gender.value, _exdProvider);
@@ -681,7 +681,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.ColorTab.IsSelected||SpecialControl.HairTab.IsSelected)
+                if (!SpecialControl.ModelType.IsSelected)
                 {
                     SpecialControl.ModelType.IsSelected = true;
                 }
@@ -725,7 +725,7 @@ namespace FFXIVTool.Views
         {
             if (SpecialControl.IsOpen)
             {
-                if (SpecialControl.HairTab.IsSelected || SpecialControl.ModelType.IsSelected)
+                if (!SpecialControl.ColorTab.IsSelected || SpecialControl.ClanBox.SelectedIndex!=7)
                 {
                     SpecialControl.ColorTab.IsSelected = true;
                     SpecialControl.CharaMakeColorSelector(_colorMap, 0, 192);

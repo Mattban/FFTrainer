@@ -23,8 +23,9 @@ namespace FFXIVTool.Views
         private GearSet _gearSet = new GearSet();
         private ExdCsvReader.Resident[] _residents;
         public ExdCsvReader.Resident Choice = null;
-        private bool isUserInteraction;
-        private bool Userinteraction2;
+        private bool isUserInteraction = false;
+        private bool Userinteraction2 = false;
+        public static bool UserDoneInteraction = false;
         public CharacterDetails CharacterDetails { get => (CharacterDetails)BaseViewModel.model; set => BaseViewModel.model = value; }
 
         public EquipmentFlyOut()
@@ -321,11 +322,10 @@ namespace FFXIVTool.Views
         }
         public void ResidentSelector(ExdCsvReader.Resident[] residents)
         {
-            InitializeComponent();
+            UserDoneInteraction = true;
             residentlist.Items.Clear();
             _residents = residents;
             foreach (ExdCsvReader.Resident resident in _residents) residentlist.Items.Add(resident);
-
             _residents = residents;
         }
 
@@ -530,7 +530,10 @@ namespace FFXIVTool.Views
             if (NPCTab.IsSelected && Userinteraction2)
             {
                 if (!CharacterDetailsView2.CheckResidentList())
+                {
+                    Userinteraction2 = false;
                     return;
+                }
                 ResidentSelector(CharacterDetailsView._exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
             }
             Userinteraction2 = false;
@@ -538,7 +541,7 @@ namespace FFXIVTool.Views
 
         private void AnimatedTabControl_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            Userinteraction2 = true;
+            if(!UserDoneInteraction)Userinteraction2 = true;
         }
     }
 }

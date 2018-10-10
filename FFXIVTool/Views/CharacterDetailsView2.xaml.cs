@@ -248,7 +248,7 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if(!EquipmentControl.EquipTab.IsSelected)
+                if(!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 0)
                 {
                     EquipmentControl.EquipTab.IsSelected=true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 0;
@@ -275,9 +275,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 1)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipBoxC.SelectedIndex = 1;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Visible;
@@ -303,9 +302,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 2)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 2;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -329,9 +327,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 3)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 3;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -355,9 +352,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 4)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 4;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -381,9 +377,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 5)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 5;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -407,9 +402,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected||EquipmentControl.EquipBoxC.SelectedIndex!=6)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 6;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -433,9 +427,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 7)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 7;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -459,9 +452,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 8)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 8;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -485,9 +477,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 9)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 9;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -511,9 +502,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected || EquipmentControl.EquipBoxC.SelectedIndex != 10)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 10;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -537,9 +527,8 @@ namespace FFXIVTool.Views
                 return;
             if (EquipmentControl.IsOpen)
             {
-                if (!EquipmentControl.EquipTab.IsSelected)
+                if (!EquipmentControl.EquipTab.IsSelected||EquipmentControl.EquipBoxC.SelectedIndex!=11)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.EquipTab.IsSelected = true;
                     EquipmentControl.EquipBoxC.SelectedIndex = 11;
                     EquipmentControl.CheckIncluded.Visibility = Visibility.Hidden;
@@ -574,9 +563,8 @@ namespace FFXIVTool.Views
             {
                 if (!EquipmentControl.NPCTab.IsSelected)
                 {
-                    EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                     EquipmentControl.NPCTab.IsSelected = true;
-                    EquipmentControl.ResidentSelector(CharacterDetailsView._exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
+                    if(!EquipmentFlyOut.UserDoneInteraction) EquipmentControl.ResidentSelector(CharacterDetailsView._exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
                 }
                 else EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
             }
@@ -584,7 +572,7 @@ namespace FFXIVTool.Views
             {
                 EquipmentControl.IsOpen = !EquipmentControl.IsOpen;
                 EquipmentControl.NPCTab.IsSelected = true;
-                EquipmentControl.ResidentSelector(CharacterDetailsView._exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
+                if (!EquipmentFlyOut.UserDoneInteraction) EquipmentControl.ResidentSelector(CharacterDetailsView._exdProvider.Residents.Values.Where(c => c.IsGoodNpc()).ToArray());
             }
         }
         private void DigitCheckInput(object sender, TextCompositionEventArgs e)
