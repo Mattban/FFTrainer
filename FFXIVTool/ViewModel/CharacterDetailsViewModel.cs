@@ -20,7 +20,7 @@ namespace FFXIVTool.ViewModel
         public static bool FreezeAll = false;
         public static bool EnabledEditing = false;
         public static bool CheckAble = true;
-        public static bool CurrentlySaving = false;
+        public static bool CurrentlySavingFilter = false;
         public int WritingCheck = 0;
         HashSet<int> ZoneBlacklist = new HashSet<int> { 691, 692, 693, 694, 695, 696, 697, 698, 733, 734, 725, 748, 749, 750, 751, 752, 753, 754, 755, 758, 765, 766, 767, 777, 798, 799, 800, 801, 802, 803, 804, 805, 807, 808, 810, 811, 812 };
         public static string baseAddr;
@@ -141,7 +141,7 @@ namespace FFXIVTool.ViewModel
                         name = name.Substring(0, name.IndexOf('\0'));
                     CharacterDetails.Name.value = name;
                 }
-                if (!CurrentlySaving)
+                if (!CurrentlySavingFilter)
                 {
                     CharacterDetails.FilterAoB.value = MemoryManager.ByteArrayToStringU(MemoryManager.Instance.MemLib.readBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), 60));
                     if (EnabledEditing)
@@ -154,7 +154,7 @@ namespace FFXIVTool.ViewModel
                         WritingCheck++;
                         if (CharacterDetails.FilterAoB.Selected == 0) MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterEnable), "byte", "00");
                     }
-                    if (FreezeAll)
+                    if (FreezeAll&&!CharacterDetails.FilterAoB.SpecialActivate)
                     {
                         MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.HDR), CharacterDetails.HDR.GetBytes());
                         MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Brightness), CharacterDetails.Brightness.GetBytes());
@@ -171,7 +171,7 @@ namespace FFXIVTool.ViewModel
                         MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GGreens), CharacterDetails.GGreens.GetBytes());
                         MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.GRed), CharacterDetails.GRed.GetBytes());
                     }
-                    if (!FreezeAll)
+                    else
                     {
                         CharacterDetails.HDR.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.HDR));
                         CharacterDetails.Brightness.value = MemoryManager.Instance.MemLib.readFloat(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.Brightness));
@@ -542,7 +542,7 @@ namespace FFXIVTool.ViewModel
             }
             catch (System.Exception ex)
             {
-                System.Windows.MessageBox.Show(ex.Message, "Oh no!");
+                System.Windows.MessageBox.Show(ex.Message + "\n" + ex.StackTrace, "Oh no! - Screencap this and send to Johto!");
                 mediator.Work -= Work;
             }
         }
