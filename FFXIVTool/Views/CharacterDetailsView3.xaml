@@ -129,9 +129,18 @@
         <Slider x:Name="Timexd" Value="{Binding Path=CharacterDetails.TimeControl.value, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="378,367,0,0" VerticalAlignment="Top" Width="234" Maximum="10" SmallChange="1" TickPlacement="BottomRight" Interval="1" IsSnapToTickEnabled="True" Height="32" SourceUpdated="Timexd_SourceUpdated"/>
         <Label Content="Time Control" HorizontalAlignment="Left" Margin="448,342,0,0" VerticalAlignment="Top" Width="116"/>
         <TextBlock HorizontalAlignment="Left" Margin="621,363,0,0" TextWrapping="Wrap" Text="Set this slider to minimum for real Eorzea Time" VerticalAlignment="Top" Height="36" Width="161"/>
-        <ToggleButton Margin="909,381,0,0" Height="21" Name="HousingButton" Checked="HousingButton_Checked" Unchecked="HousingButton_Unchecked" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46"/>
-        <Label Content="Remove Housing Placement Restriction" HorizontalAlignment="Left" Margin="811,353,0,0" VerticalAlignment="Top"/>
-        <Label Content="Off" HorizontalAlignment="Left" Margin="887,377,0,0" VerticalAlignment="Top"/>
-        <Label Content="On" HorizontalAlignment="Left" Margin="945,377,0,0" VerticalAlignment="Top"/>
+        <ToggleButton Margin="477,426,0,0" Height="21" Name="HousingButton" Checked="HousingButton_Checked" Unchecked="HousingButton_Unchecked" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46"/>
+        <Label Content="Remove Housing Placement Restriction" HorizontalAlignment="Left" Margin="379,398,0,0" VerticalAlignment="Top"/>
+        <Label Content="Off" HorizontalAlignment="Left" Margin="455,422,0,0" VerticalAlignment="Top"/>
+        <Label Content="On" HorizontalAlignment="Left" Margin="513,422,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BGMTEXT" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="852,367,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="89" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Text="0">
+            <materialDesign:HintAssist.Hint>
+                <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
+                    <TextBlock><Run Text="BGM ID"/></TextBlock>
+                </StackPanel>
+            </materialDesign:HintAssist.Hint>
+        </TextBox>
+        <Button x:Name="ApplyButton" Content="Apply" materialDesign:ShadowAssist.ShadowDepth="Depth3" HorizontalAlignment="Left" Margin="946,374,0,0" VerticalAlignment="Top" Width="91" Click="ApplyButton_Click"/>
+        <Label Content="Note: Applying ID 0 will leave&#xD;&#xA; bgm sounds at default" HorizontalAlignment="Left" Margin="852,411,0,0" VerticalAlignment="Top" Width="155" Height="39" FontSize="11"/>
     </Grid>
 </UserControl>

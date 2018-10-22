@@ -975,5 +975,17 @@ namespace FFXIVTool.Views
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(MemoryManager.Instance.GposeFilters, Settings.Instance.Character.FilterAoB), LoadFilter);
             }
         }
+
+        private void DigitCheckInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!char.IsDigit(e.Text, e.Text.Length - 1))
+                e.Handled = true;
+        }
+
+        private void ApplyButton_Click(object sender, RoutedEventArgs e)
+        {
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.MusicOffset, Settings.Instance.Character.Music2), "int", BGMTEXT.Text);
+            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.MusicOffset, Settings.Instance.Character.Music), "int", BGMTEXT.Text);
+        }
     }
 }

@@ -38,6 +38,7 @@ namespace FFXIVTool.Utility
         public string TerritoryOffset { get; set; }
         public string TargetOffset { get; set; }
         public string GposeFilters { get; set; }
+        public string MusicOffset { get; set; }
         public CharacterOffsets Character { get; set; }
     }
 
@@ -85,6 +86,8 @@ namespace FFXIVTool.Utility
         public string LimbalG { get; set; }
         public string LimbalB { get; set; }
         public string RenderToggle { get; set; }
+        public string Music { get; set; }
+        public string Music2 { get; set; }
         public string RHeight { get; set; }
         public string RBust { get; set; }
         public string Highlights { get; set; }

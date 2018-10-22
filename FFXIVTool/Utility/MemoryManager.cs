@@ -43,6 +43,7 @@ namespace FFXIVTool.Utility
         public string TimeAddress { get; set; }
         public string TerritoryAddress { get; set; }
         public string HousingOffset { get; set; }
+        public string MusicOffset { get; set; }
         public string GposeFilters { get; set; }
 
         /// <summary>

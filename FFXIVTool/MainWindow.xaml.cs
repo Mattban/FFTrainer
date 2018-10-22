@@ -619,7 +619,6 @@ namespace FFXIVTool
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandY), "float", load1.OffhandY.value.ToString());
                 CharacterDetails.OffhandZ.value = load1.OffhandZ.value;
                 MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.OffhandZ), "float", load1.OffhandZ.value.ToString());
-                MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RBust), load1.RBust.GetBytes());
                 CharacterDetails.Ear.value = load1.Ear.value;
                 MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Ear), load1.Ear.GetBytes());
                 CharacterDetails.EarVa.value = load1.EarVa.value;
