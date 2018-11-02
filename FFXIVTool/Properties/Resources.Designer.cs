@@ -8874,6 +8874,26 @@ namespace FFXIVTool.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Index,0 [STRING(0x0)][0x0],1 [STRING(0x0)][0x0],2 [STRING(0x0)][0x0],3
+        ///0,&quot;Default&quot;,&quot;Any location&quot;,&quot;&quot;
+        ///1,&quot;N/A&quot;,&quot;N/A&quot;,&quot;&quot;
+        ///2,&quot;Prelude Remenbrance&quot;,&quot;N/A&quot;,&quot;Intro/Title music&quot;
+        ///3,&quot;Old launcher music&quot;,&quot;N/A&quot;,&quot;Heroic-ish music is in game&quot;
+        ///4,&quot;Prelude Rebirth&quot;,&quot;N/A&quot;,&quot;Character Creation&quot;
+        ///5,&quot;Inn Music&quot;,&quot;Inn&quot;,&quot;&quot;
+        ///6,&quot;Wailers and Waterwheels&quot;,&quot;Gridania&quot;,&quot;Daytime Gridania Theme&quot;
+        ///7,&quot;Gridania night music&quot;,&quot;&quot;,&quot;&quot;
+        ///8,&quot;Gridania zone 1&quot;,&quot;&quot;,&quot;Short?&quot;
+        ///9,&quot;Gridania zone 2&quot;,&quot;One of the shrouds&quot;,&quot;&quot;
+        ///10,&quot;Gridania zone 3&quot;,&quot;One of the  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string BGM {
+            get {
+                return ResourceManager.GetString("BGM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index,0 [0x3][0x6],1 [0x7][0x0],2 [0x5][0x4],3 [0x19][0x7]
         ///0,0,0,0,false
         ///1,1,131001,0,false
@@ -9041,7 +9061,7 @@ namespace FFXIVTool.Properties {
         ///0,&quot;Target&quot;,&quot;9001,228,1,0&quot;
         ///1,&quot;Japanese Fan&quot;,&quot;9001,227,1,0&quot;
         ///2,&quot;Japanese Bell&quot;,&quot;9001,226,1,0&quot;
-        ///3,&quot;Zenos&apos; Katana (?)&quot;,&quot;9001,225,1,0&quot;
+        ///3,&quot;Zenos Katana&quot;,&quot;9001,225,1,0&quot;
         ///4,&quot;Necklace&quot;,&quot;9001,224,1,0&quot;
         ///5,&quot;Corked Rose Alcohol Bottle&quot;,&quot;9001,222,1,0&quot;
         ///6,&quot;Corked Alcohol Bottle&quot;,&quot;9001,221,1,0&quot;
@@ -9050,8 +9070,8 @@ namespace FFXIVTool.Properties {
         ///9,&quot;Odder Otter Taiyaki&quot;,&quot;9001,217,1,0&quot;
         ///10,&quot;BIG TUNA&quot;,&quot;9001,216,1,0&quot;
         ///11,&quot;Bamboo Blowgun&quot;,&quot;9001,212,1,0&quot;
-        ///12,&quot;Papers(?)&quot;,&quot;9001,211,1,0&quot;
-        ///1 [rest of string was truncated]&quot;;.
+        ///12,&quot;Papers&quot;,&quot;9001,211,1,0&quot;
+        ///13,&quot;Spoon [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string PropsList {
             get {

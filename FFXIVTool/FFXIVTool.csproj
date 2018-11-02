@@ -240,6 +240,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\actiontimeline.csv" />
+    <None Include="Resources\BGM.csv" />
     <None Include="Resources\charamakecustomize.exh.csv" />
     <None Include="Resources\enpcbase.exh.csv" />
     <None Include="Resources\enpcresident.exh_en.csv" />
