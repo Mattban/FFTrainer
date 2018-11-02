@@ -70,5 +70,113 @@ namespace FFXIVTool.Properties {
                 this["TopApp"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string BreastSavedKey {
+            get {
+                return ((string)(this["BreastSavedKey"]));
+            }
+            set {
+                this["BreastSavedKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string HeightSavedKey {
+            get {
+                return ((string)(this["HeightSavedKey"]));
+            }
+            set {
+                this["HeightSavedKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public float HeightSavedInc {
+            get {
+                return ((float)(this["HeightSavedInc"]));
+            }
+            set {
+                this["HeightSavedInc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string PosXSavedKey {
+            get {
+                return ((string)(this["PosXSavedKey"]));
+            }
+            set {
+                this["PosXSavedKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public float PosXSavedInc {
+            get {
+                return ((float)(this["PosXSavedInc"]));
+            }
+            set {
+                this["PosXSavedInc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string PosYSavedKey {
+            get {
+                return ((string)(this["PosYSavedKey"]));
+            }
+            set {
+                this["PosYSavedKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public float PosYSavedInc {
+            get {
+                return ((float)(this["PosYSavedInc"]));
+            }
+            set {
+                this["PosYSavedInc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string PosZSavedKey {
+            get {
+                return ((string)(this["PosZSavedKey"]));
+            }
+            set {
+                this["PosZSavedKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public float PosZSavedInc {
+            get {
+                return ((float)(this["PosZSavedInc"]));
+            }
+            set {
+                this["PosZSavedInc"] = value;
+            }
+        }
     }
 }

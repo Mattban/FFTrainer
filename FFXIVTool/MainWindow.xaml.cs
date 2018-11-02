@@ -18,6 +18,8 @@ using System.IO;
 using MaterialDesignThemes.Wpf;
 using AutoUpdaterDotNET;
 using System.Net;
+using System.Runtime.InteropServices;
+using System.Windows.Data;
 
 namespace FFXIVTool
 {
@@ -26,6 +28,114 @@ namespace FFXIVTool
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
+
+        [DllImport("user32.dll")]
+        private static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
+
+        [DllImport("user32.dll")]
+        private static extern bool UnregisterHotKey(IntPtr hWnd, int id);
+
+        private HwndSource _source;
+        private WindowInteropHelper Helper;
+        protected override void OnSourceInitialized(EventArgs e)
+        {
+            base.OnSourceInitialized(e);
+            Helper = new WindowInteropHelper(this);
+            _source = HwndSource.FromHwnd(Helper.Handle);
+            _source.AddHook(HwndHook);
+        }
+        private IntPtr HwndHook(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
+        {
+            const int WM_HOTKEY = 0x0312;
+            switch (msg)
+            {
+                case WM_HOTKEY:
+                    switch (wParam.ToInt32())
+                    {
+
+                        case 1:
+                            var bustx = (CharacterDetails.BustX.value += (float)0.0016);
+                            var busty = (CharacterDetails.BustY.value += (float)0.004);
+                            var bustz = (CharacterDetails.BustZ.value += (float)0.00368);
+                            CharacterDetails.BustX.value += (float)0.0016;
+                            CharacterDetails.BustY.value += (float)0.004;
+                            CharacterDetails.BustZ.value += (float)0.00368;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.X), "float", bustx.ToString());
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Z), "float", bustz.ToString());
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Y), "float", busty.ToString());
+                            handled = true;
+                            break;
+                        case 2:
+                            var Heightz = (CharacterDetails.Height.value += (float)HeightSavedInc.Value);
+                            CharacterDetails.Height.value += (float)HeightSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", Heightz.ToString());
+                            handled = true;
+                            break;
+                        case 3:
+                            var bustx2 = (CharacterDetails.BustX.value -= (float)0.0016);
+                            var busty2 = (CharacterDetails.BustY.value -= (float)0.004);
+                            var bustz2 = (CharacterDetails.BustZ.value -= (float)0.00368);
+                            CharacterDetails.BustX.value -= (float)0.0016;
+                            CharacterDetails.BustY.value -= (float)0.004;
+                            CharacterDetails.BustZ.value -= (float)0.00368;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.X), "float", bustx2.ToString());
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Z), "float", bustz2.ToString());
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Bust.Base, Settings.Instance.Character.Body.Bust.Y), "float", busty2.ToString());
+                            handled = true;
+                            break;
+                        case 4:
+                            var HeightX = (CharacterDetails.Height.value -= (float)HeightSavedInc.Value);
+                            if (HeightX<=0.000)
+                            {
+                                handled = true;
+                                break;
+                            }
+                            CharacterDetails.Height.value -= (float)HeightSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Height), "float", HeightX.ToString());
+                            handled = true;
+                            break;
+                        case 5:
+                            var PosX = (CharacterDetails.X.value += (float)PosXSavedInc.Value);
+                            CharacterDetails.X.value += (float)PosXSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", PosX.ToString());
+                            handled = true;
+                            break;
+                        case 6:
+                            var PosX2 = (CharacterDetails.X.value -= (float)PosXSavedInc.Value);
+                            CharacterDetails.X.value -= (float)PosXSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.X), "float", PosX2.ToString());
+                            handled = true;
+                            break;
+                        case 7:
+                            var PosY = (CharacterDetails.Y.value += (float)PosYSavedInc.Value);
+                            CharacterDetails.Y.value += (float)PosYSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Y), "float", PosY.ToString());
+                            handled = true;
+                            break;
+                        case 8:
+                            var PosY2 = (CharacterDetails.Y.value -= (float)PosYSavedInc.Value);
+                            CharacterDetails.Y.value -= (float)PosYSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Y), "float", PosY2.ToString());
+                            handled = true;
+                            break;
+                        case 9:
+                            var PosZ = (CharacterDetails.Z.value += (float)PosZSavedInc.Value);
+                            CharacterDetails.Z.value += (float)PosZSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Z), "float", PosZ.ToString());
+                            handled = true;
+                            break;
+                        case 10:
+                            var PosZ2 = (CharacterDetails.Z.value -= (float)PosZSavedInc.Value);
+                            CharacterDetails.Z.value -= (float)PosZSavedInc.Value;
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Z), "float", PosZ2.ToString());
+                            handled = true;
+                            break;
+                    }
+                    break;
+            }
+            return IntPtr.Zero;
+        }
+
         public int Processcheck = 0;
         public static bool CurrentlySaving = false;
         public CharacterDetails CharacterDetails { get => (CharacterDetails)BaseViewModel.model; set => BaseViewModel.model = value; }
@@ -97,6 +207,33 @@ namespace FFXIVTool
             var theme = Properties.Settings.Default.Theme;
             new PaletteHelper().SetLightDark(theme != "Light");
             this.Topmost = Properties.Settings.Default.TopApp;
+            loadDictionary();
+            try
+            {
+                Hotkey.Text = Properties.Settings.Default.BreastSavedKey;
+                HeightKey.Text = Properties.Settings.Default.HeightSavedKey;
+                HeightSavedInc.Value = Properties.Settings.Default.HeightSavedInc;
+                PosXkey.Text = Properties.Settings.Default.PosXSavedKey;
+                PosXSavedInc.Value = Properties.Settings.Default.PosXSavedInc;
+                PosYKey.Text = Properties.Settings.Default.PosYSavedKey;
+                PosYSavedInc.Value = Properties.Settings.Default.PosYSavedInc;
+                PosZKey.Text = Properties.Settings.Default.PosZSavedKey;
+                PosZSavedInc.Value = Properties.Settings.Default.PosZSavedInc;
+                RegisterHotKey(Helper.Handle, 1, 0, textToVKey(Properties.Settings.Default.BreastSavedKey));
+                RegisterHotKey(Helper.Handle, 3, 0x0002, textToVKey(Properties.Settings.Default.BreastSavedKey));
+                RegisterHotKey(Helper.Handle, 2, 0, textToVKey(Properties.Settings.Default.HeightSavedKey));
+                RegisterHotKey(Helper.Handle, 4, 0x0002, textToVKey(Properties.Settings.Default.HeightSavedKey));
+                RegisterHotKey(Helper.Handle, 5, 0, textToVKey(Properties.Settings.Default.PosXSavedKey));
+                RegisterHotKey(Helper.Handle, 6, 0x0002, textToVKey(Properties.Settings.Default.PosXSavedKey));
+                RegisterHotKey(Helper.Handle, 7, 0, textToVKey(Properties.Settings.Default.PosYSavedKey));
+                RegisterHotKey(Helper.Handle, 8, 0x0002, textToVKey(Properties.Settings.Default.PosYSavedKey));
+                RegisterHotKey(Helper.Handle, 9, 0, textToVKey(Properties.Settings.Default.PosZSavedKey));
+                RegisterHotKey(Helper.Handle, 10, 0x0002, textToVKey(Properties.Settings.Default.PosZSavedKey));
+            }
+            catch
+            {
+                MessageBox.Show("ERROR: Loading settings had an issue.");
+            }
         }
 
         private void CharacterRefreshButton_Click(object sender, RoutedEventArgs e)
@@ -1124,6 +1261,168 @@ namespace FFXIVTool
             NPCRefresh.IsEnabled = true;
             if (TargetButton.IsKeyboardFocusWithin || TargetButton.IsMouseOver)
                 CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
+        }
+
+
+        Dictionary<string, uint> dictionary = new Dictionary<string, uint>();
+
+        private uint textToVKey(string text)
+        {
+            if (dictionary.ContainsKey(text))
+                return dictionary[text];
+            else
+                return 0x00; // Nothing
+        }
+
+        private void loadDictionary()
+        {
+            int i = 0;
+            uint ui = 0x00;
+            dictionary.Add("NONE", 0x00);
+            dictionary.Add("BACKSPACE", 0x08);
+            dictionary.Add("TAB", 0x09);
+            dictionary.Add("RETURN", 0x0D);
+            dictionary.Add("PAUSE/BREAK", 0x13);
+            dictionary.Add("CAPS LOCK", 0x14);
+            dictionary.Add("ESC", 0x1B);
+            dictionary.Add("SPACEBAR", 0x20);
+            dictionary.Add("PAGE UP", 0x21);
+            dictionary.Add("PAGE DOWN", 0x22);
+            dictionary.Add("END", 0x23);
+            dictionary.Add("HOME", 0x24);
+            dictionary.Add("LEFT ARROW", 0x25);
+            dictionary.Add("UP ARROW", 0x26);
+            dictionary.Add("RIGHT ARROW", 0x27);
+            dictionary.Add("DOWN ARROW", 0x28);
+            dictionary.Add("PRINT SCREEN", 0x2C);
+            dictionary.Add("INSERT", 0x2D);
+            dictionary.Add("DELETE", 0x2E);
+
+            //numbers
+            for (ui = 0x30; ui <= 0x39; ui++)
+            {
+                dictionary.Add(i.ToString(), ui);
+                i++;
+            }
+
+            //letters
+            ui = 0x41;
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                dictionary.Add(c.ToString(), ui);
+                ui++;
+            }
+
+            dictionary.Add("WIN LEFT", 0x5B);
+            dictionary.Add("WIN RIGHT", 0x5C);
+
+            //num pad
+            i = 0;
+            for (ui = 0x60; ui <= 0x69; ui++)
+            {
+                dictionary.Add("NUMPAD " + i.ToString(), ui);
+                i++;
+            }
+
+            dictionary.Add("NUMPAD ASTERISK", 0x6A);
+            dictionary.Add("NUMPAD ADD", 0x6B);
+            dictionary.Add("NUMPAD SUBTRACT", 0x6D);
+            dictionary.Add("NUMPAD DECIMAL", 0x6E);
+            dictionary.Add("NUMPAD DIVIDE", 0x6F);
+
+            //functions
+            i = 1;
+            for (ui = 0x70; ui <= 0x7B; ui++)
+            {
+                dictionary.Add("F" + i.ToString(), ui);
+                i++;
+            }
+
+            dictionary.Add("NUMPAD NUMLOCK", 0x90); // weird uint placement, on US keyboards its on the numpad.
+            dictionary.Add("SCROLL LOCK", 0x91);
+
+            dictionary.Add("LEFT SHIFT", 0xA0);
+            dictionary.Add("RIGHT SHIFT", 0xA1);
+            dictionary.Add("LEFT CTRL", 0xA2);
+            dictionary.Add("RIGHT CTRL", 0xA3);
+            Hotkey.ItemsSource = dictionary;
+            Hotkey.DisplayMemberPath = "Key";
+            Hotkey.SelectedValuePath = "Value";
+            HeightKey.ItemsSource = dictionary;
+            HeightKey.DisplayMemberPath = "Key";
+            HeightKey.SelectedValuePath = "Value";
+            PosXkey.ItemsSource = dictionary;
+            PosXkey.DisplayMemberPath = "Key";
+            PosXkey.SelectedValuePath = "Value";
+        }
+        private void Hotkey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 1);
+            UnregisterHotKey(Helper.Handle, 3);
+            string selectedKey = ((KeyValuePair<string, uint>)Hotkey.SelectedItem).Key;
+            RegisterHotKey(Helper.Handle, 1, 0, textToVKey(selectedKey));
+            RegisterHotKey(Helper.Handle, 3, 0x0002, textToVKey(selectedKey)); //ctrl+setkey
+        }
+
+
+        private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Properties.Settings.Default.BreastSavedKey = Hotkey.Text;
+            Properties.Settings.Default.PosXSavedKey = PosXkey.Text;
+            Properties.Settings.Default.PosYSavedKey = PosYKey.Text;
+            Properties.Settings.Default.PosZSavedKey = PosZKey.Text;
+            Properties.Settings.Default.HeightSavedKey = HeightKey.Text;
+            Properties.Settings.Default.HeightSavedInc = (float)HeightSavedInc.Value;
+            Properties.Settings.Default.PosXSavedInc = (float)PosXSavedInc.Value;
+            Properties.Settings.Default.PosYSavedInc = (float)PosYSavedInc.Value;
+            Properties.Settings.Default.PosZSavedInc = (float)PosZSavedInc.Value;
+            Properties.Settings.Default.Save();
+            Properties.Settings.Default.Reload();
+        }
+
+        private void HeightKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 2);
+            UnregisterHotKey(Helper.Handle, 4);
+            // get selected Key
+            string selectedKey = ((KeyValuePair<string, uint>)HeightKey.SelectedItem).Key;
+            RegisterHotKey(Helper.Handle, 2, 0, textToVKey(selectedKey));
+            RegisterHotKey(Helper.Handle, 4, 0x0002, textToVKey(selectedKey));
+        }
+
+        private void PosXkey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 5);
+            UnregisterHotKey(Helper.Handle, 6);
+            // get selected Key
+            string selectedKey = ((KeyValuePair<string, uint>)PosXkey.SelectedItem).Key;
+            RegisterHotKey(Helper.Handle, 5, 0, textToVKey(selectedKey));
+            RegisterHotKey(Helper.Handle, 6, 0x0002, textToVKey(selectedKey));
+        }
+
+        private void PosYKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 7);
+            UnregisterHotKey(Helper.Handle, 8);
+            // get selected Key
+            string selectedKey = ((KeyValuePair<string, uint>)PosYKey.SelectedItem).Key;
+            RegisterHotKey(Helper.Handle, 7, 0, textToVKey(selectedKey));
+            RegisterHotKey(Helper.Handle, 8, 0x0002, textToVKey(selectedKey));
+        }
+
+        private void PosZKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 9);
+            UnregisterHotKey(Helper.Handle, 10);
+            // get selected Key
+            string selectedKey = ((KeyValuePair<string, uint>)PosZKey.SelectedItem).Key;
+            RegisterHotKey(Helper.Handle, 9, 0, textToVKey(selectedKey));
+            RegisterHotKey(Helper.Handle, 10, 0x0002, textToVKey(selectedKey));
         }
     }
 }
