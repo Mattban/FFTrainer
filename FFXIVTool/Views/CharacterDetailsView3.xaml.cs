@@ -987,5 +987,10 @@ namespace FFXIVTool.Views
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.MusicOffset, Settings.Instance.Character.Music2), "int", BGMTEXT.Text);
             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(MemoryManager.Instance.MusicOffset, Settings.Instance.Character.Music), "int", BGMTEXT.Text);
         }
+
+        private void SearchBGM_Click(object sender, RoutedEventArgs e)
+        {
+            WorldFlyout.IsOpen = !WorldFlyout.IsOpen;
+        }
     }
 }

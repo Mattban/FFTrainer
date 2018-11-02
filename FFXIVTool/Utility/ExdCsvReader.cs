@@ -156,7 +156,16 @@ namespace FFXIVTool.Utility
                 return Name;
             }
         }
+        public class BGM
+        {
+            public int Index { get; set; }
+            public string Name { get; set; }
+            public string Location { get; set; }
+            public string Note { get; set; }
+        }
+
         public static Emote[] Emotesx;
+        public static BGM[] BGMX;
         public static Monster[] MonsterX;
         public static Dye[] DyesX;
         public Dictionary<int, Item> Items = null;
@@ -171,6 +180,7 @@ namespace FFXIVTool.Utility
         public Dictionary<int, Race> Races = null;
         public Dictionary<int, Tribe> Tribes = null;
         public Dictionary<int, Monster> Monsters = null;
+        public Dictionary<int, BGM> BGMs = null;
 
 
         public void MakeCharaMakeFeatureList()
@@ -468,7 +478,7 @@ namespace FFXIVTool.Utility
 
                 catch (Exception exc)
                 {
-                    Emotes = null;
+                    Monsters = null;
 #if DEBUG
                     throw exc;
 #endif
@@ -1062,6 +1072,57 @@ namespace FFXIVTool.Utility
                 catch (Exception exc)
                 {
                     ItemsProps = null;
+#if DEBUG
+                    throw exc;
+#endif
+                }
+            }
+        }
+        public void BGMList()
+        {
+            BGMs = new Dictionary<int, BGM>();
+            {
+                try
+                {
+                    using (TextFieldParser parser = new TextFieldParser(new StringReader(Resources.BGM)))
+                    {
+                        parser.TextFieldType = FieldType.Delimited;
+                        parser.SetDelimiters(",");
+                        int rowCount = 0;
+                        parser.ReadFields();
+                        while (!parser.EndOfData)
+                        {
+                            rowCount++;
+                            BGM bGM = new BGM();
+                            //Processing row
+                            string[] fields = parser.ReadFields();
+                            int fCount = 0;
+                            bGM.Index = int.Parse(fields[0]);
+                            foreach (string field in fields)
+                            {
+                                fCount++;
+
+                                if (fCount == 2)
+                                {
+                                    bGM.Name = field;
+                                }
+                                if (fCount == 3)
+                                {
+                                    bGM.Location = field;
+                                }
+                                if (fCount == 4)
+                                {
+                                    bGM.Note = field;
+                                }
+                            }
+                            BGMs.Add(bGM.Index, bGM);
+                        }
+                    }
+                }
+
+                catch (Exception exc)
+                {
+                    BGMs = null;
 #if DEBUG
                     throw exc;
 #endif

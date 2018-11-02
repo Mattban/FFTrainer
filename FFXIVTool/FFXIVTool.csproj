@@ -153,6 +153,9 @@
     <Compile Include="Views\SpecialControl.xaml.cs">
       <DependentUpon>SpecialControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\WorldFlyOut.xaml.cs">
+      <DependentUpon>WorldFlyOut.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\LoadWindow.xaml.cs">
       <DependentUpon>LoadWindow.xaml</DependentUpon>
     </Compile>
@@ -208,6 +211,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\SpecialControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorldFlyOut.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

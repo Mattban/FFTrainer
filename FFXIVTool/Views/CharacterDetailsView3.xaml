@@ -133,14 +133,17 @@
         <Label Content="Remove Housing Placement Restriction" HorizontalAlignment="Left" Margin="379,398,0,0" VerticalAlignment="Top"/>
         <Label Content="Off" HorizontalAlignment="Left" Margin="455,422,0,0" VerticalAlignment="Top"/>
         <Label Content="On" HorizontalAlignment="Left" Margin="513,422,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="BGMTEXT" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="852,367,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="89" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Text="0">
+        <TextBox x:Name="BGMTEXT" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="822,366,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="89" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Text="0">
             <materialDesign:HintAssist.Hint>
                 <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
                     <TextBlock><Run Text="BGM ID"/></TextBlock>
                 </StackPanel>
             </materialDesign:HintAssist.Hint>
         </TextBox>
-        <Button x:Name="ApplyButton" Content="Apply" materialDesign:ShadowAssist.ShadowDepth="Depth3" HorizontalAlignment="Left" Margin="946,374,0,0" VerticalAlignment="Top" Width="91" Click="ApplyButton_Click"/>
-        <Label Content="Note: Applying ID 0 will leave&#xD;&#xA; bgm sounds at default" HorizontalAlignment="Left" Margin="852,411,0,0" VerticalAlignment="Top" Width="155" Height="39" FontSize="11"/>
+        <Button x:Name="ApplyButton" Content="Apply" materialDesign:ShadowAssist.ShadowDepth="Depth3" HorizontalAlignment="Left" Margin="922,373,0,0" VerticalAlignment="Top" Width="80" Click="ApplyButton_Click"/>
+        <Label Content="Note: Applying ID 0 will leave&#xD;&#xA; bgm sounds at default" HorizontalAlignment="Left" Margin="807,411,0,0" VerticalAlignment="Top" Width="155" Height="39" FontSize="11"/>
+        <Views:WorldFlyOut x:Name="WorldFlyout" Width="667" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden" Margin="0,-5,0,0"/>
+        <Button x:Name="SearchBGM" Content="Search" materialDesign:ShadowAssist.ShadowDepth="Depth3" HorizontalAlignment="Left" Margin="1007,373,0,0" VerticalAlignment="Top" Width="77" Click="SearchBGM_Click"/>
+
     </Grid>
 </UserControl>
