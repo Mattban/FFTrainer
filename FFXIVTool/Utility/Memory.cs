@@ -551,7 +551,7 @@ namespace FFXIVTool.Utility
         /// <param name="file">path and name of ini file. (OPTIONAL)</param>
         /// <param name="round">Round the value to 2 decimal places</param>
         /// <returns></returns>
-        public float readFloat(string code, string file = "", bool round = true)
+        public float readFloat(string code, string file = "", bool round = false)
         {
             byte[] memory = new byte[4];
 
