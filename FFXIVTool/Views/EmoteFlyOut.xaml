@@ -109,6 +109,11 @@
                                     <DataGridTextColumn Header="ID" Binding="{Binding Path=Index}" Width="56"/>
                                     <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}" Width="*"/>
                                 </DataGrid.Columns>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu >
+                                        <MenuItem Header="Un-Favorite" Click="MenuItem_Click_4"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
                             </DataGrid>
                             <TextBox x:Name="SearchTextBoxFav" materialDesign:HintAssist.Hint="Search..." Style="{StaticResource MaterialDesignTextBox}" HorizontalAlignment="Left" Height="31" Margin="2,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" TextChanged="SearchTextBoxFav_TextChanged"/>
                         </Grid>

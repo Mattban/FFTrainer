@@ -248,5 +248,19 @@ namespace FFXIVTool.Views
                 Properties.Settings.Default.Save();
             }
         }
+
+        private void MenuItem_Click_4(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if (FavoriteBox.SelectedCells.Count > 0)
+            {
+                if (FavoriteBox.SelectedItem == null)
+                    return;
+                var Value = (ExdCsvReader.Emote)FavoriteBox.SelectedItem;
+                integers.Remove(Value.Index);
+                Properties.Settings.Default.FavoriteEmotes.Remove(Value.Index.ToString());
+                FavoriteBox.Items.Remove(FavoriteBox.SelectedItem);
+                Properties.Settings.Default.Save();
+            }
+        }
     }
 }
