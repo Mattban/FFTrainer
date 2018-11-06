@@ -52,7 +52,7 @@ namespace FFXIVTool.ViewModel
             // add blank namespaces
             ns.Add("", "");
             // string xmlData = Properties.Resources.Settings;
-            var document = XDocument.Load(@"https://raw.githubusercontent.com/SaberNaut/xd/master/Settings.xml");
+            var document = XDocument.Load(@"https://raw.githubusercontent.com/SaberNaut/xd/master/SettingsNew.xml");
             // using a stream reader
             using (StringReader reader = new StringReader(document.ToString()))
             {
