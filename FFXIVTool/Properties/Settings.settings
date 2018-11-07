@@ -47,5 +47,8 @@
   &lt;string&gt;1&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
+    <Setting Name="RefreshSavedKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NONE</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

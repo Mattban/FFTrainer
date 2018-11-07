@@ -25,6 +25,7 @@ namespace FFXIVTool.Views
         private int _gender;
         private int _startIndex;
         public int Choice = -1;
+        private bool DidUserInteract = false;
         private bool isUserInteraction;
         [DllImport("gdi32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
@@ -195,6 +196,8 @@ namespace FFXIVTool.Views
 
         public void CharaMakeFeatureSelector(int tribe, int gender, ExdCsvReader reader)
         {
+            if (DidUserInteract) return;
+            DidUserInteract = true;
             _tribe = tribe;
             _gender = gender;
             _reader = reader;
@@ -264,6 +267,7 @@ namespace FFXIVTool.Views
                     CharacterFeature.Items.Add(new FeatureSelect() { ID = feature.FeatureID, FeatureImage = GetImageStream(feature.Icon) });
                     added++;
                 }
+                DidUserInteract = false;
             }
             catch (Exception e)
             {

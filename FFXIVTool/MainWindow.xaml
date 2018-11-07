@@ -79,6 +79,14 @@
                     </ComboBox>
                     <controls:NumericUpDown x:Name="PosZSavedInc" HorizontalAlignment="Left" Margin="245,199,0,0" VerticalAlignment="Top" Width="147" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" Height="26"/>
                     <TextBlock TextWrapping="Wrap" Text="Note: All decrements are modifiers of CTRL+ your selected Hotkey" HorizontalAlignment="Left" Margin="510,19,0,0" VerticalAlignment="Top" Height="124" Width="264" FontSize="20"/>
+                    <Label Content="Character Refresh" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="RefreshKey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="154,230,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="RefreshKey_SelectionChanged">
+                        <ComboBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel />
+                            </ItemsPanelTemplate>
+                        </ComboBox.ItemsPanel>
+                    </ComboBox>
                 </Grid>
             </TabItem>
             <TabItem Header="About">

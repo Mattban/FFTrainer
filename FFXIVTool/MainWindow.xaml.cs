@@ -130,6 +130,12 @@ namespace FFXIVTool
                             MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Body.Base, Settings.Instance.Character.Body.Position.Z), "float", PosZ2.ToString());
                             handled = true;
                             break;
+                        case 11:
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RenderToggle), "int", "2");
+                            Task.Delay(50).Wait();
+                            MemoryManager.Instance.MemLib.writeMemory(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.RenderToggle), "int", "0");
+                            handled = true;
+                            break;
                     }
                     break;
             }
@@ -213,6 +219,7 @@ namespace FFXIVTool
                 Hotkey.Text = Properties.Settings.Default.BreastSavedKey;
                 HeightKey.Text = Properties.Settings.Default.HeightSavedKey;
                 HeightSavedInc.Value = Properties.Settings.Default.HeightSavedInc;
+                RefreshKey.Text = Properties.Settings.Default.RefreshSavedKey;
                 PosXkey.Text = Properties.Settings.Default.PosXSavedKey;
                 PosXSavedInc.Value = Properties.Settings.Default.PosXSavedInc;
                 PosYKey.Text = Properties.Settings.Default.PosYSavedKey;
@@ -229,6 +236,37 @@ namespace FFXIVTool
                 RegisterHotKey(Helper.Handle, 8, 0x0002, textToVKey(Properties.Settings.Default.PosYSavedKey));
                 RegisterHotKey(Helper.Handle, 9, 0, textToVKey(Properties.Settings.Default.PosZSavedKey));
                 RegisterHotKey(Helper.Handle, 10, 0x0002, textToVKey(Properties.Settings.Default.PosZSavedKey));
+                RegisterHotKey(Helper.Handle, 11, 0, textToVKey(Properties.Settings.Default.RefreshSavedKey));
+                Task.Delay(25).Wait();
+                if(Hotkey.Text=="NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 1);
+                    UnregisterHotKey(Helper.Handle, 3);
+                }
+                if (HeightKey.Text == "NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 2);
+                    UnregisterHotKey(Helper.Handle, 4);
+                }
+                if (PosXkey.Text == "NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 5);
+                    UnregisterHotKey(Helper.Handle, 6);
+                }
+                if (PosYKey.Text == "NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 7);
+                    UnregisterHotKey(Helper.Handle, 8);
+                }
+                if (PosZKey.Text == "NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 9);
+                    UnregisterHotKey(Helper.Handle, 10);
+                }
+                if (RefreshKey.Text == "NONE")
+                {
+                    UnregisterHotKey(Helper.Handle, 11);
+                }
             }
             catch
             {
@@ -1354,15 +1392,27 @@ namespace FFXIVTool
             PosXkey.ItemsSource = dictionary;
             PosXkey.DisplayMemberPath = "Key";
             PosXkey.SelectedValuePath = "Value";
+            PosYKey.ItemsSource = dictionary;
+            PosYKey.DisplayMemberPath = "Key";
+            PosYKey.SelectedValuePath = "Value";
+            PosZKey.ItemsSource = dictionary;
+            PosZKey.DisplayMemberPath = "Key";
+            PosZKey.SelectedValuePath = "Value";
+            RefreshKey.ItemsSource = dictionary;
+            RefreshKey.DisplayMemberPath = "Key";
+            RefreshKey.SelectedValuePath = "Value";
         }
         private void Hotkey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             var helper = new WindowInteropHelper(this);
             UnregisterHotKey(Helper.Handle, 1);
             UnregisterHotKey(Helper.Handle, 3);
-            string selectedKey = ((KeyValuePair<string, uint>)Hotkey.SelectedItem).Key;
-            RegisterHotKey(Helper.Handle, 1, 0, textToVKey(selectedKey));
-            RegisterHotKey(Helper.Handle, 3, 0x0002, textToVKey(selectedKey)); //ctrl+setkey
+            if (Hotkey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)Hotkey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 1, 0, textToVKey(selectedKey));
+                RegisterHotKey(Helper.Handle, 3, 0x0002, textToVKey(selectedKey)); //ctrl+setkey
+            }
         }
 
 
@@ -1372,6 +1422,7 @@ namespace FFXIVTool
             Properties.Settings.Default.PosXSavedKey = PosXkey.Text;
             Properties.Settings.Default.PosYSavedKey = PosYKey.Text;
             Properties.Settings.Default.PosZSavedKey = PosZKey.Text;
+            Properties.Settings.Default.RefreshSavedKey = RefreshKey.Text;
             Properties.Settings.Default.HeightSavedKey = HeightKey.Text;
             Properties.Settings.Default.HeightSavedInc = (float)HeightSavedInc.Value;
             Properties.Settings.Default.PosXSavedInc = (float)PosXSavedInc.Value;
@@ -1387,9 +1438,12 @@ namespace FFXIVTool
             UnregisterHotKey(Helper.Handle, 2);
             UnregisterHotKey(Helper.Handle, 4);
             // get selected Key
-            string selectedKey = ((KeyValuePair<string, uint>)HeightKey.SelectedItem).Key;
-            RegisterHotKey(Helper.Handle, 2, 0, textToVKey(selectedKey));
-            RegisterHotKey(Helper.Handle, 4, 0x0002, textToVKey(selectedKey));
+            if (HeightKey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)HeightKey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 2, 0, textToVKey(selectedKey));
+                RegisterHotKey(Helper.Handle, 4, 0x0002, textToVKey(selectedKey));
+            }
         }
 
         private void PosXkey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -1398,9 +1452,12 @@ namespace FFXIVTool
             UnregisterHotKey(Helper.Handle, 5);
             UnregisterHotKey(Helper.Handle, 6);
             // get selected Key
-            string selectedKey = ((KeyValuePair<string, uint>)PosXkey.SelectedItem).Key;
-            RegisterHotKey(Helper.Handle, 5, 0, textToVKey(selectedKey));
-            RegisterHotKey(Helper.Handle, 6, 0x0002, textToVKey(selectedKey));
+            if (PosXkey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)PosXkey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 5, 0, textToVKey(selectedKey));
+                RegisterHotKey(Helper.Handle, 6, 0x0002, textToVKey(selectedKey));
+            }
         }
 
         private void PosYKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -1409,9 +1466,12 @@ namespace FFXIVTool
             UnregisterHotKey(Helper.Handle, 7);
             UnregisterHotKey(Helper.Handle, 8);
             // get selected Key
-            string selectedKey = ((KeyValuePair<string, uint>)PosYKey.SelectedItem).Key;
-            RegisterHotKey(Helper.Handle, 7, 0, textToVKey(selectedKey));
-            RegisterHotKey(Helper.Handle, 8, 0x0002, textToVKey(selectedKey));
+            if (PosYKey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)PosYKey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 7, 0, textToVKey(selectedKey));
+                RegisterHotKey(Helper.Handle, 8, 0x0002, textToVKey(selectedKey));
+            }
         }
 
         private void PosZKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -1420,9 +1480,24 @@ namespace FFXIVTool
             UnregisterHotKey(Helper.Handle, 9);
             UnregisterHotKey(Helper.Handle, 10);
             // get selected Key
-            string selectedKey = ((KeyValuePair<string, uint>)PosZKey.SelectedItem).Key;
-            RegisterHotKey(Helper.Handle, 9, 0, textToVKey(selectedKey));
-            RegisterHotKey(Helper.Handle, 10, 0x0002, textToVKey(selectedKey));
+            if (PosZKey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)PosZKey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 9, 0, textToVKey(selectedKey));
+                RegisterHotKey(Helper.Handle, 10, 0x0002, textToVKey(selectedKey));
+            }
+        }
+
+        private void RefreshKey_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var helper = new WindowInteropHelper(this);
+            UnregisterHotKey(Helper.Handle, 11);
+            // get selected Key
+            if (PosZKey.Text == "NONE")
+            {
+                string selectedKey = ((KeyValuePair<string, uint>)RefreshKey.SelectedItem).Key;
+                RegisterHotKey(Helper.Handle, 11, 0, textToVKey(selectedKey));
+            }
         }
     }
 }

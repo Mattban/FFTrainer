@@ -192,5 +192,17 @@ namespace FFXIVTool.Properties {
                 this["FavoriteEmotes"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NONE")]
+        public string RefreshSavedKey {
+            get {
+                return ((string)(this["RefreshSavedKey"]));
+            }
+            set {
+                this["RefreshSavedKey"] = value;
+            }
+        }
     }
 }
