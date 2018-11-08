@@ -14,7 +14,7 @@
         xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:Views="clr-namespace:FFXIVTool.Views"
         mc:Ignorable="d"
-        Height="584" Width="1115" Loaded="MetroWindow_Loaded" Icon="ffxivmeteorlogo.ico" ResizeMode="CanMinimize" Closing="MetroWindow_Closing">
+        Height="584" Width="1115" Loaded="MetroWindow_Loaded" Icon="ffxivmeteorlogo.ico" ResizeMode="CanMinimize">
     <Grid>
         <TabControl TabStripPlacement="Top" Margin="0,48,0,0" Background="{DynamicResource MaterialDesignPaper}" DataContext="{Binding Path=CharacterDetails}">
             <TabItem Header="Character">
@@ -31,63 +31,6 @@
             </TabItem>
             <TabItem Header="Palette Selector">
                 <Views:PaletteView Margin="0,4,-1,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            </TabItem>
-            <TabItem Header="Hotkeys">
-                <Grid>
-                    <Label Content="Bust" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="Hotkey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="74,6,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="Hotkey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                    <Label Content="Height" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="HeightKey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="74,50,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="HeightKey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                    <controls:NumericUpDown x:Name="HeightSavedInc" HorizontalAlignment="Left" Margin="245,63,0,0" VerticalAlignment="Top" Width="147" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" Height="27"/>
-                    <Label Content="Pos X" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="PosXkey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="74,95,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="PosXkey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                    <controls:NumericUpDown x:Name="PosXSavedInc" HorizontalAlignment="Left" Margin="245,108,0,0" VerticalAlignment="Top" Width="147" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" Height="27"/>
-                    <Label Content="Pos Y" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="PosYKey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="74,140,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="PosYKey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                    <controls:NumericUpDown x:Name="PosYSavedInc" HorizontalAlignment="Left" Margin="245,153,0,0" VerticalAlignment="Top" Width="147" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" Height="27"/>
-                    <Label Content="Pos Z" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="PosZKey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="74,185,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="PosZKey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                    <controls:NumericUpDown x:Name="PosZSavedInc" HorizontalAlignment="Left" Margin="245,199,0,0" VerticalAlignment="Top" Width="147" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#8C000000" StringFormat="F10" Interval="0.01" TextAlignment="Right" Height="26"/>
-                    <TextBlock TextWrapping="Wrap" Text="Note: All decrements are modifiers of CTRL+ your selected Hotkey" HorizontalAlignment="Left" Margin="510,19,0,0" VerticalAlignment="Top" Height="124" Width="264" FontSize="20"/>
-                    <Label Content="Character Refresh" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="RefreshKey" materialDesign:HintAssist.Hint="Hotkeys" Style="{StaticResource MaterialDesignFloatingHintComboBox}" HorizontalAlignment="Left" Margin="154,230,0,0" VerticalAlignment="Top" Width="166" StaysOpenOnEdit="True" IsEditable="True" SelectionChanged="RefreshKey_SelectionChanged">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
-                    </ComboBox>
-                </Grid>
             </TabItem>
             <TabItem Header="About">
                 <Views:AboutView Margin="0,4,-1,-1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="460"/>

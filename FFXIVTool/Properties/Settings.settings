@@ -14,41 +14,11 @@
     <Setting Name="TopApp" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="BreastSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
-    </Setting>
-    <Setting Name="HeightSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
-    </Setting>
-    <Setting Name="HeightSavedInc" Type="System.Single" Scope="User">
-      <Value Profile="(Default)">0.01</Value>
-    </Setting>
-    <Setting Name="PosXSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
-    </Setting>
-    <Setting Name="PosXSavedInc" Type="System.Single" Scope="User">
-      <Value Profile="(Default)">0.01</Value>
-    </Setting>
-    <Setting Name="PosYSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
-    </Setting>
-    <Setting Name="PosYSavedInc" Type="System.Single" Scope="User">
-      <Value Profile="(Default)">0.01</Value>
-    </Setting>
-    <Setting Name="PosZSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
-    </Setting>
-    <Setting Name="PosZSavedInc" Type="System.Single" Scope="User">
-      <Value Profile="(Default)">0.01</Value>
-    </Setting>
     <Setting Name="FavoriteEmotes" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;string&gt;1&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
-    </Setting>
-    <Setting Name="RefreshSavedKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NONE</Value>
     </Setting>
   </Settings>
 </SettingsFile>
