@@ -4,6 +4,7 @@ using FFXIVTool.ViewModel;
 using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Windows.Controls;
 
@@ -15,7 +16,7 @@ namespace FFXIVTool.Views
     public partial class EmoteFlyOut : Flyout
     {
         private ExdCsvReader _exdProvider = new ExdCsvReader();
-        public List<int> integers;
+        public static List<int> integers;
         public CharacterDetails CharacterDetails { get => (CharacterDetails)BaseViewModel.model; set => BaseViewModel.model = value; }
         public EmoteFlyOut()
         {
@@ -174,10 +175,8 @@ namespace FFXIVTool.Views
                 if (SocialBox.SelectedItem == null)
                     return;
                 var Value = (ExdCsvReader.Emote)SocialBox.SelectedItem;
-                Properties.Settings.Default.FavoriteEmotes.Add(Value.Index.ToString());
                 integers.Add(Value.Index);
                 FavoriteBox.Items.Add(SocialBox.SelectedItem);
-                Properties.Settings.Default.Save();
             }
         }
 
@@ -215,9 +214,7 @@ namespace FFXIVTool.Views
                     return;
                 var Value = (ExdCsvReader.Emote)BattleBox.SelectedItem;
                 integers.Add(Value.Index);
-                Properties.Settings.Default.FavoriteEmotes.Add(Value.Index.ToString());
                 FavoriteBox.Items.Add(BattleBox.SelectedItem);
-                Properties.Settings.Default.Save();
             }
         }
 
@@ -229,9 +226,7 @@ namespace FFXIVTool.Views
                     return;
                 var Value = (ExdCsvReader.Emote)MonsterBox.SelectedItem;
                 integers.Add(Value.Index);
-                Properties.Settings.Default.FavoriteEmotes.Add(Value.Index.ToString());
                 FavoriteBox.Items.Add(MonsterBox.SelectedItem);
-                Properties.Settings.Default.Save();
             }
         }
 
@@ -243,9 +238,7 @@ namespace FFXIVTool.Views
                     return;
                 var Value = (ExdCsvReader.Emote)AllBox.SelectedItem;
                 integers.Add(Value.Index);
-                Properties.Settings.Default.FavoriteEmotes.Add(Value.Index.ToString());
                 FavoriteBox.Items.Add(AllBox.SelectedItem);
-                Properties.Settings.Default.Save();
             }
         }
 
@@ -257,9 +250,7 @@ namespace FFXIVTool.Views
                     return;
                 var Value = (ExdCsvReader.Emote)FavoriteBox.SelectedItem;
                 integers.Remove(Value.Index);
-                Properties.Settings.Default.FavoriteEmotes.Remove(Value.Index.ToString());
                 FavoriteBox.Items.Remove(FavoriteBox.SelectedItem);
-                Properties.Settings.Default.Save();
             }
         }
     }

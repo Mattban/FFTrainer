@@ -20,6 +20,10 @@ using AutoUpdaterDotNET;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Windows.Data;
+using FFXIVTool.Views;
+using System.Collections.Specialized;
+using System.Linq;
+using System.Configuration;
 
 namespace FFXIVTool
 {
@@ -75,7 +79,12 @@ namespace FFXIVTool
                 }
                 MainViewModel.gameProcId = f.Choice.ID;
             }
-            Properties.Settings.Default.Upgrade();
+            if (Properties.Settings.Default.UpgradeRequired)
+            {
+                Properties.Settings.Default.Upgrade();
+                Properties.Settings.Default.UpgradeRequired = false;
+                Properties.Settings.Default.Save();
+            }
             var path = Path.Combine(Directory.GetCurrentDirectory(), "FFXIVTool.zip");
             var path2 = Path.Combine(Directory.GetCurrentDirectory(), "ZipExtractor.exe");
             if (File.Exists(path)) File.Delete(path);
@@ -1127,6 +1136,16 @@ namespace FFXIVTool
             NPCRefresh.IsEnabled = true;
             if (TargetButton.IsKeyboardFocusWithin || TargetButton.IsMouseOver)
                 CharacterDetailsViewModel.baseAddr = MemoryManager.Add(MemoryManager.Instance.BaseAddress, CharacterDetailsViewModel.eOffset);
+        }
+
+        private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Properties.Settings.Default.FavoriteEmotes.Clear();
+            StringCollection collection = new StringCollection();
+            List<int> distinct = EmoteFlyOut.integers.Distinct().ToList(); //remove any repeaters
+            collection.AddRange(distinct.Select(x => x.ToString()).ToArray());
+            Properties.Settings.Default.FavoriteEmotes = collection;
+            Properties.Settings.Default.Save();
         }
     }
 }
